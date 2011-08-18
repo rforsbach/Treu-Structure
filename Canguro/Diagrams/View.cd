@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="form = MainFrm&#xD;&#xA;wnd = MainFrm.ScenePanel&#xD;&#xA;">
+    <Position X="11.193" Y="3.034" Height="0.399" Width="1.648" />
+  </Comment>
+  <Comment CommentText="DirectX classes">
+    <Position X="9.755" Y="3.43" Height="0.263" Width="0.981" />
+  </Comment>
+  <Class Name="Canguro.View.GraphicViewManager">
+    <Position X="13" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>View\GraphicViewManager.cs</FileName>
+      <HashCode>MQCRAUgHAAAgBoACKCDwPaUSMBAkABCIaAQZCAIuEAQ=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="wnd" />
+      <Property Name="Device" />
+      <Property Name="ActiveView" />
+      <Property Name="ResourceManager" />
+      <Property Name="Presenter" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="views" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Canguro.View.GraphicViewManager.ViewportsLayout" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>View\GraphicViewManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Delegate Name="Canguro.View.GraphicViewManager.ActiveViewChangedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>View\GraphicViewManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="Canguro.View.GraphicViewManager.ActiveViewChangedEventArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>View\GraphicViewManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <AssociationLine Name="views" Type="Canguro.View.GraphicView" FixedToPoint="true">
+      <Path>
+        <Point X="15.25" Y="7.573" />
+        <Point X="16.5" Y="7.573" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ActiveView" Type="Canguro.View.GraphicView" FixedFromPoint="true">
+      <Path>
+        <Point X="15.25" Y="4.665" />
+        <Point X="16.5" Y="4.665" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ResourceManager" Type="Canguro.View.ResourceManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13" Y="2.286" />
+        <Point X="8.875" Y="2.286" />
+        <Point X="8.875" Y="1.009" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.284" Y="0.995" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.View.Presenter">
+    <Position X="16.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>View\Presenter.cs</FileName>
+      <HashCode>IACAABAIEAAAABAAAAAAYgIEAICAAAAQAEgAKEIAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="manager" />
+    </ShowAsAssociation>
+    <NestedTypes>
+      <Class Name="Canguro.View.Presenter.TrackingPaintArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>View\Presenter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="Canguro.View.ResourceManager" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\ResourceManager.cs</FileName>
+      <HashCode>QgAACEICZFIQkAQKBAiQBAAAEFCICAIAAAgAEECZAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="device" />
+      <Field Name="labelFont" />
+      <Property Name="TrackingSurface" />
+      <Property Name="PickingSurface" />
+      <Property Name="GadgetManager" />
+      <Property Name="ActiveStream" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="device" Type="Microsoft.DirectX.Direct3D.Device" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.188" Y="1.009" />
+        <Point X="8.188" Y="6.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="labelFont" Type="Microsoft.DirectX.Direct3D.Font" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.562" Y="1.009" />
+        <Point X="8.562" Y="4.065" />
+        <Point X="10.75" Y="4.065" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="TrackingSurface" Type="Microsoft.DirectX.Direct3D.Surface" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.375" Y="1.009" />
+        <Point X="8.375" Y="5.876" />
+        <Point X="10.75" Y="5.876" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="PickingSurface" Type="Microsoft.DirectX.Direct3D.Surface" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.375" Y="1.009" />
+        <Point X="8.375" Y="6.25" />
+        <Point X="10.75" Y="6.25" />
+      </Path>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.View.GraphicView">
+    <Position X="16.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>View\GraphicView.cs</FileName>
+      <HashCode>AAUCAAgAACBUAARgBABgSwMkIAICAABCAACAEAABCgA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="manager" />
+      <Property Name="ArcBallCtrl" />
+      <Property Name="ModelRenderer" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Microsoft.DirectX.Direct3D.Device" Collapsed="true">
+    <Position X="7.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.585" />
+  </Class>
+  <Class Name="Microsoft.DirectX.Direct3D.Font" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.DirectX.Direct3D.VertexBuffer" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.DirectX.Direct3D.Surface" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.View.ArcBall" Collapsed="true">
+    <Position X="19.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\ArcBall.cs</FileName>
+      <HashCode>iBgAAhIIiEeAhCYBYGAygAAAAAIAiECAkBAAgBiqERA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="graphicView" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="graphicView" Type="Canguro.View.GraphicView" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.562" Y="4.25" />
+        <Point X="20.562" Y="3.875" />
+        <Point X="18" Y="3.875" />
+        <Point X="18" Y="4.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.547" Y="0.342" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.View.Renderer.ModelRenderer">
+    <Position X="19.75" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>View\Renderer\ModelRenderer.cs</FileName>
+      <HashCode>AAAAAAAoAAQARBAgAEgAIhEJAAAAAQAACDiAABAogAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JointRenderer" />
+      <Property Name="LineRenderer" />
+      <Property Name="AreaRenderer" />
+      <Property Name="LoadRenderer" />
+      <Property Name="ForcesRenderer" />
+      <Property Name="RenderOptions" />
+      <Property Name="model" />
+      <Property Name="GadgetRenderer" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Renderers" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="JointRenderer" Type="Canguro.View.Renderer.JointRenderer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.5" Y="8.187" />
+        <Point X="21.875" Y="8.187" />
+        <Point X="21.875" Y="3.315" />
+        <Point X="23.25" Y="3.315" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="LineRenderer" Type="Canguro.View.Renderer.LineRenderer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.5" Y="8.187" />
+        <Point X="21.875" Y="8.187" />
+        <Point X="21.875" Y="4.315" />
+        <Point X="23.25" Y="4.315" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="AreaRenderer" Type="Canguro.View.Renderer.AreaRenderer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.5" Y="8.187" />
+        <Point X="21.875" Y="8.187" />
+        <Point X="21.875" Y="5.407" />
+        <Point X="23.25" Y="5.407" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="LoadRenderer" Type="Canguro.View.Renderer.LoadRenderer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.5" Y="8.187" />
+        <Point X="21.875" Y="8.187" />
+        <Point X="21.875" Y="6.312" />
+        <Point X="23.25" Y="6.312" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ForcesRenderer" Type="Canguro.View.Renderer.ElementForcesRenderer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.5" Y="8.187" />
+        <Point X="21.875" Y="8.187" />
+        <Point X="21.875" Y="7.315" />
+        <Point X="23.25" Y="7.315" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="RenderOptions" Type="Canguro.View.Renderer.RenderOptions" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.75" Y="7.264" />
+        <Point X="18.669" Y="7.264" />
+        <Point X="18.669" Y="6" />
+        <Point X="19.75" Y="6" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Renderers" Type="Canguro.View.Renderer.ItemRenderer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.5" Y="8.187" />
+        <Point X="21.875" Y="8.187" />
+        <Point X="21.875" Y="1.724" />
+        <Point X="24.75" Y="1.724" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="model" Type="Canguro.Model.Model" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.75" Y="8.5" />
+        <Point X="18.812" Y="8.5" />
+        <Point X="18.812" Y="8.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="GadgetRenderer" Type="Canguro.View.Renderer.GadgetRenderer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.5" Y="8.188" />
+        <Point X="21.849" Y="8.188" />
+        <Point X="21.849" Y="8.315" />
+        <Point X="23.25" Y="8.315" />
+      </Path>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.View.Renderer.AreaRenderer" Collapsed="true">
+    <Position X="23.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Renderer\AreaRenderer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.View.Renderer.ItemRenderer" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="25.5" Y="2.474" />
+        <Point X="25.5" Y="4.808" />
+        <Point X="24" Y="4.808" />
+        <Point X="24" Y="5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.View.Renderer.ElementForcesRenderer" Collapsed="true">
+    <Position X="23.25" Y="7" Width="2" />
+    <TypeIdentifier>
+      <FileName>View\Renderer\ElementForcesRenderer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAACAAAgAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.View.Renderer.LoadRenderer" FixedToPoint="true">
+      <Path>
+        <Point X="24" Y="6.63" />
+        <Point X="24" Y="7" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.View.Renderer.JointRenderer" Collapsed="true">
+    <Position X="23.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Renderer\JointRenderer.cs</FileName>
+      <HashCode>AEIAACFAAMARFgnAQAAAMQAAAACCIBAAEBAAAAAAAAw=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.View.Renderer.ItemRenderer" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="25.5" Y="2.474" />
+        <Point X="25.5" Y="2.625" />
+        <Point X="24" Y="2.625" />
+        <Point X="24" Y="3" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.View.Renderer.LineRenderer" Collapsed="true">
+    <Position X="23.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Renderer\LineRenderer.cs</FileName>
+      <HashCode>CAAAAAACAAAAAAAAAAUAAAAAAAAEAAAAABAAAADAAIA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.View.Renderer.ItemRenderer" FixedFromPoint="true">
+      <Path>
+        <Point X="25.5" Y="2.474" />
+        <Point X="25.5" Y="3.808" />
+        <Point X="24" Y="3.808" />
+        <Point X="24" Y="4" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.View.Renderer.LoadRenderer" Collapsed="true">
+    <Position X="23.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Renderer\LoadRenderer.cs</FileName>
+      <HashCode>AAAAAAAEAAAIAAAQQAACAgAAEAAAAAkAABBDBCAABAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.View.Renderer.ItemRenderer" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="25.5" Y="2.474" />
+        <Point X="25.5" Y="5.808" />
+        <Point X="24" Y="5.808" />
+        <Point X="24" Y="6" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.View.Renderer.ItemRenderer">
+    <Position X="24.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Renderer\ItemRenderer.cs</FileName>
+      <HashCode>AAAAAAAoAAAAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Renderer.RenderOptions" Collapsed="true">
+    <Position X="19.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Renderer\RenderOptions.cs</FileName>
+      <HashCode>ACgBAQAoAQgAAAACAAAhEAIAAABACAgCAABAAEAgAQA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="modelRenderer" />
+      <Property Name="LOD" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <AssociationLine Name="modelRenderer" Type="Canguro.View.Renderer.ModelRenderer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.25" Y="6" />
+        <Point X="21.438" Y="6" />
+        <Point X="21.438" Y="6.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.079" Y="0.122" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="LOD" Type="Canguro.View.LODClassifier">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.661" Y="0.048" Height="0.16" Width="0.576" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.Model.Model" Collapsed="true">
+    <Position X="17.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Model.cs</FileName>
+      <HashCode>CAiIjIAEJQUAFi0EBJgQAAQICKEDYAisYEAIbEAQwQw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Renderer.SimpleModelRenderer" Collapsed="true">
+    <Position X="19.75" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>View\Renderer\SimpleModelRenderer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.View.Renderer.ModelRenderer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.562" Y="9.316" />
+        <Point X="20.562" Y="9.75" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.View.Gadgets.Gadget" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Gadgets\Gadget.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAEAAABAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+      <Property Name="Item" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.View.Gadgets.PointGadgetService" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>View\Gadgets\PointGadgetService.cs</FileName>
+      <HashCode>AEIAACFAAMARFgnAQAAAMSEAAACCIBAAEAAAAAAAAAw=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gadgetManager" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="restraints" />
+    </ShowAsCollectionAssociation>
+    <AssociationLine Name="gadgetManager" Type="Canguro.View.Gadgets.GadgetManager" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="4.5" />
+        <Point X="3.087" Y="4.5" />
+        <Point X="3.087" Y="2.793" />
+        <Point X="4" Y="2.793" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.44" Y="-1.682" Height="0.16" Width="1.087" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.View.Gadgets.LineGadgetService" Collapsed="true">
+    <Position X="4.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>View\Gadgets\LineGadgetService.cs</FileName>
+      <HashCode>AkAAoCAgAEAAIAQABAAARAAAAAAAUIIAAAIEAQAACAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gadgetManager" />
+    </ShowAsAssociation>
+    <AssociationLine Name="gadgetManager" Type="Canguro.View.Gadgets.GadgetManager" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="6.875" />
+        <Point X="2.233" Y="6.875" />
+        <Point X="2.233" Y="4.505" />
+        <Point X="3.075" Y="4.505" />
+        <Point X="3.075" Y="2.793" />
+        <Point X="4" Y="2.793" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.419" Y="-4.942" Height="0.16" Width="1.111" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.View.Gadgets.GadgetManager">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Gadgets\GadgetManager.cs</FileName>
+      <HashCode>IAAAACACACAQBgAAAAIAACAAEBAAAAAAAAAAACAAAAE=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="resourceManager" />
+      <Property Name="PointGadgets" />
+      <Property Name="LineGadgets" />
+      <Property Name="AreaGadgets" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="GadgetList" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="resourceManager" Type="Canguro.View.ResourceManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="2.516" />
+        <Point X="7.938" Y="2.516" />
+        <Point X="7.938" Y="1.009" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="PointGadgets" Type="Canguro.View.Gadgets.PointGadgetService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="3.245" />
+        <Point X="7.385" Y="3.245" />
+        <Point X="7.385" Y="4.5" />
+        <Point X="6.25" Y="4.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="LineGadgets" Type="Canguro.View.Gadgets.LineGadgetService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="3.245" />
+        <Point X="7.375" Y="3.245" />
+        <Point X="7.375" Y="6.688" />
+        <Point X="6.25" Y="6.688" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="AreaGadgets" Type="Canguro.View.Gadgets.AreaGadgetService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="3.245" />
+        <Point X="7.385" Y="3.245" />
+        <Point X="7.385" Y="7.75" />
+        <Point X="6.25" Y="7.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="GadgetList" Type="Canguro.View.Gadgets.Gadget" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="2.112" />
+        <Point X="2.625" Y="2.112" />
+        <Point X="2.625" Y="3.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.294" Y="1.245" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.View.Gadgets.AreaGadgetService" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>View\Gadgets\AreaGadgetService.cs</FileName>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gadgetManager" />
+    </ShowAsAssociation>
+    <AssociationLine Name="gadgetManager" Type="Canguro.View.Gadgets.GadgetManager" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="7.755" />
+        <Point X="2.227" Y="7.755" />
+        <Point X="2.227" Y="4.491" />
+        <Point X="3.074" Y="4.491" />
+        <Point X="3.074" Y="2.793" />
+        <Point X="4" Y="2.793" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.43" Y="-4.078" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.View.Renderer.GadgetRenderer" Collapsed="true">
+    <Position X="23.25" Y="8" Width="2" />
+    <TypeIdentifier>
+      <FileName>View\Renderer\GadgetRenderer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.View.Renderer.ItemRenderer" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="25.5" Y="2.474" />
+        <Point X="25.5" Y="7.808" />
+        <Point X="24.125" Y="7.808" />
+        <Point X="24.125" Y="8" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Element" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Element.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.ResourcePackage">
+    <Position X="2.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\ResourcePackage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAEAAEAEAAAAgAEIAAAAAAIAIAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.PositionColoredPackage">
+    <Position X="0.5" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>View\PositionColoredPackage.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.PositionNormalColoredPackage">
+    <Position X="3.75" Y="11.25" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>View\PositionNormalColoredPackage.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.LODClassifier" Collapsed="true">
+    <Position X="19" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\LODClassifier.cs</FileName>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="renderOptions" />
+    </ShowAsAssociation>
+    <AssociationLine Name="renderOptions" Type="Canguro.View.Renderer.RenderOptions" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.5" Y="5.188" />
+        <Point X="21.625" Y="5.188" />
+        <Point X="21.625" Y="5.812" />
+        <Point X="21.25" Y="5.812" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.648" Y="0.714" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="System.Windows.Forms.Control" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="Canguro.View.GadgetLocator">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Gadgets\GadgetLocator.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Canguro.View.IndexBufferData">
+    <Position X="8.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\IndexBufferData.cs</FileName>
+      <HashCode>AAAACAAABAAAgAAAAAAAEAAAAAAAAAAAAAAAABAIgAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Canguro.View.VertexBufferData">
+    <Position X="6.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\VertexBufferData.cs</FileName>
+      <HashCode>AAAACAAABAAAgAAAAAAAIAAAAAAACAAAAAAAABAIkAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Canguro.View.Gadgets.GadgetService">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Gadgets\GadgetService.cs</FileName>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Canguro.View.Gadgets.GadgetType">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Gadgets\GadgetType.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Canguro.View.ResourceStreamType">
+    <Position X="10.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>View\ResourceStreamType.cs</FileName>
+      <HashCode>CAAAAAAAAAAAgAAAAAAAAAAAAAAAAAACAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

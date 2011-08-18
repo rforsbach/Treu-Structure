@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Canguro.Model.ModelIsLockedException" Collapsed="true">
+    <Position X="1.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Exceptions\ModelIsLockedException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.LayerNotFoundException" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Exceptions\LayerNotFoundException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Exception" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.InvalidIndexException" Collapsed="true">
+    <Position X="6" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Exceptions\InvalidIndexException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.InvalidCallException" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Exceptions\InvalidCallException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.InvalidItemException" Collapsed="true">
+    <Position X="3.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Exceptions\InvalidItemException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Controller.CancelCommandException" Collapsed="true">
+    <Position X="6" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>CancelCommandException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

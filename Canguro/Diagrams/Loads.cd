@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Canguro.Model.Load.Load" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\Load.cs</FileName>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Load.LoadCase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\LoadCase.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAUAAAAEAQAAEAEAAAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.AbstractCase" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AbstractCase.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEEAAAABQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Load.LoadCombination" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\LoadCombination.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAQAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Load.AnalysisCase" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AnalysisCase.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Properties" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Canguro.Model.Load.StaticCaseProps" Collapsed="true">
+    <Position X="11.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\StaticCaseProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAEAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Load.MultistepStaticCaseProps" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\MultistepStaticCaseProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.ModalCaseProps" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\ModalCaseProps.cs</FileName>
+      <HashCode>AAEAAAIAAAACAAAAAAAAAAQAABAAAEAAAABBAAABAQA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.ResponseSpectrumCaseProps" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\ResponseSpectrumCaseProps.cs</FileName>
+      <HashCode>ACAAAAAEAgEAAAAAAAAAAEQAABBAAEAAAABEAABhBAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.TimeHistoryCaseProps" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\TimeHistoryCaseProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.MovingLoadCaseProps" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\MovingLoadCaseProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.BucklingCaseProps" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\BucklingCaseProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.SteadyStateCaseProps" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\SteadyStateCaseProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.PowerSpectalDensityCaseProps" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\PowerSpectalDensityCaseProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.JointLoad" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\JointLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AreaLoad" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AreaLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.LineLoad" Collapsed="true">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\LineLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Load.ForceLoad" Collapsed="true">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\ForceLoad.cs</FileName>
+      <HashCode>AAAQAgAAAAAAEAIEAAAAAAAAAAAAAAAAAAAAQAgIAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.JointLoad" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="2.63" />
+        <Point X="1.25" Y="3.312" />
+        <Point X="1.5" Y="3.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.GroundDisplacementLoad" Collapsed="true">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\GroundDisplacementLoad.cs</FileName>
+      <HashCode>AAAAAAQBACAIAAAEAAAAAAAAAAAAAAAAAAAAACAQBAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.JointLoad" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="2.63" />
+        <Point X="1.25" Y="4.25" />
+        <Point X="1.5" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.GravityLineLoad" Collapsed="true">
+    <Position X="4.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\GravityLineLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.LineLoad" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="2.63" />
+        <Point X="4" Y="8.312" />
+        <Point X="4.25" Y="8.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.ConcentratedSpanLoad" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\ConcentratedSpanLoad.cs</FileName>
+      <HashCode>AAAAAAAAAIAAAAAEAAAAAAAAAEAAAAAAAAAABAQBAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.DirectionalLineLoad" FixedFromPoint="true">
+      <Path>
+        <Point X="5" Y="3.88" />
+        <Point X="5" Y="4.558" />
+        <Point X="6.75" Y="4.558" />
+        <Point X="6.75" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.DistributedSpanLoad" Collapsed="true">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\DistributedSpanLoad.cs</FileName>
+      <HashCode>AIAAAAAAICAAAAAEEBAAAAAAAEAEAEAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.DirectionalLineLoad" FixedFromPoint="true">
+      <Path>
+        <Point X="5" Y="3.88" />
+        <Point X="5" Y="4.161" />
+        <Point X="6" Y="4.161" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.TendonPrestressLineLoad" Collapsed="true">
+    <Position X="4.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\TendonPrestressLineLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.LineLoad" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="2.63" />
+        <Point X="4" Y="7.312" />
+        <Point X="4.25" Y="7.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.TemperatureLineLoad" Collapsed="true">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\TemperatureLineLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAEABA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.LineLoad" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="2.63" />
+        <Point X="4" Y="5.812" />
+        <Point X="4.25" Y="5.812" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.GravityAreaLoad" Collapsed="true">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\GravityAreaLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.AreaLoad" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="2.63" />
+        <Point X="8.5" Y="3.312" />
+        <Point X="8.75" Y="3.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.TendonPrestressAreaLoad" Collapsed="true">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\TendonPrestressAreaLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.AreaLoad" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="2.63" />
+        <Point X="8.5" Y="4.25" />
+        <Point X="8.75" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.UniformLoad" Collapsed="true">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\UniformLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.AreaLoad" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="2.63" />
+        <Point X="8.5" Y="5.312" />
+        <Point X="8.75" Y="5.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.SurfacePressureAreaLoad" Collapsed="true">
+    <Position X="8.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\SurfacePressureAreaLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.AreaLoad" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="2.63" />
+        <Point X="8.5" Y="6.312" />
+        <Point X="8.75" Y="6.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.PorePressureAreaLoad" Collapsed="true">
+    <Position X="8.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\PorePressureAreaLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.AreaLoad" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="2.63" />
+        <Point X="8.5" Y="7.312" />
+        <Point X="8.75" Y="7.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.TemperatureAreaLoad" Collapsed="true">
+    <Position X="8.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\TemperatureAreaLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.AreaLoad" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="2.63" />
+        <Point X="8.5" Y="8.312" />
+        <Point X="8.75" Y="8.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.AccelLoad" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AccelLoad.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAEgAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.StaticCaseFactor" Collapsed="true">
+    <Position X="1" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\StaticCaseFactor.cs</FileName>
+      <HashCode>AAAAAABAAAAAwAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.ModalCaseFactor" Collapsed="true">
+    <Position X="6.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\ModalCaseFactor.cs</FileName>
+      <HashCode>AAAAAAAAAACAgAAAgIAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.ResponseSpectrumCaseFactor" Collapsed="true">
+    <Position X="4.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\ResponseSpectrumCaseFactor.cs</FileName>
+      <HashCode>AAAAAABAAAAAQAAAAAAAAAAgAAAAIAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AssignedAreaLoads" Collapsed="true">
+    <Position X="12" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AssignedAreaLoads.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AssignedJointLoads" Collapsed="true">
+    <Position X="14.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AssignedJointLoads.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AssignedLineLoads" Collapsed="true">
+    <Position X="16.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AssignedLineLoads.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AssignedLoads" Collapsed="true">
+    <Position X="14.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AssignedLoads.cs</FileName>
+      <HashCode>AAIAAAAAACAAAAAECAQABAAAACAAAEAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AutoLoad" Collapsed="true">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AutoLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AutoQuakeLoad" Collapsed="true">
+    <Position X="16.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AutoQuakeLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AutoRCDFWindLoad" Collapsed="true">
+    <Position X="13" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AutoRCDFWindLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AutoUBC97QuakeLoad" Collapsed="true">
+    <Position X="17.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AutoUBC97QuakeLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AutoUBC97WindLoad" Collapsed="true">
+    <Position X="13" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AutoUBC97WindLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AutoWindLoad" Collapsed="true">
+    <Position X="11.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AutoWindLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.DirectionalLineLoad" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\DirectionalLineLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAIAAAACAAAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.LineLoad" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="2.63" />
+        <Point X="4" Y="3.562" />
+        <Point X="4.25" Y="3.562" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.Load.NoAutoLoad" Collapsed="true">
+    <Position X="14.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\NoAutoLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.NonLinearParams" Collapsed="true">
+    <Position X="6.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\NonLinearParams.cs</FileName>
+      <HashCode>QAcGhEADgoRAAICASQWAggkBhAAEAAQABECAAgBGhAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.PDeltaCaseProps" Collapsed="true">
+    <Position X="11.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\PDeltaCaseProps.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAACACQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.ResponseSpectrum" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\ResponseSpectrum.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAAAEAgAAAAIAAAAEAAAAAAAEAAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Canguro.Model.Load.TemperatureGradientLineLoad" Collapsed="true">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\TemperatureLineLoad.cs</FileName>
+      <HashCode>EAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAEABA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.Load.TemperatureLineLoad" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="6.13" />
+        <Point X="5" Y="6.562" />
+        <Point X="6" Y="6.562" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Struct Name="Canguro.Model.Load.AbstractCaseFactor" Collapsed="true">
+    <Position X="8.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AbstractCaseFactor.cs</FileName>
+      <HashCode>AACAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Canguro.Model.Load.AnalysisCaseProps" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AnalysisCaseProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Canguro.Model.Load.AnalysisCaseAppliedLoad" Collapsed="true">
+    <Position X="8.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AnalysisCaseAppliedLoad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Canguro.Model.Load.LineForceComponent" Collapsed="true">
+    <Position X="8.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\LineForceComponent.cs</FileName>
+      <HashCode>AIAAACAAAABAAAAAAAAAAAAgAAAAAACAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

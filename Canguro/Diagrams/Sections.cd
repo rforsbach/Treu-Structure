@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Canguro.Model.Section.Angle" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEAAAAgAAAAAAAAAACAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\Angle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.ShellSection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="1.25" Width="1.75" />
+    <AssociationLine Name="ShellType" Type="Canguro.Model.Section.ShellType" FixedToPoint="true">
+      <Path>
+        <Point X="14.375" Y="1.88" />
+        <Point X="14.375" Y="2.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="DesignParams" Type="Canguro.Model.Section.ShellDesignParams" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.25" Y="1.562" />
+        <Point X="16.5" Y="1.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAQAAAAACAAAAAAAgCQAAAQAAgAEAAAAAAAE=</HashCode>
+      <FileName>Model\Sections\ShellSection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ShellType" />
+      <Property Name="DesignParams" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Canguro.Model.Section.BoxTube" Collapsed="true">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEAAAAgAAAAAAAAAACAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\BoxTube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.BUICoverPlate" Collapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\BUICoverPlate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.CableSection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Sections\CableSection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Section.Channel" Collapsed="true">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEAAAAgAAAAAAAAAACAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\Channel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.Circle" Collapsed="true">
+    <Position X="10.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEAAAAgAAAAAAIAAACAAAAAAAEgACBAAAAgA=</HashCode>
+      <FileName>Model\Sections\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.ColdFormedC" Collapsed="true">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\ColdFormedC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.ColdFormedHat" Collapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\ColdFormedHat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.ColdFormedZ" Collapsed="true">
+    <Position X="8.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\ColdFormedZ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.DoubleAngle" Collapsed="true">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEAAAAgAAAAAAAAAACAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\DoubleAngle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.DoubleChannel" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\DoubleChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.FrameSection" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="ConcreteProperties" Type="Canguro.Model.Section.ConcreteSectionProps" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="0.815" />
+        <Point X="3.062" Y="0.815" />
+        <Point X="3.062" Y="1.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.488" Y="0.045" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>NGAEhDEgACAhAgQkAEDAGAZQzBgGSAAgktkCAYBDBIU=</HashCode>
+      <FileName>Model\Sections\FrameSection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ConcreteProperties" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.179" />
+  </Class>
+  <Class Name="Canguro.Model.Section.General" Collapsed="true">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\General.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.IWideFlange" Collapsed="true">
+    <Position X="10.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAEAAAAgAAAAAAEAAACAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\IWideFlange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.PCConcIGirder" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\PCConcIGirder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.Pipe" Collapsed="true">
+    <Position X="6.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEAAAAgAAAAAAIAAACAAAAAAAEgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\Pipe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.Rectangular" Collapsed="true">
+    <Position X="10.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEAAAAgAAAAAAAEAACAAAAAAgAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\Rectangular.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.Tee" Collapsed="true">
+    <Position X="10.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEAAAAgAAAAAAAAAACAAAAAAAAgACAAAAAgA=</HashCode>
+      <FileName>Model\Sections\Tee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.ConcreteColumnSectionProps" Collapsed="true">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAIgAJAAYABAAAAAAAAAAIAEQABAAAAAFAAACAQCAA=</HashCode>
+      <FileName>Model\Sections\ConcreteColumnSectionProps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.ConcreteBeamSectionProps" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAQAAIAEAECAAABAAAAAAMAAAADAAAAAAAA=</HashCode>
+      <FileName>Model\Sections\ConcreteBeamSectionProps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.ConcreteSectionProps" Collapsed="true">
+    <Position X="2" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Model\Sections\ConcreteSectionProps.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Section.BarSizes" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAACAAAAAAAAAAAAAAAQAAgEAAAAAA=</HashCode>
+      <FileName>Model\Sections\ConcreteColumnSectionProps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.CustomSection" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEAAAAgAAAAAAAAAAAAAQAAAAEgACAAQABgI=</HashCode>
+      <FileName>Model\Sections\CustomSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Material.ColdFormedDesignProps" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Sections\ColdFormedDesignProps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.AsolidSection" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Model\Sections\AsolidSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.PlaneSection" Collapsed="true">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAAABQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\Sections\PlaneSection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Canguro.Model.Section.AreaSection" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAgAAAEAAAAAAQAAAAEAAAAAAAAAABABAA=</HashCode>
+      <FileName>Model\Sections\AreaSection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Section.ShellLayeredSection" Collapsed="true">
+    <Position X="13.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Sections\ShellLayeredSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.ShellDesignParams" Collapsed="true">
+    <Position X="16.5" Y="1.25" Width="1.75" />
+    <AssociationLine Name="RebarLayout" Type="Canguro.Model.Section.ShellRebarLayouts" FixedToPoint="true">
+      <Path>
+        <Point X="17.875" Y="1.759" />
+        <Point X="17.875" Y="2.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAACAEwAAAAAAAAAAAACIAQAACAAAAAASAAA=</HashCode>
+      <FileName>Model\Sections\ShellDesignParams.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RebarLayout" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Canguro.Model.Section.Section" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Sections\Section.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Canguro.Model.Section.ShellType">
+    <Position X="13.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAADIAAAABAAAAAA=</HashCode>
+      <FileName>Model\Sections\ShellType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Canguro.Model.Section.ShellRebarLayouts">
+    <Position X="16.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Model\Sections\ShellRebarLayouts.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Canguro.Model.Section.PlaneType">
+    <Position X="16.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Sections\PlaneType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,35 @@
+namespace Canguro.View.Reports
+{
+    public enum ReportOptions : int
+    {
+        Joints,
+        Lines,
+        LoadCases,
+        Constraints,
+        JointForces,
+        GroundDisplacements, 
+        LineConcentratedForces,
+        LineDistributedLoads,
+        Materials,
+        MaterialAmounts,
+        Sections,
+        JointDisplacements,
+        BaseReactions,
+        ElementJointForces,
+        AssembledJointMasses,
+        ModalParticipatingMassRatios,
+        ModalLoadParticipationRatios,
+        ModalParticipationFactors,
+        ModalPeriodsAndFrequencies,
+        ResponseSpectrumInfo,
+        JointReactions,
+        JointAccelerations,
+        JointVelocities,
+        DesignOptions,
+        SteelDesign,
+        SteelDesignPMM,
+        SteelDesignShear,
+        ConcreteColumnDesign,
+        ConcreteBeamDesign,
+    }
+}

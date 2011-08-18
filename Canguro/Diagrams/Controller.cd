@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Canguro.Controller.Controller">
+    <Position X="4.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Controller\Controller.cs</FileName>
+      <HashCode>AAAkIAABkAJIAEQoMAAMAARYAiIgCAggRABgAIgBKMo=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="SelectionCommand" />
+      <Field Name="TrackingController" />
+      <Property Name="ViewCommand" />
+      <Property Name="ModelCommand" />
+      <Property Name="UserCredentials" />
+      <Property Name="MainFrm" />
+      <Property Name="ItemTextBuilder" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="commands" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Canguro.Controller.Controller.EndViewCommandArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller\Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Delegate Name="Canguro.Controller.Controller.EndViewCommandEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller\Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="Canguro.Controller.Controller.InputBox" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller\Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <AssociationLine Name="ItemTextBuilder" Type="Canguro.ItemTextBuilder" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="6.735" />
+        <Point X="5.5" Y="7.25" />
+      </Path>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.Controller.CommandServices">
+    <Position X="13.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Controller\CommandServices.cs</FileName>
+      <HashCode>AAUAOAAAACAgAGEAAAEABBEIAAAABAAEAggAAEBECkI=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controller" />
+      <Property Name="TrackingService" />
+      <Property Name="SnapPrimaryPoint" />
+      <Property Name="Model" />
+      <Property Name="SelectionFilter" />
+      <Property Name="UserCredentials" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <AssociationLine Name="controller" Type="Canguro.Controller.Controller" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.75" Y="4.5" />
+        <Point X="10.25" Y="4.5" />
+        <Point X="10.25" Y="4.608" />
+        <Point X="6.75" Y="4.608" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.135" Y="0.146" Height="0.16" Width="0.786" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="TrackingService" Type="Canguro.Controller.Tracking.TrackingService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.875" Y="4.657" />
+        <Point X="14.875" Y="5.312" />
+        <Point X="12.5" Y="5.312" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="SnapPrimaryPoint" Type="Canguro.Controller.Snap.PointMagnet" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16" Y="3.54" />
+        <Point X="19.317" Y="3.54" />
+        <Point X="19.317" Y="12.875" />
+        <Point X="16.75" Y="12.875" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.127" Y="-0.308" Height="0.16" Width="1.326" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Model" Type="Canguro.Model.Model" FixedToPoint="true">
+      <Path>
+        <Point X="16" Y="0.75" />
+        <Point X="17" Y="0.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="SelectionFilter" Type="Canguro.Controller.WaitingFor" FixedToPoint="true">
+      <Path>
+        <Point X="13.75" Y="1.688" />
+        <Point X="12.5" Y="1.688" />
+      </Path>
+    </AssociationLine>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Commands.ViewCommand">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Commands\ViewCommand.cs</FileName>
+      <HashCode>AAIAAAAAAQAAAAAAAIAAAAAAAAAAIAAAAIAAAACAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Commands.ModelCommand">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Commands\ModelCommand.cs</FileName>
+      <HashCode>AABAAAAAQAAAAEAAAAAACAAAAAAAAAAAAABAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Controller.CommandPanelParams">
+    <Position X="1.25" Y="8" Width="2" />
+    <TypeIdentifier>
+      <FileName>Controller\CommandPanelParams.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAEAAQIAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.MainFrm" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MainFrm.cs</FileName>
+      <HashCode>v9/N5//9f/oO/X97tt279W//z/2Z/o3LXr/9z7P6/28=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Controller.Credentials">
+    <Position X="8.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Controller\Credentials.cs</FileName>
+      <HashCode>AAAAkIBAABAAAAAAAAAAAAIAAAAAAAACAQEAAgAAAQA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Commands.View.Selection" Collapsed="true">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Commands\Selection.cs</FileName>
+      <HashCode>AcKaACgAg6AABAEAAIACACAAQAQRoAEAwAAIQJCBE0I=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Controller.TrackingController">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\TrackingController.cs</FileName>
+      <HashCode>AAAASAAQAAAAFAAAAAAAAAAAAAAAAAAAAAAAAACAAEg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TrackingService" />
+      <Property Name="SnapController" />
+      <Property Name="HoverController" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="SnapController" Type="Canguro.Controller.Snap.SnapController" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="6.438" />
+        <Point X="7.625" Y="6.438" />
+        <Point X="7.625" Y="8.688" />
+        <Point X="8" Y="8.688" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.473" Y="0.399" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="HoverController" Type="Canguro.Controller.Tracking.HoverController">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.241" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.Controller.Snap.SnapController">
+    <Position X="8" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Controller\Snap\SnapController.cs</FileName>
+      <HashCode>AAIIAACAAAIABAEAEAAAABAAAAJKQAEAAAIBIQCKACM=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="painter" />
+      <Field Name="snapMagnet" />
+      <Property Name="Area" />
+      <Property Name="SnapMagnet" />
+      <Property Name="PrimaryPoint" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="points" />
+      <Field Name="lines" />
+      <Field Name="paintMagnets" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="points" Type="Canguro.Controller.Snap.PointMagnet" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.083" Y="11.888" />
+        <Point X="9.083" Y="17.852" />
+        <Point X="15.5" Y="17.852" />
+        <Point X="15.5" Y="14.608" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="2.987" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="lines" Type="Canguro.Controller.Snap.LineMagnet" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.333" Y="11.888" />
+        <Point X="9.333" Y="15.425" />
+        <Point X="14.125" Y="15.425" />
+        <Point X="14.125" Y="14.772" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.048" Y="0.421" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Area" Type="Canguro.Controller.Snap.AreaMagnet" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.583" Y="11.888" />
+        <Point X="9.583" Y="14.188" />
+        <Point X="11.25" Y="14.188" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.06" Y="0.073" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="SnapMagnet" Type="Canguro.Controller.Snap.Magnet" FixedFromPoint="true">
+      <Path>
+        <Point X="10" Y="10.21" />
+        <Point X="13.5" Y="10.21" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="PrimaryPoint" Type="Canguro.Controller.Snap.PointMagnet" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.833" Y="11.888" />
+        <Point X="8.833" Y="18.256" />
+        <Point X="15.688" Y="18.256" />
+        <Point X="15.688" Y="14.608" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.085" Y="3.398" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.Controller.Tracking.TrackingService">
+    <Position X="11" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\Tracking\TrackingService.cs</FileName>
+      <HashCode>AAAAAAAEAgAABAAAAAAAAAAAAAAAAEAAAAAAAACIAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="graphicView" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Canguro.Controller.Snap.PointMagnet">
+    <Position X="15.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\Snap\PointMagnet.cs</FileName>
+      <HashCode>AAAAAAgABAAAAAAAgAAAAAACAAABAoAAAQAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Type" Type="Canguro.Controller.Snap.PointMagnetType" FixedFromPoint="true">
+      <Path>
+        <Point X="16.5" Y="14.608" />
+        <Point X="16.5" Y="16" />
+      </Path>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.Model.Model" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Model.cs</FileName>
+      <HashCode>CAiIjIAAJQUAFi0ABBgQAAQICKEDYAisYEAIbEAQwQw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.GraphicView" Collapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\GraphicView.cs</FileName>
+      <HashCode>AAUCAAgAACBUAARgBABgSwMkIAICAABCAACAEAABCgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Controller.Snap.AreaMagnet">
+    <Position X="11.25" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Controller\Snap\AreaMagnet.cs</FileName>
+      <HashCode>ACAAAAgAAAAAAAAAAAAIAAgAAAAIAAIAAAAAAAAgAAg=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Controller.Snap.LineMagnet">
+    <Position X="13.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\Snap\LineMagnet.cs</FileName>
+      <HashCode>ACEAAAgAAAAAIAAAgCAAAAAAAAABAIAAAQAAAAAhAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Type" Type="Canguro.Controller.Snap.LineMagnetType" FixedToPoint="true">
+      <Path>
+        <Point X="14.562" Y="14.772" />
+        <Point X="14.562" Y="16" />
+      </Path>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.Controller.Snap.SnapPainter">
+    <Position X="4.25" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Controller\Snap\SnapPainter.cs</FileName>
+      <HashCode>AAAAAAAABAAAAIQAAIoAAAAAkAAAAIAAAAAAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Controller.Snap.Magnet">
+    <Position X="13.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\Snap\Magnet.cs</FileName>
+      <HashCode>AAAAAAgAAAAAAAAgAAAAIAAAAAAACAEAAAgBAAAgAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="RelatedMagnets" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="RelatedMagnets" Type="Canguro.Controller.Snap.Magnet" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="10.25" />
+        <Point X="15.375" Y="10.25" />
+        <Point X="15.375" Y="9.125" />
+        <Point X="14.478" Y="9.125" />
+        <Point X="14.478" Y="9.5" />
+      </Path>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.Controller.Tracking.LineTrackingService" Collapsed="true">
+    <Position X="14.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Controller\Tracking\LineTrackingService.cs</FileName>
+      <HashCode>AAAAAAAEAgAAAAAAAgAAgAACAAAAAAAAQAAAAECIAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Controller.Tracking.TrackingService" FixedFromPoint="true">
+      <Path>
+        <Point X="12.125" Y="6.639" />
+        <Point X="12.125" Y="8.058" />
+        <Point X="15.375" Y="8.058" />
+        <Point X="15.375" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Controller.Tracking.PolygonTrackingService" Collapsed="true">
+    <Position X="14.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Controller\Tracking\PolygonTrackingService.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAAAACIAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Controller.Tracking.TrackingService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.125" Y="6.639" />
+        <Point X="12.125" Y="6.887" />
+        <Point X="15.375" Y="6.887" />
+        <Point X="15.375" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Controller.Tracking.RectangleTrackingService" Collapsed="true">
+    <Position X="12.25" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Controller\Tracking\RectangleTrackingService.cs</FileName>
+      <HashCode>AAAAAAIAIgAAAAAAAAAAAAACAAAAAAAAQAgAAASIAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="rectHelper" />
+    </ShowAsAssociation>
+    <InheritanceLine Type="Canguro.Controller.Tracking.TrackingService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.125" Y="6.639" />
+        <Point X="12.125" Y="8.058" />
+        <Point X="12.875" Y="8.058" />
+        <Point X="12.875" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="rectHelper" Type="Canguro.Controller.Tracking.RectangleHelper">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.888" Y="0.089" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.Controller.Tracking.VectorTrackingService" Collapsed="true">
+    <Position X="12.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Controller\Tracking\VectorTrackingService.cs</FileName>
+      <HashCode>AAAAAAAEAgBAAAAgQgAAgAACABAAAIAAQAAAAECIAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Controller.Tracking.TrackingService" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="12.125" Y="6.639" />
+        <Point X="12.125" Y="6.887" />
+        <Point X="13.375" Y="6.887" />
+        <Point X="13.375" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Controller.Tracking.HoverController" Collapsed="true">
+    <Position X="8.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\Tracking\HoverController.cs</FileName>
+      <HashCode>AAQIEAAAICUABAAAEAAEAIAAAAAIAABAAAAAiACIABA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="rectHelper" />
+    </ShowAsAssociation>
+    <AssociationLine Name="rectHelper" Type="Canguro.Controller.Tracking.RectangleHelper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9" Y="7.759" />
+        <Point X="9" Y="8.125" />
+        <Point X="10.25" Y="8.125" />
+      </Path>
+    </AssociationLine>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.ItemTextBuilder" Collapsed="true">
+    <Position X="4.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\ItemTextBuilder.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Controller.Tracking.RectangleHelper" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\Tracking\RectangleHelper.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAECIAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Canguro.Commands.Command" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Commands\Command.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Canguro.Controller.WaitingFor">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\WaitingFor.cs</FileName>
+      <HashCode>IAAAAAAAAAIAgAAAAAAAAAAAAAAAAgAAAAAACSEBAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Canguro.Controller.Snap.LineMagnetType">
+    <Position X="13.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\Snap\LineMagnetType.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAgAAAAUAAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Canguro.Controller.Snap.PointMagnetType">
+    <Position X="16" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controller\Snap\PointMagnetType.cs</FileName>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAABAAAAAAIAEAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

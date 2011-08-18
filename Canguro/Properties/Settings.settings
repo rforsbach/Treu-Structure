@@ -1,0 +1,123 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Canguro.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Culture" Type="System.String" Scope="User">
+      <Value Profile="(Default)">es-MX</Value>
+    </Setting>
+    <Setting Name="BackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="CanAutoChangeAdapter" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="JointDefaultColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">LimeGreen</Value>
+    </Setting>
+    <Setting Name="SmallPanelForeColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="SelectedDefaultColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="Canguro_CanguroServer_Analysis" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://www.treusoft.com/CanguroServerR2.1/Analysis.asmx</Value>
+    </Setting>
+    <Setting Name="ForceLoadForceDefaultColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="ForceLoadMomentDefaultColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 128, 0</Value>
+    </Setting>
+    <Setting Name="ForceLoadArrowScale" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.075</Value>
+    </Setting>
+    <Setting Name="ForceLoadLineScale" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.006</Value>
+    </Setting>
+    <Setting Name="MomentLoadArrowScale" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.03</Value>
+    </Setting>
+    <Setting Name="MomentLoadLineScale" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.006</Value>
+    </Setting>
+    <Setting Name="GrndDispLoadTransDefaultColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">MediumSeaGreen</Value>
+    </Setting>
+    <Setting Name="GrndDispLoadRotDefautlColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">YellowGreen</Value>
+    </Setting>
+    <Setting Name="ResultsDownloadUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://www.treusoft.com/CanguroResults</Value>
+    </Setting>
+    <Setting Name="VersionCheckURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.treusoft.com/CanguroUpdate/version.txt</Value>
+    </Setting>
+    <Setting Name="UpdateInstallerPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UpdateInstallerURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.treusoft.com/CanguroUpdate/tss.msi</Value>
+    </Setting>
+    <Setting Name="UpdateInstallerVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ElementForcesSegments" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="RegistrationURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.treusoft.com/Register</Value>
+    </Setting>
+    <Setting Name="AccountURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.treusoft.com/Account</Value>
+    </Setting>
+    <Setting Name="AddCreditURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.treusoft.com/Credit</Value>
+    </Setting>
+    <Setting Name="TextColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">242, 220, 39</Value>
+    </Setting>
+    <Setting Name="BuyCreditURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.treusoft.com/Store/tabid/63/Default.aspx</Value>
+    </Setting>
+    <Setting Name="jointMassColour" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 128, 0</Value>
+    </Setting>
+    <Setting Name="UndoLimit" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">500000</Value>
+    </Setting>
+    <Setting Name="ForceReactionColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Plum</Value>
+    </Setting>
+    <Setting Name="MomentReactionColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Tan</Value>
+    </Setting>
+    <Setting Name="WindowSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">800, 600</Value>
+    </Setting>
+    <Setting Name="DefaultPrintinBackgroundColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="WindowMaximazed" Type="System.String" Scope="User">
+      <Value Profile="(Default)">No</Value>
+    </Setting>
+    <Setting Name="MaterialSelectedDefaultColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Gray</Value>
+    </Setting>
+    <Setting Name="UnitSystem" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MetricSystem</Value>
+    </Setting>
+    <Setting Name="JoinTolerance" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.001</Value>
+    </Setting>
+    <Setting Name="DefaultSteel" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">A36</Value>
+    </Setting>
+    <Setting Name="DefaultConcrete" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4000Psi</Value>
+    </Setting>
+    <Setting Name="VistaVirtualizationFixed" GenerateDefaultValueInCode="false" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

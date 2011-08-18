@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="Todos los Setters tienen que avisarle a Model sobre su estado anterior: (this, property, oldValue)">
+    <Position X="2.385" Y="0.5" Height="0.677" Width="1.7" />
+  </Comment>
+  <Class Name="Canguro.Model.Undo.UndoManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Undo\UndoManager.cs</FileName>
+      <HashCode>AAIAAEAAAABABBACAAgABAARAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Undo.ChangeAction">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Undo\ChangeAction.cs</FileName>
+      <HashCode>AAAAAAAEAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Undo.AddDelAction">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Undo\AddDelAction.cs</FileName>
+      <HashCode>AAAAAAAAAAAAJACAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Undo.ActionList">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Undo\ActionList.cs</FileName>
+      <HashCode>AAAAAAAAIAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Undo.AddDelListAction">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AddDelListAction.cs</FileName>
+      <HashCode>AAAAAAAAAAAAJAAAAAAAAAAEAAAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Canguro.Model.Undo.Undoable" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Undo\Undoable.cs</FileName>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Canguro.Model.Results.Results">
+    <Position X="4" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Model\Results\Results.cs</FileName>
+      <HashCode>KQMAACElIhAAgRAxA4QQCAEEGAgAgUilACAqBQgGSgk=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ActiveCase" />
+      <Property Name="Downloaded" />
+      <Property Name="DesignConcreteColumn" />
+      <Property Name="DesignConcreteBeam" />
+      <Property Name="DesignSteelSummary" />
+      <Property Name="DesignSteelPMMDetails" />
+      <Property Name="DesignSteelShearDetails" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ResultsCases" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <AssociationLine Name="DesignConcreteBeam" Type="Canguro.Model.Results.ConcreteBeamDesign" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="8.188" />
+        <Point X="1.625" Y="8.188" />
+        <Point X="1.625" Y="8.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.375" Y="0.346" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="DesignSteelSummary" Type="Canguro.Model.Results.SteelDesignSummary" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="4.688" />
+        <Point X="1.625" Y="4.688" />
+        <Point X="1.625" Y="4.013" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.412" Y="0.51" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="DesignSteelShearDetails" Type="Canguro.Model.Results.SteelDesignShearDetails">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.296" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.Model.Results.ResultsCase">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Results\ResultsCase.cs</FileName>
+      <HashCode>CAACAAAAAAAAAAAMAAAACAQAAAAEAAAAAAAQAAgAEgA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AbstractCase" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Results.ConcreteBeamDesign">
+    <Position X="0.5" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Model\Results\ConcreteDesign.cs</FileName>
+      <HashCode>AgQggAAMAAAACQAAAAAgAAAABAAAQCABAAAgAQIAAIA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Results.ConcreteColumnDesign">
+    <Position X="0.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Model\Results\ConcreteDesign.cs</FileName>
+      <HashCode>AAQwpAAEAAQAAAAAAAAwAAAAgEACAABBAAAAAQAAgIA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Results.SteelDesignPMMDetails">
+    <Position X="4" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Model\Results\SteelDesign.cs</FileName>
+      <HashCode>AAYigAAGAgAAAAAACAIgAAAAIAAAACABAAAAAQAAAIA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Results.SteelDesignShearDetails">
+    <Position X="4" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Model\Results\SteelDesign.cs</FileName>
+      <HashCode>AAQggAAMAAAAIAIAACAiAAAAAACAAAABAAAAiQAAAIA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Results.SteelDesignSummary">
+    <Position X="0.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Model\Results\SteelDesign.cs</FileName>
+      <HashCode>AEQggAAEAAAAAAAACAIgAAAAAAAAACABAAAgAQAAAoA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Results.DownloadProgress">
+    <Position X="8.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Model\Results\DownloadProgress.cs</FileName>
+      <HashCode>AgKAgABEACAAKIAAAIiABgAABAYAAAQAAAgAAAAIgAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Summary" />
+      <Property Name="Design" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Results.ModalLPRRow" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Results\ModalLPRRow.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAAIQAAAAEAAAAAAAAAAAGAAAABgA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Load.AbstractCase" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AbstractCase.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEEAAAABQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Results.DownloadProps">
+    <Position X="11.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Model\Results\DownloadProps.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAQAAAAEAAgAAAAKAEAAAgBAABA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Canguro.Model.Results.AluminiumDesign1" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Results\AluminiumDesign1.cs</FileName>
+      <HashCode>AAQAAAAAAAAIAAAAAAEAAIACAgAQAAAAAAAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Results.ResultsPath" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Results\ResultsPath.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAIIQAAAgAABAAAAABAAAQAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Results.ResultsCasesList" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Results\ResultsCasesList.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAACAABAAAAAAAAAIAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Enum Name="Canguro.Model.Results.DesignOpt" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Results\DesignOpt.cs</FileName>
+      <HashCode>AAAAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Canguro.Model.Results.DesignRatioType" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Results\DesignRatioType.cs</FileName>
+      <HashCode>BAAAAAAAABAAAAAAEAAAIAABAAAAAAEAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Canguro.Model.Results.DesignStatus" Collapsed="true">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Results\DesignStatus.cs</FileName>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAAAAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Canguro.Model.Results.DesignType" Collapsed="true">
+    <Position X="12.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Results\DesignType.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAQAQAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

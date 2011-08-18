@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sections>
+  <template name="Tee">
+    <shape name="T" />
+    <vars>
+      <var id="t2" />
+      <var id="t3" />
+      <var id="tw" />
+      <var id="tf" />
+    </vars>
+    <countour faceNormals="true">
+      <point id="0" x="-tw / 2.0" 	    y="0" 			        nx="0"  ny="-1" />
+      <point id="1" x="-tw / 2.0 + tw"  y="0" 			        nx="1"  ny="0"  />
+      <point id="2" x="-tw / 2.0 + tw"  y="(t3 - tf) / 2.0" nx="1"  ny="0"  />
+      <point id="3" x="-tw / 2.0 + tw"  y="t3 - tf" 		    nx="0"  ny="-1" />
+      <point id="4" x="t2 / 2.0" 	      y="t3 - tf" 		    nx="1"  ny="0"  />
+      <point id="5" x="t2 / 2.0" 	      y="t3" 			        nx="0"  ny="1"  />
+      <point id="6" x="0" 		          y="t3" 			        nx="0"  ny="1"  />
+      <point id="7" x="-t2 / 2.0" 	    y="t3" 			        nx="-1" ny="0"  />
+      <point id="8" x="-t2 / 2.0" 	    y="t3 - tf" 		    nx="0"  ny="-1" />
+      <point id="9" x="-tw / 2.0" 	    y="t3 - tf" 		    nx="-1" ny="0"  />
+      <point id="10" x="-tw / 2.0" 	    y="0" 			        nx="-1" ny="0"  />
+    </countour>
+  </template>
+  <Frame_Section_Properties_01_-_General>
+    <SectionName SectionName="T 45x15x1.27x1cm" Shape="Tee" t2="0.45" t3="0.15" tw="0.01" tf="0.0127" t2b="0" tfb="0" dis="0" 
+                  Area="7.088E-03" TorsConst="3.496E-07" 
+                  I33="8.561E-06" I22="9.645E-05"
+                  AS2="1.500E-03" AS3="4.763E-03" 
+                  S33="6.553E-05" S22="4.287E-04" 
+                  Z33="1.201E-04" Z22="6.464E-04" 
+                  R33="3.450E-02" R22="1.167E-01">
+      <vars>
+        <var id="t2" value="0.45" />
+        <var id="t3" value="0.15" />
+        <var id="tw" value="0.01" />
+        <var id="tf" value="0.0127" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="T 45x20x1.27x1cm" Shape="Tee" t2="0.45" t3="0.20" tw="0.01" tf="0.0127" t2b="0" tfb="0" dis="0"
+                  Area="7.588E-03" TorsConst="3.663E-07"
+                  I33="1.966E-05" I22="9.646E-05"
+                  AS2="2.000E-03" AS3="4.763E-03"
+                  S33="1.163E-04" S22="4.287E-04"
+                  Z33="2.035E-04" Z22="6.476E-04"
+                  R33="5.090E-02" R22="1.127E-01">
+      <vars>
+        <var id="t2" value="0.45" />
+        <var id="t3" value="0.20" />
+        <var id="tw" value="0.01" />
+        <var id="tf" value="0.0127" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="T 45x15x1.905x1cm" Shape="Tee" t2="0.45" t3="0.15" tw="0.01" tf="0.01905" t2b="0" tfb="0" dis="0"
+                  Area="9.882E-03" TorsConst="1.062E-06"
+                  I33="8.520E-06" I22="1.447E-04"
+                  AS2="1.500E-03" AS3="7.144E-03"
+                  S33="6.527E-05" S22="6.430E-04"
+                  Z33="1.381E-04" Z22="9.677E-04"
+                  R33="2.940E-02" R22="1.210E-01">
+      <vars>
+        <var id="t2" value="0.45" />
+        <var id="t3" value="0.15" />
+        <var id="tw" value="0.01" />
+        <var id="tf" value="0.01905" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="T 45x20x1.905x1cm" Shape="Tee" t2="0.45" t3="0.20" tw="0.01" tf="0.01905" t2b="0" tfb="0" dis="0"
+                  Area="1.040E-02" TorsConst="1.079E-06"
+                  I33="2.014E-05" I22="1.447E-04"
+                  AS2="2.000E-03" AS3="7.144E-03"
+                  S33="1.164E-04" S22="6.430E-04"
+                  Z33="2.200E-04" Z22="9.689E-04"
+                  R33="4.400E-02" R22="1.180E-01">
+      <vars>
+        <var id="t2" value="0.45" />
+        <var id="t3" value="0.20" />
+        <var id="tw" value="0.01" />
+        <var id="tf" value="0.01905" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="T 60x15x1.27x1cm" Shape="Tee" t2="0.60" t3="0.15" tw="0.01" tf="0.0127" t2b="0" tfb="0" dis="0"
+                  Area="8.993E-03" TorsConst="4.520E-07"
+                  I33="8.803E-06" I22="2.286E-04"
+                  AS2="1.500E-03" AS3="6.350E-03"
+                  S33="6.659E-05" S22="7.620E-04"
+                  Z33="1.264E-04" Z22="1.146E-03"
+                  R33="3.130E-02" R22="1.594E-01">
+      <vars>
+        <var id="t2" value="0.60" />
+        <var id="t3" value="0.15" />
+        <var id="tw" value="0.01" />
+        <var id="tf" value="0.0127" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="T 60x20x1.27x1cm" Shape="Tee" t2="0.60" t3="0.20" tw="0.01" tf="0.0127" t2b="0" tfb="0" dis="0"
+                  Area="9.493E-03" TorsConst="4.687E-07"
+                  I33="2.061E-05" I22="2.286E-04"
+                  AS2="2.000E-03" AS3="6.350E-03"
+                  S33="1.180E-04" S22="7.621E-04"
+                  Z33="2.100E-04" Z22="1.148E-03"
+                  R33="4.660E-02" R22="1.552E-01">
+      <vars>
+        <var id="t2" value="0.60" />
+        <var id="t3" value="0.20" />
+        <var id="tw" value="0.01" />
+        <var id="tf" value="0.0127" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="T 60x15x1.905x1cm" Shape="Tee" t2="0.60" t3="0.15" tw="0.01" tf="0.01905" t2b="0" tfb="0" dis="0"
+                  Area="1.270E-02" TorsConst="1.408E-06"
+                  I33="8.826E-06" I22="3.429E-04"
+                  AS2="1.500E-03" AS3="9.525E-03"
+                  S33="6.648E-05" S22="1.143E-03"
+                  Z33="1.519E-04" Z22="1.718E-03"
+                  R33="2.630E-02" R22="1.641E-01">
+      <vars>
+        <var id="t2" value="0.60" />
+        <var id="t3" value="0.15" />
+        <var id="tw" value="0.01" />
+        <var id="tf" value="0.01905" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="T 60x20x1.905x1cm" Shape="Tee" t2="0.60" t3="0.20" tw="0.01" tf="0.01905" t2b="0" tfb="0" dis="0"
+                  Area="1.320E-02" TorsConst="1.425E-06"
+                  I33="2.090E-05" I22="3.429E-04"
+                  AS2="2.000E-03" AS3="9.525E-03"
+                  S33="1.182E-04" S22="1.143E-03"
+                  Z33="2.340E-04" Z22="1.719E-03"
+                  R33="3.970E-02" R22="1.609E-01">
+      <vars>
+        <var id="t2" value="0.60" />
+        <var id="t3" value="0.20" />
+        <var id="tw" value="0.01" />
+        <var id="tf" value="0.01905" />
+      </vars>
+    </SectionName>
+  </Frame_Section_Properties_01_-_General>
+</sections>

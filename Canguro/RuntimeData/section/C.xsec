@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sections>
+  <template name="Channel">
+    <shape name="C" />
+    <vars>
+      <var id="t2" />
+      <var id="t3" />
+      <var id="tw" />
+      <var id="tf" />
+    </vars>
+    <countour faceNormals="true">
+
+      <point id="0" x="0"          	    y="0" 			        nx="0"  ny="-1" />
+      <point id="1" x="t2 / 2.0"        y="0" 			        nx="0"  ny="-1"  />
+      <point id="2" x="t2"              y="0"               nx="1"  ny="0"  />
+      <point id="3" x="t2"              y="tf"       		    nx="0"  ny="1" />
+      <point id="4" x="(t2 + tw) / 2.0" y="tf"       		    nx="0"  ny="1"  />
+      <point id="5" x="tw"      	      y="tf" 			        nx="1"  ny="0"  />
+      <point id="6" x="tw" 		          y="t3 / 2.0"        nx="1"  ny="0"  />
+      <point id="7" x="tw"         	    y="t3 - tf"	        nx="0"  ny="-1"  />
+      <point id="8" x="(t2 + tw) / 2.0" y="t3 - tf" 		    nx="0"  ny="-1" />
+      <point id="9" x="t2"        	    y="t3 - tf" 		    nx="1"  ny="0"  />
+      <point id="10" x="t2"       	    y="t3" 			        nx="0"  ny="1"  />
+      <point id="11" x="t2 / 2.0"  	    y="t3" 			        nx="0"  ny="1"  />
+      <point id="12" x="0"         	    y="t3" 			        nx="-1" ny="0"  />
+      <point id="13" x="0"         	    y="t3 / 2.0"        nx="-1" ny="0"  />
+
+    </countour>
+  </template>
+  <Frame_Section_Properties_01_-_General>
+    <SectionName SectionName="6MT10" Shape="Channel" t2="0.0635" t3="0.1524" tw="0.01" tf="0.0127" t2b="0" tfb="0" dis="0"
+        Area="9.322E-04" TorsConst="3.548E-09" I33="3.289E-06" I22="3.558E-07" AS2="5.212E-04" AS3="4.343E-04" S33="4.317E-05" S22="7.444E-06" Z33="5.047E-05" Z22="1.322E-05" R33="5.940E-02" R22="1.950E-02">
+      <vars>
+        <var id="t2" value="0.0635" />
+        <var id="t3" value="0.1524" />
+        <var id="tw" value="0.00342" />
+        <var id="tf" value="0.00342" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="6MT12" Shape="Channel" t2="0.0635" t3="0.1524" tw="0.00266" tf="0.00266" t2b="0" tfb="0" dis="0"
+        Area="7.291E-04" TorsConst="1.688E-09" I33="2.599E-06" I22="2.815E-07" AS2="4.054E-04" AS3="3.378E-04" S33="3.411E-05" S22="5.856E-06" Z33="3.968E-05" Z22="1.037E-05" R33="5.970E-02" R22="1.960E-02">
+      <vars>
+        <var id="t2" value="0.0635" />
+        <var id="t3" value="0.1524" />
+        <var id="tw" value="0.00266" />
+        <var id="tf" value="0.00266" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="6MT14" Shape="Channel" t2="0.0635" t3="0.1524" tw="0.0019" tf="0.0019" t2b="0" tfb="0" dis="0"
+        Area="5.236E-04" TorsConst="6.219E-10" I33="1.886E-06" I22="2.046E-07" AS2="2.896E-04" AS3="2.413E-04" S33="2.475E-05" S22="4.231E-06" Z33="2.865E-05" Z22="7.480E-06" R33="6.000E-02" R22="1.980E-02">
+      <vars>
+        <var id="t2" value="0.0635" />
+        <var id="t3" value="0.1524" />
+        <var id="tw" value="0.0019" />
+        <var id="tf" value="0.0019" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="8MT10" Shape="Channel" t2="0.0762" t3="0.2032" tw="0.00342" tf="0.00342" t2b="0" tfb="0" dis="0"
+        Area="1.193E-03" TorsConst="4.564E-09" I33="7.359E-06" I22="6.415E-07" AS2="6.949E-04" AS3="5.212E-04" S33="7.243E-05" S22="1.095E-05" Z33="8.503E-05" Z22="1.926E-05" R33="7.850E-02" R22="2.320E-02">
+      <vars>
+        <var id="t2" value="0.0762" />
+        <var id="t3" value="0.2032" />
+        <var id="tw" value="0.00342" />
+        <var id="tf" value="0.00342" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="8MT12" Shape="Channel" t2="0.0762" t3="0.2032" tw="0.00266" tf="0.00266" t2b="0" tfb="0" dis="0"
+        Area="9.317E-04" TorsConst="2.166E-09" I33="5.794E-06" I22="5.061E-07" AS2="5.405E-04" AS3="4.054E-04" S33="5.702E-05" S22="8.596E-06" Z33="6.669E-05" Z22="1.508E-05" R33="7.890E-02" R22="2.330E-02">
+      <vars>
+        <var id="t2" value="0.0762" />
+        <var id="t3" value="0.2032" />
+        <var id="tw" value="0.00266" />
+        <var id="tf" value="0.00266" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="8MT14" Shape="Channel" t2="0.0762" t3="0.2032" tw="0.0019" tf="0.0019" t2b="0" tfb="0" dis="0"
+        Area="6.684E-04" TorsConst="7.961E-10" I33="4.189E-06" I22="3.667E-07" AS2="3.861E-04" AS3="2.896E-04" S33="4.123E-05" S22="6.199E-06" Z33="4.803E-05" Z22="1.084E-05" R33="7.920E-02" R22="2.340E-02">
+      <vars>
+        <var id="t2" value="0.0762" />
+        <var id="t3" value="0.2032" />
+        <var id="tw" value="0.0019" />
+        <var id="tf" value="0.0019" />
+      </vars>
+    </SectionName>
+  </Frame_Section_Properties_01_-_General>
+</sections>

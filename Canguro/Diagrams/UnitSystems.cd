@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Canguro.Model.UnitSystem.InternationalSystem" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\InternationalSystem.cs</FileName>
+      <HashCode>AAAAAIAAAgAIAAAAAAAAAAQAAAAAAIAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.UnitSystem.MetricSystem" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\MetricSystem.cs</FileName>
+      <HashCode>AAAAAIAAAgAIAAAAAAAAAAQAAAAAAIAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.UnitSystem.EnglishSystem" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\EnglishSystem.cs</FileName>
+      <HashCode>AAAAAIAAAgAIFAAAAAAAAAQAAAAAAIAAYAEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.UnitSystem.UnitSystemsManager">
+    <Position X="0.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Model\UnitSystemsManager.cs</FileName>
+      <HashCode>AAgAAQAIAAAAAIAAAACAAAAAAAAAAAAAQAAAAABAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.UnitSystem.UnitSystem">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\UnitSystem.cs</FileName>
+      <HashCode>AAAAQIAAAgAIAAAEAIAIAAQAAgAAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Canguro.Model.UnitSystem.Units">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\UnitSystem.cs</FileName>
+      <HashCode>AkoIIAAACADAgAAEAAAAACABQIAAABBAkFAEAQCMAQA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

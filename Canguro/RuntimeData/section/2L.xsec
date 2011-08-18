@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sections>
+  <template name="DoubleAngle">
+    <shape name="2L" />
+    <vars>
+      <var id="t2" />
+      <var id="t3" />
+      <var id="tw" />
+      <var id="tf" />
+      <var id="dis" />
+    </vars>
+    <countour faceNormals="true">
+
+      <point id="0" x="dis / 2.0 + 0.001"                     y="t3 / 2.0"        nx="-1" ny="0" />
+      <point id="1" x="dis / 2.0 + 0.001"                     y="0"               nx="0"  ny="-1" />
+      <point id="2" x="dis / 2.0 + 0.001 + tw"                y="0"               nx="1"  ny="0" />
+      <point id="3" x="dis / 2.0 + 0.001 + tw"                y="(t3 - tf) / 2.0" nx="1"  ny="0" />
+      <point id="4" x="dis / 2.0 + 0.001 + tw"                y="t3 - tf"         nx="0"  ny="-1" />
+      <point id="5" x="dis / 2.0 + 0.001 + tw + t2 / 2.0"     y="t3 - tf"         nx="0"  ny="-1" />
+      <point id="6" x="dis / 2.0 + 0.001 + tw + t2"           y="t3 - tf"         nx="1"  ny="0" />
+      <point id="7" x="dis / 2.0 + 0.001 + tw + t2"           y="t3 - tf + tf"    nx="0"  ny="1" />
+      <point id="8" x="dis / 2.0 + 0.001 + (tw + t2) / 2.0"   y="t3 - tf + tf"    nx="0"  ny="1" />
+      <point id="9" x="dis / 2.0 + 0.001"                     y="t3 - tf + tf"    nx="-1" ny="0" />
+      <point id="10" x="dis / 2.0 + 0.001"                    y="t3 / 2.0"        nx="-1" ny="0" />
+      <point id="11" x="-dis / 2.0 + 0.001"                   y="t3 / 2.0"        nx="1"  ny="0" />
+      <point id="12" x="-dis / 2.0 + 0.001"                   y="t3 - tf + tf"    nx="0"  ny="1" />
+      <point id="13" x="-dis / 2.0 + 0.001 + (tw + t2) / 2.0" y="t3 - tf + tf"    nx="0"  ny="1" />
+      <point id="14" x="-dis / 2.0 + 0.001 + tw + t2"         y="t3 - tf + tf"    nx="-1" ny="0" />
+      <point id="15" x="-dis / 2.0 + 0.001 + tw + t2"         y="t3 - tf"         nx="0"  ny="-1" />
+      <point id="16" x="-dis / 2.0 + 0.001 + tw + t2 / 2.0"   y="t3 - tf"         nx="0"  ny="-1" />
+      <point id="17" x="-dis / 2.0 + 0.001 + tw"              y="t3 - tf"         nx="-1" ny="0" />
+      <point id="18" x="-dis / 2.0 + 0.001 + tw"              y="(t3 - tf) / 2.0" nx="-1" ny="0" />
+      <point id="19" x="-dis / 2.0 + 0.001 + tw"              y="0"               nx="0"  ny="-1" />
+      <point id="20" x="-dis / 2.0 + 0.001"                   y="0"               nx="1"  ny="0" />
+      <point id="21" x="-dis / 2.0 + 0.001"                   y="t3 / 2.0"        nx="1"  ny="0" />
+
+    </countour>
+  </template>
+
+  <Frame_Section_Properties_01_-_General>
+    <SectionName SectionName="2L2x2x1/4" Shape="Double Angle" t2="0.1116" t3="0.0508" tw="0.00635" tf="0.00635" t2b="0" tfb="0" dis="0.01"
+        Area="1.487E-03" TorsConst="2.929E-08" I33="3.465E-07" I22="9.626E-07" AS2="8.065E-04" AS3="8.065E-04" S33="9.842E-06" S22="1.733E-05" Z33="1.775E-05" Z22="3.027E-05" R33="1.530E-02" R22="2.540E-02" >
+      <vars>
+        <var id="t2" value="0.1116" />
+        <var id="t3" value="0.0508" />
+        <var id="tw" value="0.00635" />
+        <var id="tf" value="0.00635" />
+        <var id="dis" value="0.01" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="2L2x2x5/16" Shape="Double Angle" t2="0.1116" t3="0.0508" tw="0.00794" tf="0.00794" t2b="0" tfb="0" dis="0.01"
+      Area="1.210E-03" TorsConst="1.546E-08" I33="2.894E-07" I22="7.632E-07" AS2="6.452E-04" AS3="6.452E-04" S33="8.089E-06" S22="1.374E-05" Z33="1.458E-05" Z22="2.394E-05" R33="1.550E-02" R22="2.510E-02" >
+      <vars>
+        <var id="t2" value="0.1116" />
+        <var id="t3" value="0.0508" />
+        <var id="tw" value="0.00794" />
+        <var id="tf" value="0.00794" />
+        <var id="dis" value="0.01" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="2L3x3x1/4" Shape="Double Angle" t2="0.1624" t3="0.0762" tw="0.00635" tf="0.00635" t2b="0" tfb="0" dis="0.01"
+        Area="1.855E-03" TorsConst="2.413E-08" I33="1.036E-06" I22="2.305E-06" AS2="9.677E-04" AS3="9.677E-04" S33="1.890E-05" S22="2.847E-05" Z33="3.404E-05" Z22="4.852E-05" R33="2.360E-02" R22="3.530E-02">
+      <vars>
+        <var id="t2" value="0.1624" />
+        <var id="t3" value="0.0762" />
+        <var id="tw" value="0.00635" />
+        <var id="tf" value="0.00635" />
+        <var id="dis" value="0.01" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="2L3xx5/16" Shape="Double Angle" t2="0.1624" t3="0.0762" tw="0.00794" tf="0.00794" t2b="0" tfb="0" dis="0.01"
+        Area="2.293E-03" TorsConst="4.622E-08" I33="1.257E-06" I22="2.896E-06" AS2="1.210E-03" AS3="1.210E-03" S33="2.318E-05" S22="3.577E-05" Z33="4.176E-05" Z22="6.131E-05" R33="2.340E-02" R22="3.550E-02">
+      <vars>
+        <var id="t2" value="0.1624" />
+        <var id="t3" value="0.0762" />
+        <var id="tw" value="0.00794" />
+        <var id="tf" value="0.00794" />
+        <var id="dis" value="0.01" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="2L3x3x3/8" Shape="Double Angle" t2="0.1624" t3="0.0762" tw="0.00953" tf="0.00953" t2b="0" tfb="0" dis="0.01"
+        Area="2.722E-03" TorsConst="7.828E-08" I33="1.465E-06" I22="3.494E-06" AS2="1.452E-03" AS3="1.452E-03" S33="2.730E-05" S22="4.316E-05" Z33="4.920E-05" Z22="7.432E-05" R33="2.320E-02" R22="3.580E-02">
+      <vars>
+        <var id="t2" value="0.1624" />
+        <var id="t3" value="0.0762" />
+        <var id="tw" value="0.00953" />
+        <var id="tf" value="0.00953" />
+        <var id="dis" value="0.01" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="2L4x4x1/4" Shape="Double Angle" t2="0.2132" t3="0.1016" tw="0.00635" tf="0.00635" t2b="0" tfb="0" dis="0.01"
+        Area="2.500E-03" TorsConst="3.281E-08" I33="2.530E-06" I22="5.174E-06" AS2="1.290E-03" AS3="1.290E-03" S33="3.426E-05" S22="4.864E-05" Z33="6.170E-05" Z22="8.130E-05" R33="3.180E-02" R22="4.550E-02">
+      <vars>
+        <var id="t2" value="0.2132" />
+        <var id="t3" value="0.1016" />
+        <var id="tw" value="0.00635" />
+        <var id="tf" value="0.00635" />
+        <var id="dis" value="0.01" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="2L4xx5/16" Shape="Double Angle" t2="0.2132" t3="0.1016" tw="0.00794" tf="0.00794" t2b="0" tfb="0" dis="0.01"
+        Area="3.100E-03" TorsConst="6.315E-08" I33="3.092E-06" I22="6.488E-06" AS2="1.613E-03" AS3="1.613E-03" S33="4.220E-05" S22="6.100E-05" Z33="7.601E-05" Z22="1.026E-04" R33="3.160E-02" R22="4.570E-02">
+      <vars>
+        <var id="t2" value="0.2132" />
+        <var id="t3" value="0.1016" />
+        <var id="tw" value="0.00794" />
+        <var id="tf" value="0.00794" />
+        <var id="dis" value="0.01" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="2L4x4x3/8" Shape="Double Angle" t2="0.2132" t3="0.1016" tw="0.00953" tf="0.00953" t2b="0" tfb="0" dis="0.01"
+        Area="3.690E-03" TorsConst="1.075E-07" I33="3.628E-06" I22="7.813E-06" AS2="1.935E-03" AS3="1.935E-05" S33="4.992E-05" S22="7.345E-05" Z33="8.993E-05" Z22="1.242E-04" R33="3.140E-02" R22="4.600E-02">
+      <vars>
+        <var id="t2" value="0.2132" />
+        <var id="t3" value="0.1016" />
+        <var id="tw" value="0.00953" />
+        <var id="tf" value="0.00953" />
+        <var id="dis" value="0.01" />
+      </vars>
+    </SectionName>
+  </Frame_Section_Properties_01_-_General>
+</sections>

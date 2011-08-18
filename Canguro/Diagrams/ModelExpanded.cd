@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="Loads es un Mapa que agrupa listas de cargas por LoadCase">
+    <Position X="11.328" Y="4.3" Height="0.658" Width="1.179" />
+  </Comment>
+  <Comment CommentText="Todos los Setters tienen que avisarle a Model sobre su estado anterior: (this, property, oldValue)">
+    <Position X="17.601" Y="7.717" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Agregar conversión de unidades y chequeos en las propiedades">
+    <Position X="1.969" Y="0.5" Height="0.531" Width="1.7" />
+  </Comment>
+  <Class Name="Canguro.Model.Model">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Model.cs</FileName>
+      <HashCode>CACIiIAAAAAAFigABBAQAAQICKABQAisQEAATEAAwAg=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Canguro.Model.Model.SelectionChangedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Model.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="Canguro.Model.Model.SelectionChangedEventArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Model.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="Canguro.Model.Item">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Item.cs</FileName>
+      <HashCode>AAACAAAQAAAAEAAAABAAAAAAAAAAAAAEAAAABAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.ItemList&lt;Titem&gt;" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\ItemList.cs</FileName>
+      <HashCode>ACIAAEAAAAAAAAAACAAQBAAAAAAAAAAAKAACAIBEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Joint">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Joint.cs</FileName>
+      <HashCode>AAACAAAAAAABAAAgAQAIIAAACAAAABAAAAAAAAAAYAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.LineElement">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\LineElement.cs</FileName>
+      <HashCode>CAACAAAAAAAAAAAAAAAAgABCAACAAAAAAEAAACBDAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Properties" />
+    </ShowAsAssociation>
+    <AssociationLine Name="Properties" Type="Canguro.Model.LineProps">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.092" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Canguro.Model.StraightFrameProps">
+    <Position X="2.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\StraightFrameProps.cs</FileName>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.LineProps" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="7.759" />
+        <Point X="5.25" Y="8.068" />
+        <Point X="3.188" Y="8.068" />
+        <Point X="3.188" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.CurvedFrameProps" Collapsed="true">
+    <Position X="5.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\CurvedFrameProps.cs</FileName>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAACAAAAAAAAAAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <InheritanceLine Type="Canguro.Model.LineProps" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="7.759" />
+        <Point X="5.25" Y="8.05" />
+        <Point X="6.25" Y="8.05" />
+        <Point X="6.25" Y="9.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.CableProps" Collapsed="true">
+    <Position X="4.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\CableProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.TendonProps" Collapsed="true">
+    <Position X="3.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\TendonProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.LineProps" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="7.759" />
+        <Point X="5.25" Y="8.076" />
+        <Point X="4.25" Y="8.076" />
+        <Point X="4.25" Y="10" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.LineLinkProps" Collapsed="true">
+    <Position X="6.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\LineLinkProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="Canguro.Model.LineProps" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="7.759" />
+        <Point X="5.25" Y="8.06" />
+        <Point X="7.25" Y="8.06" />
+        <Point X="7.25" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Canguro.Model.AreaElement">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\AreaElement.cs</FileName>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Properties" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Canguro.Model.Layer">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Layer.cs</FileName>
+      <HashCode>AAACAAAAAAAACAAAAAAAAAQAAAAEAAAAAAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Material.Material">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Materials\Material.cs</FileName>
+      <HashCode>AAAACAAQCAAAAAgAAAAQAAQBAAAFAQAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.Load">
+    <Position X="11.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\Load.cs</FileName>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AssignedLoads">
+    <Position X="10.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AssignedLoads.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAACAQABAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.LoadCase">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\LoadCase.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAQAAAAEAQAAAAEAAAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Enum Name="Canguro.Model.Load.LoadCase.LoadCaseType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Loads\LoadCase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="Canguro.Model.Constraint" Collapsed="true">
+    <Position X="17.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Constraint.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Properties" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Canguro.Model.Results.Results">
+    <Position X="14.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Results\Results.cs</FileName>
+      <HashCode>AQIAAAEhAgYACSAhA4AACAEACAgQgQihEDAIAwASCgE=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Undo.UndoManager">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Undo\UndoManager.cs</FileName>
+      <HashCode>AAIAAEAABABABBACAAgABAARAAAAAAAAAAAAAAEAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Section.SectionManager">
+    <Position X="15.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\SectionManager.cs</FileName>
+      <HashCode>AAAAAAAAACCAIQAACAAAAgAAgAAAAAAQQAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Material.MaterialManager">
+    <Position X="13.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\MaterialManager.cs</FileName>
+      <HashCode>AEAAAAAAAAAAASAAAAAgAAAAAAAAAAAAQAAAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Catalog&lt;Tvalue&gt;">
+    <Position X="15.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Catalog.cs</FileName>
+      <HashCode>AAAAgIAAAACAAJAQCAEAAAQAAAAEAAAQAAAAEQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.PointLink" Collapsed="true">
+    <Position X="2.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\PointLink.cs</FileName>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.JointDOF">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\JointDOF.cs</FileName>
+      <HashCode>AAAAgCAAAAQAAIgAAABAECAAAAAgCIAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Canguro.Model.JointDOF.DofType">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\JointDOF.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="Canguro.Model.Load.AssignedJointLoads" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AssignedJointLoads.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.Load.AssignedLineLoads">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AssignedLineLoads.cs</FileName>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+  </Class>
+  <Class Name="Canguro.Model.Load.AssignedAreaLoads" Collapsed="true">
+    <Position X="12.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Loads\AssignedAreaLoads.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.Model.LineProps" Collapsed="true">
+    <Position X="4.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\LineProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.929" />
+  </Class>
+  <Interface Name="Canguro.Model.AreaProps" Collapsed="true">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\AreaProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Canguro.Model.Section.Section" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\Sections\Section.cs</FileName>
+      <HashCode>AEAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Canguro.Model.ConstraintProps" Collapsed="true">
+    <Position X="17.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\ConstraintProps.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sections>
+  <template name="BoxTube">
+    <shape name="B" />
+    <vars>
+      <var id="t2" />
+      <var id="t3" />
+    </vars>
+    <countour faceNormals="true">
+
+      <point id="0" x="0"          	    y="0" 			        nx="0"  ny="-1" />
+      <point id="1" x="0.5 * t2"        y="0" 			        nx="0"  ny="-1"  />
+      <point id="2" x="t2"              y="0"               nx="1"  ny="0"  />
+      <point id="3" x="t2"              y="0.5 * t3" 		    nx="1"  ny="0" />
+      <point id="4" x="t2"              y="t3"       		    nx="0"  ny="1"  />
+      <point id="5" x="0.5 * t2" 	      y="t3" 			        nx="0"  ny="1"  />
+      <point id="6" x="0" 		          y="t3"              nx="-1"  ny="0"  />
+      <point id="7" x="0"         	    y="0.5 * t3"        nx="-1"  ny="0"  />
+
+    </countour>
+  </template>
+  <Frame_Section_Properties_01_-_General>
+    <SectionName SectionName="6MTD10" Shape="Box/Tube" t2="0.127" t3="0.1524" tw="0.00342" tf="0.00342" t2b="0" tfb="0" dis="0"
+        Area="2.212E-03" TorsConst="1.289E-05" I33="1.298E-05" I22="6.297E-06" AS2="1.390E-03" AS3="8.687E-04" S33="1.278E-04" S22="9.916E-05" Z33="1.527E-04" Z22="1.106E-04" R33="7.660E-02" R22="5.340E-02">
+      <vars>
+        <var id="t2" value="0.127" />
+        <var id="t3" value="0.1524" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="6MTD12" Shape="Box/Tube" t2="0.127" t3="0.1524" tw="0.00266" tf="0.00266" t2b="0" tfb="0" dis="0"
+        Area="1.728E-03" TorsConst="1.018E-05" I33="1.023E-05" I22="4.978E-06" AS2="1.081E-03" AS3="6.756E-04" S33="1.007E-04" S22="7.839E-05" Z33="1.198E-04" Z22="8.690E-05" R33="7.690E-02" R22="5.370E-02">
+      <vars>
+        <var id="t2" value="0.127" />
+        <var id="t3" value="0.1524" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="6MTD14" Shape="Box/Tube" t2="0.127" t3="0.1524" tw="0.0019" tf="0.0019" t2b="0" tfb="0" dis="0"
+        Area="1.240E-03" TorsConst="7.383E-06" I33="7.400E-06" I22="3.613E-06" AS2="7.722E-04" AS3="4.826E-04" S33="7.283E-05" S22="5.690E-05" Z33="8.635E-05" Z22="6.272E-05" R33="7.720E-02" R22="5.400E-02">
+      <vars>
+        <var id="t2" value="0.127" />
+        <var id="t3" value="0.1524" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="8MTD10" Shape="Box/Tube" t2="0.1524" t3="0.2032" tw="0.00342" tf="0.00342" t2b="0" tfb="0" dis="0"
+        Area="2.386E-03" TorsConst="1.737E-05" I33="1.472E-05" I22="9.471E-06" AS2="1.390E-03" AS3="1.042E-03" S33="1.449E-04" S22="1.243E-04" Z33="1.701E-04" Z22="1.398E-04" R33="7.850E-02" R22="6.300E-02">
+      <vars>
+        <var id="t2" value="0.1524" />
+        <var id="t3" value="0.2032" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="8MTD12" Shape="Box/Tube" t2="0.1524" t3="0.2032" tw="0.00266" tf="0.00266" t2b="0" tfb="0" dis="0"
+        Area="1.863E-03" TorsConst="1.370E-05" I33="1.159E-05" I22="7.471E-06" AS2="1.081E-03" AS3="8.108E-04" S33="1.140E-04" S22="9.804E-05" Z33="1.334E-04" Z22="1.097E-04" R33="7.890E-02" R22="6.330E-02">
+      <vars>
+        <var id="t2" value="0.1524" />
+        <var id="t3" value="0.2032" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="8MTD14" Shape="Box/Tube" t2="0.1524" t3="0.2032" tw="0.0019" tf="0.0019" t2b="0" tfb="0" dis="0"
+        Area="1.337E-03" TorsConst="9.914E-06" I33="8.378E-06" I22="5.412E-06" AS2="7.722E-04" AS3="5.791E-04" S33="8.246E-05" S22="7.102E-05" Z33="9.606E-05" Z22="7.908E-05" R33="7.920E-02" R22="6.360E-02">
+      <vars>
+        <var id="t2" value="0.1524" />
+        <var id="t3" value="0.2032" />
+      </vars>
+    </SectionName>
+  </Frame_Section_Properties_01_-_General>
+</sections>

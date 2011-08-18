@@ -1,0 +1,1465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{080446FF-A775-41A2-8FC8-F7DA2856E8D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Canguro</RootNamespace>
+    <AssemblyName>TreuStructure</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>Treu.ico</ApplicationIcon>
+    <StartupObject>Canguro.Program</StartupObject>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/TreuStructure/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>7.11.09.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Debug\TreuStructure.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Debug\TreuStructure.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\TreuStructure.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\TreuStructure.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analysis\AreaDeformationCalculator.cs" />
+    <Compile Include="Analysis\LineDeformationCalculator.cs" />
+    <Compile Include="Analysis\LineStressCalculator.cs" />
+    <Compile Include="Analysis\ModelCalculator.cs" />
+    <Compile Include="Analysis\StressHelper.cs" />
+    <Compile Include="BodyConstraint.cs" />
+    <Compile Include="Commands\ColorLinesByAssignment.cs" />
+    <Compile Include="Commands\ColorLinesByLayer.cs" />
+    <Compile Include="Commands\ColorLinesByMaterial.cs" />
+    <Compile Include="Commands\ColorLinesBySection.cs" />
+    <Compile Include="Commands\ConstraintsCmd.cs" />
+    <Compile Include="Commands\DiaphragmsCmd.cs" />
+    <Compile Include="Commands\ExportS2kCmd.cs" />
+    <Compile Include="Commands\FlipAreaJoints.cs" />
+    <Compile Include="Commands\FlipLineJointsCmd.cs" />
+    <Compile Include="Commands\Forms\ConstraintsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\ConstraintsDialog.Designer.cs">
+      <DependentUpon>ConstraintsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\EditLoadCaseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\EditLoadCaseDialog.Designer.cs">
+      <DependentUpon>EditLoadCaseDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\PrintPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\PrintPreview.Designer.cs">
+      <DependentUpon>PrintPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\RegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\ReportOptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\ReportOptionsDialog.Designer.cs">
+      <DependentUpon>ReportOptionsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\ViewSpectrumDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\ViewSpectrumDialog.Designer.cs">
+      <DependentUpon>ViewSpectrumDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\InquiryDistance.cs" />
+    <Compile Include="Commands\PrintCmd.cs" />
+    <Compile Include="Commands\PrintPreviewCmd.cs" />
+    <Compile Include="Commands\SaveScreenshot.cs" />
+    <Compile Include="Commands\SelectConnectedCmd.cs" />
+    <Compile Include="Commands\SelectLineCmd.cs" />
+    <Compile Include="Commands\TemperatureGradientLineLoadCmd.cs" />
+    <Compile Include="Commands\TriangleLineLoadCmd.cs" />
+    <Compile Include="Controller\Grid\CardinalPointControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\Grid\CardinalPointControl.Designer.cs">
+      <DependentUpon>CardinalPointControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Grid\GridViewConstraintComboCell.cs" />
+    <Compile Include="Controller\Grid\GridViewConstraintComboColumn.cs" />
+    <Compile Include="Controller\Grid\JointConstraintControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\Grid\JointConstraintControl.Designer.cs">
+      <DependentUpon>JointConstraintControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Grid\EndOffsetsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\Grid\EndOffsetsControl.Designer.cs">
+      <DependentUpon>EndOffsetsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Grid\GridViewLocalizedEnumComboCell.cs" />
+    <Compile Include="Controller\Grid\GridViewLocalizedEnumComboColumn.cs">
+    </Compile>
+    <Compile Include="Controller\Grid\NewConstraintDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Grid\NewConstraintDialog.Designer.cs">
+      <DependentUpon>NewConstraintDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Grid\SelectSimilarCmd.cs" />
+    <Compile Include="Controller\SelectionFilter.cs" />
+    <Compile Include="Controller\Tracking\ITrackingHelper.cs" />
+    <Compile Include="Controller\Tracking\RectangleHelper.cs" />
+    <Compile Include="Model\AreaSprings.cs" />
+    <Compile Include="Model\IModel.cs" />
+    <Compile Include="Model\Sections\AreaSection.cs" />
+    <Compile Include="Model\Sections\AsolidSection.cs" />
+    <Compile Include="Model\Sections\PlaneSection.cs" />
+    <Compile Include="Model\Sections\PlaneType.cs" />
+    <Compile Include="Model\Sections\ShellDesignParams.cs" />
+    <Compile Include="Model\Sections\ShellLayeredSection.cs" />
+    <Compile Include="Model\Sections\ShellRebarLayouts.cs" />
+    <Compile Include="Model\Sections\ShellType.cs" />
+    <Compile Include="Model\CardinalPoint.cs" />
+    <Compile Include="Model\INamed.cs" />
+    <Compile Include="Model\LineEndOffsets.cs" />
+    <Compile Include="Model\ListChangedEventArgs.cs" />
+    <Compile Include="Model\Loads\AutoLoad.cs" />
+    <Compile Include="Model\Loads\AutoQuakeLoad.cs" />
+    <Compile Include="Model\Loads\AutoRCDFWindLoad.cs" />
+    <Compile Include="Model\Loads\AutoUBC97QuakeLoad.cs" />
+    <Compile Include="Model\Loads\AutoUBC97WindLoad.cs" />
+    <Compile Include="Model\Loads\AutoWindLoad.cs" />
+    <Compile Include="Model\Loads\DirectionalLineLoad.cs" />
+    <Compile Include="Model\Loads\NoAutoLoad.cs" />
+    <Compile Include="Model\Loads\NonLinearParams.cs" />
+    <Compile Include="Model\Loads\PDeltaCaseProps.cs" />
+    <Compile Include="Model\Serializer\XmlStreamWriter.cs" />
+    <Compile Include="Utility\AnalysisUtils.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\ColorUtils.cs" />
+    <Compile Include="Utility\DistancedItem.cs" />
+    <Compile Include="Utility\GeometricUtils.cs" />
+    <Compile Include="View\LODClassifier.cs" />
+    <Compile Include="View\IndexBufferData.cs" />
+    <Compile Include="Controller\Tracking\HoverPainter.cs" />
+    <Compile Include="View\Printer.cs" />
+    <Compile Include="View\Renderer\DeformedAreaShadedRenderer.cs" />
+    <Compile Include="View\Renderer\DeformedAreaWireframeRenderer.cs" />
+    <Compile Include="View\Renderer\StressWireframeLineRenderer.cs" />
+    <Compile Include="View\Reports\ConstraintWrapper.cs" />
+    <Compile Include="View\Reports\DataReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\Reports\DataSubreport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSubreport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\Reports\MaterialAmountWrapper.cs" />
+    <Compile Include="View\Reports\SteelDesignPMMWrapper.cs" />
+    <Compile Include="View\Reports\ReportOptions.cs" />
+    <Compile Include="View\Reports\SteelDesignShearWrapper.cs" />
+    <Compile Include="View\VertexBufferData.cs" />
+    <Compile Include="View\Gadgets\GadgetLocator.cs" />
+    <Compile Include="View\PositionNormalColoredPackage.cs" />
+    <Compile Include="View\PositionColoredPackage.cs" />
+    <Compile Include="View\ResourcePackage.cs" />
+    <Compile Include="View\Renderer\GadgetRenderer.cs" />
+    <Compile Include="View\Gadgets\GadgetService.cs" />
+    <Compile Include="View\Gadgets\GadgetType.cs" />
+    <Compile Include="View\Gadgets\AreaGadgetService.cs" />
+    <Compile Include="Commands\ActivateLayerCmd.cs" />
+    <Compile Include="Commands\ArcCircularCmd.cs" />
+    <Compile Include="Commands\CopyPasteCmd.cs" />
+    <Compile Include="Commands\CreateXMLCmd.cs" />
+    <Compile Include="Commands\ExportXMLCmd.cs" />
+    <Compile Include="Commands\Forms\AddCredit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\AddCredit.Designer.cs">
+      <DependentUpon>AddCredit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\AnalysisOptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\AnalysisOptionsDialog.Designer.cs">
+      <DependentUpon>AnalysisOptionsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\CommandToolbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\CommandToolbox.Designer.cs">
+      <DependentUpon>CommandToolbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\EditDesignOptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\EditDesignOptionsDialog.Designer.cs">
+      <DependentUpon>EditDesignOptionsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\LoadCombinationsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\LoadCombinationsDialog.Designer.cs">
+      <DependentUpon>LoadCombinationsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\LoginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\LoginDialog.Designer.cs">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\MaterialsGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\MaterialsGUI.Designer.cs">
+      <DependentUpon>MaterialsGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\SectionsGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\Forms\SectionsGUI.Designer.cs">
+      <DependentUpon>SectionsGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\Forms\WizardControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Commands\HideDiagrams.cs" />
+    <Compile Include="Commands\HideLayerCmd.cs" />
+    <Compile Include="Commands\HideSelectionCmd.cs" />
+    <Compile Include="Commands\IntersectCmd.cs" />
+    <Compile Include="Commands\InvertSelectionCmd.cs" />
+    <Compile Include="Commands\JoinCmd.cs" />
+    <Compile Include="Commands\LineStripCmd.cs" />
+    <Compile Include="Commands\MakeReportCmd.cs" />
+    <Compile Include="Commands\MaterialsCmd.cs" />
+    <Compile Include="Commands\MoveToLayerCmd.cs" />
+    <Compile Include="Commands\OpenModelCmd.cs" />
+    <Compile Include="Commands\SaveAsCmd.cs" />
+    <Compile Include="Commands\SaveModelCmd.cs" />
+    <Compile Include="Commands\SectionsCmd.cs" />
+    <Compile Include="Commands\SelectAllCmd.cs" />
+    <Compile Include="Commands\SelectLayerCmd.cs" />
+    <Compile Include="Commands\ShowAll.cs" />
+    <Compile Include="Commands\ShowLayerCmd.cs" />
+    <Compile Include="Commands\SplitCmd.cs" />
+    <Compile Include="Commands\UniformLineLoadCmd.cs" />
+    <Compile Include="Commands\UnselectCmd.cs" />
+    <Compile Include="Commands\ZoomIn.cs" />
+    <Compile Include="Commands\ZoomOut.cs" />
+    <Compile Include="Controller\Credentials.cs" />
+    <Compile Include="Controller\Grid\GridViewSingleCell.cs" />
+    <Compile Include="Controller\Grid\GridViewSingleColumn.cs" />
+    <Compile Include="Controller\PropertyGrid\PropertyEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\Snap\LineMagnetsCollection.cs" />
+    <Compile Include="Controller\Snap\PointMagnetsCollection.cs" />
+    <Compile Include="Controller\Snap\LineMagnetType.cs" />
+    <Compile Include="Controller\Snap\PointMagnetType.cs" />
+    <Compile Include="Controller\Snap\SnapPainter.cs" />
+    <Compile Include="Controller\Snap\AreaMagnet.cs" />
+    <Compile Include="Commands\GetResultsCmd.cs" />
+    <Compile Include="Commands\MoveCmd.cs" />
+    <Compile Include="Commands\TestCmd.cs" />
+    <Compile Include="Controller\Grid\AssignedLoadsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\Grid\AssignedLoadsControl.Designer.cs">
+      <DependentUpon>AssignedLoadsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Grid\GridViewItemCell.cs" />
+    <Compile Include="Controller\Grid\GridViewJointDOFCell.cs" />
+    <Compile Include="Controller\Grid\GridViewPopupCell.cs" />
+    <Compile Include="Controller\Grid\GridViewPopupColumn.cs" />
+    <Compile Include="Controller\Grid\GridViewSingleArrayCell.cs" />
+    <Compile Include="Controller\Grid\GridViewSingleArrayColumn.cs" />
+    <Compile Include="Controller\Grid\GridViewStraightFrameCell.cs" />
+    <Compile Include="Controller\Grid\GridViewTextBoxCellTemplateColumn.cs" />
+    <Compile Include="Controller\Grid\IPopupGridControl.cs">
+    </Compile>
+    <Compile Include="Controller\Grid\JointDOFControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\Grid\JointDOFControl.Designer.cs">
+      <DependentUpon>JointDOFControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Grid\LoadEditFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Grid\LoadEditFrm.Designer.cs">
+      <DependentUpon>LoadEditFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Grid\PopupCellEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\Grid\SectionsTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\Grid\SectionsTreeView.Designer.cs">
+      <DependentUpon>SectionsTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Grid\StraightFrameControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\Grid\StraightFrameControl.Designer.cs">
+      <DependentUpon>StraightFrameControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PropertyGrid\FrameSectionEditor.cs" />
+    <Compile Include="Controller\PropertyGrid\FrameSectionFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\PropertyGrid\FrameSectionFrm.Designer.cs">
+      <DependentUpon>FrameSectionFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PropertyGrid\FrameSectionConverter.cs" />
+    <Compile Include="Controller\UpdateAreaEvent.cs" />
+    <Compile Include="View\Gadgets\GadgetManager.cs" />
+    <Compile Include="GridWrappers.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\Snap\Magnet.cs" />
+    <Compile Include="Controller\Snap\LineMagnet.cs" />
+    <Compile Include="Controller\Tracking\HoverController.cs" />
+    <Compile Include="Controller\ItemTextBuilder.cs" />
+    <Compile Include="View\Gadgets\LineGadgetService.cs" />
+    <Compile Include="Model\Design\ACI318_02.cs" />
+    <Compile Include="Model\Design\AluminumDesignOptions.cs" />
+    <Compile Include="Model\Design\ASD01.cs" />
+    <Compile Include="Model\Design\ColdFormedDesignOptions.cs" />
+    <Compile Include="Model\Design\ConcreteDesignOptions.cs" />
+    <Compile Include="Model\Design\DesignOptions.cs" />
+    <Compile Include="Model\Design\LRFD99.cs" />
+    <Compile Include="Model\Design\NoDesign.cs" />
+    <Compile Include="Model\Design\RCDF2001.cs" />
+    <Compile Include="Model\Design\SteelDesignOptions.cs" />
+    <Compile Include="Model\Design\UBC97_ASD.cs" />
+    <Compile Include="Model\Design\UBC97_Conc.cs" />
+    <Compile Include="Model\Design\UBC97_LRFD.cs" />
+    <Compile Include="Model\Loads\AccelLoad.cs" />
+    <Compile Include="Model\Loads\AnalysisCaseAppliedLoad.cs" />
+    <Compile Include="Model\Loads\ModalCaseFactor.cs" />
+    <Compile Include="Model\Loads\ResponseSpectrumCaseFactor.cs" />
+    <Compile Include="Model\Loads\StaticCaseFactor.cs" />
+    <Compile Include="Model\ManagedDictionary.cs" />
+    <Compile Include="Model\ManagedList.cs" />
+    <Compile Include="Model\ModelAttributes.cs" />
+    <Compile Include="Model\Loads\ResponseSpectrum.cs" />
+    <Compile Include="Model\ModelSummary.cs" />
+    <Compile Include="Model\Results\DownloadProgress.cs" />
+    <Compile Include="Model\Results\DownloadProps.cs" />
+    <Compile Include="Model\Results\ModalLPRRow.cs" />
+    <Compile Include="Model\Results\ResultsCase.cs" />
+    <Compile Include="Controller\Snap\PointMagnet.cs" />
+    <Compile Include="Model\Results\ResultsCasesList.cs" />
+    <Compile Include="Model\Results\ResultsPath.cs" />
+    <Compile Include="Model\Sections\CustomSection.cs" />
+    <Compile Include="Model\Serializer\AbstractCaseSerializer.cs" />
+    <Compile Include="Model\Serializer\AreaSerializer.cs" />
+    <Compile Include="Model\Serializer\Deserializer.cs" />
+    <Compile Include="Model\Serializer\JointSerializer.cs" />
+    <Compile Include="Model\Serializer\LayerSerializer.cs" />
+    <Compile Include="Model\Serializer\LineSerializer.cs" />
+    <Compile Include="Model\Serializer\LoadCaseSerializer.cs" />
+    <Compile Include="Model\Serializer\ModelRepairer.cs" />
+    <Compile Include="Model\Serializer\ModelSerializer.cs" />
+    <Compile Include="Model\Serializer\ResultsDeserializer.cs" />
+    <Compile Include="Model\Serializer\ResultsSerializer.cs" />
+    <Compile Include="Model\Serializer\Serializer.cs" />
+    <Compile Include="Model\Undo\ChangeCatalogAction.cs" />
+    <Compile Include="PreferencesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreferencesDialog.Designer.cs">
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Gadgets\Gadget.cs" />
+    <Compile Include="View\Gadgets\PointGadgetService.cs" />
+    <Compile Include="View\Presenter.cs" />
+    <Compile Include="RuntimeData\GeneralReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GeneralReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\CommonAxes.cs" />
+    <Compile Include="Utility\CultureAttributes.cs" />
+    <Compile Include="Utility\CultureDescriptors.cs" />
+    <Compile Include="Utility\NativeMethods.cs" />
+    <Compile Include="Properties\SectionResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SectionResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\NativeHelperMethods.cs" />
+    <Compile Include="Utility\ReverseComparer.cs" />
+    <Compile Include="Utility\Updater.cs" />
+    <Compile Include="View\ArcBall.cs" />
+    <Compile Include="Exceptions\CancelCommandException.cs" />
+    <Compile Include="View\EnterDataEventArgs.cs" />
+    <Compile Include="View\Renderer\DeformedLineShadedRenderer.cs" />
+    <Compile Include="View\Renderer\DeformedLineWireframeRenderer.cs" />
+    <Compile Include="View\Renderer\ElementForcesRenderer.cs" />
+    <Compile Include="Analysis\Extrusion.cs" />
+    <Compile Include="View\Renderer\RenderOptions.cs" />
+    <Compile Include="View\Reports\AnalysisCaseWrapper.cs" />
+    <Compile Include="View\Reports\AssembledJointMassesWrapper.cs" />
+    <Compile Include="View\Reports\BaseReactionsWrapper.cs" />
+    <Compile Include="View\Reports\ConcreteBeamDesignWrapper.cs" />
+    <Compile Include="View\Reports\ConcreteColumnDesignWrapper.cs" />
+    <Compile Include="View\Reports\DesignOptionsWrapper.cs" />
+    <Compile Include="View\Reports\ElementJointForcesWrapper.cs" />
+    <Compile Include="View\Reports\GeneralReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GeneralReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="View\Reports\GroundDisplacementWrapper.cs" />
+    <Compile Include="View\Reports\ItemWrapper.cs" />
+    <Compile Include="View\Reports\JointAccelerationsWrapper.cs" />
+    <Compile Include="View\Reports\JointDisplacementsWrapper.cs" />
+    <Compile Include="View\Reports\JointForcesWrapper.cs" />
+    <Compile Include="View\Reports\JointMassesWrapper.cs" />
+    <Compile Include="View\Reports\JointReactionsWrapper.cs" />
+    <Compile Include="View\Reports\JointVelocitiesWrapper.cs" />
+    <Compile Include="View\Reports\JointWrapper.cs" />
+    <Compile Include="View\Reports\LineConcentratedForcesWrapper.cs" />
+    <Compile Include="View\Reports\LineDistributedForcesWrapper.cs" />
+    <Compile Include="View\Reports\LineWrapper.cs" />
+    <Compile Include="View\Reports\LoadCaseWrapper.cs" />
+    <Compile Include="View\Reports\LoadCombinationWrapper.cs" />
+    <Compile Include="View\Reports\MaterialWrapper.cs" />
+    <Compile Include="View\Reports\ModalLPRWrapper.cs" />
+    <Compile Include="View\Reports\ModalPeriodsWrapper.cs" />
+    <Compile Include="View\Reports\ModalPFWrapper.cs" />
+    <Compile Include="View\Reports\ModalPMRWrapper.cs" />
+    <Compile Include="View\Reports\ReportData.cs" />
+    <Compile Include="View\Reports\ReportsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Reports\ReportsWindow.Designer.cs">
+      <DependentUpon>ReportsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Reports\ResponseSpectrumMIWrapper.cs" />
+    <Compile Include="View\Reports\SectionWrapper.cs" />
+    <Compile Include="View\Reports\SteelDesignWrapper.cs" />
+    <Compile Include="View\ResourceStreamType.cs" />
+    <Compile Include="View\SmallPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\Renderer\ItemRenderer.cs" />
+    <Compile Include="Model\Undo\AddDelListAction.cs" />
+    <Compile Include="Culture.cs" />
+    <Compile Include="Model\Element.cs" />
+    <Compile Include="Exceptions\InvalidCallException.cs" />
+    <Compile Include="Exceptions\InvalidItemException.cs" />
+    <Compile Include="Exceptions\ModelIsLockedException.cs" />
+    <Compile Include="Exceptions\LayerNotFoundException.cs" />
+    <Compile Include="Exceptions\InvalidIndexException.cs" />
+    <Compile Include="Exceptions\NoDirectXSupportException.cs" />
+    <Compile Include="View\ResourceManager.cs" />
+    <Compile Include="View\ScenePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Controller\CommandPanelParams.cs" />
+    <Compile Include="Model\Loads\AbstractCaseFactor.cs" />
+    <Compile Include="Model\Loads\LineForceComponent.cs" />
+    <Compile Include="Model\Undo\ActionList.cs" />
+    <Compile Include="Model\Undo\AddDelAction.cs" />
+    <Compile Include="Model\Sections\ConcreteBeamSectionProps.cs" />
+    <Compile Include="Model\Sections\ConcreteColumnSectionProps.cs" />
+    <Compile Include="Model\Sections\ConcreteSectionProps.cs" />
+    <Compile Include="Model\Results\AluminiumDesign1.cs" />
+    <Compile Include="Model\Results\ConcreteDesign.cs" />
+    <Compile Include="Model\Results\DesignOpt.cs" />
+    <Compile Include="Model\Results\DesignRatioType.cs" />
+    <Compile Include="Model\Results\DesignStatus.cs" />
+    <Compile Include="Model\Results\DesignType.cs" />
+    <Compile Include="Model\Materials\AnisotropicTypeProps.cs" />
+    <Compile Include="Model\Loads\AssignedAreaLoads.cs" />
+    <Compile Include="Model\Loads\AssignedJointLoads.cs" />
+    <Compile Include="Model\Loads\AssignedLineLoads.cs" />
+    <Compile Include="Commands\AddAnalysisCaseCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddLoadCaseCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddLoadCombinationCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AnalysisCmd.cs">
+    </Compile>
+    <Compile Include="Commands\Add3DTrussCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddAreaCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddConcentratedSpanLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddCylinderCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddDistributedSpanLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddDomeCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddForceLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddGravityAreaLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddGravityLineLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddGridCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddJointCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddLayerCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddLineCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddPorePressureAreaLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddRestraintDisplacementLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddSpringDisplacementLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddSurfacePressureAreaLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddTemperatureAreaLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddTemperatureLineLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddTendonPrestressAreaLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddTendonPrestressLineLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\AddUniformLoadCmd.cs">
+    </Compile>
+    <Compile Include="Commands\Animation.cs" />
+    <Compile Include="Commands\ArrayCmd.cs">
+    </Compile>
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Controller\CommandServices.cs" />
+    <Compile Include="Controller\Controller.cs">
+    </Compile>
+    <Compile Include="Commands\ModelCommand.cs">
+    </Compile>
+    <Compile Include="Commands\ViewCommand.cs" />
+    <Compile Include="Controller\Snap\SnapController.cs" />
+    <Compile Include="Controller\TrackingController.cs" />
+    <Compile Include="Controller\Tracking\LineTrackingService.cs" />
+    <Compile Include="Commands\Pan.cs" />
+    <Compile Include="Controller\Tracking\PolygonTrackingService.cs" />
+    <Compile Include="Commands\PredefinedXY.cs" />
+    <Compile Include="Commands\PredefinedXYZ.cs" />
+    <Compile Include="Commands\PredefinedXZ.cs" />
+    <Compile Include="Commands\PredefinedYZ.cs" />
+    <Compile Include="Controller\Tracking\RectangleTrackingService.cs" />
+    <Compile Include="Commands\Stereo.cs" />
+    <Compile Include="Commands\Trackball3D.cs" />
+    <Compile Include="Controller\Tracking\VectorTrackingService.cs" />
+    <Compile Include="Commands\CopyCmd.cs">
+    </Compile>
+    <Compile Include="Commands\CutCmd.cs">
+    </Compile>
+    <Compile Include="Commands\MirrorCmd.cs">
+    </Compile>
+    <Compile Include="Commands\PasteCmd.cs">
+    </Compile>
+    <Compile Include="Commands\PolarArrayCmd.cs">
+    </Compile>
+    <Compile Include="Commands\RedoCmd.cs">
+    </Compile>
+    <Compile Include="Commands\RenderDeformed.cs" />
+    <Compile Include="Commands\RenderLoads.cs" />
+    <Compile Include="Commands\RenderM1.cs" />
+    <Compile Include="Commands\RenderM2.cs" />
+    <Compile Include="Commands\RenderM3.cs" />
+    <Compile Include="Commands\RenderShaded.cs" />
+    <Compile Include="Commands\RenderStress.cs" />
+    <Compile Include="Commands\RenderS1.cs" />
+    <Compile Include="Commands\RenderS2.cs" />
+    <Compile Include="Commands\RenderS3.cs" />
+    <Compile Include="Commands\RotateCmd.cs">
+    </Compile>
+    <Compile Include="Commands\ScaleCmd.cs">
+    </Compile>
+    <Compile Include="Commands\UndoCmd.cs">
+    </Compile>
+    <Compile Include="Commands\DeleteCmd.cs">
+    </Compile>
+    <Compile Include="Commands\DeleteLayer.cs">
+    </Compile>
+    <Compile Include="Commands\EditCmd.cs">
+    </Compile>
+    <Compile Include="Commands\EditLayerCmd.cs">
+    </Compile>
+    <Compile Include="Commands\NewModelWizard.cs">
+    </Compile>
+    <Compile Include="Commands\DeleteAbstractCaseCmd.cs">
+    </Compile>
+    <Compile Include="Commands\DeleteLoadCaseCmd.cs">
+    </Compile>
+    <Compile Include="Commands\EditAbstractCaseCmd.cs">
+    </Compile>
+    <Compile Include="Commands\EditLoadCaseCmd.cs">
+    </Compile>
+    <Compile Include="Commands\ExportDXFCmd.cs">
+    </Compile>
+    <Compile Include="Commands\ExportIFCCmd.cs">
+    </Compile>
+    <Compile Include="Commands\ExportMDBCmd.cs">
+    </Compile>
+    <Compile Include="Commands\ImportDXFCmd.cs">
+    </Compile>
+    <Compile Include="Commands\ImportIFCCmd.cs">
+    </Compile>
+    <Compile Include="Model\Materials\IsotropicTypeProps.cs" />
+    <Compile Include="Model\JointDOF.cs" />
+    <Compile Include="Model\Materials\MaterialTypeProps.cs" />
+    <Compile Include="Model\EnglishSystem.cs" />
+    <Compile Include="Model\InternationalSystem.cs" />
+    <Compile Include="Model\MetricSystem.cs" />
+    <Compile Include="Model\UnitSystem.cs" />
+    <Compile Include="Model\UnitSystemsManager.cs" />
+    <Compile Include="Model\Materials\OrthotropicTypeProps.cs" />
+    <Compile Include="Model\PointLink.cs" />
+    <Compile Include="Model\Materials\UniaxialTypeProps.cs" />
+    <Compile Include="Model\Results\SteelDesign.cs" />
+    <Compile Include="Model\Undo\ChangeAction.cs" />
+    <Compile Include="Model\Undo\Undoable.cs" />
+    <Compile Include="Commands\Selection.cs" />
+    <Compile Include="View\GraphicViewManager.cs" />
+    <Compile Include="Controller\Tracking\TrackingService.cs" />
+    <Compile Include="View\Renderer\AreaRenderer.cs" />
+    <Compile Include="View\Renderer\LoadRenderer.cs" />
+    <Compile Include="View\Renderer\ShadedAreaRenderer.cs" />
+    <Compile Include="View\Renderer\ShadedLineRenderer.cs" />
+    <Compile Include="View\Renderer\SimpleLoadRenderer.cs" />
+    <Compile Include="View\Renderer\SimpleModelRenderer.cs" />
+    <Compile Include="View\Renderer\StressAreaRenderer.cs" />
+    <Compile Include="View\Renderer\StressLineRenderer.cs" />
+    <Compile Include="View\GraphicView.cs" />
+    <Compile Include="Controller\Grid\GridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\Renderer\JointRenderer.cs" />
+    <Compile Include="View\Renderer\LineRenderer.cs" />
+    <Compile Include="View\Renderer\ModelRenderer.cs" />
+    <Compile Include="View\ModelObserver.cs" />
+    <Compile Include="Model\MaterialManager.cs" />
+    <Compile Include="Model\Loads\AreaLoad.cs" />
+    <Compile Include="Model\Loads\ConcentratedSpanLoad.cs" />
+    <Compile Include="Model\Loads\DistributedSpanLoad.cs" />
+    <Compile Include="Model\Loads\ForceLoad.cs" />
+    <Compile Include="Model\Loads\GravityAreaLoad.cs" />
+    <Compile Include="Model\Loads\GravityLineLoad.cs" />
+    <Compile Include="Model\Loads\JointLoad.cs" />
+    <Compile Include="Model\Loads\LineLoad.cs" />
+    <Compile Include="Model\Loads\AssignedLoads.cs" />
+    <Compile Include="Model\Loads\BucklingCaseProps.cs" />
+    <Compile Include="Model\Constraint.cs" />
+    <Compile Include="Model\Loads\ModalCaseProps.cs" />
+    <Compile Include="Model\Loads\AbstractCase.cs" />
+    <Compile Include="Model\Loads\AnalysisCase.cs" />
+    <Compile Include="Model\Loads\AnalysisCaseProps.cs" />
+    <Compile Include="Model\Loads\LoadCase.cs" />
+    <Compile Include="Model\Loads\LoadCombination.cs" />
+    <Compile Include="Model\Loads\Load.cs" />
+    <Compile Include="Model\Materials\AluminumDesignProps.cs" />
+    <Compile Include="Model\Sections\Angle.cs" />
+    <Compile Include="Model\AreaElement.cs" />
+    <Compile Include="Model\AreaProps.cs" />
+    <Compile Include="Model\Sections\ShellSection.cs" />
+    <Compile Include="Model\Sections\BoxTube.cs" />
+    <Compile Include="Model\Sections\BUICoverPlate.cs" />
+    <Compile Include="Model\CableProps.cs" />
+    <Compile Include="Model\Sections\CableSection.cs" />
+    <Compile Include="Model\Sections\Channel.cs" />
+    <Compile Include="Model\Sections\Circle.cs" />
+    <Compile Include="Model\Sections\ColdFormedC.cs" />
+    <Compile Include="Model\Sections\ColdFormedDesignProps.cs" />
+    <Compile Include="Model\Sections\ColdFormedHat.cs" />
+    <Compile Include="Model\Sections\ColdFormedZ.cs" />
+    <Compile Include="Model\Materials\ConcreteDesignProps.cs" />
+    <Compile Include="Model\CurvedFrameProps.cs" />
+    <Compile Include="Model\Sections\DoubleAngle.cs" />
+    <Compile Include="Model\Sections\DoubleChannel.cs" />
+    <Compile Include="Model\Sections\FrameSection.cs" />
+    <Compile Include="Model\Sections\General.cs" />
+    <Compile Include="Model\Sections\IWideFlange.cs" />
+    <Compile Include="Model\Layer.cs" />
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\ItemList.cs" />
+    <Compile Include="Model\Joint.cs" />
+    <Compile Include="Model\LineElement.cs" />
+    <Compile Include="Model\LineLinkProps.cs" />
+    <Compile Include="Model\LineProps.cs" />
+    <Compile Include="Model\Materials\Material.cs" />
+    <Compile Include="Model\Materials\MaterialDesignProps.cs" />
+    <Compile Include="Model\Model.cs" />
+    <Compile Include="Model\Materials\NoDesignProps.cs" />
+    <Compile Include="Model\Sections\PCConcIGirder.cs" />
+    <Compile Include="Model\Sections\Pipe.cs" />
+    <Compile Include="Model\Loads\MovingLoadCaseProps.cs" />
+    <Compile Include="Model\Loads\MultistepStaticCaseProps.cs" />
+    <Compile Include="Model\Loads\PowerSpectalDensityCaseProps.cs" />
+    <Compile Include="Model\Loads\PorePressureAreaLoad.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Diagrams\Controller.cd" />
+    <None Include="Diagrams\ModelExpanded.cd" />
+    <None Include="Diagrams\ViewCommands.cd" />
+    <None Include="Diagrams\Loads.cd" />
+    <None Include="Diagrams\Materials.cd" />
+    <None Include="Diagrams\Sections.cd" />
+    <None Include="Diagrams\Model.cd" />
+    <None Include="Diagrams\ModelCommands.cd" />
+    <None Include="Diagrams\LoadCommands.cd" />
+    <None Include="Diagrams\Exceptions.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Diagrams\UnitSystems.cd" />
+    <None Include="Diagrams\Results.cd" />
+    <None Include="Diagrams\Undo.cd" />
+    <None Include="Diagrams\PropertyConverters.cd" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Model\Materials\RebarDesignProps.cs" />
+    <Compile Include="Model\Sections\Rectangular.cs" />
+    <Compile Include="Model\Sections\Section.cs" />
+    <Compile Include="Model\Materials\SteelDesignProps.cs" />
+    <Compile Include="Model\StraightFrameProps.cs" />
+    <Compile Include="Model\Sections\Tee.cs" />
+    <Compile Include="Model\TendonProps.cs" />
+    <Compile Include="Model\Loads\ResponseSpectrumCaseProps.cs" />
+    <Compile Include="Model\Results\Results.cs" />
+    <Compile Include="Model\Loads\StaticCaseProps.cs" />
+    <Compile Include="Model\Loads\SteadyStateCaseProps.cs" />
+    <Compile Include="Model\Loads\TimeHistoryCaseProps.cs" />
+    <Compile Include="Model\Loads\GroundDisplacementLoad.cs" />
+    <Compile Include="Model\Loads\SurfacePressureAreaLoad.cs" />
+    <Compile Include="Model\Loads\TemperatureAreaLoad.cs" />
+    <Compile Include="Model\Loads\TemperatureLineLoad.cs" />
+    <Compile Include="Model\Loads\TendonPrestressAreaLoad.cs" />
+    <Compile Include="Model\Loads\TendonPrestressLineLoad.cs" />
+    <Compile Include="Model\Undo\UndoManager.cs" />
+    <Compile Include="Model\Loads\UniformLoad.cs" />
+    <Compile Include="Model\Catalog.cs" />
+    <Compile Include="Model\SectionManager.cs" />
+    <Compile Include="View\Renderer\WireframeAreaRenderer.cs" />
+    <Compile Include="View\Renderer\WireframeJointRenderer.cs" />
+    <Compile Include="View\Renderer\WireframeLineRenderer.cs" />
+    <Compile Include="Commands\Walk.cs" />
+    <Compile Include="Commands\ZoomAll.cs" />
+    <Compile Include="Commands\ZoomInteractive.cs" />
+    <Compile Include="Commands\ZoomStep.cs" />
+    <Compile Include="Commands\ZoomPrevious.cs" />
+    <Compile Include="Commands\ZoomWindow.cs" />
+    <Compile Include="Controller\WaitingFor.cs" />
+    <Compile Include="Web References\CanguroServer\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Commands\Zoom.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Commands\Pan.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Commands\Pick.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\AddCredit.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddCredit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\AddCredit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddCredit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\AnalysisOptionsDialog.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AnalysisOptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\AnalysisOptionsDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AnalysisOptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\CommandToolbox.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommandToolbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\CommandToolbox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommandToolbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\ConstraintsDialog.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConstraintsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\ConstraintsDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConstraintsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\EditDesignOptionsDialog.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditDesignOptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\EditDesignOptionsDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditDesignOptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\EditLoadCaseDialog.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditLoadCaseDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\EditLoadCaseDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditLoadCaseDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\LoadCombinationsDialog.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoadCombinationsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\LoadCombinationsDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoadCombinationsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\LoginDialog.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\LoginDialog.resx">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\MaterialsGUI.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MaterialsGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\MaterialsGUI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MaterialsGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\PrintPreview.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\PrintPreview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\RegistrationForm.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\RegistrationForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\ReportOptionsDialog.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportOptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\ReportOptionsDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportOptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\SectionsGUI.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SectionsGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\SectionsGUI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SectionsGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\ViewSpectrumDialog.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewSpectrumDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Forms\ViewSpectrumDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewSpectrumDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\SelectDefault.cur" />
+    <EmbeddedResource Include="Controller\Grid\AssignedLoadsControl.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AssignedLoadsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\AssignedLoadsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AssignedLoadsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\CardinalPointControl.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CardinalPointControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\CardinalPointControl.resx">
+      <DependentUpon>CardinalPointControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\GridView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\JointConstraintControl.en.resx">
+      <DependentUpon>JointConstraintControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\JointConstraintControl.resx">
+      <DependentUpon>JointConstraintControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\EndOffsetsControl.en.resx">
+      <DependentUpon>EndOffsetsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\EndOffsetsControl.resx">
+      <DependentUpon>EndOffsetsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\JointDOFControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>JointDOFControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\LoadEditFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoadEditFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\NewConstraintDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewConstraintDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\SectionsTreeView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SectionsTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Grid\StraightFrameControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StraightFrameControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\PropertyGrid\FrameSectionFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrameSectionFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferencesDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\SectionResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SectionResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuntimeData\GeneralReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GeneralReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Reports\DataReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DataReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Reports\DataSubreport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DataSubreport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Reports\GeneralReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GeneralReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Reports\ReportsWindow.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Reports\ReportsWindow.resx">
+      <DependentUpon>ReportsWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%24this.Icon.ico" />
+    <None Include="Resources\3dlosa.png" />
+    <Content Include="Resources\CopyHS.png" />
+    <None Include="Diagrams\ReportWrappers.cd" />
+    <None Include="Diagrams\View.cd" />
+    <None Include="Resources\CutHS.png" />
+    <Content Include="Resources\DeleteHS.png" />
+    <Content Include="Resources\DocumentHS.png" />
+    <Content Include="Resources\Edit_RedoHS.png" />
+    <Content Include="Resources\Edit_UndoHS.png" />
+    <None Include="Resources\ICONOS\16x16\select-all.png" />
+    <None Include="Resources\ICONOS\16x16\invert-selection.png" />
+    <None Include="Resources\ICONOS\16x16\unselect.png" />
+    <None Include="Resources\ICONOS\16x16\analisis-case.png" />
+    <None Include="Resources\ICONOS\16x16\loadcase.png" />
+    <None Include="Resources\ICONOS\16x16\forceload.png" />
+    <None Include="Resources\ICONOS\16x16\grounddisplacementload.png" />
+    <None Include="Resources\ICONOS\16x16\concentrated-load.png" />
+    <None Include="Resources\ICONOS\16x16\distributedexpandload.png" />
+    <None Include="Resources\ICONOS\16x16\zoomall.png" />
+    <None Include="Resources\ICONOS\16x16\zoom.png" />
+    <None Include="Resources\ICONOS\16x16\rotate.png" />
+    <None Include="Resources\ICONOS\16x16\predefinedxy.png" />
+    <None Include="Resources\ICONOS\16x16\predefinedxz.png" />
+    <None Include="Resources\ICONOS\16x16\predefinedyz.png" />
+    <None Include="Resources\ICONOS\16x16\predefinedXyz.png" />
+    <None Include="Resources\ICONOS\16x16\zoommin.png" />
+    <None Include="Resources\ICONOS\16x16\zoomout.png" />
+    <None Include="Resources\ICONOS\16x16\zoompreviews.png" />
+    <None Include="Resources\ICONOS\16x16\3dlosa.png" />
+    <None Include="Resources\ICONOS\16x16\activate-layer.png" />
+    <None Include="Resources\ICONOS\16x16\addarea.png" />
+    <None Include="Resources\ICONOS\16x16\addlayer.png" />
+    <None Include="Resources\ICONOS\16x16\addline.png" />
+    <None Include="Resources\ICONOS\16x16\addlinestript.png" />
+    <None Include="Resources\ICONOS\16x16\adjoint.png" />
+    <None Include="Resources\ICONOS\16x16\align.png" />
+    <None Include="Resources\ICONOS\16x16\alldiagrams.png" />
+    <None Include="Resources\ICONOS\16x16\analize.png" />
+    <None Include="Resources\ICONOS\16x16\animation.png" />
+    <None Include="Resources\ICONOS\16x16\array.png" />
+    <None Include="Resources\ICONOS\16x16\CARGA-EN-GRAL.png" />
+    <None Include="Resources\ICONOS\16x16\copypaste.png" />
+    <None Include="Resources\ICONOS\16x16\cylinder.png" />
+    <None Include="Resources\ICONOS\16x16\deformed.png" />
+    <None Include="Resources\ICONOS\16x16\delete.png" />
+    <None Include="Resources\ICONOS\16x16\deletelayer.png" />
+    <None Include="Resources\ICONOS\16x16\dome.png" />
+    <None Include="Resources\ICONOS\16x16\edit.png" />
+    <None Include="Resources\ICONOS\16x16\editlayer.png" />
+    <None Include="Resources\ICONOS\16x16\export-dfx.png" />
+    <None Include="Resources\ICONOS\16x16\export-ifc.png" />
+    <None Include="Resources\ICONOS\16x16\export-mdb.png" />
+    <None Include="Resources\ICONOS\16x16\extrude.png" />
+    <None Include="Resources\ICONOS\16x16\grid.png" />
+    <None Include="Resources\ICONOS\16x16\hidediagrams.png" />
+    <None Include="Resources\ICONOS\16x16\hidelayer.png" />
+    <None Include="Resources\ICONOS\16x16\import-dfx.png" />
+    <None Include="Resources\ICONOS\16x16\import-ifc.png" />
+    <None Include="Resources\ICONOS\16x16\join.png" />
+    <None Include="Resources\ICONOS\16x16\loadcombination.png" />
+    <None Include="Resources\ICONOS\16x16\mergelines.png" />
+    <None Include="Resources\ICONOS\16x16\mirror.png" />
+    <None Include="Resources\ICONOS\16x16\modelrotate.png" />
+    <None Include="Resources\ICONOS\16x16\move.png" />
+    <None Include="Resources\ICONOS\16x16\move-to-corrent.png" />
+    <None Include="Resources\ICONOS\16x16\polarray.png" />
+    <None Include="Resources\ICONOS\16x16\scale.png" />
+    <None Include="Resources\ICONOS\16x16\select.png" />
+    <None Include="Resources\ICONOS\16x16\showall.png" />
+    <None Include="Resources\ICONOS\16x16\showaxial.png" />
+    <None Include="Resources\ICONOS\16x16\showlayer.png" />
+    <None Include="Resources\ICONOS\16x16\show-loads.png" />
+    <None Include="Resources\ICONOS\16x16\show-M1.png" />
+    <None Include="Resources\ICONOS\16x16\show-M2.png" />
+    <None Include="Resources\ICONOS\16x16\show-S1.png" />
+    <None Include="Resources\ICONOS\16x16\show-S2.png" />
+    <None Include="Resources\ICONOS\16x16\showstresses.png" />
+    <None Include="Resources\ICONOS\16x16\Showtexts.png" />
+    <None Include="Resources\ICONOS\16x16\show-torcion.png" />
+    <None Include="Resources\ICONOS\16x16\split.png" />
+    <None Include="Resources\ICONOS\16x16\view-shaded.png" />
+    <None Include="Resources\ICONOS\16x16\zoomwindow.png" />
+    <None Include="Resources\ICONOS\16x16\pan.png" />
+    <None Include="Resources\ICONOS\16x16\deleteloadcase.png" />
+    <None Include="Resources\ICONOS\16x16\editloadcase.png" />
+    <None Include="Resources\ICONOS\250x125\FORCELOAD250X125.png" />
+    <None Include="Resources\ICONOS\16x16\NewReportHS.png" />
+    <None Include="Resources\ICONOS\16x16\FillDownHS.png" />
+    <None Include="Resources\ICONOS\16x16\LegendHS.png" />
+    <None Include="Resources\ICONOS\16x16\add.png" />
+    <None Include="Resources\ICONOS\32x32\edit.png" />
+    <None Include="Resources\ICONOS\32x32\delete.png" />
+    <None Include="Resources\ICONOS\32x32\add.png" />
+    <None Include="Resources\ICONOS\32x32\propertiesORoptions.png" />
+    <None Include="Resources\ICONOS\16x16\RestraintAll.png" />
+    <None Include="Resources\ICONOS\16x16\RestraintFree.png" />
+    <None Include="Resources\ICONOS\16x16\RestraintTrans.png" />
+    <None Include="Resources\ICONOS\16x16\RestraintTransZ.png" />
+    <None Include="Resources\ICONOS\16x16\Materials.png" />
+    <None Include="Resources\ICONOS\16x16\sections.png" />
+    <None Include="Resources\ICONOS\16x16\Design.png" />
+    <None Include="Resources\ICONOS\16x16\Intersect.png" />
+    <None Include="Resources\ICONOS\16x16\arc.png" />
+    <None Include="Resources\ICONOS\16x16\selectsimilar.png" />
+    <None Include="Resources\ICONOS\16x16\selectline.png" />
+    <None Include="Resources\ICONOS\16x16\norelease.png" />
+    <None Include="Resources\ICONOS\16x16\momentrelease.png" />
+    <None Include="Resources\ICONOS\16x16\axialrelease.png" />
+    <None Include="Resources\ICONOS\16x16\jointReactionsTexts.png" />
+    <None Include="Resources\ICONOS\16x16\jointreactions.png" />
+    <None Include="Resources\ICONOS\16x16\colors.png" />
+    <None Include="Resources\ICONOS\16x16\flipline.png" />
+    <None Include="Resources\ICONOS\16x16\propertiesORoptions.png" />
+    <None Include="Resources\ICONOS\16x16\distance.png" />
+    <None Include="Resources\ICONOS\16x16\PrintHS.png" />
+    <None Include="Resources\ICONOS\16x16\PrintPreviewHS.png" />
+    <None Include="Resources\ICONOS\16x16\temperatureGradientLineLoad.png" />
+    <None Include="Resources\ICONOS\16x16\temperatureLineLoad.png" />
+    <None Include="Resources\ICONOS\16x16\triangleLineLoad.png" />
+    <None Include="Resources\ICONOS\16x16\uniformLineLoad.png" />
+    <None Include="Resources\ICONOS\16x16\export-s2k.png" />
+    <None Include="Resources\ICONOS\16x16\help.png" />
+    <None Include="Resources\ICONOS\16x16\info.png" />
+    <None Include="Resources\ICONOS\16x16\tutorial.png" />
+    <None Include="Resources\ICONOS\16x16\saveScreenshot.png" />
+    <None Include="Resources\ICONOS\16x16\constraints.png" />
+    <None Include="Resources\ICONOS\16x16\diaphragms.png" />
+    <None Include="Resources\ICONOS\16x16\selectconnected.png" />
+    <Content Include="Resources\ICONOS\250x125\concentrated-load250X125.png" />
+    <Content Include="Resources\ICONOS\250x125\distributedexpandload250X125.png" />
+    <Content Include="Resources\ICONOS\250x125\grounddisplacementload250X125.png" />
+    <None Include="Resources\ICONOS\Sections\2CSection.jpg" />
+    <None Include="Resources\ICONOS\Sections\2LSection.jpg" />
+    <None Include="Resources\ICONOS\Sections\BSection.jpg" />
+    <None Include="Resources\ICONOS\Sections\CSection.jpg" />
+    <None Include="Resources\ICONOS\Sections\ISection.jpg" />
+    <None Include="Resources\ICONOS\Sections\LSection.jpg" />
+    <None Include="Resources\ICONOS\Sections\PSection.jpg" />
+    <None Include="Resources\ICONOS\Sections\RNSection.jpg" />
+    <None Include="Resources\ICONOS\Sections\RSection.jpg" />
+    <None Include="Resources\ICONOS\Sections\TSection.jpg" />
+    <None Include="Resources\ICONOS\32x32\SaveHH.png" />
+    <None Include="Resources\ICONOS\Sections\CardinalPoint09.png" />
+    <None Include="Resources\ICONOS\Sections\CardinalPoint01.png" />
+    <None Include="Resources\ICONOS\Sections\CardinalPoint02.png" />
+    <None Include="Resources\ICONOS\Sections\CardinalPoint03.png" />
+    <None Include="Resources\ICONOS\Sections\CardinalPoint04.png" />
+    <None Include="Resources\ICONOS\Sections\CardinalPoint05.png" />
+    <None Include="Resources\ICONOS\Sections\CardinalPoint06.png" />
+    <None Include="Resources\ICONOS\Sections\CardinalPoint07.png" />
+    <None Include="Resources\ICONOS\Sections\CardinalPoint08.png" />
+    <None Include="Resources\ICONOS\Sections\CardinalPointBack.png" />
+    <Content Include="Resources\Logo16.ico" />
+    <Content Include="Resources\Logo16.png" />
+    <Content Include="Resources\NewDocumentHS.png" />
+    <Content Include="Resources\openHS.png" />
+    <Content Include="Resources\PasteHS.png" />
+    <Content Include="Resources\PlayHS.png" />
+    <Content Include="Resources\PointerHS.png" />
+    <Content Include="Resources\RepeatHS.png" />
+    <Content Include="Resources\saveHS.png" />
+    <None Include="Resources\Sections\Circle.png" />
+    <None Include="Resources\Sections\Rectangular.png" />
+    <None Include="Resources\Sections\ChannelSectionImg.png" />
+    <None Include="Resources\Sections\TeeSectionImg.png" />
+    <None Include="Resources\Sections\AngleSectionImg.png" />
+    <Content Include="Resources\Treu Splash.jpg" />
+    <None Include="Resources\TreuLogoPNG.bmp" />
+    <None Include="Resources\Treu-Logo.png" />
+    <None Include="Resources\Treu.ico" />
+    <Content Include="Resources\ZoomHS.png" />
+    <Content Include="RuntimeData\section\AISC.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona A.I.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona A.II.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona A.III.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona B.I.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona B.II.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona B.III.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona C.I.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona C.II.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona C.III.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona D.I.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona D.II.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\CFE - Zona D.III.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuntimeData\section\2L.xsec">
+    </None>
+    <None Include="RuntimeData\section\B.xsec">
+    </None>
+    <None Include="RuntimeData\section\C.xsec">
+    </None>
+    <None Include="RuntimeData\section\NewSection.xsec">
+    </None>
+    <Content Include="Treu.ico" />
+    <None Include="Diagrams\Snap.cd" />
+    <None Include="Resources\ICONOS\32x32\hide.png" />
+    <Content Include="RuntimeData\rspectrum\RCDF - Zona I %28Dura%29.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\RCDF - Zona II %28Transición%29.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\RCDF - Zona IIIa %28Lago%29.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\RCDF - Zona IIIb %28Lago%29.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\RCDF - Zona IIIc %28Lago%29.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\RCDF - Zona IIId %28Lago%29.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\UBC 94.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuntimeData\rspectrum\Unit.rsp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuntimeData\section\T.xsec">
+    </None>
+    <None Include="Web References\CanguroServer\Analysis.disco" />
+    <None Include="Resources\DistributedLoad.png" />
+    <None Include="Resources\ConcentratedLoad.png" />
+    <None Include="Resources\DisplacementLoad.png" />
+    <None Include="Resources\PointLoad.png" />
+    <Content Include="RuntimeData\default.mat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Web References\CanguroServer\Analysis.wsdl" />
+    <None Include="Web References\CanguroServer\AnalysisResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CanguroServer\Quotation.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CanguroServer\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://www.treusoft.com/CanguroServerR2.1/Analysis.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\CanguroServer\</RelPath>
+      <UpdateFromURL>https://www.treusoft.com/CanguroServerR2.1/Analysis.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Canguro_CanguroServer_Analysis</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

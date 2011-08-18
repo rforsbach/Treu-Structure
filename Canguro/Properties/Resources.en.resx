@@ -1,0 +1,2712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accept" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ActionNotPossibleTitle" xml:space="preserve">
+    <value>Action cannot be executed</value>
+  </data>
+  <data name="addAreaProps" xml:space="preserve">
+    <value>Area properties</value>
+  </data>
+  <data name="addAreaStr" xml:space="preserve">
+    <value>Add area</value>
+  </data>
+  <data name="addConcentratedSpanLoad" xml:space="preserve">
+    <value>Add concentrated load</value>
+  </data>
+  <data name="addDistributedSpanLoad" xml:space="preserve">
+    <value>Add distributed load</value>
+  </data>
+  <data name="addForceLoad" xml:space="preserve">
+    <value>Add joint force</value>
+  </data>
+  <data name="addJoint" xml:space="preserve">
+    <value>Add joint</value>
+  </data>
+  <data name="addLine" xml:space="preserve">
+    <value>Add frame</value>
+  </data>
+  <data name="addLineProps" xml:space="preserve">
+    <value>Frame properties</value>
+  </data>
+  <data name="addRestraintDisplacement" xml:space="preserve">
+    <value>Add ground displacement</value>
+  </data>
+  <data name="addSpringDisplacementLoad" xml:space="preserve">
+    <value>Add spring displacement</value>
+  </data>
+  <data name="AISC_ASD01" xml:space="preserve">
+    <value>AISC-ASD01</value>
+  </data>
+  <data name="AISC_LRFD99" xml:space="preserve">
+    <value>AISC-LRFD99</value>
+  </data>
+  <data name="AllRightsReserved" xml:space="preserve">
+    <value>All rights reserved</value>
+  </data>
+  <data name="aluminumName" xml:space="preserve">
+    <value>Aluminum</value>
+  </data>
+  <data name="analysisCaseTitle" xml:space="preserve">
+    <value>Analysis case</value>
+  </data>
+  <data name="analysisResultsQuestionTitle" xml:space="preserve">
+    <value>Results case</value>
+  </data>
+  <data name="analyze" xml:space="preserve">
+    <value>Analyze</value>
+  </data>
+  <data name="Analyzer" xml:space="preserve">
+    <value>Analyzing</value>
+  </data>
+  <data name="analyzeTitle" xml:space="preserve">
+    <value>Analysis</value>
+  </data>
+  <data name="Angle" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="areaAngle" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="areaProps" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="askSaveChangesAndExit" xml:space="preserve">
+    <value>Do you want to save changes to the model?</value>
+  </data>
+  <data name="Axial" xml:space="preserve">
+    <value>Axial</value>
+  </data>
+  <data name="beam" xml:space="preserve">
+    <value>Beam</value>
+  </data>
+  <data name="BottomCenter" xml:space="preserve">
+    <value>Bot Center</value>
+  </data>
+  <data name="BottomLeft" xml:space="preserve">
+    <value>Bot Left</value>
+  </data>
+  <data name="BottomRight" xml:space="preserve">
+    <value>Bot Right</value>
+  </data>
+  <data name="Box_Tube" xml:space="preserve">
+    <value>Box/Tube</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CanguroCommandsFormsVectorAcceleration" xml:space="preserve">
+    <value>Acceleration</value>
+  </data>
+  <data name="CanguroCommandsFormsVectorPeriod" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="CanguroCommandsLoadTriangleLineLoadCmdDirection" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="CanguroCommandsLoadTriangleLineLoadCmdDirectionDescription" xml:space="preserve">
+    <value>Direction of the load.</value>
+  </data>
+  <data name="CanguroCommandsLoadTriangleLineLoadCmdLoad" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="CanguroCommandsLoadTriangleLineLoadCmdType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroCommandsLoadTriangleLineLoadCmdTypeDescription" xml:space="preserve">
+    <value>Type of the applied load (Force or Moment).</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdDirection" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdDirectionDescription" xml:space="preserve">
+    <value>Direction of the load.</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdLoad" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdLoadDescription" xml:space="preserve">
+    <value>Load along the whole length of the frame element.</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdTypeDescription" xml:space="preserve">
+    <value>Type of the applied load (Force or Moment).</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdColumns" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdColumnsDescription" xml:space="preserve">
+    <value>Integer number of columns in the cylinder. Also, the number of beams in each level. [1 - 100]</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdHeight" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdHeightDescription" xml:space="preserve">
+    <value>Story height. Distance between rings. [1 - 100m]</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdRadius" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdRadiusDescription" xml:space="preserve">
+    <value>Radius of the Cylinder's rings. [0 - 100m]</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdSection" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdSectionDescription" xml:space="preserve">
+    <value>Frame section to use for all elements in the cylinder.</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdStories" xml:space="preserve">
+    <value>Stories</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdStoriesDescription" xml:space="preserve">
+    <value>Number of levels or rings in the cylinder. [1 - 100]</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdColumns" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdColumnsDescription" xml:space="preserve">
+    <value>Integer number of columns in the dome. Also, the number of beams in each level. [1 - 100]</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdHeight" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdHeightDescription" xml:space="preserve">
+    <value>Distance from the center of the base to the top most node. [1 - 100m]</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdRadius" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdRadiusDescription" xml:space="preserve">
+    <value>Radius of the Dome in the base. [0 - 100m]</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdSection" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdSectionDescription" xml:space="preserve">
+    <value>Frame section to use for all elements in the dome.</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdStories" xml:space="preserve">
+    <value>Stories</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdStoriesDescription" xml:space="preserve">
+    <value>Number of levels or rings in the dome. [1 - 100]</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDx" xml:space="preserve">
+    <value>Bay Width in X axis</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDxDescription" xml:space="preserve">
+    <value>Bay width in the X axis. [0 - 100m]</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDy" xml:space="preserve">
+    <value>Bay Width in Y axis</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDyDescription" xml:space="preserve">
+    <value>Bay width in the Y axis. [0 - 100m]</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDz" xml:space="preserve">
+    <value>Story height</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDzDescription" xml:space="preserve">
+    <value>Story height (in Z the axis) [0 - 100m]</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNx" xml:space="preserve">
+    <value>Bays in X axis</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNxDescription" xml:space="preserve">
+    <value>Number of bays in the X axis. [1 - 500]</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNy" xml:space="preserve">
+    <value>Bays in Y axis</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNyDescription" xml:space="preserve">
+    <value>Number of bays in the Y axis. [1 - 500]</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNz" xml:space="preserve">
+    <value>Stories</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNzDescription" xml:space="preserve">
+    <value>Number of stories (in the Z axis) [1 - 500]</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdSection" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdSectionDescription" xml:space="preserve">
+    <value>Frame section to use in all elements defining the grid.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02MinEccen" xml:space="preserve">
+    <value>Consider Minimum Eccentricity</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02MinEccenDescription" xml:space="preserve">
+    <value>Toggle to consider whether minimum eccentricity should be considered in design.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02NumCurves" xml:space="preserve">
+    <value>Number of Interaction Curves</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02NumCurvesDescription" xml:space="preserve">
+    <value>The number of two-dimensional interaction curves used to make up the three-dimensional interaction surface.  This item must be greater than or equal to 4 and divisible by 4.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02NumPoints" xml:space="preserve">
+    <value>Number of Interaction Points</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02NumPointsDescription" xml:space="preserve">
+    <value>The number of points used to define a two-dimensional interaction curve.  This item must be greater than or equal to 5 and odd.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PatLLF" xml:space="preserve">
+    <value>Pattern Live Load Factor</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PatLLFDescription" xml:space="preserve">
+    <value>The live load factor for automatic generation of load combinations involving pattern live loads and dead loads.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiCSpiral" xml:space="preserve">
+    <value>Phi. Compression Controlled Spiral</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiCSpiralDescription" xml:space="preserve">
+    <value>The strength reduction factor for compression controlled sections with spiral reinforcement.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiCTied" xml:space="preserve">
+    <value>Phi. Compression Controlled Tied</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiCTiedDescription" xml:space="preserve">
+    <value>The strength reduction factor for compression controlled sections with tied reinforcement.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiT" xml:space="preserve">
+    <value>Phi. Tension Controlled</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiTDescription" xml:space="preserve">
+    <value>The strength reduction factor for tension controlled sections.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiV" xml:space="preserve">
+    <value>Phi. Shear or Torsion</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiVDescription" xml:space="preserve">
+    <value>The strength reduction factor for shear and torsion.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiVJoint" xml:space="preserve">
+    <value>Phi. Joint Shear</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiVJointDescription" xml:space="preserve">
+    <value>The strength reduction factor for joint shear in structures that rely on special moment resisting frames or special reinforced concrete structural walls to resist earthquake effects.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiVSeismic" xml:space="preserve">
+    <value>Phi. Shear Seismic</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiVSeismicDescription" xml:space="preserve">
+    <value>The strength reduction factor for shear in structures that rely on special moment resisting frames or special reinforced concrete structural walls to resist earthquake effects.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02SeisCat" xml:space="preserve">
+    <value>Seismic Design Category</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02SeisCatDescription" xml:space="preserve">
+    <value>Seismic Design Category.  This is either "A", "B", "C", "D",  "E" or "F".</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02THDesign" xml:space="preserve">
+    <value>Time History Design</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02THDesignDescription" xml:space="preserve">
+    <value>This is either "Envelopes" or "Step-by-Step" indicating how time history results are considered in the design.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02UFLimit" xml:space="preserve">
+    <value>Utilization Factor Limit</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02UFLimitDescription" xml:space="preserve">
+    <value>The stress ratio limit to be used for acceptability.  Stress ratios that are less than or equal to this value are considered acceptable.</value>
+  </data>
+  <data name="CanguroModelDesignASD01CheckDefl" xml:space="preserve">
+    <value>Consider Deflection</value>
+  </data>
+  <data name="CanguroModelDesignASD01CheckDeflDescription" xml:space="preserve">
+    <value>Consider Deflection?:  Toggle to consider whether deflection limitations should be considered in design.  This is either "False" or "True".  </value>
+  </data>
+  <data name="CanguroModelDesignASD01DLRat" xml:space="preserve">
+    <value>Dead Load Limit</value>
+  </data>
+  <data name="CanguroModelDesignASD01DLRatDescription" xml:space="preserve">
+    <value>DL Limit, L /:  Deflection limitation for dead load.  Inputting 120 means that the limit is L/120.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignASD01FrameType" xml:space="preserve">
+    <value>Framing Type</value>
+  </data>
+  <data name="CanguroModelDesignASD01FrameTypeDescription" xml:space="preserve">
+    <value>Framing Type:  This is either "OMF", "IMF", "SMF", "OCBF", "SCBF", or "EBF".  This item is used for ductility considerations in the design.  </value>
+  </data>
+  <data name="CanguroModelDesignASD01LLRat" xml:space="preserve">
+    <value>Live Load Limit</value>
+  </data>
+  <data name="CanguroModelDesignASD01LLRatDescription" xml:space="preserve">
+    <value>Live Load Limit, L /:  Deflection limitation for superimposed live load.  Inputting 360 means that the limit is L/360.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignASD01MaxIter" xml:space="preserve">
+    <value>Maximum Iterations</value>
+  </data>
+  <data name="CanguroModelDesignASD01MaxIterDescription" xml:space="preserve">
+    <value>Maximum Number of Iterations for the Algorithm to perform.</value>
+  </data>
+  <data name="CanguroModelDesignASD01NetRat" xml:space="preserve">
+    <value>Net Deflection Limit</value>
+  </data>
+  <data name="CanguroModelDesignASD01NetRatDescription" xml:space="preserve">
+    <value>Limitation for net deflection.  Camber is subtracted from the total load deflection to get net deflection.  Inputting 240 means that the limit is L/240.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignASD01PatLLF" xml:space="preserve">
+    <value>Pattern Live Load Factor</value>
+  </data>
+  <data name="CanguroModelDesignASD01PatLLFDescription" xml:space="preserve">
+    <value>Pattern Live Load Factor:  The live load factor for automatic generation of load combinations involving pattern live loads and dead loads.  </value>
+  </data>
+  <data name="CanguroModelDesignASD01PlugWeld" xml:space="preserve">
+    <value>Double Plate is Plug - Welded</value>
+  </data>
+  <data name="CanguroModelDesignASD01PlugWeldDescription" xml:space="preserve">
+    <value>Is Doubler Plate Plug-Welded?:  Toggle to consider whether the doubler-plate should be considered to be plug-welded.  This is either "No" or "Yes".  </value>
+  </data>
+  <data name="CanguroModelDesignASD01SDLAndLLRat" xml:space="preserve">
+    <value>Super DL+LL Limit</value>
+  </data>
+  <data name="CanguroModelDesignASD01SDLAndLLRatDescription" xml:space="preserve">
+    <value>Super DL+LL Limit, L /:  Deflection limitation for superimposed dead plus live load.  Inputting 120 means that the limit is L/120.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisCat" xml:space="preserve">
+    <value>Seismic Design Category</value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisCatDescription" xml:space="preserve">
+    <value>This is either "A", "B", "C", "D", "E", or "F".  This is related to seismic design.  This is a function of Occupancy Category and Sds or Sd1.  See AISC 7-05 section 11.6 for details.  </value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisCode" xml:space="preserve">
+    <value>Ignore Seismic Code </value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisCodeDescription" xml:space="preserve">
+    <value>Toggle to consider whether the seismic part of the code should be considered in design.  This is either "False" or "True".</value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisLoad" xml:space="preserve">
+    <value>Ignore Special Seismic Load</value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisLoadDescription" xml:space="preserve">
+    <value>Toggle to consider whether the special seismic load combinations should be considered in design.  This is either "False" or "True".  </value>
+  </data>
+  <data name="CanguroModelDesignASD01SRatioLimit" xml:space="preserve">
+    <value>Demand/Capacity Ratio Limit</value>
+  </data>
+  <data name="CanguroModelDesignASD01SRatioLimitDescription" xml:space="preserve">
+    <value>The demand/capacity ratio limit to be used for acceptability.  D/C ratios that are less than or equal to this value are considered acceptable.  </value>
+  </data>
+  <data name="CanguroModelDesignASD01TimeHistoryDesign" xml:space="preserve">
+    <value>Time History Design</value>
+  </data>
+  <data name="CanguroModelDesignASD01TimeHistoryDesignDescription" xml:space="preserve">
+    <value>This is either "Envelopes" or "Step-by-Step" indicating how time history results are considered in the design.</value>
+  </data>
+  <data name="CanguroModelDesignASD01TotalRat" xml:space="preserve">
+    <value>Total Limit</value>
+  </data>
+  <data name="CanguroModelDesignASD01TotalRatDescription" xml:space="preserve">
+    <value>Deflection limitation for total load.  Inputting 240 means that the limit is L/240.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99CheckDefl" xml:space="preserve">
+    <value>Consider Deflection</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99CheckDeflDescription" xml:space="preserve">
+    <value>Consider Deflection?:  Toggle to consider whether deflection limitations should be considered in design.  This is either "False" or "True".  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99DLRat" xml:space="preserve">
+    <value>DL Limit, L /:  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99DLRatDescription" xml:space="preserve">
+    <value>Deflection limitation for dead load.  Inputting 120 means that the limit is L/120.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99FrameType" xml:space="preserve">
+    <value>Framing Type</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99FrameTypeDescription" xml:space="preserve">
+    <value>This is either "OMF", "IMF", "SMF", "OCBF", "SCBF", or "EBF".  This item is used for ductility considerations in the design.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99LLRat" xml:space="preserve">
+    <value>Live Load Limit, L /:  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99LLRatDescription" xml:space="preserve">
+    <value>Deflection limitation for superimposed live load.  Inputting 360 means that the limit is L/360.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99MaxIter" xml:space="preserve">
+    <value>Maximum Iterations</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99MaxIterDescription" xml:space="preserve">
+    <value>Maximum Number of Iterations for the Algorithm to perform.</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99NetRat" xml:space="preserve">
+    <value>Total-Camber Limit, L/:  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99NetRatDescription" xml:space="preserve">
+    <value>Limitation for net deflection.  Camber is subtracted from the total load deflection to get net deflection.  Inputting 240 means that the limit is L/240.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PatLLF" xml:space="preserve">
+    <value>Pattern Live Load Factor</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PatLLFDescription" xml:space="preserve">
+    <value>The live load factor for automatic generation of load combinations involving pattern live loads and dead loads.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiB" xml:space="preserve">
+    <value>Phi. Bending</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiBDescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiC" xml:space="preserve">
+    <value>Phi. Compression</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiCA" xml:space="preserve">
+    <value>Phi (Compression, Angle):  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiCADescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiCDescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiTF" xml:space="preserve">
+    <value>Phi (Tension-Fracture):  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiTFDescription" xml:space="preserve">
+    <value>Strength reduction factor. </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiTY" xml:space="preserve">
+    <value>Phi (Tension-Yielding):  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiTYDescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiV" xml:space="preserve">
+    <value>Phi (Shear):  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiVDescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiVT" xml:space="preserve">
+    <value>Phi (Shear-Torsion):  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiVTDescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PlugWeld" xml:space="preserve">
+    <value>Is Doubler Plate Plug-Welded?:  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PlugWeldDescription" xml:space="preserve">
+    <value>Toggle to consider whether the doubler-plate should be considered to be plug-welded.  This is either "No" or "Yes".  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SDLAndLLRat" xml:space="preserve">
+    <value>Super DL+LL Limit, L /:  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SDLAndLLRatDescription" xml:space="preserve">
+    <value>Deflection limitation for superimposed dead plus live load.  Inputting 120 means that the limit is L/120.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisCat" xml:space="preserve">
+    <value>Seismic Design Category</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisCatDescription" xml:space="preserve">
+    <value>This is either "A", "B", "C", "D", "E", or "F".  This is related to seismic design.  This is a function of Occupancy Category and Sds or Sd1.  See AISC 7-05 section 11.6 for details.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisCode" xml:space="preserve">
+    <value>Ignore Seismic Code</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisCodeDescription" xml:space="preserve">
+    <value>Toggle to consider whether the seismic part of the code should be considered in design.  This is either "False" or "True".</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisLoad" xml:space="preserve">
+    <value>Ignore Special Seismic Load</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisLoadDescription" xml:space="preserve">
+    <value>Toggle to consider whether the special seismic load combinations should be considered in design.  This is either "False" or "True".  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SRatioLimit" xml:space="preserve">
+    <value>Demand/Capacity Ratio Limit:  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SRatioLimitDescription" xml:space="preserve">
+    <value>The demand/capacity ratio limit to be used for acceptability.  D/C ratios that are less than or equal to this value are considered acceptable.  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99TimeHistoryDesign" xml:space="preserve">
+    <value>Time History Design</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99TimeHistoryDesignDescription" xml:space="preserve">
+    <value>This is either "Envelopes" or "Step-by-Step" indicating how time history results are considered in the design.</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99TotalRat" xml:space="preserve">
+    <value>Total Limit, L/:  </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99TotalRatDescription" xml:space="preserve">
+    <value>Deflection limitation for total load.  Inputting 240 means that the limit is L/240.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001MinEccen" xml:space="preserve">
+    <value>Consider Minimum Eccentricity</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001MinEccenDescription" xml:space="preserve">
+    <value>Toggle to consider whether minimum eccentricity should be considered in design.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001NumCurves" xml:space="preserve">
+    <value>Number of Interaction Curves</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001NumCurvesDescription" xml:space="preserve">
+    <value>The number of two-dimensional interaction curves used to make up the three-dimensional interaction surface.  This item must be greater than or equal to 4 and divisible by 4.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001NumPoints" xml:space="preserve">
+    <value>Number of Interaction Points</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001NumPointsDescription" xml:space="preserve">
+    <value>The number of points used to define a two-dimensional interaction curve.  This item must be greater than or equal to 5 and odd.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PatLLF" xml:space="preserve">
+    <value>Pattern Live Load Factor</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PatLLFDescription" xml:space="preserve">
+    <value>The live load factor for automatic generation of load combinations involving pattern live loads and dead loads.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiB" xml:space="preserve">
+    <value>Phi. Bending</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiBDescription" xml:space="preserve">
+    <value>The strength reduction factor for bending.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiCSpiral" xml:space="preserve">
+    <value>Phi. Compression Spiral</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiCSpiralDescription" xml:space="preserve">
+    <value>The strength reduction factor for axial compression when the member has spiral reinforcement.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiCTied" xml:space="preserve">
+    <value>Phi. Compression Tied</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiCTiedDescription" xml:space="preserve">
+    <value>The strength reduction factor for axial compression when the member has tie reinforcement.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiT" xml:space="preserve">
+    <value>Phi. Tension</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiTDescription" xml:space="preserve">
+    <value>The strength reduction factor for tension.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiV" xml:space="preserve">
+    <value>Phi. Shear</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiVDescription" xml:space="preserve">
+    <value>The strength reduction factor for shear.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001THDesign" xml:space="preserve">
+    <value>Time History Design</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001THDesignDescription" xml:space="preserve">
+    <value>This is either "Envelopes" or "Step-by-Step" indicating how time history results are considered in the design.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001UFLimit" xml:space="preserve">
+    <value>Utilization Factor Limit</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001UFLimitDescription" xml:space="preserve">
+    <value>The stress ratio limit to be used for acceptability.  Stress ratios that are less than or equal to this value are considered acceptable.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDCheckDefl" xml:space="preserve">
+    <value>Consider Deflection?:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDCheckDeflDescription" xml:space="preserve">
+    <value>Toggle to consider whether deflection limitations should be considered in design.  This is either "True" or "False".  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDDLRat" xml:space="preserve">
+    <value>DL Limit, L /:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDDLRatDescription" xml:space="preserve">
+    <value>Deflection limitation for dead load.  Inputting 120 means that the limit is L/120.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDFrameType" xml:space="preserve">
+    <value>Framing Type:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDFrameTypeDescription" xml:space="preserve">
+    <value>This is either "Ordinary MRF", "Special MRF", "Braced Frame", "Special CBF", or "EBF".  This item is used for ductility considerations in the design.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDLatFactor" xml:space="preserve">
+    <value>Lateral Factor:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDLatFactorDescription" xml:space="preserve">
+    <value>The allowable stress increase factor for loading combinations that include wind or seismic loads.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDLLRat" xml:space="preserve">
+    <value>Live Load Limit, L /:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDLLRatDescription" xml:space="preserve">
+    <value>Deflection limitation for superimposed live load.  Inputting 360 means that the limit is L/360.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDMaxIter" xml:space="preserve">
+    <value>Maximum Iterations</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDMaxIterDescription" xml:space="preserve">
+    <value>Maximum Number of Iterations for the Algorithm to perform.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDNetRat" xml:space="preserve">
+    <value>Total-Camber Limit, L/:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDNetRatDescription" xml:space="preserve">
+    <value>Limitation for net deflection.  Camber is subtracted from the total load deflection to get net deflection.  Inputting 240 means that the limit is L/240.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDPatLLF" xml:space="preserve">
+    <value>Pattern Live Load Factor:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDPatLLFDescription" xml:space="preserve">
+    <value>The live load factor for automatic generation of load combinations involving pattern live loads and dead loads.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSDLAndLLRat" xml:space="preserve">
+    <value>Super DL+LL Limit, L /:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSDLAndLLRatDescription" xml:space="preserve">
+    <value>Deflection limitation for superimposed dead plus live load.  Inputting 120 means that the limit is L/120.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSeisZone" xml:space="preserve">
+    <value>Seismic Zone:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSeisZoneDescription" xml:space="preserve">
+    <value>This is either "Zone 0", "Zone 1", "Zone 2", "Zone 3", or "Zone 4".  This is related to seismic design.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSRatioLimit" xml:space="preserve">
+    <value>Demand/Capacity Ratio Limit:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSRatioLimitDescription" xml:space="preserve">
+    <value>The demand/capacity ratio limit to be used for acceptability.  D/C ratios that are less than or equal to this value are considered acceptable.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDTimeHistoryDesign" xml:space="preserve">
+    <value>Time History Design</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDTimeHistoryDesignDescription" xml:space="preserve">
+    <value>This is either "Envelopes" or "Step-by-Step" indicating how time history results are considered in the design.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDTotalRat" xml:space="preserve">
+    <value>Total Limit, L/:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDTotalRatDescription" xml:space="preserve">
+    <value>Deflection limitation for total load.  Inputting 240 means that the limit is L/240.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcMinEccen" xml:space="preserve">
+    <value>Consider Minimum Eccentricity</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcMinEccenDescription" xml:space="preserve">
+    <value>Toggle to consider whether minimum eccentricity should be considered in design.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcNumCurves" xml:space="preserve">
+    <value>Number of Interaction Curves</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcNumCurvesDescription" xml:space="preserve">
+    <value>The number of two-dimensional interaction curves used to make up the three-dimensional interaction surface.  This item must be greater than or equal to 4 and divisible by 4.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcNumPoints" xml:space="preserve">
+    <value>Number of Interaction Points</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcNumPointsDescription" xml:space="preserve">
+    <value>The number of points used to define a two-dimensional interaction curve.  This item must be greater than or equal to 5 and odd.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPatLLF" xml:space="preserve">
+    <value>Pattern Live Load Factor</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPatLLFDescription" xml:space="preserve">
+    <value>The live load factor for automatic generation of load combinations involving pattern live loads and dead loads.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiB" xml:space="preserve">
+    <value>Phi. Bending</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiBDescription" xml:space="preserve">
+    <value>The strength reduction factor for bending.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiCSpiral" xml:space="preserve">
+    <value>Phi. Compression Spiral</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiCSpiralDescription" xml:space="preserve">
+    <value>The strength reduction factor for axial compression when the member has spiral reinforcement.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiCTied" xml:space="preserve">
+    <value>Phi. Compression Tied</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiCTiedDescription" xml:space="preserve">
+    <value>The strength reduction factor for axial compression when the member has tie reinforcement.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiV" xml:space="preserve">
+    <value>Phi. Shear</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiVDescription" xml:space="preserve">
+    <value>The strength reduction factor for shear.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcTHDesign" xml:space="preserve">
+    <value>Time History Design</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcTHDesignDescription" xml:space="preserve">
+    <value>This is either "Envelopes" or "Step-by-Step" indicating how time history results are considered in the design.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcUFLimit" xml:space="preserve">
+    <value>Utilization Factor Limit</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcUFLimitDescription" xml:space="preserve">
+    <value>The stress ratio limit to be used for acceptability.  Stress ratios that are less than or equal to this value are considered acceptable.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDCheckDefl" xml:space="preserve">
+    <value>Consider Deflection?:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDCheckDeflDescription" xml:space="preserve">
+    <value>Toggle to consider whether deflection limitations should be considered in design.  This is either "False" or "True".  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDDLRat" xml:space="preserve">
+    <value>DL Limit, L /:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDDLRatDescription" xml:space="preserve">
+    <value>Deflection limitation for dead load.  Inputting 120 means that the limit is L/120.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDFrameType" xml:space="preserve">
+    <value>Framing Type:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDFrameTypeDescription" xml:space="preserve">
+    <value>This is either "Ordinary MRF", "Special MRF", "Braced Frame", "Special CBF", or "EBF".  This item is used for ductility considerations in the design.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDImpFactor" xml:space="preserve">
+    <value>Importance Factor:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDImpFactorDescription" xml:space="preserve">
+    <value>This is related to seismic design.  This is a function of Occupancy Category.  See AISC 7-05 section 11.5.1 for details.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDLLRat" xml:space="preserve">
+    <value>Live Load Limit, L /:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDLLRatDescription" xml:space="preserve">
+    <value>Deflection limitation for superimposed live load.  Inputting 360 means that the limit is L/360.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDMaxIter" xml:space="preserve">
+    <value>Maximum Iterations</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDMaxIterDescription" xml:space="preserve">
+    <value>Maximum Number of Iterations for the Algorithm to perform.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDNetRat" xml:space="preserve">
+    <value>Total-Camber Limit, L/:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDNetRatDescription" xml:space="preserve">
+    <value>Limitation for net deflection.  Camber is subtracted from the total load deflection to get net deflection.  Inputting 240 means that the limit is L/240.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPatLLF" xml:space="preserve">
+    <value>Pattern Live Load Factor:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPatLLFDescription" xml:space="preserve">
+    <value>The live load factor for automatic generation of load combinations involving pattern live loads and dead loads.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiB" xml:space="preserve">
+    <value>Phi (Bending):  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiBDescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiC" xml:space="preserve">
+    <value>Phi (Compression):  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiCA" xml:space="preserve">
+    <value>Phi (Compression, Angle):  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiCADescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiCDescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiT" xml:space="preserve">
+    <value>Phi (Tension):  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiTDescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiV" xml:space="preserve">
+    <value>Phi (Shear):  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiVDescription" xml:space="preserve">
+    <value>Strength reduction factor.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSDLAndLLRat" xml:space="preserve">
+    <value>Super DL+LL Limit, L /:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSDLAndLLRatDescription" xml:space="preserve">
+    <value>Deflection limitation for superimposed dead plus live load.  Inputting 120 means that the limit is L/120.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSeisZone" xml:space="preserve">
+    <value>Seismic Zone:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSeisZoneDescription" xml:space="preserve">
+    <value>This is either "Zone 0", "Zone 1", "Zone 2", "Zone 3", or "Zone 4".  This is related to seismic design.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSRatioLimit" xml:space="preserve">
+    <value>Demand/Capacity Ratio Limit:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSRatioLimitDescription" xml:space="preserve">
+    <value>The demand/capacity ratio limit to be used for acceptability.  D/C ratios that are less than or equal to this value are considered acceptable.  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDTimeHistoryDesign" xml:space="preserve">
+    <value>Time History Design</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDTimeHistoryDesignDescription" xml:space="preserve">
+    <value>This is either "Envelopes" or "Step-by-Step" indicating how time history results are considered in the design.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDTotalRat" xml:space="preserve">
+    <value>Total Limit, L/:  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDTotalRatDescription" xml:space="preserve">
+    <value>Deflection limitation for total load.  Inputting 240 means that the limit is L/240.  Inputting zero is special, since it means no check has to be made for this item.  </value>
+  </data>
+  <data name="CanguroModelLayerName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CanguroModelLayerNameDescription" xml:space="preserve">
+    <value>The name of the Layer has to be unique, since it's used as identifier.</value>
+  </data>
+  <data name="CanguroModelLoadConcentratedSpanLoadD" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="CanguroModelLoadConcentratedSpanLoadDDescription" xml:space="preserve">
+    <value>Relative distance from joint I to the point where the load is applied. [0 - 1]</value>
+  </data>
+  <data name="CanguroModelLoadConcentratedSpanLoadL" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="CanguroModelLoadConcentratedSpanLoadLDescription" xml:space="preserve">
+    <value>Force load applied at the specified point.</value>
+  </data>
+  <data name="CanguroModelLoadDirectionalLineLoadDirection" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="CanguroModelLoadDirectionalLineLoadDirectionDescription" xml:space="preserve">
+    <value>Direction of the load.</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadDa" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadDaDescription" xml:space="preserve">
+    <value>Relative distance from joint I to the point where the load starts. [0 - 1]</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadDb" xml:space="preserve">
+    <value>Db</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadDbDescription" xml:space="preserve">
+    <value>Relative distance from joint I to the point where the load ends. [0 - 1]</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadLa" xml:space="preserve">
+    <value>La</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadLaDescription" xml:space="preserve">
+    <value>Load magnitude in point Da.</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadLb" xml:space="preserve">
+    <value>Lb</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadLbDescription" xml:space="preserve">
+    <value>Load magnitude in point Db.</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFx" xml:space="preserve">
+    <value>Fx</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFxDescription" xml:space="preserve">
+    <value>Force value in global X direction.</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFy" xml:space="preserve">
+    <value>Fy</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFyDescription" xml:space="preserve">
+    <value>Force value in global Y direction.</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFz" xml:space="preserve">
+    <value>Fz</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFzDescription" xml:space="preserve">
+    <value>Force value in global Z direction.</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMx" xml:space="preserve">
+    <value>Mx</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMxDescription" xml:space="preserve">
+    <value>Moment value around global X axis.</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMy" xml:space="preserve">
+    <value>My</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMyDescription" xml:space="preserve">
+    <value>Moment value around global Y axis.</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMz" xml:space="preserve">
+    <value>Mz</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMzDescription" xml:space="preserve">
+    <value>Moment value around global Z axis.</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRx" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRxDescription" xml:space="preserve">
+    <value>Rotation around global X axis.</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRy" xml:space="preserve">
+    <value>Ry</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRyDescription" xml:space="preserve">
+    <value>Rotation around global Y axis.</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRz" xml:space="preserve">
+    <value>Rz</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRzDescription" xml:space="preserve">
+    <value>Rotation around global Z axis.</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTx" xml:space="preserve">
+    <value>Tx</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTxDescription" xml:space="preserve">
+    <value>Traslation in global X direction.</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTy" xml:space="preserve">
+    <value>Ty</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTyDescription" xml:space="preserve">
+    <value>Traslation in global Y direction.</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTz" xml:space="preserve">
+    <value>Tz</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTzDescription" xml:space="preserve">
+    <value>Traslation in global Z direction.</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseCaseType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseCaseTypeDescription" xml:space="preserve">
+    <value>Type of load case. Used for analysis and combinations</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseNameDescription" xml:space="preserve">
+    <value>Unique identifier for the Load Case.</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseSelfWeight" xml:space="preserve">
+    <value>Self Weight</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseSelfWeightDescription" xml:space="preserve">
+    <value>Self Weight factor. Each element is analyzed as with a uniform load in the Gravity direction.</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureGradientLineLoadLoadType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureGradientLineLoadLoadTypeDescription" xml:space="preserve">
+    <value>Direction in which the gradient is applied (22 or 33)</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureGradientLineLoadTemperature" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureGradientLineLoadTemperatureDescription" xml:space="preserve">
+    <value>Temperature gradient in the given direction.</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureLineLoadTemperature" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureLineLoadTemperatureDescription" xml:space="preserve">
+    <value>Constant temperature to be applied to the frame elements.</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsFc" xml:space="preserve">
+    <value>Fc</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsFcDescription" xml:space="preserve">
+    <value>Specified Concrete Compressive Strenght</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsRebarFy" xml:space="preserve">
+    <value>Fy</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsRebarFyDescription" xml:space="preserve">
+    <value>Minimum Rebar Yield Stress</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsRebarFys" xml:space="preserve">
+    <value>Fys</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsRebarFysDescription" xml:space="preserve">
+    <value>Minimum Reinforcement Rebar Yield Stress</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsAlpha" xml:space="preserve">
+    <value>Alpha</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsAlphaDescription" xml:space="preserve">
+    <value>Coefficient of Thermal Expansion</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsE" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsEDescription" xml:space="preserve">
+    <value>Modulus of Elasticity</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsNu" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsNuDescription" xml:space="preserve">
+    <value>Poisson's Ratio</value>
+  </data>
+  <data name="CanguroModelMaterialSteelDesignPropsFu" xml:space="preserve">
+    <value>Fu</value>
+  </data>
+  <data name="CanguroModelMaterialSteelDesignPropsFuDescription" xml:space="preserve">
+    <value>Minimum Tensile Stress</value>
+  </data>
+  <data name="CanguroModelMaterialSteelDesignPropsFy" xml:space="preserve">
+    <value>Fy</value>
+  </data>
+  <data name="CanguroModelMaterialSteelDesignPropsFyDescription" xml:space="preserve">
+    <value>Minimum Yield Stress</value>
+  </data>
+  <data name="CanguroModelMaterialUniaxialTypePropsA" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="CanguroModelMaterialUniaxialTypePropsADescription" xml:space="preserve">
+    <value>Coefficient of Thermal Expansion</value>
+  </data>
+  <data name="CanguroModelMaterialUniaxialTypePropsE" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="CanguroModelMaterialUniaxialTypePropsEDescription" xml:space="preserve">
+    <value>Modulus of Elasticity</value>
+  </data>
+  <data name="CanguroPreferencesBackgroundColor" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="CanguroPreferencesBackgroundColorDescription" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadArrowScale" xml:space="preserve">
+    <value>Force Arrow Scale</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadArrowScaleDescription" xml:space="preserve">
+    <value>Force Arrow Scale</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadForceDefaultColor" xml:space="preserve">
+    <value>Force Load Color</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadForceDefaultColorDescription" xml:space="preserve">
+    <value>Force Load Color</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadLineScale" xml:space="preserve">
+    <value>Force Load Line Scale</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadLineScaleDescription" xml:space="preserve">
+    <value>Force Load Line Scale</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadMomentDefaultColor" xml:space="preserve">
+    <value>Force Load Moment Color</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadMomentDefaultColorDescription" xml:space="preserve">
+    <value>Force Load Moment Color</value>
+  </data>
+  <data name="CanguroPreferencesGrndDispLoadRotDefautlColor" xml:space="preserve">
+    <value>Ground Disp Rot Color</value>
+  </data>
+  <data name="CanguroPreferencesGrndDispLoadRotDefautlColorDescription" xml:space="preserve">
+    <value>Ground Disp Rot Color</value>
+  </data>
+  <data name="CanguroPreferencesGrndDispLoadTransDefaultColor" xml:space="preserve">
+    <value>Ground Disp Translation Color</value>
+  </data>
+  <data name="CanguroPreferencesGrndDispLoadTransDefaultColorDescription" xml:space="preserve">
+    <value>Ground Disp Translation Color</value>
+  </data>
+  <data name="CanguroPreferencesJointDefaultColor" xml:space="preserve">
+    <value>Joint Color</value>
+  </data>
+  <data name="CanguroPreferencesJointDefaultColorDescription" xml:space="preserve">
+    <value>Joint Color</value>
+  </data>
+  <data name="CanguroPreferencesJointSelectedDefaultColor" xml:space="preserve">
+    <value>Selected Joint Color</value>
+  </data>
+  <data name="CanguroPreferencesJointSelectedDefaultColorDescription" xml:space="preserve">
+    <value>Selected Joint Color</value>
+  </data>
+  <data name="CanguroPreferencesLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="CanguroPreferencesLanguageDescription" xml:space="preserve">
+    <value>Language to use in Treu Structure. Can be either English or Spanish</value>
+  </data>
+  <data name="CanguroPreferencesMomentLoadArrowScale" xml:space="preserve">
+    <value>Moment Arror Scale</value>
+  </data>
+  <data name="CanguroPreferencesMomentLoadArrowScaleDescription" xml:space="preserve">
+    <value>Moment Arror Scale</value>
+  </data>
+  <data name="CanguroPreferencesMomentLoadLineScale" xml:space="preserve">
+    <value>Load Line Scale</value>
+  </data>
+  <data name="CanguroPreferencesMomentLoadLineScaleDescription" xml:space="preserve">
+    <value>Load Line Scale</value>
+  </data>
+  <data name="CanguroPreferencesSmallPanelForeColor" xml:space="preserve">
+    <value>Small Panel Color</value>
+  </data>
+  <data name="CanguroPreferencesSmallPanelForeColorDescription" xml:space="preserve">
+    <value>Small Panel Color</value>
+  </data>
+  <data name="CanguroViewReportsAnalysisCaseWrapper" xml:space="preserve">
+    <value>Analysis Case</value>
+  </data>
+  <data name="CanguroViewReportsAnalysisCaseWrapperName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CanguroViewReportsAnalysisCaseWrapperType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapper" xml:space="preserve">
+    <value>Assembled Joint Masses</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperR1" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperR2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperR3" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperU1" xml:space="preserve">
+    <value>U1</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperU2" xml:space="preserve">
+    <value>U2</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperU3" xml:space="preserve">
+    <value>U3</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapper" xml:space="preserve">
+    <value>Base Reactions</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperFx" xml:space="preserve">
+    <value>Fx</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperFy" xml:space="preserve">
+    <value>Fy</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperFz" xml:space="preserve">
+    <value>Fz</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperMx" xml:space="preserve">
+    <value>Mx</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperMy" xml:space="preserve">
+    <value>My</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperMz" xml:space="preserve">
+    <value>Mz</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapper" xml:space="preserve">
+    <value>Concrete Beam Design</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperBottomRebarArea" xml:space="preserve">
+    <value>Bottom Rebar Area</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperFrame" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperTopRebarArea" xml:space="preserve">
+    <value>Top Rebar Area</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperVRebar" xml:space="preserve">
+    <value>V Rebar</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapper" xml:space="preserve">
+    <value>Concrete Column Design</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperFrame" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperPMMArea" xml:space="preserve">
+    <value>PMM Area</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperPMMRatio" xml:space="preserve">
+    <value>PMM Ratio</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperVMajRebar" xml:space="preserve">
+    <value>V Major Rebar</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperVMinRebar" xml:space="preserve">
+    <value>V Minor Rebar</value>
+  </data>
+  <data name="CanguroViewReportsConstraintWrapper" xml:space="preserve">
+    <value>Joint Constraints</value>
+  </data>
+  <data name="CanguroViewReportsConstraintWrapperConstraint" xml:space="preserve">
+    <value>Constraint</value>
+  </data>
+  <data name="CanguroViewReportsConstraintWrapperJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="CanguroViewReportsDesignOptionsWrapper" xml:space="preserve">
+    <value>Design Options</value>
+  </data>
+  <data name="CanguroViewReportsDesignOptionsWrapperCode" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CanguroViewReportsDesignOptionsWrapperValue" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="CanguroViewReportsDesignOptionsWrapperVariable" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapper" xml:space="preserve">
+    <value>Element Joint Forces</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperElement" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperFx" xml:space="preserve">
+    <value>Fx</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperFy" xml:space="preserve">
+    <value>Fy</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperFz" xml:space="preserve">
+    <value>Fz</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperMx" xml:space="preserve">
+    <value>Mx</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperMy" xml:space="preserve">
+    <value>My</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperMz" xml:space="preserve">
+    <value>Mz</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapper" xml:space="preserve">
+    <value>Ground Displacement Loads</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperLoadCase" xml:space="preserve">
+    <value>LoadCase</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperRx" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperRy" xml:space="preserve">
+    <value>Ry</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperRz" xml:space="preserve">
+    <value>Rz</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperTx" xml:space="preserve">
+    <value>Tx</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperTy" xml:space="preserve">
+    <value>Ty</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperTz" xml:space="preserve">
+    <value>Tz</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapper" xml:space="preserve">
+    <value>Joint Accelerations</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperR1" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperR2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperR3" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperU1" xml:space="preserve">
+    <value>U1</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperU2" xml:space="preserve">
+    <value>U2</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperU3" xml:space="preserve">
+    <value>U3</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapper" xml:space="preserve">
+    <value>Joint Displacements</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperRx" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperRy" xml:space="preserve">
+    <value>Ry</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperRz" xml:space="preserve">
+    <value>Rz</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperTx" xml:space="preserve">
+    <value>Tx</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperTy" xml:space="preserve">
+    <value>Ty</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperTz" xml:space="preserve">
+    <value>Tz</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapper" xml:space="preserve">
+    <value>Joint Force Loads</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperFx" xml:space="preserve">
+    <value>Fx</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperFy" xml:space="preserve">
+    <value>Fy</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperFz" xml:space="preserve">
+    <value>Fz</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperLoadCase" xml:space="preserve">
+    <value>LoadCase</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperMx" xml:space="preserve">
+    <value>Mx</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperMy" xml:space="preserve">
+    <value>My</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperMz" xml:space="preserve">
+    <value>Mz</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapper" xml:space="preserve">
+    <value>Joint Masses</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperR1" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperR2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperR3" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperU1" xml:space="preserve">
+    <value>U1</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperU2" xml:space="preserve">
+    <value>U2</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperU3" xml:space="preserve">
+    <value>U3</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapper" xml:space="preserve">
+    <value>Joint Reactions</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperFx" xml:space="preserve">
+    <value>Fx</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperFy" xml:space="preserve">
+    <value>Fy</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperFz" xml:space="preserve">
+    <value>Fz</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperMx" xml:space="preserve">
+    <value>Mx</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperMy" xml:space="preserve">
+    <value>My</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperMz" xml:space="preserve">
+    <value>Mz</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapper" xml:space="preserve">
+    <value>Joint Velocities</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperR1" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperR2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperR3" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperU1" xml:space="preserve">
+    <value>U1</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperU2" xml:space="preserve">
+    <value>U2</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperU3" xml:space="preserve">
+    <value>U3</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapper" xml:space="preserve">
+    <value>Joint Coordinates</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperDoF" xml:space="preserve">
+    <value>Degrees of Freedom</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperMasses" xml:space="preserve">
+    <value>Masses</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperX" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperY" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperZ" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapper" xml:space="preserve">
+    <value>Frame Concentrated Span Loads</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapperD" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapperElement" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapperL" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapperType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapper" xml:space="preserve">
+    <value>Frame Distributed Span Loads</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperDa" xml:space="preserve">
+    <value>Position A</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperDb" xml:space="preserve">
+    <value>Position B</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperDirection" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperElement" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperLa" xml:space="preserve">
+    <value>Load A</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperLb" xml:space="preserve">
+    <value>Load B</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapper" xml:space="preserve">
+    <value>Frame Elements</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapperAngle" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapperI" xml:space="preserve">
+    <value>Joint I</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapperID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapperJ" xml:space="preserve">
+    <value>Joint J</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapperSection" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="CanguroViewReportsLoadCaseWrapper" xml:space="preserve">
+    <value>Load Cases</value>
+  </data>
+  <data name="CanguroViewReportsLoadCaseWrapperName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CanguroViewReportsLoadCaseWrapperSelfWeightFactor" xml:space="preserve">
+    <value>Self Weight Factor</value>
+  </data>
+  <data name="CanguroViewReportsLoadCaseWrapperType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroViewReportsLoadCombinationWrapper" xml:space="preserve">
+    <value>Load Combinations</value>
+  </data>
+  <data name="CanguroViewReportsLoadCombinationWrapperCombination" xml:space="preserve">
+    <value>Combination</value>
+  </data>
+  <data name="CanguroViewReportsLoadCombinationWrapperFactor" xml:space="preserve">
+    <value>Factor</value>
+  </data>
+  <data name="CanguroViewReportsLoadCombinationWrapperLoadCase" xml:space="preserve">
+    <value>LoadCase</value>
+  </data>
+  <data name="CanguroViewReportsLoadCombinationWrapperType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroViewReportsMaterialAmountWrapper" xml:space="preserve">
+    <value>Material Amounts</value>
+  </data>
+  <data name="CanguroViewReportsMaterialAmountWrapperAmount" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="CanguroViewReportsMaterialAmountWrapperMaterial" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="CanguroViewReportsMaterialAmountWrapperSection" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="CanguroViewReportsMaterialWrapper" xml:space="preserve">
+    <value>Materials</value>
+  </data>
+  <data name="CanguroViewReportsMaterialWrapperDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CanguroViewReportsMaterialWrapperName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CanguroViewReportsMaterialWrapperType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroViewReportsModalLPRWrapper" xml:space="preserve">
+    <value>Modal Load Participating Ratios</value>
+  </data>
+  <data name="CanguroViewReportsModalLPRWrapperDynamic" xml:space="preserve">
+    <value>Dynamic</value>
+  </data>
+  <data name="CanguroViewReportsModalLPRWrapperItem" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="CanguroViewReportsModalLPRWrapperItemType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CanguroViewReportsModalLPRWrapperStatic" xml:space="preserve">
+    <value>Static</value>
+  </data>
+  <data name="CanguroViewReportsModalPeriodsWrapper" xml:space="preserve">
+    <value>Modal Periods</value>
+  </data>
+  <data name="CanguroViewReportsModalPeriodsWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsModalPeriodsWrapperCircFreq" xml:space="preserve">
+    <value>Circ. Freq.</value>
+  </data>
+  <data name="CanguroViewReportsModalPeriodsWrapperFrecuency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="CanguroViewReportsModalPeriodsWrapperPeriod" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapper" xml:space="preserve">
+    <value>Modal Participating Forces</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperModalMass" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperModalStiff" xml:space="preserve">
+    <value>Stiffness</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperRx" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperRy" xml:space="preserve">
+    <value>Ry</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperRz" xml:space="preserve">
+    <value>Rz</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperUx" xml:space="preserve">
+    <value>Ux</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperUy" xml:space="preserve">
+    <value>Uy</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperUz" xml:space="preserve">
+    <value>Uz</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapper" xml:space="preserve">
+    <value>Modal Periods and Mass Participating Ratios</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperPeriod" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperRx" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperRy" xml:space="preserve">
+    <value>Ry</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperRz" xml:space="preserve">
+    <value>Rz</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperUx" xml:space="preserve">
+    <value>Ux</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperUy" xml:space="preserve">
+    <value>Uy</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperUz" xml:space="preserve">
+    <value>Uz</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapper" xml:space="preserve">
+    <value>Response Spectrum Analysis</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperCase" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperDampRatio" xml:space="preserve">
+    <value>Damp Ratio</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperPeriod" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperUx" xml:space="preserve">
+    <value>Ux</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperUy" xml:space="preserve">
+    <value>Uy</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperUz" xml:space="preserve">
+    <value>Uz</value>
+  </data>
+  <data name="CanguroViewReportsSectionWrapper" xml:space="preserve">
+    <value>Frame Sections</value>
+  </data>
+  <data name="CanguroViewReportsSectionWrapperDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CanguroViewReportsSectionWrapperMaterial" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="CanguroViewReportsSectionWrapperName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CanguroViewReportsSectionWrapperShape" xml:space="preserve">
+    <value>Shape</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapper" xml:space="preserve">
+    <value>Steel Design - Axial Details</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperFrame" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperMMajRatio" xml:space="preserve">
+    <value>PMM Ratio (Mayor)</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperMMinRatio" xml:space="preserve">
+    <value>PMM Ratio (Menor)</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperPRatio" xml:space="preserve">
+    <value>PMM Ratio (Axial)</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperTotalRatio" xml:space="preserve">
+    <value>PMM Ratio (Total)</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapper" xml:space="preserve">
+    <value>Steel Design - Shear Details</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperFrame" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperVMajorRatio" xml:space="preserve">
+    <value>Shear Stress (Major)</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperVMinorRatio" xml:space="preserve">
+    <value>Shear Stress (Minor)</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignWrapper" xml:space="preserve">
+    <value>Steel Design</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignWrapperError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignWrapperFrame" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignWrapperRatio" xml:space="preserve">
+    <value>Ratio</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignWrapperWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="cantSaveFile" xml:space="preserve">
+    <value>An error ocurred and the file cannot be saved.</value>
+  </data>
+  <data name="CardinalPoint" xml:space="preserve">
+    <value>Insertion</value>
+  </data>
+  <data name="Case" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="Centroid" xml:space="preserve">
+    <value>Centroid</value>
+  </data>
+  <data name="Channel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="CircleSection" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="coldFormedName" xml:space="preserve">
+    <value>Cold formed</value>
+  </data>
+  <data name="ColinearPoints" xml:space="preserve">
+    <value>Points should not be colinear</value>
+  </data>
+  <data name="column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="CombinationTypeAbsoluteAdd" xml:space="preserve">
+    <value>Absolute Add</value>
+  </data>
+  <data name="CombinationTypeEnvelope" xml:space="preserve">
+    <value>Envelope</value>
+  </data>
+  <data name="CombinationTypeLinearAdd" xml:space="preserve">
+    <value>Linear Add</value>
+  </data>
+  <data name="CombinationTypeSRSS" xml:space="preserve">
+    <value>SRSS</value>
+  </data>
+  <data name="CommandNotFound" xml:space="preserve">
+    <value>Command not found</value>
+  </data>
+  <data name="concrete" xml:space="preserve">
+    <value>Concrete</value>
+  </data>
+  <data name="concreteName" xml:space="preserve">
+    <value>Concrete</value>
+  </data>
+  <data name="concreteName1" xml:space="preserve">
+    <value>Concrete</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="confirmCompactIDs" xml:space="preserve">
+    <value>Do you whish to renumber joints and frames? (You won't be able to undo this action)</value>
+  </data>
+  <data name="confirmInstallUpdate" xml:space="preserve">
+    <value>A new version of Treu Structure is available, do you want to install it now?</value>
+  </data>
+  <data name="confirmInstallUpdateTitle" xml:space="preserve">
+    <value>Update available</value>
+  </data>
+  <data name="confirmUnlockModel" xml:space="preserve">
+    <value>Yo will loose the results if you continue. Do you want to continue?</value>
+  </data>
+  <data name="cylinderCmdTitle" xml:space="preserve">
+    <value>Cylinder</value>
+  </data>
+  <data name="Dead" xml:space="preserve">
+    <value>Dead</value>
+  </data>
+  <data name="defaultAnalysisCaseName" xml:space="preserve">
+    <value>ACASE</value>
+  </data>
+  <data name="defaultCatalogName" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="DefaultConstraintName" xml:space="preserve">
+    <value>Diaphragm</value>
+  </data>
+  <data name="defaultLayerName" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="defaultLoadCase" xml:space="preserve">
+    <value>Dead load</value>
+  </data>
+  <data name="defaultLoadComboName" xml:space="preserve">
+    <value>Combo</value>
+  </data>
+  <data name="defaultModalCase" xml:space="preserve">
+    <value>Modal</value>
+  </data>
+  <data name="defaultModelName" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="defaultPDeltaCase" xml:space="preserve">
+    <value>P-Delta</value>
+  </data>
+  <data name="defaultResponseCase" xml:space="preserve">
+    <value>Quake</value>
+  </data>
+  <data name="defaultSectionName" xml:space="preserve">
+    <value>Sec</value>
+  </data>
+  <data name="defaultSteelName" xml:space="preserve">
+    <value>A36</value>
+  </data>
+  <data name="deformedLength" xml:space="preserve">
+    <value>Deformed Length: </value>
+  </data>
+  <data name="deleteLoadFromAssignedLoadsQuestion" xml:space="preserve">
+    <value>Are you sure you want to delete this load?</value>
+  </data>
+  <data name="deleteLoadFromAssignedLoadsQuestionTitle" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Density" xml:space="preserve">
+    <value>Density</value>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="DoFI" xml:space="preserve">
+    <value>Release I</value>
+  </data>
+  <data name="DoFJ" xml:space="preserve">
+    <value>Release J</value>
+  </data>
+  <data name="dofLocalAxisStr" xml:space="preserve">
+    <value>on local axis:</value>
+  </data>
+  <data name="dofSpringConstantStr" xml:space="preserve">
+    <value>Spring constant (</value>
+  </data>
+  <data name="domeCmdTitle" xml:space="preserve">
+    <value>Dome</value>
+  </data>
+  <data name="DoubleAngle" xml:space="preserve">
+    <value>Double angle</value>
+  </data>
+  <data name="EA0001" xml:space="preserve">
+    <value>Treu Structure cannot read results file</value>
+  </data>
+  <data name="edit1" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editCmdTitle" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="elementLoadsProp" xml:space="preserve">
+    <value>Loads</value>
+  </data>
+  <data name="elementLoadsProp1" xml:space="preserve">
+    <value>Loads</value>
+  </data>
+  <data name="EM0001" xml:space="preserve">
+    <value>This method is not supported by ItemList</value>
+  </data>
+  <data name="EM0002" xml:space="preserve">
+    <value>Cannot assign item because the ID is already in use</value>
+  </data>
+  <data name="EM0010" xml:space="preserve">
+    <value>The Catalog object is Read-only</value>
+  </data>
+  <data name="EM0020" xml:space="preserve">
+    <value>LineElement needs at least one joint in JointList</value>
+  </data>
+  <data name="EM0021" xml:space="preserve">
+    <value>Specified Joint is not in JointList</value>
+  </data>
+  <data name="EML0001" xml:space="preserve">
+    <value>Specified load case is not in current model</value>
+  </data>
+  <data name="EndOffsets" xml:space="preserve">
+    <value>End Offsets</value>
+  </data>
+  <data name="EnglishSystem" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="enterDataArea" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="enterDataError" xml:space="preserve">
+    <value>Given datum is not recognised as:</value>
+  </data>
+  <data name="enterDataErrorTitle" xml:space="preserve">
+    <value>Incorrect input</value>
+  </data>
+  <data name="enterDataIndexError" xml:space="preserve">
+    <value>There's no *type* with ID: </value>
+  </data>
+  <data name="enterDataJoint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="enterDataLine" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="enterDataPoint" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorAnalyzing" xml:space="preserve">
+    <value>An error ocurred during analysis</value>
+  </data>
+  <data name="ErrorExporting" xml:space="preserve">
+    <value>Error exporting analysis file</value>
+  </data>
+  <data name="ErrorInWebService" xml:space="preserve">
+    <value>unicating with the server. Please check your Internet connection and try again</value>
+  </data>
+  <data name="errorLoadingFile" xml:space="preserve">
+    <value>Treu Structure cannot load the file</value>
+  </data>
+  <data name="export2skTitle" xml:space="preserve">
+    <value>Exporting S2K</value>
+  </data>
+  <data name="ExportDXFTitle" xml:space="preserve">
+    <value>Export DXF</value>
+  </data>
+  <data name="ExportS2KTitle" xml:space="preserve">
+    <value>Export S2K</value>
+  </data>
+  <data name="fileNotFound" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="flipAreaJoints" xml:space="preserve">
+    <value>Shift joints</value>
+  </data>
+  <data name="FlipJoints" xml:space="preserve">
+    <value>Flip Joints</value>
+  </data>
+  <data name="Floor" xml:space="preserve">
+    <value>Diaphragm</value>
+  </data>
+  <data name="Force" xml:space="preserve">
+    <value>Force</value>
+  </data>
+  <data name="forExample" xml:space="preserve">
+    <value>for example</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="generatingReport" xml:space="preserve">
+    <value>Generating Report</value>
+  </data>
+  <data name="getArrayRepetition" xml:space="preserve">
+    <value>Input array repetition number</value>
+  </data>
+  <data name="getItem" xml:space="preserve">
+    <value>Select an object, please</value>
+  </data>
+  <data name="getJoint" xml:space="preserve">
+    <value>Select a joint, please</value>
+  </data>
+  <data name="getLine" xml:space="preserve">
+    <value>Select a frame element, please</value>
+  </data>
+  <data name="getMany" xml:space="preserve">
+    <value>Select objects, please</value>
+  </data>
+  <data name="getPoint" xml:space="preserve">
+    <value>Plese select a Point</value>
+  </data>
+  <data name="getPolarArrayAngle" xml:space="preserve">
+    <value>Input the rotate angle for polar array</value>
+  </data>
+  <data name="getPolarRotationCenter" xml:space="preserve">
+    <value>Select a vector to act as rotation center</value>
+  </data>
+  <data name="getResultsCommandTitle" xml:space="preserve">
+    <value>Downloading results</value>
+  </data>
+  <data name="getRotationAngle" xml:space="preserve">
+    <value>Input the rotate angle</value>
+  </data>
+  <data name="getRotationCenter" xml:space="preserve">
+    <value>Select a vector to act as rotation center</value>
+  </data>
+  <data name="getScale" xml:space="preserve">
+    <value>Scale factor</value>
+  </data>
+  <data name="getSplitParts" xml:space="preserve">
+    <value>Number of parts</value>
+  </data>
+  <data name="getVector1" xml:space="preserve">
+    <value>Select a starting point for the vector</value>
+  </data>
+  <data name="getVector2" xml:space="preserve">
+    <value>Select an ending point for the vector</value>
+  </data>
+  <data name="Gravity" xml:space="preserve">
+    <value>Gravity</value>
+  </data>
+  <data name="gridCmdTitle" xml:space="preserve">
+    <value>Reticular grid</value>
+  </data>
+  <data name="gridFormatException" xml:space="preserve">
+    <value>The entered value is invalid. Please correct it or press ESC to cancel the change.</value>
+  </data>
+  <data name="I" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="I_WideFlange" xml:space="preserve">
+    <value>I/Wide Flange</value>
+  </data>
+  <data name="ImportDXFTitle" xml:space="preserve">
+    <value>Import DXF</value>
+  </data>
+  <data name="inquiryDistance" xml:space="preserve">
+    <value>Inquiry distance</value>
+  </data>
+  <data name="InternationalSystem" xml:space="preserve">
+    <value>International</value>
+  </data>
+  <data name="invalidSerial" xml:space="preserve">
+    <value>Given key is invalid</value>
+  </data>
+  <data name="invalidUser" xml:space="preserve">
+    <value>Given E-Mail is not registered</value>
+  </data>
+  <data name="isotropicName" xml:space="preserve">
+    <value>Isotropic</value>
+  </data>
+  <data name="J" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="J1" xml:space="preserve">
+    <value>J1</value>
+  </data>
+  <data name="J2" xml:space="preserve">
+    <value>J2</value>
+  </data>
+  <data name="J3" xml:space="preserve">
+    <value>J3</value>
+  </data>
+  <data name="J4" xml:space="preserve">
+    <value>J4</value>
+  </data>
+  <data name="jointConstraintProp" xml:space="preserve">
+    <value>Constraint</value>
+  </data>
+  <data name="jointDoFProp" xml:space="preserve">
+    <value>DoF</value>
+  </data>
+  <data name="jointMassesProp" xml:space="preserve">
+    <value>Masses</value>
+  </data>
+  <data name="Joints" xml:space="preserve">
+    <value>Joints</value>
+  </data>
+  <data name="lastLayerError" xml:space="preserve">
+    <value>Cannot delete layer because it's the only one in the model.</value>
+  </data>
+  <data name="Layer" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="layerHasObjectsError" xml:space="preserve">
+    <value>Cannot delete layer because it contains objects.</value>
+  </data>
+  <data name="lineAngle" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="LineEndOffsetFactor" xml:space="preserve">
+    <value>Stiffness</value>
+  </data>
+  <data name="LineEndOffsetI" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="LineEndOffsetJ" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="lineIDText" xml:space="preserve">
+    <value>ID: </value>
+  </data>
+  <data name="lineLengthText" xml:space="preserve">
+    <value>Length: </value>
+  </data>
+  <data name="lineProps" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="Lines" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="lineSecText" xml:space="preserve">
+    <value>Section: </value>
+  </data>
+  <data name="Live" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="loadDescriptionConcentratedSpanLoad" xml:space="preserve">
+    <value>Concentrated frame load with components  Fx, Fy, Fz (force), Mx, My, Mz (moment)</value>
+  </data>
+  <data name="loadDescriptionDistributedSpanLoad" xml:space="preserve">
+    <value>Distributed frame load with direction and magnitude in the sides</value>
+  </data>
+  <data name="loadDescriptionForceLoad" xml:space="preserve">
+    <value>Joint force load with components  Fx, Fy, Fz (force), Mx, My, Mz (moment)</value>
+  </data>
+  <data name="loadDescriptionGroundDisplacementLoad" xml:space="preserve">
+    <value>Ground displacements in a restrained joint, with components Tx, Ty, Tz (displacement), Rx, Ry, Rx (rotation)</value>
+  </data>
+  <data name="loadDescriptionTemperatureGradientLineLoad" xml:space="preserve">
+    <value>Distributed temperature load along a frame section in either the 2 or 3 axis</value>
+  </data>
+  <data name="loadDescriptionTemperatureLineLoad" xml:space="preserve">
+    <value>Constant temperature load in a frame element</value>
+  </data>
+  <data name="loadDescriptionTriangleLineLoadCmd" xml:space="preserve">
+    <value>Distributed load with a given direction, a load value at the middle and zero load in both ends.</value>
+  </data>
+  <data name="loadDescriptionUniformLineLoadCmd" xml:space="preserve">
+    <value>Uniformly distributed frame load, with equal direction and magnitud along the whole element</value>
+  </data>
+  <data name="loads" xml:space="preserve">
+    <value>loads</value>
+  </data>
+  <data name="loadTextTemperature" xml:space="preserve">
+    <value>Temp:</value>
+  </data>
+  <data name="loadTextTempGradient" xml:space="preserve">
+    <value>Temp. Grad:</value>
+  </data>
+  <data name="loadTypeConcentratedSpanLoad" xml:space="preserve">
+    <value>Concentrated load</value>
+  </data>
+  <data name="loadTypeDistributedSpanLoad" xml:space="preserve">
+    <value>Distributed load</value>
+  </data>
+  <data name="loadTypeForceLoad" xml:space="preserve">
+    <value>Joint force</value>
+  </data>
+  <data name="loadTypeGroundDisplacementLoad" xml:space="preserve">
+    <value>Ground displacement</value>
+  </data>
+  <data name="loadTypeTemperatureGradientLineLoad" xml:space="preserve">
+    <value>Temperature Gradient Load</value>
+  </data>
+  <data name="loadTypeTemperatureLineLoad" xml:space="preserve">
+    <value>Temperature Load on Frame</value>
+  </data>
+  <data name="loadTypeTriangleLineLoadCmd" xml:space="preserve">
+    <value>Triangular Load on Frame</value>
+  </data>
+  <data name="loadTypeUniformLineLoadCmd" xml:space="preserve">
+    <value>Uniform Load on Frame</value>
+  </data>
+  <data name="looseAnalysisQuestionStr" xml:space="preserve">
+    <value>If you cancel the command, analysis results will be lost. Are you sure you wish to continue?</value>
+  </data>
+  <data name="Mass" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="materialInUseError" xml:space="preserve">
+    <value>The material cannot be deleted because it's in use</value>
+  </data>
+  <data name="MetricSystem" xml:space="preserve">
+    <value>Metric</value>
+  </data>
+  <data name="MiddleCenter" xml:space="preserve">
+    <value>Mid Center</value>
+  </data>
+  <data name="MiddleLeft" xml:space="preserve">
+    <value>Mid Left</value>
+  </data>
+  <data name="MiddleRight" xml:space="preserve">
+    <value>Mid Right</value>
+  </data>
+  <data name="modalCaseName" xml:space="preserve">
+    <value>Modal</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="ModelCmdAlreadyExecuting" xml:space="preserve">
+    <value>There's another command in execution. You should wait for it to finish or cancel it to run another command.</value>
+  </data>
+  <data name="modelIsLockedExceptionMessage" xml:space="preserve">
+    <value>The model cannot be modified while it's locked</value>
+  </data>
+  <data name="Moment" xml:space="preserve">
+    <value>Moment</value>
+  </data>
+  <data name="needRestart" xml:space="preserve">
+    <value>You need to restart Treu Structure for the changes to take effect. Do you want to do it now?</value>
+  </data>
+  <data name="NewConstraint" xml:space="preserve">
+    <value>New...</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NoConstraint" xml:space="preserve">
+    <value>No Constraint</value>
+  </data>
+  <data name="NoDesign" xml:space="preserve">
+    <value>No design</value>
+  </data>
+  <data name="noJointsToAnalyze" xml:space="preserve">
+    <value>No joints found for analysis.</value>
+  </data>
+  <data name="noMaterialName" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="notConnected" xml:space="preserve">
+    <value>The structure cannot be analyzed because it's not connected. 
+Disconnected elements were selected.
+Do you want to try to Join the structure?</value>
+  </data>
+  <data name="notEnoughRestraints" xml:space="preserve">
+    <value>The structure is unstable because it doesn't have enough restraints.</value>
+  </data>
+  <data name="noZoomPreviousToDo" xml:space="preserve">
+    <value>No previous views to recover</value>
+  </data>
+  <data name="Offsets" xml:space="preserve">
+    <value>Offsets</value>
+  </data>
+  <data name="OpenFileTitle" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Overstressed" xml:space="preserve">
+    <value>Overstressed</value>
+  </data>
+  <data name="pasteCmdTitle" xml:space="preserve">
+    <value>Paste in:</value>
+  </data>
+  <data name="PDeltaCaseName" xml:space="preserve">
+    <value>P-Delta</value>
+  </data>
+  <data name="Pipe" xml:space="preserve">
+    <value>Pipe</value>
+  </data>
+  <data name="pivotScalePoint" xml:space="preserve">
+    <value>Select a pivot for scale</value>
+  </data>
+  <data name="pleaseAuthenticate" xml:space="preserve">
+    <value>Pleas authenticate</value>
+  </data>
+  <data name="printDate" xml:space="preserve">
+    <value>Printed on </value>
+  </data>
+  <data name="printFileText" xml:space="preserve">
+    <value>Model filename: </value>
+  </data>
+  <data name="Quake" xml:space="preserve">
+    <value>Quake</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="rebarName" xml:space="preserve">
+    <value>Rebar</value>
+  </data>
+  <data name="RectangularSection" xml:space="preserve">
+    <value>Rectangular</value>
+  </data>
+  <data name="ReduceLive" xml:space="preserve">
+    <value>Reducible Live</value>
+  </data>
+  <data name="RegistrationErrorInvalidEmail" xml:space="preserve">
+    <value>Given E-Mail is not valid</value>
+  </data>
+  <data name="RegistrationErrorInvalidKey" xml:space="preserve">
+    <value>The key value should have 18 digits</value>
+  </data>
+  <data name="RegistrationErrorLastNameIsEmpty" xml:space="preserve">
+    <value>Sure Name field should not be empty</value>
+  </data>
+  <data name="RegistrationErrorNameIsEmpty" xml:space="preserve">
+    <value>Name field should not be empty</value>
+  </data>
+  <data name="RegistrationErrorPasswordMismatch" xml:space="preserve">
+    <value>Password isn't the same as confirmation</value>
+  </data>
+  <data name="ReportAuthorTitleText" xml:space="preserve">
+    <value>Author:</value>
+  </data>
+  <data name="ReportDateTitleText" xml:space="preserve">
+    <value>Data:</value>
+  </data>
+  <data name="ReportFileNameTitleText" xml:space="preserve">
+    <value>File name:</value>
+  </data>
+  <data name="ReportToCTitleText" xml:space="preserve">
+    <value>Table of Contents</value>
+  </data>
+  <data name="ReportUnitSystemTitleText" xml:space="preserve">
+    <value>Unit System:</value>
+  </data>
+  <data name="responseSpectrumName" xml:space="preserve">
+    <value>Response spectrum</value>
+  </data>
+  <data name="restart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="rootSectionCatalog" xml:space="preserve">
+    <value>Sections</value>
+  </data>
+  <data name="rotation" xml:space="preserve">
+    <value>Rotation</value>
+  </data>
+  <data name="SaveAsTitle" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="saveScreenshotWinTitle" xml:space="preserve">
+    <value>Save as...</value>
+  </data>
+  <data name="SaveTitle" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="scaleTitle" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="sectionInUseError" xml:space="preserve">
+    <value>The section cannot be deleted because it's in use</value>
+  </data>
+  <data name="selectCylinderCenter" xml:space="preserve">
+    <value>Select a center for the base of the cylinder</value>
+  </data>
+  <data name="selectDomeCenter" xml:space="preserve">
+    <value>Select a center for the base of the dome</value>
+  </data>
+  <data name="selectGridOrigin" xml:space="preserve">
+    <value>Select an origin for the grid</value>
+  </data>
+  <data name="Selection" xml:space="preserve">
+    <value>Selection</value>
+  </data>
+  <data name="selectItems" xml:space="preserve">
+    <value>Select items</value>
+  </data>
+  <data name="selectPivot" xml:space="preserve">
+    <value>Select a base point</value>
+  </data>
+  <data name="selectPlainPoints" xml:space="preserve">
+    <value>Select points</value>
+  </data>
+  <data name="setLayerName" xml:space="preserve">
+    <value>Set layer name</value>
+  </data>
+  <data name="Shear" xml:space="preserve">
+    <value>Shear</value>
+  </data>
+  <data name="ShearCenter" xml:space="preserve">
+    <value>Shear Center</value>
+  </data>
+  <data name="Snow" xml:space="preserve">
+    <value>Snow</value>
+  </data>
+  <data name="staticCaseName" xml:space="preserve">
+    <value>Static</value>
+  </data>
+  <data name="steel" xml:space="preserve">
+    <value>Steel</value>
+  </data>
+  <data name="steelName" xml:space="preserve">
+    <value>Steel</value>
+  </data>
+  <data name="strAnalyzingProgress" xml:space="preserve">
+    <value>Analyzing</value>
+  </data>
+  <data name="strAskToAcceptCharge" xml:space="preserve">
+    <value>Your account will be charged the following amount:</value>
+  </data>
+  <data name="strAskToAcceptChargeTitle" xml:space="preserve">
+    <value>Charge acceptance</value>
+  </data>
+  <data name="strCannotAffordService" xml:space="preserve">
+    <value>The price of this service is *cost* points. However you don't have enough credit in you account to complete this operation.</value>
+  </data>
+  <data name="strCannotPasteInCurrentGridTab" xml:space="preserve">
+    <value>Cannot paste data into the active grid</value>
+  </data>
+  <data name="strDirectXFatalError" xml:space="preserve">
+    <value>An error ocurred with the display device. Please make sure that your device supports Direct3D and you have the latest drivers intalled.</value>
+  </data>
+  <data name="strFatalError" xml:space="preserve">
+    <value>Error in the application</value>
+  </data>
+  <data name="strFatalErrorNo32bit" xml:space="preserve">
+    <value>The application needs 32 bit color (true color) support. Check your display adapter configuration.</value>
+  </data>
+  <data name="strGridDataCopiedToClipboard" xml:space="preserve">
+    <value>Selected cells from the grid were successfully copied to the clipboard</value>
+  </data>
+  <data name="strMoney" xml:space="preserve">
+    <value>point(s)</value>
+  </data>
+  <data name="strNotEnoughCredit" xml:space="preserve">
+    <value>Your account does not have enough credit for this operation</value>
+  </data>
+  <data name="strPasteWithErrors" xml:space="preserve">
+    <value>Couldn't paste all the data</value>
+  </data>
+  <data name="strQueuedProgress" xml:space="preserve">
+    <value>Waiting in queue</value>
+  </data>
+  <data name="structureIsDisconnectedWrn" xml:space="preserve">
+    <value>The structure is not connected. Disconnected elements were selected.</value>
+  </data>
+  <data name="SuspendMessage" xml:space="preserve">
+    <value>The system is about be suspended, therefore the application needs to be closed. Do you want to save your changes?</value>
+  </data>
+  <data name="SuspendMessageBoxCaption" xml:space="preserve">
+    <value>System suspension</value>
+  </data>
+  <data name="Tee" xml:space="preserve">
+    <value>Tee</value>
+  </data>
+  <data name="TestCmd" xml:space="preserve">
+    <value>Test command</value>
+  </data>
+  <data name="TopCenter" xml:space="preserve">
+    <value>Top Center</value>
+  </data>
+  <data name="TopLeft" xml:space="preserve">
+    <value>Top Left</value>
+  </data>
+  <data name="TopRight" xml:space="preserve">
+    <value>Top Right</value>
+  </data>
+  <data name="Torsion" xml:space="preserve">
+    <value>Torsion</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="translation" xml:space="preserve">
+    <value>Traslation</value>
+  </data>
+  <data name="UBC97_ASD" xml:space="preserve">
+    <value>UBC97-ASD</value>
+  </data>
+  <data name="UBC97_LRFD" xml:space="preserve">
+    <value>UBC97-LRFD</value>
+  </data>
+  <data name="uniaxialName" xml:space="preserve">
+    <value>Uniaxial</value>
+  </data>
+  <data name="userAlreadyRegistered" xml:space="preserve">
+    <value>E-Mail previously registered</value>
+  </data>
+  <data name="userSectionsCatalog" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="vistaVirtualizationFixed" xml:space="preserve">
+    <value>A problem related to the new Windows Vista User Access Control was fixed.</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Wave" xml:space="preserve">
+    <value>Wave</value>
+  </data>
+  <data name="Wind" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="XmlError" xml:space="preserve">
+    <value>XML file can´t be created</value>
+  </data>
+  <data name="Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Z" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="zeroLengthLines" xml:space="preserve">
+    <value>The structure contains zero-length frame elements and cannot be analyzed.
+Do you want to Join the structure to delete these elements?</value>
+  </data>
+</root>

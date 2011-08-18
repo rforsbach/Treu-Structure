@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sections>
+  <template name="Sigma">
+    <shape name="S" />
+    <vars>
+      <var id="x" default="2" />
+      <var id="y" />
+    </vars>
+    <countour faceNormals="true">
+      <point id="0" x="0" y="0" nx="0" ny="-1" />
+      <point id="1" x="x" y="0" nx="1" ny="0"  />
+      <point id="2" x="x" y="y" nx="0" ny="1"  />
+      <point id="3" x="0" y="y" nx="-1" ny="0" />
+    </countour>
+  </template>
+  <Frame_Section_Properties_01_-_General>
+    <SectionName SectionName="S 2x2" Shape="Sigma" t3="0.2" t2="0.2" tf="0" tw="0" t2b="0" tfb="0" dis="0" Area="0.00290322" TorsConst="1.73429756531779E-07" I33="1.01144239199445E-06" I22="2.0835005177219E-06" AS2="0.0016129" AS3="0.0016129" S33="2.34652716484173E-05" S22="3.2811031775148E-05" Z33="4.2442494353487E-05" Z22="0.000059403107" R33="1.86651120963927E-02" R22="2.67890203932443E-02">
+      <vars>
+        <var id="x" value="2" />
+        <var id="y" value="2" />
+      </vars>
+    </SectionName>
+    <SectionName SectionName="S 2x3" Shape="Sigma" t3="0.2" t2="0.3" tf="0" tw="0" t2b="0" tfb="0" dis="0" Area="0.00390322" TorsConst="1.73429756531779E-07" I33="1.01144239199445E-06" I22="2.0835005177219E-06" AS2="0.0016129" AS3="0.0016129" S33="2.34652716484173E-05" S22="3.2811031775148E-05" Z33="4.2442494353487E-05" Z22="0.000059403107" R33="1.86651120963927E-02" R22="2.67890203932443E-02">
+      <vars>
+        <var id="x" value="2" />
+        <var id="y" value="3" />
+      </vars>
+    </SectionName>
+  </Frame_Section_Properties_01_-_General>
+</sections>

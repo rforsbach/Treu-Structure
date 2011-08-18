@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="9" />
+  <Class Name="Canguro.View.Reports.AnalysisCaseWrapper" Collapsed="true">
+    <Position X="1.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\AnalysisCaseWrapper.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.SectionWrapper" Collapsed="true">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\SectionWrapper.cs</FileName>
+      <HashCode>AEAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.BaseReactionsWrapper" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\BaseReactionsWrapper.cs</FileName>
+      <HashCode>AAAQAgAAAAAAEAIAAAAAAAAAAAAAAgAAAAAAQAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.ElementJointForcesWrapper" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\ElementJointForcesWrapper.cs</FileName>
+      <HashCode>AAAQAgAAAAAAEAIAAAgAAAAAAAAAAgAAAAAAQAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.GroundDisplacementWrapper" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\GroundDisplacementWrapper.cs</FileName>
+      <HashCode>AAAAAAQBACAIAAAAAAAAAAAAAAAAAgAAAAAAAAAQBAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.ItemWrapper" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\ItemWrapper.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.JointDisplacementsWrapper" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\JointDisplacementsWrapper.cs</FileName>
+      <HashCode>AAAAAAQBACAIAAAAAAAAAAAAAAAAAgAAAAAAAAAQBAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.JointForcesWrapper" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\JointForcesWrapper.cs</FileName>
+      <HashCode>AAAQAgAAAAAAEAIAAAAAAAAAAAAAAgAAAAAAQAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.JointWrapper" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\JointWrapper.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAAQAAAAACCAAAAAAAAAAAAAAAYAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.LineConcentratedForcesWrapper" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\LineConcentratedForcesWrapper.cs</FileName>
+      <HashCode>AAAQAgAAAAAAEAIAAAgAAAAAAAAAAAAAAAAARAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.LineDistributedForcesWrapper" Collapsed="true">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\LineDistributedForcesWrapper.cs</FileName>
+      <HashCode>AAAQAgAAAAAAEAIAAAgAAAAAAAAAAAAAAAAAYAkAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.LineWrapper" Collapsed="true">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\LineWrapper.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAKABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.LoadCaseWrapper" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\LoadCaseWrapper.cs</FileName>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canguro.View.Reports.MaterialWrapper" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>View\Reports\MaterialWrapper.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

@@ -1,0 +1,3175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CanguroModelMaterialUniaxialTypePropsA" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDz" xml:space="preserve">
+    <value>Alto de piso</value>
+  </data>
+  <data name="CanguroModelDesignASD01NetRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 240 significa que el límite es L/240. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroViewReportsAnalysisCaseWrapperType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadDa" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="pivotScalePoint" xml:space="preserve">
+    <value>Seleccione un pivote para la escala</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperMy" xml:space="preserve">
+    <value>Momento Y</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02NumPoints" xml:space="preserve">
+    <value>Puntos de Interacción</value>
+  </data>
+  <data name="gridFormatException" xml:space="preserve">
+    <value>El valor ingresado es inválido. Favor de arreglarlo o presione ESC para cancelar el cambio.</value>
+  </data>
+  <data name="TestCmd" xml:space="preserve">
+    <value>Comando de pruebas</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99MaxIterDescription" xml:space="preserve">
+    <value>Número máximo de iteraciones que realiza el algoritmo de diseño.</value>
+  </data>
+  <data name="getSplitParts" xml:space="preserve">
+    <value>Número de divisiones</value>
+  </data>
+  <data name="CanguroViewReportsModalLPRWrapperDynamic" xml:space="preserve">
+    <value>Dinámica</value>
+  </data>
+  <data name="MetricSystem" xml:space="preserve">
+    <value>Métrico</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="showstresses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\showstresses.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saveHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisCat" xml:space="preserve">
+    <value>Categoría Sísmica</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisCode" xml:space="preserve">
+    <value>Ignorar Código Sísmico</value>
+  </data>
+  <data name="CanguroPreferencesJointSelectedDefaultColor" xml:space="preserve">
+    <value>Color de Nodos Seleccionados</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSRatioLimit" xml:space="preserve">
+    <value>Límite de Demanda o Capacidad</value>
+  </data>
+  <data name="CommandNotFound" xml:space="preserve">
+    <value>No se encontró el comando especificado</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperR3" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="LineEndOffsetFactor" xml:space="preserve">
+    <value>Rigidez</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcTHDesign" xml:space="preserve">
+    <value>Diseño Acelerograma</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapperElement" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcNumCurvesDescription" xml:space="preserve">
+    <value>El número de curvas de interacción para generar la superficie tridimensional de interacción. Este valor debe ser un múltiplo de 4 igual o mayor a 4.</value>
+  </data>
+  <data name="accept" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="RectangularSection" xml:space="preserve">
+    <value>Rectangular</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperRz" xml:space="preserve">
+    <value>Rz</value>
+  </data>
+  <data name="add32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\32x32\add.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoFJ" xml:space="preserve">
+    <value>Articulación J</value>
+  </data>
+  <data name="CanguroViewReportsMaterialWrapperDescription" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="CanguroPreferencesJointSelectedDefaultColorDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CardinalPoint08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\Sections\CardinalPoint08.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsE" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDNetRat" xml:space="preserve">
+    <value>Límite Neto</value>
+  </data>
+  <data name="RestraintTransZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\RestraintTransZ.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiB" xml:space="preserve">
+    <value>Phi (Flexión)</value>
+  </data>
+  <data name="defaultPDeltaCase" xml:space="preserve">
+    <value>P-Delta</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDx" xml:space="preserve">
+    <value>Ancho de Crujía en X</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdStories" xml:space="preserve">
+    <value>Anillos</value>
+  </data>
+  <data name="XmlError" xml:space="preserve">
+    <value>Error creando archivo XML</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperMx" xml:space="preserve">
+    <value>Momento X</value>
+  </data>
+  <data name="show_loads" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\show-loads.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsRebarFys" xml:space="preserve">
+    <value>Fys</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureGradientLineLoadLoadType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99TimeHistoryDesign" xml:space="preserve">
+    <value>Diseño Acelerograma</value>
+  </data>
+  <data name="CardinalPoint06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\Sections\CardinalPoint06.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadDb" xml:space="preserve">
+    <value>Db</value>
+  </data>
+  <data name="deletelayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\deletelayer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperFx" xml:space="preserve">
+    <value>Fuerza X</value>
+  </data>
+  <data name="loadDescriptionTemperatureLineLoad" xml:space="preserve">
+    <value>Carga de temperatura constante sobre una barra.</value>
+  </data>
+  <data name="AngleSectionImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sections\AngleSectionImg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdStoriesDescription" xml:space="preserve">
+    <value>Número de niveles o anillos en el cilindro. [1 - 100]</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02THDesignDescription" xml:space="preserve">
+    <value>Este valor puede ser "Envelopes" o "Step-by-Step" para indicar la forma de tomar los resultados del análisis de acelorograma.</value>
+  </data>
+  <data name="CanguroCommandsFormsVectorAcceleration" xml:space="preserve">
+    <value>Aceleración</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisLoad" xml:space="preserve">
+    <value>Ignorar Carga Sísmica Especial</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdRadiusDescription" xml:space="preserve">
+    <value>Radio de los anillos del cilindro. [0 - 100m]</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\edit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTyDescription" xml:space="preserve">
+    <value>Traslación en el eje global Y.</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperPeriod" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="Axial" xml:space="preserve">
+    <value>Axial</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDDLRat" xml:space="preserve">
+    <value>Límite de Carga Muerta</value>
+  </data>
+  <data name="SuspendMessageBoxCaption" xml:space="preserve">
+    <value>Suspensión del sistema</value>
+  </data>
+  <data name="CanguroViewReportsModalLPRWrapperItem" xml:space="preserve">
+    <value>Carga</value>
+  </data>
+  <data name="CanguroViewReportsLoadCombinationWrapperCombination" xml:space="preserve">
+    <value>Combinación</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSeisZone" xml:space="preserve">
+    <value>Zona Sísmica</value>
+  </data>
+  <data name="lastLayerError" xml:space="preserve">
+    <value>No se puede borrar la capa porque es la única capa en el modelo.</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdSectionDescription" xml:space="preserve">
+    <value>Sección de barra para uasr en todos los elementos del cilindro.</value>
+  </data>
+  <data name="BottomRight" xml:space="preserve">
+    <value>Inf Der</value>
+  </data>
+  <data name="distributedexpandload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\distributedexpandload.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiVJointDescription" xml:space="preserve">
+    <value>Factor de reducción de fuerza cortantes para nodos en estructuras basadas en barras especiales resistentes a momentos o muros de concreto reforzado especiales para resistir sismos.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSeisZone" xml:space="preserve">
+    <value>Zona Sísmica</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperU1" xml:space="preserve">
+    <value>U1</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDyDescription" xml:space="preserve">
+    <value>Ancho de crujías en el eje Y. [0 - 100m]</value>
+  </data>
+  <data name="CanguroPreferencesSmallPanelForeColorDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDCheckDefl" xml:space="preserve">
+    <value>Considerar Deformación</value>
+  </data>
+  <data name="rebarName" xml:space="preserve">
+    <value>Varilla</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSeisZoneDescription" xml:space="preserve">
+    <value>Este valor puede ser "Zone 0", "Zone 1", "Zone 2", "Zone 3", or "Zone 4".  Se utiliza en diseño sísmico.</value>
+  </data>
+  <data name="editlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\editlayer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNxDescription" xml:space="preserve">
+    <value>Número de crujías en el eje X. [1 - 500]</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperR3" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="CanguroViewReportsMaterialAmountWrapperSection" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001NumPointsDescription" xml:space="preserve">
+    <value>El número de puntos para definir una curva de interacción bidimensional. Este valor debe ser igual o mayor a 5 e impar.</value>
+  </data>
+  <data name="RestraintTrans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\RestraintTrans.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDTimeHistoryDesignDescription" xml:space="preserve">
+    <value>Este valor puede ser "Envelopes" o "Step-by-Step" para indicar la forma de tomar los resultados del análisis de acelorograma.</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDzDescription" xml:space="preserve">
+    <value>Altura de piso (eje Z) [0 - 100m]</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapper" xml:space="preserve">
+    <value>Participaciones de Fuerzas en Modos</value>
+  </data>
+  <data name="getScale" xml:space="preserve">
+    <value>Factor de escala</value>
+  </data>
+  <data name="polarray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\polarray.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flipline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\flipline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignASD01TimeHistoryDesign" xml:space="preserve">
+    <value>Diseño Acelerograma</value>
+  </data>
+  <data name="RestraintAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\RestraintAll.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enterDataError" xml:space="preserve">
+    <value>El dato ingresado no se reconoce como: </value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiT" xml:space="preserve">
+    <value>Phi (Tensión)</value>
+  </data>
+  <data name="Design" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\Design.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsConstraintWrapperJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperDb" xml:space="preserve">
+    <value>Posición B</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapper" xml:space="preserve">
+    <value>Coordenadas de Nodos</value>
+  </data>
+  <data name="split" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\split.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChannelSectionImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sections\ChannelSectionImg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRyDescription" xml:space="preserve">
+    <value>Rotación alrededor del eje global Y.</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdSection" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="Layer" xml:space="preserve">
+    <value>Capa</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperUx" xml:space="preserve">
+    <value>Ux</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisLoadDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea que se realice tomen en cuenta las combinaciones de carga sísmica especiales en el diseño.</value>
+  </data>
+  <data name="norelease" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\norelease.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiVJoint" xml:space="preserve">
+    <value>Phi (Cortante en Nodo)</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapper" xml:space="preserve">
+    <value>Velocidades en Nodos</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001THDesign" xml:space="preserve">
+    <value>Diseño Acelerograma</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFx" xml:space="preserve">
+    <value>Fx</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiTFDescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperFy" xml:space="preserve">
+    <value>Fuerza Y</value>
+  </data>
+  <data name="CanguroViewReportsSectionWrapperDescription" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="CanguroModelDesignASD01CheckDeflDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea que que las limitaciones de deformación se consideren en el diseño.</value>
+  </data>
+  <data name="Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTxDescription" xml:space="preserve">
+    <value>Traslación en el eje global X.</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99LLRat" xml:space="preserve">
+    <value>Límite de Carga Viva</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdHeightDescription" xml:space="preserve">
+    <value>Distancia de la base al nodo superior. [1 - 100m]</value>
+  </data>
+  <data name="strDirectXFatalError" xml:space="preserve">
+    <value>Ocurrió un error en el dispositivo de video. Compruebe que tiene instalados los últimos controladores y que su dispositivo soporta y tiene configurado correctamente Direct3D 9.0c.</value>
+  </data>
+  <data name="rotation" xml:space="preserve">
+    <value>Rotación</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperUz" xml:space="preserve">
+    <value>Uz</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdRadius" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSRatioLimitDescription" xml:space="preserve">
+    <value>La razón Demanda/Capacidad límite aceptable. Las razones D/C menores o iguales a este valor se consideran aceptables.</value>
+  </data>
+  <data name="scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\scale.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\move.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notEnoughRestraints" xml:space="preserve">
+    <value>La estructura es inestable por falta de restricciones en la base.</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureGradientLineLoadLoadTypeDescription" xml:space="preserve">
+    <value>Direrección en que se aplica el gradiente de temperatura (22 o 33)</value>
+  </data>
+  <data name="Snow" xml:space="preserve">
+    <value>Nieve</value>
+  </data>
+  <data name="EM0021" xml:space="preserve">
+    <value>El Joint especificado no está registrado en JointList</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiB" xml:space="preserve">
+    <value>Phi (Flexión)</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiCA" xml:space="preserve">
+    <value>Phi (Compresión, Ángulo):  </value>
+  </data>
+  <data name="Dead" xml:space="preserve">
+    <value>Muerta</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperU3" xml:space="preserve">
+    <value>U3</value>
+  </data>
+  <data name="LineEndOffsetI" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="addAreaProps" xml:space="preserve">
+    <value>Propiedades del área</value>
+  </data>
+  <data name="loadTypeTemperatureLineLoad" xml:space="preserve">
+    <value>Carga de Temperatura sobre Barra</value>
+  </data>
+  <data name="ErrorInWebService" xml:space="preserve">
+    <value>Ocurrió un error de conexión con el servidor, revise su conexión a Internet e intente nuevamente</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMyDescription" xml:space="preserve">
+    <value>Valor del momento alrededor de la dirección Y global.</value>
+  </data>
+  <data name="strFatalErrorNo32bit" xml:space="preserve">
+    <value>La aplicación necesita soporte para color de 32 bits (color verdadero). Revise su configuración en las opciones de pantalla.</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTx" xml:space="preserve">
+    <value>Tx</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Otra</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperPMMRatio" xml:space="preserve">
+    <value>Razón Axial</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99CheckDefl" xml:space="preserve">
+    <value>Considerar Deformación</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperUy" xml:space="preserve">
+    <value>Uy</value>
+  </data>
+  <data name="arc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\arc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiTF" xml:space="preserve">
+    <value>Phi (Tensión-Fractura):  </value>
+  </data>
+  <data name="LegendHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\LegendHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureLineLoadTemperatureDescription" xml:space="preserve">
+    <value>Temperatura constante aplicada a las barras.</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRy" xml:space="preserve">
+    <value>Ry</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsEDescription" xml:space="preserve">
+    <value>Módulo de Elasticidad</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CardinalPoint04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\Sections\CardinalPoint04.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flipAreaJoints" xml:space="preserve">
+    <value>Recorrer nodos</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperLoadCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PatLLFDescription" xml:space="preserve">
+    <value>El factor de Carga Viva para combinaciones con Patrones de Carga Viva y Carga Muerta.</value>
+  </data>
+  <data name="structureIsDisconnectedWrn" xml:space="preserve">
+    <value>La estructura no es conexa. Se seleccionaron los elementos disconexos.</value>
+  </data>
+  <data name="CanguroModelDesignASD01SRatioLimitDescription" xml:space="preserve">
+    <value>La razón Demanda/Capacidad límite aceptable. Las razones D/C menores o iguales a este valor se consideran aceptables.</value>
+  </data>
+  <data name="grounddisplacementload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\grounddisplacementload.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsModalLPRWrapperItemType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>Distancia</value>
+  </data>
+  <data name="saveScreenshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\saveScreenshot.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="isotropicName" xml:space="preserve">
+    <value>Isotrópico</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDTotalRat" xml:space="preserve">
+    <value>Límite Total</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFz" xml:space="preserve">
+    <value>Fz</value>
+  </data>
+  <data name="enterDataJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="CanguroCommandsLoadTriangleLineLoadCmdType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperR1" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="propertiesORoptions32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\32x32\propertiesORoptions.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiVDescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperFrame" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcNumPointsDescription" xml:space="preserve">
+    <value>El número de puntos para definir una curva de interacción bidimensional. Este valor debe ser igual o mayor a 5 e impar.</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsNu" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiCADescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="loadTypeTemperatureGradientLineLoad" xml:space="preserve">
+    <value>Gradiente de Temperatura</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiBDescription" xml:space="preserve">
+    <value>Factor de Reducción de fuerza en flexión.</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadLineScaleDescription" xml:space="preserve">
+    <value>Escala con la que se despliega la línea de la flecha en las fuerzas sobre nodos.</value>
+  </data>
+  <data name="analysisResultsQuestionTitle" xml:space="preserve">
+    <value>Resultados del análisis</value>
+  </data>
+  <data name="userSectionsCatalog" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperMMajRatio" xml:space="preserve">
+    <value>Razón PMM (Mayor)</value>
+  </data>
+  <data name="generatingReport" xml:space="preserve">
+    <value>Generando Reporte</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdHeight" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="CanguroViewReportsModalLPRWrapperStatic" xml:space="preserve">
+    <value>Estática</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDDLRat" xml:space="preserve">
+    <value>Límite de Carga Muerta</value>
+  </data>
+  <data name="activate_layer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\activate-layer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFxDescription" xml:space="preserve">
+    <value>Valor de la fuerza en la dirección X global.</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PatLLFDescription" xml:space="preserve">
+    <value>El factor de Carga Viva para combinaciones con Patrones de Carga Viva y Carga Muerta.</value>
+  </data>
+  <data name="predefinedxy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\predefinedxy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jointreactions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\jointreactions.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsDesignOptionsWrapperVariable" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="DocumentHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocumentHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PlugWeld" xml:space="preserve">
+    <value>Placa Doble está Soldada</value>
+  </data>
+  <data name="FORCELOAD250X125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\250x125\FORCELOAD250X125.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addline1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\addline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdColumnsDescription" xml:space="preserve">
+    <value>Número (entero) de columnas. También es el número de segmentos en cada anillo. [1 - 100]</value>
+  </data>
+  <data name="CanguroPreferencesGrndDispLoadTransDefaultColor" xml:space="preserve">
+    <value>Color de Traslación</value>
+  </data>
+  <data name="Wave" xml:space="preserve">
+    <value>Onda</value>
+  </data>
+  <data name="PasteHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PasteHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsLoadCombinationWrapper" xml:space="preserve">
+    <value>Combinaciones de Carga</value>
+  </data>
+  <data name="CardinalPoint" xml:space="preserve">
+    <value>Inserción</value>
+  </data>
+  <data name="sectionInUseError" xml:space="preserve">
+    <value>La sección no se puede borrar porque está en uso</value>
+  </data>
+  <data name="addAreaStr" xml:space="preserve">
+    <value>Agregar área</value>
+  </data>
+  <data name="forceload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\forceload.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRzDescription" xml:space="preserve">
+    <value>Rotación alrededor del eje global Z.</value>
+  </data>
+  <data name="addDistributedSpanLoad" xml:space="preserve">
+    <value>Agregar carga distribuída</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001MinEccenDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea considerar la eccentricidad mínima en el diseño.</value>
+  </data>
+  <data name="diaphragms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\diaphragms.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelLoadConcentratedSpanLoadDDescription" xml:space="preserve">
+    <value>Distancia relativa desde el nodo I hasta el punto donde se aplica la carga puntual. [0 - 1]</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcTHDesignDescription" xml:space="preserve">
+    <value>Este valor puede ser "Envelopes" o "Step-by-Step" para indicar la forma de tomar los resultados del análisis de acelorograma.</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdHeightDescription" xml:space="preserve">
+    <value>Altura de cada piso (distancia entre anillos). [1 - 100m]</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02SeisCatDescription" xml:space="preserve">
+    <value>Categoría Sísmica.  Puede ser "A", "B", "C", "D",  "E" o "F".</value>
+  </data>
+  <data name="zoomout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\zoomout.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="show_M1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\show-M1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsSectionWrapper" xml:space="preserve">
+    <value>Secciones</value>
+  </data>
+  <data name="editloadcase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\editloadcase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDLatFactor" xml:space="preserve">
+    <value>Factor Lateral</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99CheckDeflDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea que que las limitaciones de deformación se consideren en el diseño.</value>
+  </data>
+  <data name="EA0001" xml:space="preserve">
+    <value>No se pudo leer el archivo de resultados correctamente</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapper" xml:space="preserve">
+    <value>Diseño de Vigas de Concreto</value>
+  </data>
+  <data name="alldiagrams" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\alldiagrams.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperLoadCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDFrameTypeDescription" xml:space="preserve">
+    <value>El tipo de barra debe ser "Ordinary MRF", "Special MRF", "Braced Frame", "Special CBF", o "EBF".  Se utiliza para consideraciones dúctiles en el diseño.</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdHeight" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureLineLoadTemperature" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="cylinder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\cylinder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignASD01SDLAndLLRatDescription" xml:space="preserve">
+    <value>Límite para carga muerta superimpuesta y carga viva. Límite con respecto a la longitud L de la barra. Un valor de 120 significa que el límite es L/120. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="loadTypeForceLoad" xml:space="preserve">
+    <value>Fuerza nodal</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperU3" xml:space="preserve">
+    <value>U3</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDFrameType" xml:space="preserve">
+    <value>Tipo de Barra</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperFy" xml:space="preserve">
+    <value>Fuerza Y</value>
+  </data>
+  <data name="jointReactionsTexts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\jointReactionsTexts.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadLbDescription" xml:space="preserve">
+    <value>Magnitud de la carga en el punto Db.</value>
+  </data>
+  <data name="getVector1" xml:space="preserve">
+    <value>Seleccione el punto de origen del vector</value>
+  </data>
+  <data name="CanguroModelLoadDirectionalLineLoadDirectionDescription" xml:space="preserve">
+    <value>Dirección en que la carga se aplica.</value>
+  </data>
+  <data name="strAskToAcceptChargeTitle" xml:space="preserve">
+    <value>Aceptación del cargo</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSDLAndLLRat" xml:space="preserve">
+    <value>Límite de Super DL+LL</value>
+  </data>
+  <data name="dofLocalAxisStr" xml:space="preserve">
+    <value>sobre el eje local: </value>
+  </data>
+  <data name="EM0001" xml:space="preserve">
+    <value>Este método no está soportado por ItemList.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDMaxIter" xml:space="preserve">
+    <value>Max. Iteraciones</value>
+  </data>
+  <data name="strGridDataCopiedToClipboard" xml:space="preserve">
+    <value>Las celdas seleccionadas del grid se copiaron al portapapeles</value>
+  </data>
+  <data name="FillDownHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\FillDownHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperUz" xml:space="preserve">
+    <value>Uz</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SRatioLimit" xml:space="preserve">
+    <value>Límite de Demanda o Capacidad</value>
+  </data>
+  <data name="CanguroViewReportsSectionWrapperShape" xml:space="preserve">
+    <value>Forma</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapperAngle" xml:space="preserve">
+    <value>Ángulo</value>
+  </data>
+  <data name="3dlosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dlosa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Treu_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Treu-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperU3" xml:space="preserve">
+    <value>U3</value>
+  </data>
+  <data name="defaultCatalogName" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiVSeismicDescription" xml:space="preserve">
+    <value>Factor de reducción de fuerza cortantes para estructuras basadas en barras especiales resistentes a momentos o muros de concreto reforzado especiales para resistir sismos.</value>
+  </data>
+  <data name="zoompreviews" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\zoompreviews.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorExporting" xml:space="preserve">
+    <value>Error exportando archivo de análisis</value>
+  </data>
+  <data name="apply" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="CanguroModelMaterialSteelDesignPropsFu" xml:space="preserve">
+    <value>Fu</value>
+  </data>
+  <data name="EM0020" xml:space="preserve">
+    <value>LineElement necesita al menos un Joint en JointList</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Confirmación</value>
+  </data>
+  <data name="analyzeTitle" xml:space="preserve">
+    <value>Análisis</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiVDescription" xml:space="preserve">
+    <value>Factor de reducción de fuerza para cortante y torsión.</value>
+  </data>
+  <data name="I_WideFlange" xml:space="preserve">
+    <value>Viga I</value>
+  </data>
+  <data name="ReduceLive" xml:space="preserve">
+    <value>Viva Reducible</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseCaseType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="getPolarRotationCenter" xml:space="preserve">
+    <value>Seleccione dos puntos que definan el eje de giro</value>
+  </data>
+  <data name="mergelines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\mergelines.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperPRatio" xml:space="preserve">
+    <value>Razón PMM (Axial)</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperMasses" xml:space="preserve">
+    <value>Masas</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiTY" xml:space="preserve">
+    <value>Phi (Tensión-Fluencia):  </value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperU1" xml:space="preserve">
+    <value>U1</value>
+  </data>
+  <data name="userAlreadyRegistered" xml:space="preserve">
+    <value>E-Mail registrado previamente</value>
+  </data>
+  <data name="loadTypeTriangleLineLoadCmd" xml:space="preserve">
+    <value>Carga Triangular sobre Barra</value>
+  </data>
+  <data name="triangleLineLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\triangleLineLoad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pleaseAuthenticate" xml:space="preserve">
+    <value>Favor de autenticar su</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperVMajRebar" xml:space="preserve">
+    <value>Area Cortante (Mayor)</value>
+  </data>
+  <data name="getArrayRepetition" xml:space="preserve">
+    <value>Ingrese el número de veces que repetirá el arreglo</value>
+  </data>
+  <data name="CanguroViewReportsModalPeriodsWrapper" xml:space="preserve">
+    <value>Períodos Modales</value>
+  </data>
+  <data name="addSpringDisplacementLoad" xml:space="preserve">
+    <value>Agregar desplazamiento prescrito en resorte</value>
+  </data>
+  <data name="CanguroPreferencesGrndDispLoadRotDefautlColor" xml:space="preserve">
+    <value>Color de Rotación</value>
+  </data>
+  <data name="CanguroViewReportsModalPeriodsWrapperPeriod" xml:space="preserve">
+    <value>Periodo</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSRatioLimit" xml:space="preserve">
+    <value>Límite de Demanda o Capacidad</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdSectionDescription" xml:space="preserve">
+    <value>Sección de barra para definir todos los elementos de la malla.</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperModalStiff" xml:space="preserve">
+    <value>Rigidez</value>
+  </data>
+  <data name="RectangularSectionImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sections\Rectangular.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultLoadComboName" xml:space="preserve">
+    <value>Combo</value>
+  </data>
+  <data name="Joints" xml:space="preserve">
+    <value>Nodos</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdTypeDescription" xml:space="preserve">
+    <value>Tipo de la carga aplicada (Fuerza o Momento).</value>
+  </data>
+  <data name="analisiscase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\analisis-case.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsConstraintWrapper" xml:space="preserve">
+    <value>Diafragmas Rígidos</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperFrame" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="TopLeft" xml:space="preserve">
+    <value>Sup Izq</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99FrameType" xml:space="preserve">
+    <value>Tipo de Barra</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiCTiedDescription" xml:space="preserve">
+    <value>El factor de reducción para compresión axial cuando la columna tiene estribos paralelos.</value>
+  </data>
+  <data name="loads" xml:space="preserve">
+    <value>cargas</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapperID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="axialrelease" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\axialrelease.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="CanguroModelDesignASD01DLRat" xml:space="preserve">
+    <value>Limite de Carga Muerta</value>
+  </data>
+  <data name="loadTextTempGradient" xml:space="preserve">
+    <value>Grad. de Temp:</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdSection" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="MiddleRight" xml:space="preserve">
+    <value>Med Der</value>
+  </data>
+  <data name="uniaxialName" xml:space="preserve">
+    <value>Uniaxial</value>
+  </data>
+  <data name="SaveAsTitle" xml:space="preserve">
+    <value>Guardar Como</value>
+  </data>
+  <data name="CanguroViewReportsDesignOptionsWrapperCode" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisCatDescription" xml:space="preserve">
+    <value>Puede ser "A", "B", "C", "D", "E", o "F".  Se refiere a diseño sísmico. Se da en función de la clase de ocupación y Sds o Sd1.  Ver AISC 7-05 sección 11.6 para detalles.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDTotalRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 240 significa que el límite es L/240. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="FlipJoints" xml:space="preserve">
+    <value>Invertir Nodos</value>
+  </data>
+  <data name="CombinationTypeAbsoluteAdd" xml:space="preserve">
+    <value>Suma Absoluta</value>
+  </data>
+  <data name="J4" xml:space="preserve">
+    <value>J4</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperR1" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SRatioLimitDescription" xml:space="preserve">
+    <value>La razón Demanda/Capacidad límite aceptable. Las razones D/C menores o iguales a este valor se consideran aceptables.</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperTx" xml:space="preserve">
+    <value>Tx</value>
+  </data>
+  <data name="ErrorAnalyzing" xml:space="preserve">
+    <value>Ocurrió un error durante el análisis</value>
+  </data>
+  <data name="selectGridOrigin" xml:space="preserve">
+    <value>Seleccione el origen de la malla</value>
+  </data>
+  <data name="predefinedXyz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\predefinedXyz.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_s2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\export-s2k.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="analysisCaseTitle" xml:space="preserve">
+    <value>Caso de análisis</value>
+  </data>
+  <data name="UBC97_LRFD" xml:space="preserve">
+    <value>UBC97-LRFD</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapper" xml:space="preserve">
+    <value>Diseño en Acero - Detalles Cortante</value>
+  </data>
+  <data name="NoDesign" xml:space="preserve">
+    <value>Sin diseño</value>
+  </data>
+  <data name="ModelCmdAlreadyExecuting" xml:space="preserve">
+    <value>Ya hay un comando en ejecución. Para ejecutar otro comando espere a que el comando actual termine o cancele el comando actual y vuelva a intentarlo.</value>
+  </data>
+  <data name="inquiryDistance" xml:space="preserve">
+    <value>Obtener distancia</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapper" xml:space="preserve">
+    <value>Cargas de Desplazamiento Prescrito</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapper" xml:space="preserve">
+    <value>Desplazamientos de Nodos</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsAlpha" xml:space="preserve">
+    <value>Alpha</value>
+  </data>
+  <data name="selectDomeCenter" xml:space="preserve">
+    <value>Seleccione el centro de la base del domo</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRx" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="CanguroCommandsLoadTriangleLineLoadCmdLoad" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapper" xml:space="preserve">
+    <value>Masas en Nodos</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02NumPointsDescription" xml:space="preserve">
+    <value>El número de puntos para definir una curva de interacción bidimensional. Este valor debe ser igual o mayor a 5 e impar.</value>
+  </data>
+  <data name="analyze" xml:space="preserve">
+    <value>Analizar</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMxDescription" xml:space="preserve">
+    <value>Valor del momento alrededor de la dirección X global.</value>
+  </data>
+  <data name="loadDescriptionDistributedSpanLoad" xml:space="preserve">
+    <value>Carga distribuida lineal con dirección y magnitud en los extremos, sobre una barra</value>
+  </data>
+  <data name="CanguroModelLoadConcentratedSpanLoadL" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignWrapperError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiCSpiral" xml:space="preserve">
+    <value>Phi (Compresión Espiral)</value>
+  </data>
+  <data name="CanguroPreferencesMomentLoadArrowScaleDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="beam" xml:space="preserve">
+    <value>Trabe</value>
+  </data>
+  <data name="uniformLineLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\uniformLineLoad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ColinearPoints" xml:space="preserve">
+    <value>Los puntos no deben ser colineales</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureGradientLineLoadTemperature" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="CombinationTypeLinearAdd" xml:space="preserve">
+    <value>Suma Lineal</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadDaDescription" xml:space="preserve">
+    <value>Distancia relativa desde el nodo I hasta el punto donde comienza la carga distribuida aplicada. [0 - 1]</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDTotalRat" xml:space="preserve">
+    <value>Límite Total</value>
+  </data>
+  <data name="AllRightsReserved" xml:space="preserve">
+    <value>Todos los derechos reservados</value>
+  </data>
+  <data name="CanguroModelMaterialUniaxialTypePropsE" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="enterDataPoint" xml:space="preserve">
+    <value>Punto</value>
+  </data>
+  <data name="zeroLengthLines" xml:space="preserve">
+    <value>La estructura contiene barras de longitud cero, por lo que no se puede analizar.
+¿Desea tratar de Unir la estructura para eliminar estos elementos?</value>
+  </data>
+  <data name="hidelayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\hidelayer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CombinationTypeEnvelope" xml:space="preserve">
+    <value>Envolvente</value>
+  </data>
+  <data name="getJoint" xml:space="preserve">
+    <value>Por favor seleccione un nodo</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiCTiedDescription" xml:space="preserve">
+    <value>Factor de reducción de fuerza en compresión en columnas con estribos paralelos.</value>
+  </data>
+  <data name="AISC_ASD01" xml:space="preserve">
+    <value>AISC-ASD01</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadArrowScale" xml:space="preserve">
+    <value>Escala de la flecha de fuerzas</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsRebarFyDescription" xml:space="preserve">
+    <value>Esfuerzo Mínimo de Fluencia de Varilla</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperElement" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsFc" xml:space="preserve">
+    <value>Fc</value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisCodeDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea que se realice diseño sísmico.</value>
+  </data>
+  <data name="I" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="scaleTitle" xml:space="preserve">
+    <value>Cambio de Escala</value>
+  </data>
+  <data name="export_dfx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\export-dfx.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdRadiusDescription" xml:space="preserve">
+    <value>Radio de la base (redonda) del domo. [0 - 100m]</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>Listo</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiVDescription" xml:space="preserve">
+    <value>Factor de reducción de fuerzas cortantes</value>
+  </data>
+  <data name="CanguroModelDesignASD01PatLLF" xml:space="preserve">
+    <value>Factor de Patrón LL</value>
+  </data>
+  <data name="import_dfx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\import-dfx.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNx" xml:space="preserve">
+    <value>Crujías en X</value>
+  </data>
+  <data name="lineSecText" xml:space="preserve">
+    <value>Sección: </value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadLaDescription" xml:space="preserve">
+    <value>Magnitud de la carga en el punto Da.</value>
+  </data>
+  <data name="NoConstraint" xml:space="preserve">
+    <value>Sin Diafragma</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02THDesign" xml:space="preserve">
+    <value>Diseño Acelerograma</value>
+  </data>
+  <data name="ReportFileNameTitleText" xml:space="preserve">
+    <value>Archivo:</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="loadTextTemperature" xml:space="preserve">
+    <value>Temp:</value>
+  </data>
+  <data name="OpenFileTitle" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadLb" xml:space="preserve">
+    <value>Lb</value>
+  </data>
+  <data name="CanguroViewReportsMaterialWrapper" xml:space="preserve">
+    <value>Materiales</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNy" xml:space="preserve">
+    <value>Crujías en Y</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdStories" xml:space="preserve">
+    <value>Anillos</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiV" xml:space="preserve">
+    <value>Phi (Cortante)</value>
+  </data>
+  <data name="momentrelease" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\momentrelease.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiC" xml:space="preserve">
+    <value>Phi (Compresión):  </value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiCSpiralDescription" xml:space="preserve">
+    <value>El factor de reducción para compresión axial cuando la columna tiene estribos en espiral.</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiVT" xml:space="preserve">
+    <value>Phi (Cortante-Torsión):  </value>
+  </data>
+  <data name="CanguroViewReportsLoadCaseWrapperSelfWeightFactor" xml:space="preserve">
+    <value>Peso Propio</value>
+  </data>
+  <data name="CanguroModelMaterialSteelDesignPropsFy" xml:space="preserve">
+    <value>Fy</value>
+  </data>
+  <data name="elementLoadsProp" xml:space="preserve">
+    <value>Cargas</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02MinEccen" xml:space="preserve">
+    <value>Considerar Eccentricidad Mínima</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperU2" xml:space="preserve">
+    <value>U2</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02UFLimit" xml:space="preserve">
+    <value>Factor de Límite de Utilización</value>
+  </data>
+  <data name="CanguroModelLoadConcentratedSpanLoadD" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02NumCurves" xml:space="preserve">
+    <value>Curvas de Interacción</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDMaxIterDescription" xml:space="preserve">
+    <value>Número máximo de iteraciones que realiza el algoritmo de diseño.</value>
+  </data>
+  <data name="lineProps" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="NewReportHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\NewReportHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TopCenter" xml:space="preserve">
+    <value>Sup Centro</value>
+  </data>
+  <data name="CanguroModelDesignASD01FrameTypeDescription" xml:space="preserve">
+    <value>El tipo de barra debe ser "OMF", "IMF", "SMF", "OCBF", "SCBF", o "EBF". Se utiliza para consideraciones dúctiles en el diseño.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiTDescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapper" xml:space="preserve">
+    <value>Cargas de Fuerza en Nodos</value>
+  </data>
+  <data name="deleteLoadFromAssignedLoadsQuestion" xml:space="preserve">
+    <value>¿Está seguro que desea borrar la carga?</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapper" xml:space="preserve">
+    <value>Barras</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperFx" xml:space="preserve">
+    <value>Fuerza X</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdColumnsDescription" xml:space="preserve">
+    <value>Número (entero) de columnas. También es el número de segmentos en cada anillo. [1 - 100]</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperZ" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="CanguroModelDesignASD01TotalRat" xml:space="preserve">
+    <value>Límite Total</value>
+  </data>
+  <data name="enterDataLine" xml:space="preserve">
+    <value>Barra</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99TimeHistoryDesignDescription" xml:space="preserve">
+    <value>Este valor puede ser "Envelopes" o "Step-by-Step" para indicar la forma de tomar los resultados del análisis de acelorograma.</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadArrowScaleDescription" xml:space="preserve">
+    <value>Escala a la que se pinta la flecha que representa fuerzas en nodos.</value>
+  </data>
+  <data name="TopRight" xml:space="preserve">
+    <value>Sup Der</value>
+  </data>
+  <data name="loadDescriptionTemperatureGradientLineLoad" xml:space="preserve">
+    <value>Carga de temperatura que varía en una dirección dada de acuerdo a un gradiente.</value>
+  </data>
+  <data name="RegistrationErrorInvalidEmail" xml:space="preserve">
+    <value>El E-Mail no es válido</value>
+  </data>
+  <data name="CanguroPreferencesGrndDispLoadRotDefautlColorDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CanguroViewReportsConstraintWrapperConstraint" xml:space="preserve">
+    <value>Diafragma</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiT" xml:space="preserve">
+    <value>Phi (Tensión)</value>
+  </data>
+  <data name="Channel" xml:space="preserve">
+    <value>Canal</value>
+  </data>
+  <data name="CanguroPreferencesMomentLoadLineScale" xml:space="preserve">
+    <value>Escala de líneas de momentos</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcMinEccenDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea considerar la eccentricidad mínima en el diseño.</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PatLLF" xml:space="preserve">
+    <value>Factor de Patrón LL</value>
+  </data>
+  <data name="defaultResponseCase" xml:space="preserve">
+    <value>Sismo</value>
+  </data>
+  <data name="EML0001" xml:space="preserve">
+    <value>El estado de carga especificado no pertenece al modelo actual.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDImpFactorDescription" xml:space="preserve">
+    <value>Puede ser "A", "B", "C", "D", "E", o "F".  Se refiere a diseño sísmico. Se da en función de la clase de ocupación y Sds o Sd1.  Ver AISC 7-05 sección 11.5.1 para detalles.</value>
+  </data>
+  <data name="layerHasObjectsError" xml:space="preserve">
+    <value>No se puede borrar la capa porque contiene objetos.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcNumCurves" xml:space="preserve">
+    <value>Curvas de Interacción</value>
+  </data>
+  <data name="align" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\align.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiCADescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisCode" xml:space="preserve">
+    <value>Ignorar Código Sísmico</value>
+  </data>
+  <data name="modelIsLockedExceptionMessage" xml:space="preserve">
+    <value>No se puede modificar el modelo debido a que está bloqueado</value>
+  </data>
+  <data name="CanguroViewReportsLoadCombinationWrapperType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapper" xml:space="preserve">
+    <value>Cargas Concentradas en Barras</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDDLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 120 significa que el límite es L/120. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiCA" xml:space="preserve">
+    <value>Phi (Compresión, Ángulo):  </value>
+  </data>
+  <data name="SuspendMessage" xml:space="preserve">
+    <value>El sistema está a punto de ser suspendido por lo que la aplicación deberá cerrarse. ¿Desea guardar el modelo?</value>
+  </data>
+  <data name="ExportS2KTitle" xml:space="preserve">
+    <value>Exportar S2K</value>
+  </data>
+  <data name="DeleteHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeleteHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperUx" xml:space="preserve">
+    <value>Ux</value>
+  </data>
+  <data name="RegistrationErrorNameIsEmpty" xml:space="preserve">
+    <value>El campo Nombre(s) no debe estar vacío</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiCTiedDescription" xml:space="preserve">
+    <value>El factor de reducción para compresión axial cuando la columna tiene estribos paralelos.</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseCaseTypeDescription" xml:space="preserve">
+    <value>Tipo de estado de carga. Se usa en las combinaciones de carga.</value>
+  </data>
+  <data name="CanguroCommandsFormsVectorPeriod" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PatLLF" xml:space="preserve">
+    <value>Factor de Patrón LL</value>
+  </data>
+  <data name="CanguroModelMaterialSteelDesignPropsFyDescription" xml:space="preserve">
+    <value>Esfuerzo Mínimo de Fluencia</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiV" xml:space="preserve">
+    <value>Phi (Cortante o Torsión)</value>
+  </data>
+  <data name="DisplacementLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DisplacementLoad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdStoriesDescription" xml:space="preserve">
+    <value>Número de niveles o anillos en el domo. [1 - 100]</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDPatLLFDescription" xml:space="preserve">
+    <value>El factor de Carga Viva para combinaciones con Patrones de Carga Viva y Carga Muerta.</value>
+  </data>
+  <data name="setLayerName" xml:space="preserve">
+    <value>Ingrese el nombre de la capa</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99TotalRat" xml:space="preserve">
+    <value>Límite Total</value>
+  </data>
+  <data name="defaultSteelName" xml:space="preserve">
+    <value>A36</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDCheckDeflDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea que que las limitaciones de deformación se consideren en el diseño.</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperVMinRebar" xml:space="preserve">
+    <value>Area Cortante (Menor)</value>
+  </data>
+  <data name="LineEndOffsetJ" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsAlphaDescription" xml:space="preserve">
+    <value>Coeficiente de Expansión Termal</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTz" xml:space="preserve">
+    <value>Tz</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperRy" xml:space="preserve">
+    <value>Ry</value>
+  </data>
+  <data name="loadTypeGroundDisplacementLoad" xml:space="preserve">
+    <value>Desplazamiento prescrito</value>
+  </data>
+  <data name="CanguroPreferencesSmallPanelForeColor" xml:space="preserve">
+    <value>Color de panel</value>
+  </data>
+  <data name="CardinalPoint01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\Sections\CardinalPoint01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisLoad" xml:space="preserve">
+    <value>Ignorar Carga Sísmica Especial</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTy" xml:space="preserve">
+    <value>Ty</value>
+  </data>
+  <data name="noJointsToAnalyze" xml:space="preserve">
+    <value>No se encontraron nodos para analizar.</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMy" xml:space="preserve">
+    <value>My</value>
+  </data>
+  <data name="forExample" xml:space="preserve">
+    <value>p.Ej.: </value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="confirmCompactIDs" xml:space="preserve">
+    <value>¿Desea renumerar nodos y barras? (Esta acción no se podrá deshacer)</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001NumPoints" xml:space="preserve">
+    <value>Puntos de Interacción</value>
+  </data>
+  <data name="coldFormedName" xml:space="preserve">
+    <value>Doblado en Frío</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperRz" xml:space="preserve">
+    <value>Rz</value>
+  </data>
+  <data name="invert_selection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\invert-selection.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDDLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 120 significa que el límite es L/120. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroModelDesignASD01SRatioLimit" xml:space="preserve">
+    <value>Límite de Demanda o Capacidad</value>
+  </data>
+  <data name="Live" xml:space="preserve">
+    <value>Viva</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadMomentDefaultColor" xml:space="preserve">
+    <value>Color de momento</value>
+  </data>
+  <data name="DefaultConstraintName" xml:space="preserve">
+    <value>Diafragma</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdColumns" xml:space="preserve">
+    <value>Columnas</value>
+  </data>
+  <data name="confirmUnlockModel" xml:space="preserve">
+    <value>Si continua se perderán los resultados, ¿está seguro?</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99LLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 360 significa que el límite es L/360. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperUx" xml:space="preserve">
+    <value>Ux</value>
+  </data>
+  <data name="PrintPreviewHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\PrintPreviewHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quake" xml:space="preserve">
+    <value>Sismo</value>
+  </data>
+  <data name="defaultLayerName" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="areaAngle" xml:space="preserve">
+    <value>Ángulo</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiC" xml:space="preserve">
+    <value>Phi (Compresión):  </value>
+  </data>
+  <data name="showall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\showall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selectPlainPoints" xml:space="preserve">
+    <value>Seleccione 3 puntos para definir un plano</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperTz" xml:space="preserve">
+    <value>Tz</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperTy" xml:space="preserve">
+    <value>Ty</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMx" xml:space="preserve">
+    <value>Mx</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperR2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="CanguroViewReportsAnalysisCaseWrapper" xml:space="preserve">
+    <value>Casos de Análisis</value>
+  </data>
+  <data name="CanguroModelLayerName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="confirmInstallUpdate" xml:space="preserve">
+    <value>Hay una version nueva de Treu Structure disponible, ¿desea instalarla?</value>
+  </data>
+  <data name="CanguroModelDesignASD01MaxIter" xml:space="preserve">
+    <value>Max. Iteraciones</value>
+  </data>
+  <data name="concreteName" xml:space="preserve">
+    <value>Concreto</value>
+  </data>
+  <data name="CanguroViewReportsJointMassesWrapperR3" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="CanguroPreferencesLanguageDescription" xml:space="preserve">
+    <value>Lenguaje para usar en Treu Strucure, puede ser Español o Inglés. Se requiere reiniciar Treu Structure después de cambiar esta propiedad.</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDy" xml:space="preserve">
+    <value>Ancho de Crujía en Y</value>
+  </data>
+  <data name="openHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001NumCurvesDescription" xml:space="preserve">
+    <value>El número de curvas de interacción para generar la superficie tridimensional de interacción. Este valor debe ser un múltiplo de 4 igual o mayor a 4.</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperMx" xml:space="preserve">
+    <value>Momento X</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdDirection" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperWarning" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="MiddleLeft" xml:space="preserve">
+    <value>Med Izq</value>
+  </data>
+  <data name="BottomCenter" xml:space="preserve">
+    <value>Inf Centro</value>
+  </data>
+  <data name="CircleSectionImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sections\Circle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="predefinedxz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\predefinedxz.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDTotalRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 240 significa que el límite es L/240. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperMy" xml:space="preserve">
+    <value>Momento Y</value>
+  </data>
+  <data name="CanguroViewReportsLoadCaseWrapperName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="CanguroCommandsModelAddCylinderCmdColumns" xml:space="preserve">
+    <value>Columnas</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99TotalRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 240 significa que el límite es L/240. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="lineAngle" xml:space="preserve">
+    <value>Ángulo</value>
+  </data>
+  <data name="show_torcion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\show-torcion.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperRx" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="Pipe" xml:space="preserve">
+    <value>Tubo</value>
+  </data>
+  <data name="getMany" xml:space="preserve">
+    <value>Seleccione los objetos sobre los que desea actuar</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapper" xml:space="preserve">
+    <value>Cargas Distribuídas en Barras</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDNetRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 240 significa que el límite es L/240. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="gridCmdTitle" xml:space="preserve">
+    <value>Malla reticular</value>
+  </data>
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSDLAndLLRat" xml:space="preserve">
+    <value>Límite de Super DL+LL</value>
+  </data>
+  <data name="CanguroModelDesignASD01SDLAndLLRat" xml:space="preserve">
+    <value>Límite de Super DL+LL</value>
+  </data>
+  <data name="show_S1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\show-S1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="extrude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\extrude.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperR2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="strQueuedProgress" xml:space="preserve">
+    <value>Esperando</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDLatFactorDescription" xml:space="preserve">
+    <value>Factor de incremento de esfuerzo admisible para combinaciones que incluyen sismo o viento.</value>
+  </data>
+  <data name="Edit_UndoHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit_UndoHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RegistrationErrorInvalidKey" xml:space="preserve">
+    <value>La llave debe contener 18 dígitos numéricos</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiB" xml:space="preserve">
+    <value>Phi (Flexión)</value>
+  </data>
+  <data name="steelName" xml:space="preserve">
+    <value>Acero</value>
+  </data>
+  <data name="deformedLength" xml:space="preserve">
+    <value>Long. deformada: </value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisCat" xml:space="preserve">
+    <value>Categoría Sísmica</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDMaxIterDescription" xml:space="preserve">
+    <value>Número máximo de iteraciones que realiza el algoritmo de diseño.</value>
+  </data>
+  <data name="rotate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\rotate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroPreferencesBackgroundColor" xml:space="preserve">
+    <value>Color de fondo</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsRebarFy" xml:space="preserve">
+    <value>Fy</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperX" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="strMoney" xml:space="preserve">
+    <value>punto(s)</value>
+  </data>
+  <data name="Selection" xml:space="preserve">
+    <value>Selección</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNyDescription" xml:space="preserve">
+    <value>Número de crujías en el eje Y. [1 - 500]</value>
+  </data>
+  <data name="ReportToCTitleText" xml:space="preserve">
+    <value>Tabla de Contenidos</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDLLRat" xml:space="preserve">
+    <value>Límite de Carga Viva</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadForceDefaultColorDescription" xml:space="preserve">
+    <value>Color con el que se despliegan las fuerzas en nodos</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDNetRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 240 significa que el límite es L/240. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperMx" xml:space="preserve">
+    <value>Momento X</value>
+  </data>
+  <data name="steel" xml:space="preserve">
+    <value>Acero</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDCheckDefl" xml:space="preserve">
+    <value>Considerar Deformación</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperFx" xml:space="preserve">
+    <value>Fuerza X</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapperSection" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperVMinorRatio" xml:space="preserve">
+    <value>Cortantes (Menor)</value>
+  </data>
+  <data name="Shear" xml:space="preserve">
+    <value>Cortante</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignWrapper" xml:space="preserve">
+    <value>Diseño en Acero</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDLLRat" xml:space="preserve">
+    <value>Límite de Carga Viva</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiTYDescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="getVector2" xml:space="preserve">
+    <value>Seleccione el punto de destino del vector</value>
+  </data>
+  <data name="Mass" xml:space="preserve">
+    <value>Masa</value>
+  </data>
+  <data name="CanguroCommandsLoadTriangleLineLoadCmdTypeDescription" xml:space="preserve">
+    <value>Tipo de la carga aplicada (Fuerza o Momento).</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiCDescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="CanguroPreferencesMomentLoadArrowScale" xml:space="preserve">
+    <value>Escala de flechas de cargas</value>
+  </data>
+  <data name="ImportDXFTitle" xml:space="preserve">
+    <value>Importar DXF</value>
+  </data>
+  <data name="defaultModalCase" xml:space="preserve">
+    <value>Modal</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignWrapperFrame" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="Overstressed" xml:space="preserve">
+    <value>Sobre-esforzada</value>
+  </data>
+  <data name="EM0002" xml:space="preserve">
+    <value>No se puede asignar el Item porque el Id está repetido.</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapper" xml:space="preserve">
+    <value>Modos de Vibrar y Participación de Masas</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99DLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 120 significa que el límite es L/120. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcNumPoints" xml:space="preserve">
+    <value>Puntos de Interacción</value>
+  </data>
+  <data name="concentratedload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\concentrated-load.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PointLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PointLoad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temperatureGradientLineLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\temperatureGradientLineLoad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperWarning" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="select_all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\select-all.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadForceDefaultColor" xml:space="preserve">
+    <value>Color de fuerzas</value>
+  </data>
+  <data name="_3dlosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\3dlosa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="show_S2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\show-S2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiV" xml:space="preserve">
+    <value>Phi (Cortante):  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDTimeHistoryDesignDescription" xml:space="preserve">
+    <value>Este valor puede ser "Envelopes" o "Step-by-Step" para indicar la forma de tomar los resultados del análisis de acelorograma.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiTDescription" xml:space="preserve">
+    <value>Factor de reducción de fuerza para tensión.</value>
+  </data>
+  <data name="addForceLoad" xml:space="preserve">
+    <value>Agregar fuerza en nodo</value>
+  </data>
+  <data name="X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="concentrated_load" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\concentrated-load.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperTopRebarArea" xml:space="preserve">
+    <value>Área de Varilla Superior</value>
+  </data>
+  <data name="lineLengthText" xml:space="preserve">
+    <value>Long: </value>
+  </data>
+  <data name="CanguroPreferencesLanguage" xml:space="preserve">
+    <value>Lenguaje</value>
+  </data>
+  <data name="printFileText" xml:space="preserve">
+    <value>Nombre de archivo del modelo: </value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapperType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDFrameType" xml:space="preserve">
+    <value>Tipo de Barra</value>
+  </data>
+  <data name="pasteCmdTitle" xml:space="preserve">
+    <value>Pegar en:</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapperI" xml:space="preserve">
+    <value>Nodo I</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDLLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 360 significa que el límite es L/360. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="Offsets" xml:space="preserve">
+    <value>Extremos</value>
+  </data>
+  <data name="invalidUser" xml:space="preserve">
+    <value>El E-Mail proporcionado no está registrado</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperMz" xml:space="preserve">
+    <value>Momento Z</value>
+  </data>
+  <data name="CanguroModelDesignASD01PlugWeld" xml:space="preserve">
+    <value>Placa Doble está Soldada</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DoubleAngle" xml:space="preserve">
+    <value>Ángulo doble</value>
+  </data>
+  <data name="loadDescriptionForceLoad" xml:space="preserve">
+    <value>Carga con componentes Fx, Fy, Fz (fuerza), Mx, My, Mz (momento) a un nodo</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperUz" xml:space="preserve">
+    <value>Uz</value>
+  </data>
+  <data name="view_shaded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\view-shaded.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rootSectionCatalog" xml:space="preserve">
+    <value>Secciones</value>
+  </data>
+  <data name="ReportDateTitleText" xml:space="preserve">
+    <value>Fecha:</value>
+  </data>
+  <data name="Box_Tube" xml:space="preserve">
+    <value>Caja/Tubo</value>
+  </data>
+  <data name="CutHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CutHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_ifc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\export-ifc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiBDescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="vistaVirtualizationFixed" xml:space="preserve">
+    <value>Se corrigió un problema derivado de nuevo Control de Acceso de Usuarios de Windows Vista.</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperR3" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="selectline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\selectline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wind" xml:space="preserve">
+    <value>Viento</value>
+  </data>
+  <data name="modalCaseName" xml:space="preserve">
+    <value>Modal</value>
+  </data>
+  <data name="CopyHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CopyHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EnglishSystem" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="Analyzer" xml:space="preserve">
+    <value>Analizando</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisCatDescription" xml:space="preserve">
+    <value>Puede ser "A", "B", "C", "D", "E", o "F".  Se refiere a diseño sísmico. Se da en función de la clase de ocupación y Sds o Sd1.  Ver AISC 7-05 sección 11.6 para detalles.</value>
+  </data>
+  <data name="confirmInstallUpdateTitle" xml:space="preserve">
+    <value>Actualización disponible</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperU1" xml:space="preserve">
+    <value>U1</value>
+  </data>
+  <data name="CanguroViewReportsModalPeriodsWrapperCircFreq" xml:space="preserve">
+    <value>Frec. Circular</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiCSpiral" xml:space="preserve">
+    <value>Phi (Compresión Espiral)</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperRy" xml:space="preserve">
+    <value>Ry</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperElement" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="enterDataArea" xml:space="preserve">
+    <value>Placa</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperRy" xml:space="preserve">
+    <value>Ry</value>
+  </data>
+  <data name="zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\zoom.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Density" xml:space="preserve">
+    <value>Densidad</value>
+  </data>
+  <data name="ReportUnitSystemTitleText" xml:space="preserve">
+    <value>Sistema de Unidades:</value>
+  </data>
+  <data name="J3" xml:space="preserve">
+    <value>J3</value>
+  </data>
+  <data name="CardinalPoint03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\Sections\CardinalPoint03.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CanguroViewReportsDesignOptionsWrapperValue" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDCheckDeflDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea que que las limitaciones de deformación se consideren en el diseño.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDFrameTypeDescription" xml:space="preserve">
+    <value>El tipo de barra debe ser "Ordinary MRF", "Special MRF", "Braced Frame", "Special CBF", o "EBF".  Se utiliza para consideraciones dúctiles en el diseño.</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperRx" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="jointMassesProp" xml:space="preserve">
+    <value>Masas</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperR2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="edit32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\32x32\edit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelLoadTemperatureGradientLineLoadTemperatureDescription" xml:space="preserve">
+    <value>Gradiente de temperatura aplicada a la barra en la dirección transversal dada.</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02MinEccenDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea considerar la eccentricidad mínima en el diseño.</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdDxDescription" xml:space="preserve">
+    <value>Ancho de crujías en el eje X. [0 - 100m]</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperMz" xml:space="preserve">
+    <value>Momento Z</value>
+  </data>
+  <data name="strCannotAffordService" xml:space="preserve">
+    <value>El precio de este servicio es de *cost* puntos; sin embargo, usted no tiene crédito suficiente en su cuenta para realizar esta operación.</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFyDescription" xml:space="preserve">
+    <value>Valor de la fuerza en la dirección Y global.</value>
+  </data>
+  <data name="EM0010" xml:space="preserve">
+    <value>El objeto Catalog es de sólo lectura.</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiCTied" xml:space="preserve">
+    <value>Phi (Compresión Paralelo)</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapperD" xml:space="preserve">
+    <value>Posición</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99DLRat" xml:space="preserve">
+    <value>Límite de Carga Muerta</value>
+  </data>
+  <data name="analisis_case" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\analisis-case.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperUy" xml:space="preserve">
+    <value>Uy</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiVDescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDMaxIter" xml:space="preserve">
+    <value>Max. Iteraciones</value>
+  </data>
+  <data name="propertiesORoptions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\propertiesORoptions.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="getPolarArrayAngle" xml:space="preserve">
+    <value>Ingrese el ángulo de giro para el arreglo circular</value>
+  </data>
+  <data name="Torsion" xml:space="preserve">
+    <value>Torsión</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcUFLimitDescription" xml:space="preserve">
+    <value>La razón de esfuerzo límite aceptable. Razones de esfuerzo iguales o inferirores a este valor se consideran aceptables.</value>
+  </data>
+  <data name="Lines" xml:space="preserve">
+    <value>Barras</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperVRebar" xml:space="preserve">
+    <value>Area Cortante de Varilla</value>
+  </data>
+  <data name="tutorial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\tutorial.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleSection" xml:space="preserve">
+    <value>Circular</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiVTDescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="PrintHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\PrintHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperMy" xml:space="preserve">
+    <value>Momento Y</value>
+  </data>
+  <data name="defaultModelName" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="zoomwindow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\zoomwindow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdRadius" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFy" xml:space="preserve">
+    <value>Fy</value>
+  </data>
+  <data name="addRestraintDisplacement" xml:space="preserve">
+    <value>Agregar desplazamiento prescrito en soporte</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperWarning" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="strAskToAcceptCharge" xml:space="preserve">
+    <value>Se hará un cargo a su cuenta por:</value>
+  </data>
+  <data name="selectCylinderCenter" xml:space="preserve">
+    <value>Seleccione el centro de la base del cilindro</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperTotalRatio" xml:space="preserve">
+    <value>Razón PMM (Total)</value>
+  </data>
+  <data name="import_ifc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\import-ifc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="loadcombination" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\loadcombination.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiV" xml:space="preserve">
+    <value>Phi (Cortante):  </value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDNetRat" xml:space="preserve">
+    <value>Límite Neto</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseSelfWeightDescription" xml:space="preserve">
+    <value>Factor de peso propio. Cada estado de carga se analiza con una carga uniforme en cada elemento proporcional a su peso.</value>
+  </data>
+  <data name="aluminumName" xml:space="preserve">
+    <value>Aluminio</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Modo</value>
+  </data>
+  <data name="ReportAuthorTitleText" xml:space="preserve">
+    <value>Autor:</value>
+  </data>
+  <data name="Case" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99NetRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 240 significa que el límite es L/240. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="animation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\animation.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapper" xml:space="preserve">
+    <value>Elementos Mecánicos en Barras</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsRebarFysDescription" xml:space="preserve">
+    <value>Esfuerzo Mínimo de Fluencia de Varilla de Estribo</value>
+  </data>
+  <data name="CanguroViewReportsSectionWrapperName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="deformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\deformed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroPreferencesBackgroundColorDescription" xml:space="preserve">
+    <value>Color que se ve en la vista principal donde no hay elementos estructurales.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001THDesignDescription" xml:space="preserve">
+    <value>Este valor puede ser "Envelopes" o "Step-by-Step" para indicar la forma de tomar los resultados del análisis de acelorograma.</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="strAnalyzingProgress" xml:space="preserve">
+    <value>Analizando</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapper" xml:space="preserve">
+    <value>Reacciones en Nodos</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperMx" xml:space="preserve">
+    <value>Momento X</value>
+  </data>
+  <data name="Logo16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPatLLF" xml:space="preserve">
+    <value>Factor de Patrón LL</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperR2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="askSaveChangesAndExit" xml:space="preserve">
+    <value>¿Desea guardar los cambios realizados al modelo?</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperStatus" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperRx" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiV" xml:space="preserve">
+    <value>Phi (Cortante)</value>
+  </data>
+  <data name="CanguroViewReportsMaterialWrapperName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Z" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="unselect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\unselect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultAnalysisCaseName" xml:space="preserve">
+    <value>ACASE</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSeisZoneDescription" xml:space="preserve">
+    <value>Este valor puede ser "Zone 0", "Zone 1", "Zone 2", "Zone 3", or "Zone 4".  Se utiliza en diseño sísmico.</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapperL" xml:space="preserve">
+    <value>Carga</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiCTied" xml:space="preserve">
+    <value>Phi (Compresión Paralelo)</value>
+  </data>
+  <data name="loadDescriptionUniformLineLoadCmd" xml:space="preserve">
+    <value>Carga uniforme lineal con dirección y magnitud en los extremos.</value>
+  </data>
+  <data name="DoFI" xml:space="preserve">
+    <value>Articulación I</value>
+  </data>
+  <data name="CardinalPoint07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\Sections\CardinalPoint07.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="responseSpectrumName" xml:space="preserve">
+    <value>Espectro de Respuesta</value>
+  </data>
+  <data name="RegistrationErrorPasswordMismatch" xml:space="preserve">
+    <value>La contraseña no coincide con la confirmación</value>
+  </data>
+  <data name="CanguroViewReportsLineWrapperJ" xml:space="preserve">
+    <value>Nodo J</value>
+  </data>
+  <data name="export_mdb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\export-mdb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cantSaveFile" xml:space="preserve">
+    <value>Ocurrió un error y no se puede guardar el archivo</value>
+  </data>
+  <data name="delete32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\32x32\delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\32x32\SaveHH.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPatLLF" xml:space="preserve">
+    <value>Factor de Patrón LL</value>
+  </data>
+  <data name="printDate" xml:space="preserve">
+    <value>Impreso el </value>
+  </data>
+  <data name="CanguroPreferencesForceLoadMomentDefaultColorDescription" xml:space="preserve">
+    <value>Color con el que se despliegan los momentos asignados a nodos.</value>
+  </data>
+  <data name="EndOffsets" xml:space="preserve">
+    <value>Extremos Rígidos</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDSDLAndLLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 120 significa que el límite es L/120. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDLLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 360 significa que el límite es L/360. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Floor" xml:space="preserve">
+    <value>Diafragma</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperDoF" xml:space="preserve">
+    <value>Grados de Libertad</value>
+  </data>
+  <data name="CanguroViewReportsAnalysisCaseWrapperName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001MinEccen" xml:space="preserve">
+    <value>Considerar Eccentricidad Mínima</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSRatioLimitDescription" xml:space="preserve">
+    <value>La razón Demanda/Capacidad límite aceptable. Las razones D/C menores o iguales a este valor se consideran aceptables.</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperU3" xml:space="preserve">
+    <value>U3</value>
+  </data>
+  <data name="showaxial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\showaxial.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiCSpiralDescription" xml:space="preserve">
+    <value>El factor de reducción para compresión axial cuando la columna tiene estribos en espiral.</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001NumCurves" xml:space="preserve">
+    <value>Curvas de Interacción</value>
+  </data>
+  <data name="needRestart" xml:space="preserve">
+    <value>Necesita reiniciar Treu Structure para que los cambios tengan efecto. ¿Desea hacerlo ahora?</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperFrame" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="Gravity" xml:space="preserve">
+    <value>Gravedad</value>
+  </data>
+  <data name="Tee" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="move_to_corrent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\move-to-corrent.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdSection" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperBottomRebarArea" xml:space="preserve">
+    <value>Área de Varilla Inferior</value>
+  </data>
+  <data name="CanguroModelDesignASD01PatLLFDescription" xml:space="preserve">
+    <value>El factor de Carga Viva para combinaciones con Patrones de Carga Viva y Carga Muerta.</value>
+  </data>
+  <data name="loadTypeDistributedSpanLoad" xml:space="preserve">
+    <value>Carga distribuida</value>
+  </data>
+  <data name="editCmdTitle" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="CanguroViewReportsLoadCombinationWrapperFactor" xml:space="preserve">
+    <value>Factor</value>
+  </data>
+  <data name="hidediagrams" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\hidediagrams.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapperPMMArea" xml:space="preserve">
+    <value>Área Axial</value>
+  </data>
+  <data name="colors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\colors.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperMMinRatio" xml:space="preserve">
+    <value>Razón PMM (Menor)</value>
+  </data>
+  <data name="defaultSectionName" xml:space="preserve">
+    <value>Sec</value>
+  </data>
+  <data name="loadDescriptionConcentratedSpanLoad" xml:space="preserve">
+    <value>Carga puntual con componentes Fx, Fy, Fz (fuerza), Mx, My, Mz (momento) a una barra</value>
+  </data>
+  <data name="strFatalError" xml:space="preserve">
+    <value>Error en la aplicación</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PatLLFDescription" xml:space="preserve">
+    <value>El factor de Carga Viva para combinaciones con Patrones de Carga Viva y Carga Muerta.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDTimeHistoryDesign" xml:space="preserve">
+    <value>Diseño Acelerograma</value>
+  </data>
+  <data name="areaProps" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="CanguroModelMaterialSteelDesignPropsFuDescription" xml:space="preserve">
+    <value>Esfuerzo Mínimo de Tensión</value>
+  </data>
+  <data name="ISectionImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sections\ISectionImg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temperatureLineLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\temperatureLineLoad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroPreferencesJointDefaultColorDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ShearCenter" xml:space="preserve">
+    <value>Centro Cortante</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperFx" xml:space="preserve">
+    <value>Fuerza X</value>
+  </data>
+  <data name="addLineProps" xml:space="preserve">
+    <value>Propiedades de la Barra</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001PhiVDescription" xml:space="preserve">
+    <value>Factor de reducción de fuerzas cortantes</value>
+  </data>
+  <data name="CardinalPoint02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\Sections\CardinalPoint02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modelrotate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\modelrotate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignASD01FrameType" xml:space="preserve">
+    <value>Tipo de Barra</value>
+  </data>
+  <data name="dome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\dome.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RestraintFree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\RestraintFree.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperRy" xml:space="preserve">
+    <value>Ry</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapper" xml:space="preserve">
+    <value>Aceleraciones de Nodos</value>
+  </data>
+  <data name="CanguroModelDesignASD01MaxIterDescription" xml:space="preserve">
+    <value>Número máximo de iteraciones que realiza el algoritmo de diseño.</value>
+  </data>
+  <data name="AISC_LRFD99" xml:space="preserve">
+    <value>AISC-LRFD99</value>
+  </data>
+  <data name="selectPivot" xml:space="preserve">
+    <value>Seleccione un punto base</value>
+  </data>
+  <data name="J1" xml:space="preserve">
+    <value>J1</value>
+  </data>
+  <data name="Angle" xml:space="preserve">
+    <value>Ángulo</value>
+  </data>
+  <data name="saveScreenshotWinTitle" xml:space="preserve">
+    <value>Guardar como...</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperU2" xml:space="preserve">
+    <value>U2</value>
+  </data>
+  <data name="all_loads" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\CARGA-EN-GRAL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadTzDescription" xml:space="preserve">
+    <value>Traslación en el eje global Z.</value>
+  </data>
+  <data name="zoomall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\zoomall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperLb" xml:space="preserve">
+    <value>Carga en B</value>
+  </data>
+  <data name="CanguroViewReportsLoadCombinationWrapperLoadCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignWrapperWarning" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiCSpiralDescription" xml:space="preserve">
+    <value>Factor de reducción de fuerza en compresión en columnas con estribos en espiral.</value>
+  </data>
+  <data name="constraints" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\constraints.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restart" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPatLLFDescription" xml:space="preserve">
+    <value>El factor de Carga Viva para combinaciones con Patrones de Carga Viva y Carga Muerta.</value>
+  </data>
+  <data name="CanguroViewReportsLoadCaseWrapperType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="domeCmdTitle" xml:space="preserve">
+    <value>Domo</value>
+  </data>
+  <data name="errorLoadingFile" xml:space="preserve">
+    <value>Treu Structure no puede cargar el archivo</value>
+  </data>
+  <data name="RegistrationErrorLastNameIsEmpty" xml:space="preserve">
+    <value>El campo Apellidos(s) no debe estar vacío</value>
+  </data>
+  <data name="CanguroModelDesignASD01DLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 120 significa que el límite es L/120. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMz" xml:space="preserve">
+    <value>Mz</value>
+  </data>
+  <data name="CanguroPreferencesJointDefaultColor" xml:space="preserve">
+    <value>Color de Nodos</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiCTied" xml:space="preserve">
+    <value>Phi. (Compresión Paralelo)</value>
+  </data>
+  <data name="CanguroViewReportsJointDisplacementsWrapperTz" xml:space="preserve">
+    <value>Tz</value>
+  </data>
+  <data name="deleteloadcase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\deleteloadcase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addlinestript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\addlinestript.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PatLLF" xml:space="preserve">
+    <value>Factor de Patrón LL</value>
+  </data>
+  <data name="SaveTitle" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperFz" xml:space="preserve">
+    <value>Fuerza Z</value>
+  </data>
+  <data name="CanguroViewReportsLoadCaseWrapper" xml:space="preserve">
+    <value>Casos de Carga</value>
+  </data>
+  <data name="CanguroCommandsLoadTriangleLineLoadCmdDirection" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="mirror" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\mirror.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\add.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperMz" xml:space="preserve">
+    <value>Momento Z</value>
+  </data>
+  <data name="export2skTitle" xml:space="preserve">
+    <value>Exportando S2K</value>
+  </data>
+  <data name="Intersect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\Intersect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsSectionWrapperMaterial" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperFy" xml:space="preserve">
+    <value>Fuerza Y</value>
+  </data>
+  <data name="lineIDText" xml:space="preserve">
+    <value>ID: </value>
+  </data>
+  <data name="CanguroViewReportsDesignOptionsWrapper" xml:space="preserve">
+    <value>Opciones de Diseño</value>
+  </data>
+  <data name="defaultLoadCase" xml:space="preserve">
+    <value>Carga muerta</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001UFLimit" xml:space="preserve">
+    <value>Factor de Límite de Utilización</value>
+  </data>
+  <data name="CanguroCommandsLoadTriangleLineLoadCmdDirectionDescription" xml:space="preserve">
+    <value>Dirección en que la carga se aplica.</value>
+  </data>
+  <data name="Materials" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\Materials.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="array" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\array.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="concreteName1" xml:space="preserve">
+    <value>Concreto</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperR1" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SDLAndLLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 120 significa que el límite es L/120. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroModelMaterialUniaxialTypePropsADescription" xml:space="preserve">
+    <value>Coeficiente de Expansión Termal</value>
+  </data>
+  <data name="showlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\showlayer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDTimeHistoryDesign" xml:space="preserve">
+    <value>Diseño Acelerograma</value>
+  </data>
+  <data name="selectsimilar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\selectsimilar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdDirectionDescription" xml:space="preserve">
+    <value>Dirección en que la carga se aplica.</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperRz" xml:space="preserve">
+    <value>Rz</value>
+  </data>
+  <data name="CombinationTypeSRSS" xml:space="preserve">
+    <value>SRSS</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperJoint" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiCSpiral" xml:space="preserve">
+    <value>Phi (Compresión Espiral)</value>
+  </data>
+  <data name="CanguroCommandsModelAddDomeCmdSectionDescription" xml:space="preserve">
+    <value>Sección de barra para uasr en todos los elementos del domo.</value>
+  </data>
+  <data name="selectItems" xml:space="preserve">
+    <value>Seleccione</value>
+  </data>
+  <data name="Moment" xml:space="preserve">
+    <value>Momento</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02UFLimitDescription" xml:space="preserve">
+    <value>La razón de esfuerzo límite aceptable. Razones de esfuerzo iguales o inferirores a este valor se consideran aceptables.</value>
+  </data>
+  <data name="sections" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\sections.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapper" xml:space="preserve">
+    <value>Diseño en Acero - Detalles Axial</value>
+  </data>
+  <data name="dofSpringConstantStr" xml:space="preserve">
+    <value>Constante de Resorte (</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiTDescription" xml:space="preserve">
+    <value>Factor de reducción de fuerzas para barras controladas por tensión.</value>
+  </data>
+  <data name="ActionNotPossibleTitle" xml:space="preserve">
+    <value>No se puede ejecutar la acción solicitada</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperDampRatio" xml:space="preserve">
+    <value>Amortiguamiento</value>
+  </data>
+  <data name="CanguroPreferencesGrndDispLoadTransDefaultColorDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="distanceButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\distance.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jointConstraintProp" xml:space="preserve">
+    <value>Diafragma</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PlugWeldDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea que que se tome en cuenta si los elementos de Placa Doble con soldadura.</value>
+  </data>
+  <data name="getRotationCenter" xml:space="preserve">
+    <value>Seleccione dos puntos que definan el eje de giro</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapper" xml:space="preserve">
+    <value>Análisis Sísmico Dinámico</value>
+  </data>
+  <data name="CanguroViewReportsModalLPRWrapper" xml:space="preserve">
+    <value>Participaciones de Cargas en Modos</value>
+  </data>
+  <data name="staticCaseName" xml:space="preserve">
+    <value>Estático</value>
+  </data>
+  <data name="loadDescriptionGroundDisplacementLoad" xml:space="preserve">
+    <value>Desplazamiento prescrito en un nodo con grados de libertad restringidos, con componentes Tx, Ty, Tz (traslación), Rx, Ry, Rx (rotación) a un nodo</value>
+  </data>
+  <data name="NewConstraint" xml:space="preserve">
+    <value>Nuevo...</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcUFLimit" xml:space="preserve">
+    <value>Factor de Límite de Utilización</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="strCannotPasteInCurrentGridTab" xml:space="preserve">
+    <value>No se pueden pegar los datos en la tabla activa</value>
+  </data>
+  <data name="PipeSectionImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sections\PipeSectionImg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapper" xml:space="preserve">
+    <value>Masas Ensambladas en Nodos</value>
+  </data>
+  <data name="noZoomPreviousToDo" xml:space="preserve">
+    <value>No existen vistas que recuperar</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPhiT" xml:space="preserve">
+    <value>Phi (Tension):  </value>
+  </data>
+  <data name="CanguroModelLoadConcentratedSpanLoadLDescription" xml:space="preserve">
+    <value>Carga que se aplica en el punto D especificado.</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99MaxIter" xml:space="preserve">
+    <value>Max. Iteraciones</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperMy" xml:space="preserve">
+    <value>Momento Y</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperRz" xml:space="preserve">
+    <value>Rz</value>
+  </data>
+  <data name="CanguroViewReportsConcreteBeamDesignWrapperFrame" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="getItem" xml:space="preserve">
+    <value>Por favor seleccione un objeto</value>
+  </data>
+  <data name="MiddleCenter" xml:space="preserve">
+    <value>Med Centro</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SeisCodeDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea que se realice diseño sísmico.</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99FrameTypeDescription" xml:space="preserve">
+    <value>El tipo de barra debe ser "OMF", "IMF", "SMF", "OCBF", "SCBF", o "EBF". Se utiliza para consideraciones dúctiles en el diseño.</value>
+  </data>
+  <data name="CanguroViewReportsModalPeriodsWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="loadcase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\loadcase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperFz" xml:space="preserve">
+    <value>Fuerza Z</value>
+  </data>
+  <data name="CanguroViewReportsJointVelocitiesWrapperR1" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="Showtexts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\Showtexts.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperDa" xml:space="preserve">
+    <value>Posición A</value>
+  </data>
+  <data name="adjoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\adjoint.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelLayerNameDescription" xml:space="preserve">
+    <value>El nombre de la capa debe ser único, ya que se usa como identificador.</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperDirection" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="addConcentratedSpanLoad" xml:space="preserve">
+    <value>Agregar carga concentrada</value>
+  </data>
+  <data name="CanguroModelLoadDirectionalLineLoadDirection" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="CanguroViewReportsJointReactionsWrapperFz" xml:space="preserve">
+    <value>Fuerza Z</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiBDescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDSDLAndLLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 120 significa que el límite es L/120. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroModelDesignASD01LLRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 360 significa que el límite es L/360. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="CanguroModelDesignASD01LLRat" xml:space="preserve">
+    <value>Límite de Carga Viva</value>
+  </data>
+  <data name="grid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\grid.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="show_M2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\show-M2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseSelfWeight" xml:space="preserve">
+    <value>Peso Propio</value>
+  </data>
+  <data name="CanguroModelDesignASD01NetRat" xml:space="preserve">
+    <value>Límite de Deformación Neta</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperRx" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="CanguroViewReportsLineConcentratedForcesWrapperCase" xml:space="preserve">
+    <value>Caso</value>
+  </data>
+  <data name="CanguroViewReportsElementJointForcesWrapperFz" xml:space="preserve">
+    <value>Fuerza Z</value>
+  </data>
+  <data name="Centroid" xml:space="preserve">
+    <value>Centroide</value>
+  </data>
+  <data name="Edit_RedoHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit_RedoHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignASD01PlugWeldDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea que que se tome en cuenta si los elementos de Placa Doble con soldadura.</value>
+  </data>
+  <data name="strPasteWithErrors" xml:space="preserve">
+    <value>No se pudieron pegar todos los datos</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="addlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\addlayer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsMaterialAmountWrapper" xml:space="preserve">
+    <value>Cantidad de Material</value>
+  </data>
+  <data name="getLine" xml:space="preserve">
+    <value>Por favor seleccione una barra</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ASDPatLLF" xml:space="preserve">
+    <value>Factor de Patrón LL</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignPMMWrapperStatus" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapperMz" xml:space="preserve">
+    <value>Momento Z</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ExportDXFTitle" xml:space="preserve">
+    <value>Exportar DXF</value>
+  </data>
+  <data name="column" xml:space="preserve">
+    <value>Columna</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignShearWrapperVMajorRatio" xml:space="preserve">
+    <value>Cortantes (Mayor)</value>
+  </data>
+  <data name="notConnected" xml:space="preserve">
+    <value>La estructura no es conexa, por lo que no se puede analizar. 
+Se seleccionaron los elementos disconexos. 
+¿Desea tratar de Unir la estructura?</value>
+  </data>
+  <data name="getPoint" xml:space="preserve">
+    <value>Por favor especifique un punto</value>
+  </data>
+  <data name="CanguroViewReportsSteelDesignWrapperRatio" xml:space="preserve">
+    <value>Razón</value>
+  </data>
+  <data name="J2" xml:space="preserve">
+    <value>J2</value>
+  </data>
+  <data name="translation" xml:space="preserve">
+    <value>Traslación</value>
+  </data>
+  <data name="CanguroModelLoadLoadCaseNameDescription" xml:space="preserve">
+    <value>Identificador único del estado de carga</value>
+  </data>
+  <data name="CanguroViewReportsResponseSpectrumMIWrapperPeriod" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadDbDescription" xml:space="preserve">
+    <value>Distancia relativa desde el nodo I hasta el punto donde termina la carga distribuida aplicada. [Da - 1]</value>
+  </data>
+  <data name="enterDataIndexError" xml:space="preserve">
+    <value>No existe ningún *type* con el ID: </value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiB" xml:space="preserve">
+    <value>Phi (Flexión)</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRz" xml:space="preserve">
+    <value>Rz</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdLoad" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="CanguroViewReportsLineDistributedForcesWrapperLa" xml:space="preserve">
+    <value>Carga en A</value>
+  </data>
+  <data name="CanguroModelMaterialUniaxialTypePropsEDescription" xml:space="preserve">
+    <value>Módulo de Elasticidad</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99SDLAndLLRat" xml:space="preserve">
+    <value>Límite de Super DL+LL</value>
+  </data>
+  <data name="addLine" xml:space="preserve">
+    <value>Agregar Barra</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperU1" xml:space="preserve">
+    <value>U1</value>
+  </data>
+  <data name="CanguroViewReportsJointForcesWrapperFy" xml:space="preserve">
+    <value>Fuerza Y</value>
+  </data>
+  <data name="Force" xml:space="preserve">
+    <value>Fuerza</value>
+  </data>
+  <data name="CanguroViewReportsAssembledJointMassesWrapperU2" xml:space="preserve">
+    <value>U2</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99PhiCDescription" xml:space="preserve">
+    <value>Factor de Reducción de Fuerza</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02PhiVSeismic" xml:space="preserve">
+    <value>Phi (Cortante Sísmica)</value>
+  </data>
+  <data name="loadTypeUniformLineLoadCmd" xml:space="preserve">
+    <value>Carga Uniforme sobre Barra</value>
+  </data>
+  <data name="UBC97_ASD" xml:space="preserve">
+    <value>UBC97-ASD</value>
+  </data>
+  <data name="CanguroModelMaterialIsotropicTypePropsNuDescription" xml:space="preserve">
+    <value>Coeficiente de Poisson</value>
+  </data>
+  <data name="CanguroModelDesignASD01CheckDefl" xml:space="preserve">
+    <value>Considerar Deformación</value>
+  </data>
+  <data name="BottomLeft" xml:space="preserve">
+    <value>Inf Izq</value>
+  </data>
+  <data name="addarea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\addarea.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoommin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\zoommin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CardinalPointBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\Sections\CardinalPointBack.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignRCDF2001UFLimitDescription" xml:space="preserve">
+    <value>La razón de esfuerzo límite aceptable. Razones de esfuerzo iguales o inferirores a este valor se consideran aceptables.</value>
+  </data>
+  <data name="CanguroViewReportsMaterialWrapperType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\32x32\hide.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noMaterialName" xml:space="preserve">
+    <value>Otro</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02SeisCat" xml:space="preserve">
+    <value>Categoría Sísmica</value>
+  </data>
+  <data name="join" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\join.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDeltaCaseName" xml:space="preserve">
+    <value>P-Delta</value>
+  </data>
+  <data name="CardinalPoint05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\Sections\CardinalPoint05.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InternationalSystem" xml:space="preserve">
+    <value>Internacional</value>
+  </data>
+  <data name="CanguroViewReportsModalPFWrapperModalMass" xml:space="preserve">
+    <value>Masa</value>
+  </data>
+  <data name="CanguroModelLoadGroundDisplacementLoadRxDescription" xml:space="preserve">
+    <value>Rotación alrededor del eje global X.</value>
+  </data>
+  <data name="CanguroModelMaterialConcreteDesignPropsFcDescription" xml:space="preserve">
+    <value>Fuerza de Concreto a Compresión Especificada</value>
+  </data>
+  <data name="predefinedyz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\predefinedyz.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loadTypeConcentratedSpanLoad" xml:space="preserve">
+    <value>Carga concentrada</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadFzDescription" xml:space="preserve">
+    <value>Valor de la fuerza en la dirección Z global.</value>
+  </data>
+  <data name="loadDescriptionTriangleLineLoadCmd" xml:space="preserve">
+    <value>Carga distribuida lineal con magnitud cero en los extremos y L al centro, sobre una barra</value>
+  </data>
+  <data name="pan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\pan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CanguroModelLoadDistributedSpanLoadLa" xml:space="preserve">
+    <value>La</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDPatLLFDescription" xml:space="preserve">
+    <value>El factor de Carga Viva para combinaciones con Patrones de Carga Viva y Carga Muerta.</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNz" xml:space="preserve">
+    <value>Pisos</value>
+  </data>
+  <data name="CanguroViewReportsConcreteColumnDesignWrapper" xml:space="preserve">
+    <value>Diseño de Columnas de Concreto</value>
+  </data>
+  <data name="jointDoFProp" xml:space="preserve">
+    <value>GdL</value>
+  </data>
+  <data name="looseAnalysisQuestionStr" xml:space="preserve">
+    <value>Si cancela el comando se perderán los resultados del análisis. ¿Está seguro que desea continuar?</value>
+  </data>
+  <data name="CanguroViewReportsModalPeriodsWrapperFrecuency" xml:space="preserve">
+    <value>Frecuencia</value>
+  </data>
+  <data name="deleteLoadFromAssignedLoadsQuestionTitle" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="getRotationAngle" xml:space="preserve">
+    <value>Ingrese el ángulo de giro para rotar</value>
+  </data>
+  <data name="CanguroModelLoadForceLoadMzDescription" xml:space="preserve">
+    <value>Valor del momento alrededor de la dirección Z global.</value>
+  </data>
+  <data name="cylinderCmdTitle" xml:space="preserve">
+    <value>Cilindro</value>
+  </data>
+  <data name="elementLoadsProp1" xml:space="preserve">
+    <value>Cargas</value>
+  </data>
+  <data name="CanguroPreferencesForceLoadLineScale" xml:space="preserve">
+    <value>Escala de línea en fuerzas</value>
+  </data>
+  <data name="CanguroViewReportsMaterialAmountWrapperMaterial" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="analize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\analize.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enterDataErrorTitle" xml:space="preserve">
+    <value>Entrada de datos incorrecta</value>
+  </data>
+  <data name="select" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\select.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CardinalPoint09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\Sections\CardinalPoint09.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperTx" xml:space="preserve">
+    <value>Tx</value>
+  </data>
+  <data name="CanguroViewReportsMaterialAmountWrapperAmount" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="CanguroViewReportsBaseReactionsWrapper" xml:space="preserve">
+    <value>Reacciones en la Base</value>
+  </data>
+  <data name="CanguroCommandsModelAddGridCmdNzDescription" xml:space="preserve">
+    <value>Número de pisos (eje Z) [1 - 500]</value>
+  </data>
+  <data name="CanguroViewReportsJointAccelerationsWrapperU2" xml:space="preserve">
+    <value>U2</value>
+  </data>
+  <data name="strNotEnoughCredit" xml:space="preserve">
+    <value>No cuenta con crédito suficiente para realizar la operación</value>
+  </data>
+  <data name="getResultsCommandTitle" xml:space="preserve">
+    <value>Descargando resultados</value>
+  </data>
+  <data name="CanguroPreferencesMomentLoadLineScaleDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcMinEccen" xml:space="preserve">
+    <value>Considerar Eccentricidad Mínima</value>
+  </data>
+  <data name="CanguroViewReportsModalPMRWrapperUy" xml:space="preserve">
+    <value>Uy</value>
+  </data>
+  <data name="CanguroModelDesignASD01TotalRatDescription" xml:space="preserve">
+    <value>Límite con respecto a la longitud L de la barra. Un valor de 240 significa que el límite es L/240. Un valor de cero significa que este parámetro no se tiene que revisar.</value>
+  </data>
+  <data name="concrete" xml:space="preserve">
+    <value>Concreto</value>
+  </data>
+  <data name="copypaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\copypaste.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="invalidSerial" xml:space="preserve">
+    <value>La llave proporcionada no es válida</value>
+  </data>
+  <data name="CanguroModelDesignACI318_02NumCurvesDescription" xml:space="preserve">
+    <value>El número de curvas de interacción para generar la superficie tridimensional de interacción. Este valor debe ser un múltiplo de 4 igual o mayor a 4.</value>
+  </data>
+  <data name="fileNotFound" xml:space="preserve">
+    <value>No se encontró el archivo</value>
+  </data>
+  <data name="CanguroModelDesignASD01SeisLoadDescription" xml:space="preserve">
+    <value>Seleccione "True" si desea que se realice tomen en cuenta las combinaciones de carga sísmica especiales en el diseño.</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_ConcPhiBDescription" xml:space="preserve">
+    <value>Factor de Reducción de fuerza en flexión.</value>
+  </data>
+  <data name="addJoint" xml:space="preserve">
+    <value>Agregar Nodo</value>
+  </data>
+  <data name="CanguroCommandsLoadUniformLineLoadCmdLoadDescription" xml:space="preserve">
+    <value>Carga uniforme aplicada a lo largo de toda la barra.</value>
+  </data>
+  <data name="CanguroViewReportsGroundDisplacementWrapperTy" xml:space="preserve">
+    <value>Tx</value>
+  </data>
+  <data name="TeeSectionImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sections\TeeSectionImg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanguroModelDesignUBC97_LRFDImpFactor" xml:space="preserve">
+    <value>Factor de Importancia</value>
+  </data>
+  <data name="CanguroViewReportsJointWrapperY" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="materialInUseError" xml:space="preserve">
+    <value>El material no se puede borrar porque está en uso</value>
+  </data>
+  <data name="CanguroModelDesignASD01TimeHistoryDesignDescription" xml:space="preserve">
+    <value>Este valor puede ser "Envelopes" o "Step-by-Step" para indicar la forma de tomar los resultados del análisis de acelorograma.</value>
+  </data>
+  <data name="CanguroModelDesignLRFD99NetRat" xml:space="preserve">
+    <value>Límite Neto</value>
+  </data>
+  <data name="TubeSectionImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sections\TubeSectionImg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selectconnected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICONOS\16x16\selectconnected.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

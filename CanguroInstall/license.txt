@@ -1,0 +1,117 @@
+CONTRATO DE LICENCIA DE USO NO EXCLUSIVA DEL PROGRAMA TREU STRUCTURE, QUE EN LO SUCESIVO SE LE DENOMINARA EL “PROGRAMA”, QUE CELEBRAN POR UNA PARTE CÁLCULO y ANÁLISIS DE MÉXICO, S.A. de C.V., A QUIEN EN LO SUCESIVO SE DENOMINARA EL "PROVEEDOR" Y POR OTRA PARTE “EL CLIENTE”, AL TENOR DE LAS SIGUIENTES: 
+D E C L A R A C I O N E S 
+ 
+I.- EL “PROVEEDOR" por su propio derecho DECLARA: 
+I.1 Que es una sociedad mercantil, constituida de conformidad con las leyes mexicanas. 
+I.2 Que es propietaria de los derechos patrimoniales del “PROGRAMA”, entre los que se incluyen el derecho de otorgar a terceros la Licencia de Uso  No Exclusiva del “PROGRAMA” de conformidad con los Artículos 13, 162, 163 fracción I, 168, 169, 209 fracción III y demás relativos de la Ley Federal del Derecho de Autor. 
+I.3 Que está autorizado  para otorgar la presente Licencia de Uso No Exclusiva, que cuenta con la experiencia, conocimientos, personal técnico especializado, así como con los recursos materiales y equipo necesarios para cumplir con las obligaciones que asume en este Contrato. 
+I.4 Que no cuenta con ningún impedimento para obligarse en los términos de este Contrato. 
+ 
+II.- DECLARA EL “CLIENTE”:  
+II.1. Que es su deseo obligarse en los términos de este Contrato. 
+II.2. Que por el simple hecho de llevar a cabo la instalación, descarga, copia o cualquier otra forma de acceder al “PROGRAMA”, se encuentra obligado bajo los términos y condiciones del presente Contrato.   
+ 
+Expuestas las anteriores declaraciones, las partes están de acuerdo en sujetar el presente Contrato a las siguientes: 
+C L Á U S U L A S 
+PRIMERA.- OBJETO DEL CONTRATO.- LICENCIA DE USO NO EXCLUSIVA DEL “PROGRAMA” y la PRESTACIÓN DE SERVICIOS DE ANÁLISIS. 
+EL “PROVEEDOR" sólo otorga al “CLIENTE” el derecho no exclusivo de uso del “PROGRAMA” (cuyas características se especifican en el Anexo 1 del presente Contrato, el cual forma parte integrante del mismo), con el fin de que el “CLIENTE” pueda utilizar los “SERVICIOS DE ANÁLISIS”, los cuales se especifican y describen en el referido Anexo 1. 
+“EL CLIENTE” podrá utilizar los “SERVICIOS DE ANÁLISIS”, siguiendo las instrucciones previstas al instalarse “EL PROGRAMA” y de conformidad con las especificaciones previstas en dicho Anexo 1, siempre y cuando sus equipos de cómputo cumplan con las especificaciones establecidas en el Anexo 2 del presente contrato. 
+SEGUNDA.-ANEXOS.- Los Anexos que se describen a continuación forman parte integrante del presente Contrato, por lo que el “CLIENTE” se encuentra obligado en los mismos términos del presente instrumento.  
+ANEXO 1.    “CARACTERÍSTICAS y ESPECIFICACIONES GENERALES DE TREU STRUCTURE”.  
+            ANEXO 2.    “REQUERIMIENTOS DE INSTALACIÓN DE TREU STRUCTURE”.   
+TERCERA.- PRECIO por la LICENCIA DE USO NO EXCLUSIVA y por los SERVICIOS DE ANÁLISIS.- El Uso de la presente LICENCIA DE USO NO EXCLUSIVA del “PROGRAMA”, no tendrán costo alguno a cargo del  “CLIENTE”. Asimismo, tampoco tendrán costo alguno a cargo del “CLIENTE” cualquier actualización que en el futuro “EL PROVEEDOR” realice al “PROGRAMA”.  
+Por la prestación de los “SERVICIOS DE ANÁLISIS” descritos en el Anexo 1 del presente contrato, el “CLIENTE” deberá pagar, previamente al uso de estos servicios, las tarifas que aparezcan en cada cotización en su pantalla al momento de  tener acceso y solicitar los “SERVICIOS DE ANÁLISIS”.
+CUARTA.- FORMA DE PAGO.- El “CLIENTE” podrá pagar mediante cualquiera de las siguientes formas: 
+a. Depósito de Efectivo  o de Cheque en la Cuenta del “PROVEEDOR”, o 
+b. Mediante transferencia de una cuenta bancaria a la cuenta del “PROVEEDOR”.
+QUINTA.- CUENTA DEL SALDO DEL “CLIENTE”.   “EL CLIENTE” podrá hacer uso de los “SERVICIOS DE ANÁLISIS” siempre y cuando cuente con saldo a favor en la cuenta que para efectos de control administre “EL PROVEEDOR”, el cual se reflejará en puntos.
+
+”EL PROVEEDOR” se obliga a permitir a “EL CLIENTE” consultar su saldo en cualquier momento en que éste lo requiera,  el cual se reflejará en puntos. 
+  
+SEXTA.- FACTURACIÓN.- A petición de  “EL CLIENTE”, especificada al momento de solicitar los “SERVICIOS DE ANÁLISIS”, el “PROVEEDOR” le expedirá una factura que cubra con todos los requisitos fiscales previstos en las leyes aplicables.  Dicha factura podrá ser enviada al domicilio de “EL CLIENTE” o podrá ser entregada en el domicilio del “PROVEEDOR” especificado en su página web. www.treusoft.com. En el caso de que la factura sea electrónica se enviará al correo electrónico que señale  “EL CLIENTE”.
+   
+SEPTIMA.- VIGENCIA.- La presente LICENCIA DE USO NO EXCLUSIVO se otorga por tiempo indefinido. 
+OCTAVA.- GARANTÍA LIMITADA DEL PRODUCTO.- EL “PROVEEDOR” garantiza y el “CLIENTE”  acepta:
+(a) Que el “PROGRAMA” ha sido debidamente desarrollado, probado, y utilizado, por lo que funciona sustancialmente en forma correcta. 
+c) Que “EL PROVEEDOR” no puede garantizar la obtención de resultados exitosos derivados de la utilización del “PROGRAMA” y/o de los  “SERVICIOS DE ANÁLISIS”, y que es responsabilidad de cada Usuario verificar los resultados obtenidos por el uso del “PROGRAMA” y/o de los “SERVICIOS DE ANÁLISIS”. 
+En caso de defectos detectados en el “PROGRAMA” y/o en los “SERVICIOS DE ANÁLISIS”, la única responsabilidad del “PROVEEDOR” será la de reparar dichos defectos. 
+
+NOVENA.- RESTRICCIONES DE USO.- “EL CLIENTE” no podrá modificar, copiar, adaptar, difundir, publicar, comercializar, utilizar, explotar, ceder, sublicenciar, enajenar, decodificar, comunicar y/o transmitir a terceros por ningún medio, total o parcialmente “El PROGRAMA” o sus “Accesorios”, sin el previo consentimiento por escrito del “PROVEEDOR”  
+Queda estrictamente prohibido para “EL CLIENTE” modificar, adaptar, traducir, desintegrar, desensamblar o crear trabajos derivados del programa de cómputo. 
+DÉCIMA.- CONFIDENCIALIDAD.- “EL CLIENTE” y el “PROVEEDOR”, se obligan entre sí, a que la documentación que se proporcione para la prestación de los servicios materia de este Contrato, salvo aquella que sea del dominio público o uso general, será considerada como confidencial, por lo que se obligan a guardarla bajo la más estricta responsabilidad y por lo tanto no revelarán, ni divulgarán directa o indirectamente en forma alguna a terceras personas físicas o morales, cualquier información verbal o por escrito que esté relacionada con negocios, actividades, organización, operaciones, métodos, sistemas, mejoras, actualizaciones, traducciones, adaptaciones, documentación relativa a los programas de cómputo propiedad del “PROVEEDOR” y/o del “CLIENTE”, ya sea de carácter técnico, comercial y/o precios, que estén incluidos en las propuestas, contratos o políticas que se le presenten derivado de alguna oportunidad comercial como resultado de este Contrato, durante la vigencia del presente o con posterioridad a, su terminación o rescisión. 
+Si en el desarrollo y/o implementación de otros servicios, “EL CLIENTE”  tuviere que utilizar servicios de terceros, se asegurará que los mismos queden obligados a lo dispuesto por esta Cláusula, satisfaciendo tal obligación mediante la firma de un contrato de confidencialidad con dichos terceros, en los términos indicados en esta Cláusula y previo aviso a “EL PROVEEDOR”.
+DÉCIMA PRIMERA .- RESPONSABILIDAD POR DAÑOS.- En ningún caso, él “PROVEEDOR” será responsable por daños de cualquier naturaleza (incluyendo, sin limitar, daños directos o indirectos por lesiones personales, pérdidas de utilidades, interrupción de operaciones, pérdida de información comercial u otros daños secundarios) que se deriven del uso o de la imposibilidad de uso del “PROGRAMA”. 
+En ningún caso el “PROVEEDOR” será responsable por daños que sufra “EL CLIENTE”  por Caso Fortuito o Fuerza Mayor. 
+En cualquier caso de responsabilidad por causa imputable al “PROVEEDOR”, su responsabilidad estará limitada al importe que efectivamente  “EL CLIENTE”  haya pagado por la prestación de los “SERVICIOS DE ANÁLISIS”  
+DÉCIMA SEGUNDA - CESIÓN DE DERECHOS.- “EL CLIENTE” no podrá vender, ceder o traspasar en forma alguna los derechos y obligaciones derivados del presente Contrato a tercero alguno sin el consentimiento previo y por escrito del “PROVEEDOR”,  en el entendido que todo acto realizado en tal sentido, carecerá de validez por  no existir la autorización correspondiente. 
+DÉCIMA TERCERA- DERECHOS DE AUTOR.- “EL CLIENTE” acepta y reconoce que la propiedad de todos los Sistemas, Servicios y todos los programas que pueden integrar el “PROGRAMA”, referidos en este Contrato y sus Anexos, son del “PROVEEDOR”, reservándose éste último los Derechos de Autor a que se refiere la Ley . 
+Todas las marcas que se mencionan en este Contrato están registradas y son propiedad de las personas que aparecen en dichos registros y sólo se mencionan aquí para efecto de indicar las referencias operativas de (los) producto(s) que son materia de este Contrato. 
+DÉCIMA CUARTA.- TERMINACION.- Este  Contrato se dará por terminado en caso de incumplimiento por parte de “EL CLIENTE”  de cualquiera de las obligaciones establecidas  a su cargo, así como por  caso fortuito o fuerza mayor. 
+ 
+DÉCIMA QUINTA.- JURISDICCIÓN.- Para todo lo relacionado con la interpretación y cumplimiento de este Contrato, y para todo aquello que no esté expresamente estipulado en el mismo, las partes se someten expresamente a la jurisdicción  de los Tribunales de la Ciudad de México, Distrito Federal, renunciando al fuero que pudiere corresponderles en razón de sus domicilios presentes o futuros. 
+La presente Licencia se regirá de conformidad con lo establecido en  las leyes de la Ciudad de México Distrito Federal, en  las leyes y tratados internacionales sobre derechos de autor y por las demás  leyes nacionales que le sean aplicables en todos los países que utilicen el programa de cómputo, en beneficio del “PROVEEDOR”, sus sucesores y derechohabientes. 
+DECIMA SEXTA.- ACEPTACIÓN.- “EL CLIENTE” así como “EL PROVEEDOR” aceptan haber leído y comprendido este Contrato, por lo que se obligan a cumplir con sus términos y condiciones. Están conscientes de que el presente Contrato es único y exclusivo entre ambas partes, por lo que dejan sin efecto cualquier acuerdo y ofertas anteriores, verbales o escritas o de cualquier otra naturaleza relacionada con el objeto de este Contrato. 
+Si “EL CLIENTE” tiene alguna duda en relación con esta LICENCIA DE USO NO EXCLUSIVA o en relación con la prestación y utilización de los “SERVICIOS DE ANALISIS”, o desea ponerse en contacto con la empresa Cálculo y Análisis de México S.A. de C.V., lo invitamos a visitar la  página www.treusoftware.com. 
+Todos los derechos reservados. Copyright 2007.
+
+ANEXO "1" 
+
+"Características y Especificaciones Generales de Treu Structure”
+ 
+Treu Structure es un programa de computadora para análisis y diseño de estructuras y edificaciones basado en el método de los elementos finitos dirigido a ingenieros civiles y arquitectos. De acuerdo a las leyes expedidas y en vigor en todo el mundo, es necesario cumplir con reglamentos de construcción. Para estructuras con cierta complejidad o tamaño es indispensable analizar las estructuras utilizando programas de computación para asegurarse que se cumple con los reglamentos de construcción. Este software tiene como finalidad cubrir esa necesidad. Para este propósito cuenta con innovaciones tecnológicas, que le confieren las siguientes características:
+* Modelación ágil y avanzada
+o Asistentes paso a paso
+o Snap dinámico predictivo
+o Tabla de edición de modelo
+o Edición gráfica interactiva del modelo
+o Exportación e Importación de archivos DXF
+
+* Visualización poderosa en tiempo real
+o Motor gráfico basado en DirectX
+o Visualización con volumen
+o Visualización de resultados de forma gráfica
+o Generación de reportes en formato PDF, DOC, XLS, etc
+
+* Análisis por elementos finitos
+o Análisis estático
+o Análisis dinámico
+o Análisis modal espectral
+o Análisis P-Delta
+
+* Cargas
+o Carga puntual en nodos y barras
+o Desplazamientos prescritos en nodos
+o Cargas distribuidas en barras
+
+* Diseño
+o Reglamento de Construcciones para el Distrito Federal
+o UBC 97
+o AISC ASD
+o AISC LRFD
+o ACI
+
+* Actualizaciones gratuitas del software vía Internet
+
+
+ANEXO "2"
+
+"Requerimientos de instalación de Treu Structure"
+
+
+* PC con Pentium III a 600Mhz, Procesador a 1GHz recomendado.
+* Sistema operativo Microsoft Windows 2000 Professional Service Pack 3*, Windows XP o Windows Vista.
+* Requerimiento mínimo de RAM: 256 MB para Windows 2000 Professional, 256 MB para Windows 2000 Server, 256 MB para Windows XP, 256 MB para Windows Server 2003, 512 MB para Windows Vista.
+* 50 MB en disco duro para la instalación del software. 400 MB de Prerrequisitos en caso de no tenerlos instalados previamente.
+* Unidad de CD-ROM o DVD-ROM
+* Super VGA (800x600) o mayor resolución con color de 32-bits (True Color).
+* Mouse o equivalente.
+
+* Es necesario tener instalado el Internet Explorer 5.01 o Superior
+
+Microsoft, Windows e Internet Explorer son marcas registradas de Microsoft Corporation.
+
+
+
+2
+
+
