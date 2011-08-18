@@ -148,7 +148,10 @@ namespace Canguro.Controller
             {
                 // Retrieve an IsolatedStorageFile for the current Domain and Assembly.
                 IsolatedStorageFile isoFile = IsolatedStorageFile.GetUserStoreForAssembly();
-                
+
+                if (!isoFile.FileExists(filename))
+                    return false;
+
                 IsolatedStorageFileStream isoStream =
                     new IsolatedStorageFileStream(filename,
                     FileMode.Open,
@@ -185,12 +188,12 @@ namespace Canguro.Controller
 
                 reader.Close();
                 isoFile.Close();
-                return false;
+                return true;
             }
             catch (System.IO.FileNotFoundException)
             {
                 // Expected exception if a file cannot be found. This indicates that we have a new user.
-                return true;
+                return false;
             }
         }
 

@@ -21,7 +21,7 @@ namespace Canguro.Model.Load
             // Create an array representing the files in the current directory.
             FileInfo[] fi = di.GetFiles();
 
-            IList<ResponseSpectrum> list = new ManagedList<ResponseSpectrum>();
+            IList<ResponseSpectrum> list = new List<ResponseSpectrum>();
             foreach (FileInfo fiTemp in fi)
             {
                 try
@@ -32,7 +32,7 @@ namespace Canguro.Model.Load
                 catch (Exception) { }
             }
 
-            return list;
+            return new ManagedList<ResponseSpectrum>(list);
         }
 
         public ResponseSpectrum(string fileName)
