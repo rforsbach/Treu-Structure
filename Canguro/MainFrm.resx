@@ -117,17 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="toolStripContainer1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolStripContainer1.Locked" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
-  </metadata>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="statusStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
   </data>
@@ -137,7 +138,6 @@
   <data name="progress1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 16</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="progress1.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -222,9 +222,9 @@
   <data name="&gt;&gt;jointGridView.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="jointsToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="jointsToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
-  </metadata>
+  </data>
   <data name="jointFillDownButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -360,9 +360,9 @@
   <data name="&gt;&gt;lineGridView.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="linesToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="linesToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
-  </metadata>
+  </data>
   <data name="lineFillDownButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -567,9 +567,9 @@
   <data name="toolStripContainer1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <metadata name="modelToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="modelToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>0, 3</value>
-  </metadata>
+  </data>
   <data name="modelToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -616,7 +616,7 @@
     <value>22, 20</value>
   </data>
   <data name="sectionsButton.Text" xml:space="preserve">
-    <value>Secciones</value>
+    <value>Sections</value>
   </data>
   <data name="materialsButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -625,7 +625,7 @@
     <value>22, 20</value>
   </data>
   <data name="materialsButton.Text" xml:space="preserve">
-    <value>Materiales</value>
+    <value>Materials</value>
   </data>
   <data name="toolStripSeparator23.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 6</value>
@@ -783,9 +783,9 @@
   <data name="toolStripContainer1.Text" xml:space="preserve">
     <value>toolStripContainer1</value>
   </data>
-  <metadata name="selectionToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="selectionToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>459, 24</value>
-  </metadata>
+  </data>
   <data name="selectionToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -940,9 +940,9 @@
   <data name="&gt;&gt;selectionToolStrip.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="menu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="menu.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>0, 75</value>
-  </metadata>
+  </data>
   <data name="menu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1930,9 +1930,9 @@
   <data name="&gt;&gt;menu.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="fileEditToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="fileEditToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>3, 24</value>
-  </metadata>
+  </data>
   <data name="fileEditToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -2205,9 +2205,9 @@
   <data name="&gt;&gt;fileEditToolStrip.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="resultsToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="resultsToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>84, 25</value>
-  </metadata>
+  </data>
   <data name="resultsToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -2218,7 +2218,7 @@
     <value>23, 22</value>
   </data>
   <data name="analyzeButton.Text" xml:space="preserve">
-    <value>Analizar</value>
+    <value>Analyze</value>
   </data>
   <data name="resultsCasesCombo.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 25</value>
@@ -2364,9 +2364,9 @@
   <data name="&gt;&gt;resultsToolStrip.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <metadata name="templatesToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="templatesToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>644, 24</value>
-  </metadata>
+  </data>
   <data name="templatesToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -2418,9 +2418,9 @@
   <data name="&gt;&gt;templatesToolStrip.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="loadToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="loadToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>396, 74</value>
-  </metadata>
+  </data>
   <data name="loadToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -2575,9 +2575,9 @@
   <data name="&gt;&gt;loadToolStrip.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <metadata name="viewToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="viewToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>3, 49</value>
-  </metadata>
+  </data>
   <data name="viewToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -2894,9 +2894,9 @@
   <data name="&gt;&gt;viewToolStrip.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <metadata name="layersToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="layersToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>3, 99</value>
-  </metadata>
+  </data>
   <data name="layersToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -3041,12 +3041,12 @@
   <data name="&gt;&gt;smallPanel.Type" xml:space="preserve">
     <value>Canguro.View.SmallPanel, TreuStructure, Version=8.9.26.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
     <value>58</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>

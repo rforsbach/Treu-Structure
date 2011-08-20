@@ -165,12 +165,6 @@
     <Compile Include="Commands\Forms\PrintPreview.Designer.cs">
       <DependentUpon>PrintPreview.cs</DependentUpon>
     </Compile>
-    <Compile Include="Commands\Forms\RegistrationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Commands\Forms\RegistrationForm.Designer.cs">
-      <DependentUpon>RegistrationForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Commands\Forms\ReportOptionsDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -298,12 +292,6 @@
     <Compile Include="Commands\CopyPasteCmd.cs" />
     <Compile Include="Commands\CreateXMLCmd.cs" />
     <Compile Include="Commands\ExportXMLCmd.cs" />
-    <Compile Include="Commands\Forms\AddCredit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Commands\Forms\AddCredit.Designer.cs">
-      <DependentUpon>AddCredit.cs</DependentUpon>
-    </Compile>
     <Compile Include="Commands\Forms\AnalysisOptionsDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -372,7 +360,6 @@
     <Compile Include="Commands\UnselectCmd.cs" />
     <Compile Include="Commands\ZoomIn.cs" />
     <Compile Include="Commands\ZoomOut.cs" />
-    <Compile Include="Controller\Credentials.cs" />
     <Compile Include="Controller\Grid\GridViewSingleCell.cs" />
     <Compile Include="Controller\Grid\GridViewSingleColumn.cs" />
     <Compile Include="Controller\PropertyGrid\PropertyEditor.cs">
@@ -927,14 +914,6 @@
       <SubType>Designer</SubType>
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Commands\Forms\AddCredit.en.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>AddCredit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Commands\Forms\AddCredit.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>AddCredit.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Commands\Forms\AnalysisOptionsDialog.en.resx">
       <SubType>Designer</SubType>
       <DependentUpon>AnalysisOptionsDialog.cs</DependentUpon>
@@ -1006,14 +985,6 @@
     <EmbeddedResource Include="Commands\Forms\PrintPreview.resx">
       <SubType>Designer</SubType>
       <DependentUpon>PrintPreview.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Commands\Forms\RegistrationForm.en.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>RegistrationForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Commands\Forms\RegistrationForm.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>RegistrationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Commands\Forms\ReportOptionsDialog.en.resx">
       <SubType>Designer</SubType>
