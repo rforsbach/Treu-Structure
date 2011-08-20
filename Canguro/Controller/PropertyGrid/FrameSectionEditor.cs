@@ -55,8 +55,8 @@ namespace Canguro.Controller.PropertyGrid
             try
             {
                 //Load SectionResources file
-                string m = this.GetType().Module.Name;
-                m = m.Substring(0, m.Length - 4);
+                string m = this.GetType().Namespace;
+                m = m.Split('.')[0];
                 ResourceManager resourceManager =
                     new ResourceManager(m + ".Properties.SectionResources",
                     Assembly.GetExecutingAssembly());
