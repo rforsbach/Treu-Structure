@@ -227,6 +227,7 @@
     <Compile Include="Model\AreaSprings.cs" />
     <Compile Include="Model\IModel.cs" />
     <Compile Include="Model\Results\AnalysisManifest.cs" />
+    <Compile Include="Model\Results\AnalysisResult.cs" />
     <Compile Include="Model\Sections\AreaSection.cs" />
     <Compile Include="Model\Sections\AsolidSection.cs" />
     <Compile Include="Model\Sections\PlaneSection.cs" />
@@ -383,7 +384,6 @@
     <Compile Include="Controller\Snap\PointMagnetType.cs" />
     <Compile Include="Controller\Snap\SnapPainter.cs" />
     <Compile Include="Controller\Snap\AreaMagnet.cs" />
-    <Compile Include="Commands\GetResultsCmd.cs" />
     <Compile Include="Commands\MoveCmd.cs" />
     <Compile Include="Commands\TestCmd.cs" />
     <Compile Include="Controller\Grid\AssignedLoadsControl.cs">
@@ -470,8 +470,6 @@
     <Compile Include="Model\ModelAttributes.cs" />
     <Compile Include="Model\Loads\ResponseSpectrum.cs" />
     <Compile Include="Model\ModelSummary.cs" />
-    <Compile Include="Model\Results\DownloadProgress.cs" />
-    <Compile Include="Model\Results\DownloadProps.cs" />
     <Compile Include="Model\Results\ModalLPRRow.cs" />
     <Compile Include="Model\Results\ResultsCase.cs" />
     <Compile Include="Controller\Snap\PointMagnet.cs" />
@@ -842,10 +840,14 @@
     <Compile Include="Model\Loads\PorePressureAreaLoad.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainFrm.es.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainFrm.resx">
       <SubType>Designer</SubType>
       <DependentUpon>MainFrm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.es.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -1093,10 +1095,6 @@
     <EmbeddedResource Include="Controller\Grid\StraightFrameControl.resx">
       <SubType>Designer</SubType>
       <DependentUpon>StraightFrameControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainFrm.en.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>MainFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controller\PropertyGrid\FrameSectionFrm.resx">
       <SubType>Designer</SubType>

@@ -9,6 +9,8 @@ using System.Security.Cryptography;
 
 using ICSharpCode.SharpZipLib.Core;
 using ICSharpCode.SharpZipLib.Zip;
+using System.Text;
+using System.Xml;
 
 namespace Canguro.Commands.Model
 {
@@ -43,6 +45,8 @@ namespace Canguro.Commands.Model
                 bool isConnected;
                 bool canAnalyze = false;
                 new Canguro.Commands.Model.UnselectCmd().Run(services);
+                
+                // Verify model consistency for analysis (e.g. graph connectivity)
                 if (!(canAnalyze = AnalysisUtils.CanAnalyze(services.Model, ref message, out isConnected)))
                 {
                     if (!isConnected)
@@ -63,6 +67,7 @@ namespace Canguro.Commands.Model
                             return;
                     }
                 }
+
                 if (canAnalyze)
                 {
                     System.Windows.Forms.SaveFileDialog dlg = new System.Windows.Forms.SaveFileDialog();
@@ -84,117 +89,20 @@ namespace Canguro.Commands.Model
 
                     System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.WaitCursor;
 
-                    CanguroServer.Analysis ws = new CanguroServer.Analysis();
-                    //(new ExportMDBCmd()).Run(services);
+                    // Serialize the model
                     string modelPath = System.IO.Path.GetTempFileName();
-                    System.Diagnostics.Debug.WriteLine(modelPath);
                     AnalysisCmd.FixPDelta(services.Model.AbstractCases);
-                    // Change a xml file insted  mdb file
-                    //(new CreateXMLCmd()).Export(services.Model, modelPath);
-                    //new ExportMDBCmd().Export(services.Model, modelPath);
                     Stream stream = File.Create(modelPath);
                     new Canguro.Model.Serializer.Serializer(services.Model).Serialize(stream, false);
                     stream.Close();
 
-                    byte[] file = AnalysisUtils.GetCompressedModel(modelPath /*"tmp"*/);
-                    //byte[] file = File.ReadAllBytes("tmp.mdb");                                             
+                    System.Windows.Forms.Cursor.Current = cursor;
+                    System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.WaitCursor;
 
-                    string analysisOptions = "";
-                    if (!(services.Model.SteelDesignOptions is Canguro.Model.Design.NoDesign))
-                        analysisOptions += "S";
-                    if (!(services.Model.ConcreteDesignOptions is Canguro.Model.Design.NoDesign))
-                        analysisOptions += "C";
-                    if (!(services.Model.ColdFormedDesignOptions is Canguro.Model.Design.NoDesign))
-                        analysisOptions += "O";
-                    if (!(services.Model.AluminumDesignOptions is Canguro.Model.Design.NoDesign))
-                        analysisOptions += "A";
+                    // Export to s2k
+                    Export(modelPath, dstFile);
 
-                    CanguroServer.AnalysisResult ar = null;
-                    int numJoints = 0;
-                    foreach (Canguro.Model.Joint j in services.Model.JointList)
-                        if (j != null)
-                            numJoints++;
-
-                    float modelSize = numJoints * (1f + analysisOptions.Length * 0.25f);
-                    string modelDescription = "Export=s2k|ModelName=" + Path.GetFileNameWithoutExtension(services.Model.CurrentPath) + "|Joints=" + numJoints + "|Design=" + (!string.IsNullOrEmpty(analysisOptions));
-                    string userNameURL = System.Web.HttpUtility.UrlEncode(services.UserCredentials.UserName);
-                    string passwordURL = System.Web.HttpUtility.UrlEncode(services.UserCredentials.Password);
-                    string description = System.Web.HttpUtility.UrlEncode(services.UserCredentials.Description);
-                    string serial = System.Web.HttpUtility.UrlEncode(services.UserCredentials.Serial);
-                    string host = System.Web.HttpUtility.UrlEncode(System.Windows.Forms.SystemInformation.ComputerName);
-
-                    int maxRetry = 3;
-                    int retry = 0;
-                    CanguroServer.Quotation quotation = null;
-                    while (retry < maxRetry)
-                    {
-                        try
-                        {
-                            quotation = ws.Quote(userNameURL, passwordURL, host, serial, modelDescription);
-                            //                  CanguroServer.Quotation quotation = ws.Quote(userNameURL, passwordURL, modelDescription, description, serial);
-
-                            System.Windows.Forms.Cursor.Current = cursor;
-
-                            if (quotation.Cost > 0)
-                            {
-                                if (!quotation.CanAfford)
-                                {
-                                    System.Windows.Forms.MessageBox.Show(Culture.Get("strCannotAffordService").Replace("*cost*", quotation.Cost.ToString()), Culture.Get("ActionNotPossibleTitle"), System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Asterisk);
-                                    return;
-
-                                    //Commands.Forms.AddCredit addCredit = new Canguro.Commands.Forms.AddCredit();
-                                    //services.ShowDialog(addCredit);
-                                    //return;
-                                }
-
-                                System.Windows.Forms.DialogResult acceptCharge = System.Windows.Forms.MessageBox.Show(Culture.Get("strAskToAcceptCharge") + " " + quotation.Cost + " " + Culture.Get("strMoney"), Culture.Get("strAskToAcceptChargeTitle"), System.Windows.Forms.MessageBoxButtons.OKCancel, System.Windows.Forms.MessageBoxIcon.Question);
-                                if (acceptCharge == System.Windows.Forms.DialogResult.Cancel)
-                                    return;
-                            }
-
-                            retry = 0;
-                            while (retry < maxRetry || ar == null)
-                            {
-                                try
-                                {
-                                    System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.WaitCursor;
-                                    ar = ws.ExportToS2K(userNameURL, passwordURL, host, serial, file, analysisOptions, modelSize, quotation);
-                                    //ar = ws.ExportToS2K(userNameURL, passwordURL, file, analysisOptions, modelSize, quotation, description, serial);
-
-                                    System.Windows.Forms.Cursor.Current = cursor;
-
-                                    if (ar == null)
-                                    {
-                                        Forms.LoginDialog ld = new Canguro.Commands.Forms.LoginDialog(services);
-                                        if (services.ShowDialog(ld) == System.Windows.Forms.DialogResult.Cancel)
-                                            return; // Authentication failed
-                                    }
-                                    else
-                                        retry = maxRetry;
-                                }
-                                catch (Exception ex)
-                                {
-                                    retry++;
-                                    if (retry < maxRetry)
-                                        System.Diagnostics.Debug.WriteLine(ex.Message);
-                                    else
-                                        throw ex;
-                                }
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            retry++;
-                            if (retry < maxRetry)
-                                System.Diagnostics.Debug.WriteLine(ex.Message);
-                            else
-                                throw ex;
-                        }
-                    }
-
-                    // Pass control to GetResults
-                    gettingResults = true;
-                    getS2kFile(ar, dstFile, services);
+                    System.Windows.Forms.Cursor.Current = cursor;
                 }
                 else // Can't export
                 {
@@ -203,65 +111,15 @@ namespace Canguro.Commands.Model
                     System.Windows.Forms.MessageBox.Show(message, Culture.Get("error"), System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                 }
             }
-            catch (System.Net.WebException)
-            {
-                System.Windows.Forms.MessageBox.Show(Culture.Get("ErrorInWebService"), Culture.Get("error"), System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
-            }
             catch (Exception)
             {
                 System.Windows.Forms.MessageBox.Show(Culture.Get("ErrorExporting"), Culture.Get("error"), System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
             }
         }
 
-        private void getS2kFile(CanguroServer.AnalysisResult ar, string dstFile, Controller.CommandServices services)
-        {
-            if (ar.State != Canguro.CanguroServer.AnalysisState.Finished || ar.Manifest == null)
-                throw new Exception("Cannot download export due to errors in the returned AnalysisResult object");
-
-            Canguro.Model.Results.DownloadProps props = new Canguro.Model.Results.DownloadProps(ar.Manifest.Summary);
-
-            if (props == null)
-                throw new Exception("Cannot download export due to errors in the returned AnalysisResult object");
-
-            // Used to retrieve entire input
-            System.Text.StringBuilder sb = new System.Text.StringBuilder();
-
-            // Set decryptor key
-            decryptor.Key = ar.Manifest.DecryptionKey;
-            decryptor.IV = ar.Manifest.DecryptionVector;
-
-            // Load summary in a new thread
-            ParameterizedThreadStart loadFileDelegate = new ParameterizedThreadStart(Utility.AnalysisUtils.loadFileFromWeb);
-            Thread t = new Thread(loadFileDelegate);
-            t.Start(new Canguro.Utility.AnalysisUtils.LoadFileThreadParams(services, (DownloadProps)props.Clone(), sb, decryptor));
-
-            while (t.IsAlive)
-            {
-                wait(150);
-                //t.Join(150);
-            }
-
-            decryptor.Clear();
-
-            // Now save the stream to a file
-            StreamWriter sw = new StreamWriter(File.Create(dstFile));
-            sw.Write(sb.ToString());
-            sw.Close();
-        }
-
-        private void wait(int milliseconds)
-        {
-            // if ModelCmd has been cancelled or ModelCmd is no longer registered on the Controller
-            // Cancel the command and stop the waiting
-            if ((Controller.Controller.Instance.ModelCommand == null) || (Cancel))
-                return;
-
-            Utility.NativeHelperMethods.WaitInMainThread(milliseconds);
-        }
-
         public override bool AllowCancel()
         {
-            if (!gettingResults || !Canguro.Model.Model.Instance.IsLocked)
+            if (!Canguro.Model.Model.Instance.IsLocked)
                 return true;
 
             System.Windows.Forms.DialogResult r =
@@ -276,6 +134,84 @@ namespace Canguro.Commands.Model
                 Canguro.Model.Model.Instance.IsLocked = false;
 
             return (r == System.Windows.Forms.DialogResult.Yes);
+        }
+
+        /// <summary>
+        /// xml file to convert
+        /// </summary> 
+        /// <param name="fileName"></param>
+        private static void Export(string srcFileName, string dstFileName)
+        {
+            // Output file
+            TextWriter s2kDoc = new StreamWriter(dstFileName, false, Encoding.UTF8);
+
+            XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.Load(srcFileName);
+
+            //Get all nodes in xml file
+            XmlNodeList nodes = xmlDoc.SelectSingleNode("XmlExportedFile").ChildNodes;
+            foreach (XmlNode node in nodes)
+                translateXML(node, s2kDoc);
+
+            s2kDoc.WriteLine("END TABLE DATA");
+
+            s2kDoc.Close();
+        }
+
+        private static void translateXML(XmlNode node, TextWriter s2kDoc)
+        {
+            string nameTable = node.Name.Replace("_", " ").ToUpper();
+            if (nameTable.StartsWith("T-"))
+                return;
+
+            s2kDoc.WriteLine("TABLE:  \"" + nameTable + "\"");
+            if (node.ChildNodes.Count == 0)
+            {
+                XmlAttributeCollection attibutes = node.Attributes;
+                StringBuilder attBuilder = new StringBuilder();
+                foreach (XmlAttribute att in attibutes)
+                {
+                    string value = att.Value;
+                    attBuilder.Append("   " + att.Name + "=\"" + EncodeValue(ref value) + "\"");
+                }
+
+                s2kDoc.WriteLine(attBuilder.ToString());
+            }
+            else
+            {
+                XmlNodeList childs = node.ChildNodes;
+                foreach (XmlNode son in childs)
+                {
+                    XmlAttributeCollection attibutes = son.Attributes;
+                    StringBuilder attBuilder = new StringBuilder();
+                    foreach (XmlAttribute att in attibutes)
+                    {
+                        string value = att.Value;
+                        attBuilder.Append("   " + att.Name + "=\"" + EncodeValue(ref value) + "\"");
+                    }
+
+                    s2kDoc.WriteLine(attBuilder.ToString());
+                }
+            }
+            s2kDoc.WriteLine(" ");
+        }
+
+        private static StringBuilder buffStr = new StringBuilder();
+        private static string EncodeValue(ref string text)
+        {
+            buffStr.Remove(0, buffStr.Length);
+            foreach (char c in text)
+            {
+                if (c == '\'')
+                    buffStr.Append("&apos;");
+                else if (c == '"')
+                    buffStr.Append("&quot;");
+                else if ((c <= 0x1f && c != 0x9 && c != 0x10 && c != 0x13) || c > 127)
+                    buffStr.Append(string.Format("&#x{0:x};", (int)c));
+                else
+                    buffStr.Append(c);
+            }
+            return buffStr.ToString();
         }
     }
 }

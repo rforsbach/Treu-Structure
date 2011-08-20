@@ -79,24 +79,80 @@ namespace Canguro
             this.flipLineButton = new System.Windows.Forms.ToolStripButton();
             this.constraintsButton = new System.Windows.Forms.ToolStripButton();
             this.diaphragmsButton = new System.Windows.Forms.ToolStripButton();
-            this.fileEditToolStrip = new System.Windows.Forms.ToolStrip();
-            this.newButton = new System.Windows.Forms.ToolStripButton();
-            this.openButton = new System.Windows.Forms.ToolStripButton();
-            this.saveButton = new System.Windows.Forms.ToolStripButton();
-            this.printButton = new System.Windows.Forms.ToolStripButton();
-            this.printPreviewButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.cutButton = new System.Windows.Forms.ToolStripButton();
-            this.copyButton = new System.Windows.Forms.ToolStripButton();
-            this.pasteButton = new System.Windows.Forms.ToolStripButton();
-            this.copyPasteButton = new System.Windows.Forms.ToolStripButton();
-            this.deleteButton = new System.Windows.Forms.ToolStripButton();
-            this.editButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.undoButton = new System.Windows.Forms.ToolStripButton();
-            this.redoButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
-            this.unitsComboBox = new System.Windows.Forms.ToolStripComboBox();
+            this.loadToolStrip = new System.Windows.Forms.ToolStrip();
+            this.analysisCaseButton = new System.Windows.Forms.ToolStripButton();
+            this.loadCaseButton = new System.Windows.Forms.ToolStripButton();
+            this.editLoadCaseButton = new System.Windows.Forms.ToolStripButton();
+            this.deleteLoadCaseButton = new System.Windows.Forms.ToolStripButton();
+            this.loadCasesComboBox = new System.Windows.Forms.ToolStripComboBox();
+            this.loadComboButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
+            this.forceLoadButton = new System.Windows.Forms.ToolStripButton();
+            this.groundDisplacementButton = new System.Windows.Forms.ToolStripButton();
+            this.concentratedLoadButton = new System.Windows.Forms.ToolStripButton();
+            this.distributedLoadButton = new System.Windows.Forms.ToolStripButton();
+            this.uniformLineLoadButton = new System.Windows.Forms.ToolStripButton();
+            this.triangleLineLoadButton = new System.Windows.Forms.ToolStripButton();
+            this.temperatureLineLoadButton = new System.Windows.Forms.ToolStripButton();
+            this.temperatureGradientLineLoadButton = new System.Windows.Forms.ToolStripButton();
+            this.templatesToolStrip = new System.Windows.Forms.ToolStrip();
+            this.gridButton = new System.Windows.Forms.ToolStripButton();
+            this.domeButton = new System.Windows.Forms.ToolStripButton();
+            this.cylinderButton = new System.Windows.Forms.ToolStripButton();
+            this.viewToolStrip = new System.Windows.Forms.ToolStrip();
+            this.selectButton = new System.Windows.Forms.ToolStripButton();
+            this.zoomButton = new System.Windows.Forms.ToolStripButton();
+            this.panButton = new System.Windows.Forms.ToolStripButton();
+            this.rotateButton = new System.Windows.Forms.ToolStripButton();
+            this.predefinedxy = new System.Windows.Forms.ToolStripButton();
+            this.predefinedxz = new System.Windows.Forms.ToolStripButton();
+            this.predefinedyz = new System.Windows.Forms.ToolStripButton();
+            this.predefinedxyzButton = new System.Windows.Forms.ToolStripButton();
+            this.zoomInButton = new System.Windows.Forms.ToolStripButton();
+            this.zoomOutButton = new System.Windows.Forms.ToolStripButton();
+            this.zoomPreviousButton = new System.Windows.Forms.ToolStripButton();
+            this.viewAllButton = new System.Windows.Forms.ToolStripButton();
+            this.viewShadedButton = new System.Windows.Forms.ToolStripButton();
+            this.colorsSplitButton = new System.Windows.Forms.ToolStripDropDownButton();
+            this.colorMaterialsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.colorSectionsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.colorLayersToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.colorLoadsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.colorConstraintsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.showTextDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
+            this.noneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showJointIDToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.hideJointsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jointCoordinatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showDOFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showLineIDToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.showLineLengthToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.showLocalAxesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.showSectionsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.releasesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showAxesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.showFloorToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadSizeToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.showLoadsButton = new System.Windows.Forms.ToolStripButton();
+            this.resultsToolStrip = new System.Windows.Forms.ToolStrip();
+            this.analyzeButton = new System.Windows.Forms.ToolStripButton();
+            this.resultsCasesCombo = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.showDeformedButton = new System.Windows.Forms.ToolStripButton();
+            this.animateButton = new System.Windows.Forms.ToolStripButton();
+            this.showStressesButton = new System.Windows.Forms.ToolStripButton();
+            this.showDesignButton = new System.Windows.Forms.ToolStripButton();
+            this.diagramsDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
+            this.noDiagramsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.axialDiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.s2DiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.s3DiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.torsionDiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.m2DiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.m3DiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportButton = new System.Windows.Forms.ToolStripButton();
+            this.showJointReactionsButton = new System.Windows.Forms.ToolStripButton();
+            this.showJointReactionsTextsButton = new System.Windows.Forms.ToolStripButton();
             this.layersToolStrip = new System.Windows.Forms.ToolStrip();
             this.layerButton = new System.Windows.Forms.ToolStripButton();
             this.editlayerButton = new System.Windows.Forms.ToolStripButton();
@@ -232,6 +288,7 @@ namespace Canguro
             this.invertSelectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unselectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selectLineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.selectConnectedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator28 = new System.Windows.Forms.ToolStripSeparator();
             this.distanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.analysisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -261,97 +318,41 @@ namespace Canguro
             this.invertSelectionButton = new System.Windows.Forms.ToolStripButton();
             this.unselectButton = new System.Windows.Forms.ToolStripButton();
             this.selectLineButton = new System.Windows.Forms.ToolStripButton();
+            this.selectConnectedButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator26 = new System.Windows.Forms.ToolStripSeparator();
             this.hideButton = new System.Windows.Forms.ToolStripButton();
             this.showAllButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator27 = new System.Windows.Forms.ToolStripSeparator();
             this.distanceButton = new System.Windows.Forms.ToolStripButton();
-            this.viewToolStrip = new System.Windows.Forms.ToolStrip();
-            this.selectButton = new System.Windows.Forms.ToolStripButton();
-            this.zoomButton = new System.Windows.Forms.ToolStripButton();
-            this.panButton = new System.Windows.Forms.ToolStripButton();
-            this.rotateButton = new System.Windows.Forms.ToolStripButton();
-            this.predefinedxy = new System.Windows.Forms.ToolStripButton();
-            this.predefinedxz = new System.Windows.Forms.ToolStripButton();
-            this.predefinedyz = new System.Windows.Forms.ToolStripButton();
-            this.predefinedxyzButton = new System.Windows.Forms.ToolStripButton();
-            this.zoomInButton = new System.Windows.Forms.ToolStripButton();
-            this.zoomOutButton = new System.Windows.Forms.ToolStripButton();
-            this.zoomPreviousButton = new System.Windows.Forms.ToolStripButton();
-            this.viewAllButton = new System.Windows.Forms.ToolStripButton();
-            this.viewShadedButton = new System.Windows.Forms.ToolStripButton();
-            this.colorsSplitButton = new System.Windows.Forms.ToolStripDropDownButton();
-            this.colorMaterialsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.colorSectionsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.colorLayersToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.colorLoadsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.colorConstraintsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.showTextDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
-            this.noneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.showJointIDToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.hideJointsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.jointCoordinatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.showDOFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.showLineIDToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.showLineLengthToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.showLocalAxesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.showSectionsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.releasesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.showAxesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.showFloorToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.loadSizeToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.showLoadsButton = new System.Windows.Forms.ToolStripButton();
-            this.resultsToolStrip = new System.Windows.Forms.ToolStrip();
-            this.analyzeButton = new System.Windows.Forms.ToolStripButton();
-            this.resultsCasesCombo = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.showDeformedButton = new System.Windows.Forms.ToolStripButton();
-            this.animateButton = new System.Windows.Forms.ToolStripButton();
-            this.showStressesButton = new System.Windows.Forms.ToolStripButton();
-            this.showDesignButton = new System.Windows.Forms.ToolStripButton();
-            this.diagramsDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
-            this.noDiagramsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.axialDiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.s2DiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.s3DiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.torsionDiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.m2DiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.m3DiagramToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportButton = new System.Windows.Forms.ToolStripButton();
-            this.showJointReactionsButton = new System.Windows.Forms.ToolStripButton();
-            this.showJointReactionsTextsButton = new System.Windows.Forms.ToolStripButton();
-            this.templatesToolStrip = new System.Windows.Forms.ToolStrip();
-            this.gridButton = new System.Windows.Forms.ToolStripButton();
-            this.domeButton = new System.Windows.Forms.ToolStripButton();
-            this.cylinderButton = new System.Windows.Forms.ToolStripButton();
-            this.loadToolStrip = new System.Windows.Forms.ToolStrip();
-            this.analysisCaseButton = new System.Windows.Forms.ToolStripButton();
-            this.loadCaseButton = new System.Windows.Forms.ToolStripButton();
-            this.editLoadCaseButton = new System.Windows.Forms.ToolStripButton();
-            this.deleteLoadCaseButton = new System.Windows.Forms.ToolStripButton();
-            this.loadCasesComboBox = new System.Windows.Forms.ToolStripComboBox();
-            this.loadComboButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
-            this.forceLoadButton = new System.Windows.Forms.ToolStripButton();
-            this.groundDisplacementButton = new System.Windows.Forms.ToolStripButton();
-            this.concentratedLoadButton = new System.Windows.Forms.ToolStripButton();
-            this.distributedLoadButton = new System.Windows.Forms.ToolStripButton();
-            this.uniformLineLoadButton = new System.Windows.Forms.ToolStripButton();
-            this.triangleLineLoadButton = new System.Windows.Forms.ToolStripButton();
-            this.temperatureLineLoadButton = new System.Windows.Forms.ToolStripButton();
-            this.temperatureGradientLineLoadButton = new System.Windows.Forms.ToolStripButton();
+            this.fileEditToolStrip = new System.Windows.Forms.ToolStrip();
+            this.newButton = new System.Windows.Forms.ToolStripButton();
+            this.openButton = new System.Windows.Forms.ToolStripButton();
+            this.saveButton = new System.Windows.Forms.ToolStripButton();
+            this.printButton = new System.Windows.Forms.ToolStripButton();
+            this.printPreviewButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.cutButton = new System.Windows.Forms.ToolStripButton();
+            this.copyButton = new System.Windows.Forms.ToolStripButton();
+            this.pasteButton = new System.Windows.Forms.ToolStripButton();
+            this.copyPasteButton = new System.Windows.Forms.ToolStripButton();
+            this.deleteButton = new System.Windows.Forms.ToolStripButton();
+            this.editButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.undoButton = new System.Windows.Forms.ToolStripButton();
+            this.redoButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
+            this.unitsComboBox = new System.Windows.Forms.ToolStripComboBox();
             this.toolStripSeparator31 = new System.Windows.Forms.ToolStripSeparator();
-            this.selectConnectedButton = new System.Windows.Forms.ToolStripButton();
             this.jointGridView = new Canguro.JointGridView();
             this.lineGridView = new Canguro.LineElementGridView();
             this.smallPanel = new Canguro.View.SmallPanel();
-            this.selectConnectedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripContainer1.BottomToolStripPanel.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.RightToolStripPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridSplit)).BeginInit();
             this.gridSplit.Panel1.SuspendLayout();
             this.gridSplit.SuspendLayout();
             this.gridTabs.SuspendLayout();
@@ -360,14 +361,14 @@ namespace Canguro
             this.tabFrames.SuspendLayout();
             this.linesToolStrip.SuspendLayout();
             this.modelToolStrip.SuspendLayout();
-            this.fileEditToolStrip.SuspendLayout();
+            this.loadToolStrip.SuspendLayout();
+            this.templatesToolStrip.SuspendLayout();
+            this.viewToolStrip.SuspendLayout();
+            this.resultsToolStrip.SuspendLayout();
             this.layersToolStrip.SuspendLayout();
             this.menu.SuspendLayout();
             this.selectionToolStrip.SuspendLayout();
-            this.viewToolStrip.SuspendLayout();
-            this.resultsToolStrip.SuspendLayout();
-            this.templatesToolStrip.SuspendLayout();
-            this.loadToolStrip.SuspendLayout();
+            this.fileEditToolStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.jointGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineGridView)).BeginInit();
             this.SuspendLayout();
@@ -393,14 +394,14 @@ namespace Canguro
             // 
             // toolStripContainer1.TopToolStripPanel
             // 
-            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.loadToolStrip);
-            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.templatesToolStrip);
-            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.viewToolStrip);
-            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.resultsToolStrip);
-            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.layersToolStrip);
-            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.menu);
             this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.selectionToolStrip);
+            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.menu);
             this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.fileEditToolStrip);
+            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.resultsToolStrip);
+            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.templatesToolStrip);
+            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.loadToolStrip);
+            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.viewToolStrip);
+            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.layersToolStrip);
             // 
             // statusStrip1
             // 
@@ -802,147 +803,611 @@ namespace Canguro
             this.diaphragmsButton.Name = "diaphragmsButton";
             this.diaphragmsButton.Click += new System.EventHandler(this.diaphragmsButton_Click);
             // 
-            // fileEditToolStrip
+            // loadToolStrip
             // 
-            resources.ApplyResources(this.fileEditToolStrip, "fileEditToolStrip");
-            this.fileEditToolStrip.GripMargin = new System.Windows.Forms.Padding(0, 2, 2, 2);
-            this.fileEditToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.newButton,
-            this.openButton,
-            this.saveButton,
-            this.printButton,
-            this.printPreviewButton,
-            this.toolStripSeparator3,
-            this.cutButton,
-            this.copyButton,
-            this.pasteButton,
-            this.copyPasteButton,
-            this.deleteButton,
-            this.editButton,
-            this.toolStripSeparator4,
-            this.undoButton,
-            this.redoButton,
-            this.toolStripSeparator18,
-            this.unitsComboBox});
-            this.fileEditToolStrip.Name = "fileEditToolStrip";
+            resources.ApplyResources(this.loadToolStrip, "loadToolStrip");
+            this.loadToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.analysisCaseButton,
+            this.loadCaseButton,
+            this.editLoadCaseButton,
+            this.deleteLoadCaseButton,
+            this.loadCasesComboBox,
+            this.loadComboButton,
+            this.toolStripSeparator15,
+            this.forceLoadButton,
+            this.groundDisplacementButton,
+            this.concentratedLoadButton,
+            this.distributedLoadButton,
+            this.uniformLineLoadButton,
+            this.triangleLineLoadButton,
+            this.temperatureLineLoadButton,
+            this.temperatureGradientLineLoadButton});
+            this.loadToolStrip.Name = "loadToolStrip";
             // 
-            // newButton
+            // analysisCaseButton
             // 
-            this.newButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.newButton, "newButton");
-            this.newButton.Name = "newButton";
-            this.newButton.Click += new System.EventHandler(this.newButton_Click);
+            this.analysisCaseButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.analysisCaseButton.Image = global::Canguro.Properties.Resources.analisiscase;
+            this.analysisCaseButton.Name = "analysisCaseButton";
+            resources.ApplyResources(this.analysisCaseButton, "analysisCaseButton");
+            this.analysisCaseButton.Click += new System.EventHandler(this.analysisCaseButton_Click);
             // 
-            // openButton
+            // loadCaseButton
             // 
-            this.openButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.openButton, "openButton");
-            this.openButton.Name = "openButton";
-            this.openButton.Click += new System.EventHandler(this.openButton_Click);
+            this.loadCaseButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.loadCaseButton.Image = global::Canguro.Properties.Resources.loadcase;
+            this.loadCaseButton.Name = "loadCaseButton";
+            resources.ApplyResources(this.loadCaseButton, "loadCaseButton");
+            this.loadCaseButton.Click += new System.EventHandler(this.loadCaseButton_Click);
             // 
-            // saveButton
+            // editLoadCaseButton
             // 
-            this.saveButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.saveButton, "saveButton");
-            this.saveButton.Name = "saveButton";
-            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
+            this.editLoadCaseButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.editLoadCaseButton.Image = global::Canguro.Properties.Resources.editloadcase;
+            resources.ApplyResources(this.editLoadCaseButton, "editLoadCaseButton");
+            this.editLoadCaseButton.Name = "editLoadCaseButton";
+            this.editLoadCaseButton.Click += new System.EventHandler(this.editLoadCaseButton_Click);
             // 
-            // printButton
+            // deleteLoadCaseButton
             // 
-            this.printButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.printButton.Image = global::Canguro.Properties.Resources.PrintHS;
-            resources.ApplyResources(this.printButton, "printButton");
-            this.printButton.Name = "printButton";
-            this.printButton.Click += new System.EventHandler(this.printButton_Click);
+            this.deleteLoadCaseButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.deleteLoadCaseButton.Image = global::Canguro.Properties.Resources.deleteloadcase;
+            resources.ApplyResources(this.deleteLoadCaseButton, "deleteLoadCaseButton");
+            this.deleteLoadCaseButton.Name = "deleteLoadCaseButton";
+            this.deleteLoadCaseButton.Click += new System.EventHandler(this.deleteLoadCaseButton_Click);
             // 
-            // printPreviewButton
+            // loadCasesComboBox
             // 
-            this.printPreviewButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.printPreviewButton.Image = global::Canguro.Properties.Resources.PrintPreviewHS;
-            resources.ApplyResources(this.printPreviewButton, "printPreviewButton");
-            this.printPreviewButton.Name = "printPreviewButton";
-            this.printPreviewButton.Click += new System.EventHandler(this.printPreviewButton_Click);
+            this.loadCasesComboBox.AutoToolTip = true;
+            this.loadCasesComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.loadCasesComboBox.DropDownWidth = 200;
+            this.loadCasesComboBox.Name = "loadCasesComboBox";
+            resources.ApplyResources(this.loadCasesComboBox, "loadCasesComboBox");
+            this.loadCasesComboBox.SelectedIndexChanged += new System.EventHandler(this.loadCasesComboBox_SelectedIndexChanged);
             // 
-            // toolStripSeparator3
+            // loadComboButton
             // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
+            this.loadComboButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.loadComboButton.Image = global::Canguro.Properties.Resources.loadcombination;
+            this.loadComboButton.Name = "loadComboButton";
+            resources.ApplyResources(this.loadComboButton, "loadComboButton");
+            this.loadComboButton.Click += new System.EventHandler(this.loadComboButton_Click);
             // 
-            // cutButton
+            // toolStripSeparator15
             // 
-            this.cutButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.cutButton, "cutButton");
-            this.cutButton.Name = "cutButton";
-            this.cutButton.Click += new System.EventHandler(this.cutButton_Click);
+            this.toolStripSeparator15.Name = "toolStripSeparator15";
+            resources.ApplyResources(this.toolStripSeparator15, "toolStripSeparator15");
             // 
-            // copyButton
+            // forceLoadButton
             // 
-            this.copyButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.copyButton, "copyButton");
-            this.copyButton.Name = "copyButton";
-            this.copyButton.Click += new System.EventHandler(this.copyButton_Click);
+            this.forceLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.forceLoadButton.Image = global::Canguro.Properties.Resources.forceload;
+            resources.ApplyResources(this.forceLoadButton, "forceLoadButton");
+            this.forceLoadButton.Name = "forceLoadButton";
+            this.forceLoadButton.Click += new System.EventHandler(this.forceLoadButton_Click);
             // 
-            // pasteButton
+            // groundDisplacementButton
             // 
-            this.pasteButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.pasteButton, "pasteButton");
-            this.pasteButton.Name = "pasteButton";
-            this.pasteButton.Click += new System.EventHandler(this.pasteButton_Click);
+            this.groundDisplacementButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.groundDisplacementButton.Image = global::Canguro.Properties.Resources.grounddisplacementload;
+            resources.ApplyResources(this.groundDisplacementButton, "groundDisplacementButton");
+            this.groundDisplacementButton.Name = "groundDisplacementButton";
+            this.groundDisplacementButton.Click += new System.EventHandler(this.groundDisplacementButton_Click);
             // 
-            // copyPasteButton
+            // concentratedLoadButton
             // 
-            this.copyPasteButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.copyPasteButton.Image = global::Canguro.Properties.Resources.copypaste;
-            resources.ApplyResources(this.copyPasteButton, "copyPasteButton");
-            this.copyPasteButton.Name = "copyPasteButton";
-            this.copyPasteButton.Click += new System.EventHandler(this.copyPasteButton_Click);
+            this.concentratedLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.concentratedLoadButton, "concentratedLoadButton");
+            this.concentratedLoadButton.Name = "concentratedLoadButton";
+            this.concentratedLoadButton.Click += new System.EventHandler(this.concentratedLoadButton_Click);
             // 
-            // deleteButton
+            // distributedLoadButton
             // 
-            this.deleteButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.deleteButton.Image = global::Canguro.Properties.Resources.delete;
-            resources.ApplyResources(this.deleteButton, "deleteButton");
-            this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            this.distributedLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.distributedLoadButton.Image = global::Canguro.Properties.Resources.distributedexpandload;
+            resources.ApplyResources(this.distributedLoadButton, "distributedLoadButton");
+            this.distributedLoadButton.Name = "distributedLoadButton";
+            this.distributedLoadButton.Click += new System.EventHandler(this.distributedLoadButton_Click);
             // 
-            // editButton
+            // uniformLineLoadButton
             // 
-            this.editButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.editButton.Image = global::Canguro.Properties.Resources.edit;
-            resources.ApplyResources(this.editButton, "editButton");
-            this.editButton.Name = "editButton";
-            this.editButton.Click += new System.EventHandler(this.editButton_Click);
+            this.uniformLineLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.uniformLineLoadButton.Image = global::Canguro.Properties.Resources.uniformLineLoad;
+            resources.ApplyResources(this.uniformLineLoadButton, "uniformLineLoadButton");
+            this.uniformLineLoadButton.Name = "uniformLineLoadButton";
+            this.uniformLineLoadButton.Click += new System.EventHandler(this.uniformLineLoadButton_Click);
             // 
-            // toolStripSeparator4
+            // triangleLineLoadButton
             // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
+            this.triangleLineLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.triangleLineLoadButton.Image = global::Canguro.Properties.Resources.triangleLineLoad;
+            resources.ApplyResources(this.triangleLineLoadButton, "triangleLineLoadButton");
+            this.triangleLineLoadButton.Name = "triangleLineLoadButton";
+            this.triangleLineLoadButton.Click += new System.EventHandler(this.triangleLineLoadButton_Click);
             // 
-            // undoButton
+            // temperatureLineLoadButton
             // 
-            this.undoButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.undoButton, "undoButton");
-            this.undoButton.Name = "undoButton";
-            this.undoButton.Click += new System.EventHandler(this.undoButton_Click);
+            this.temperatureLineLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.temperatureLineLoadButton.Image = global::Canguro.Properties.Resources.temperatureLineLoad;
+            resources.ApplyResources(this.temperatureLineLoadButton, "temperatureLineLoadButton");
+            this.temperatureLineLoadButton.Name = "temperatureLineLoadButton";
+            this.temperatureLineLoadButton.Click += new System.EventHandler(this.temperatureLineLoadButton_Click);
             // 
-            // redoButton
+            // temperatureGradientLineLoadButton
             // 
-            this.redoButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.redoButton, "redoButton");
-            this.redoButton.Name = "redoButton";
-            this.redoButton.Click += new System.EventHandler(this.redoButton_Click);
+            this.temperatureGradientLineLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.temperatureGradientLineLoadButton.Image = global::Canguro.Properties.Resources.temperatureGradientLineLoad;
+            resources.ApplyResources(this.temperatureGradientLineLoadButton, "temperatureGradientLineLoadButton");
+            this.temperatureGradientLineLoadButton.Name = "temperatureGradientLineLoadButton";
+            this.temperatureGradientLineLoadButton.Click += new System.EventHandler(this.temperatureGradientLineLoadButton_Click);
             // 
-            // toolStripSeparator18
+            // templatesToolStrip
             // 
-            this.toolStripSeparator18.Name = "toolStripSeparator18";
-            resources.ApplyResources(this.toolStripSeparator18, "toolStripSeparator18");
+            resources.ApplyResources(this.templatesToolStrip, "templatesToolStrip");
+            this.templatesToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gridButton,
+            this.domeButton,
+            this.cylinderButton});
+            this.templatesToolStrip.Name = "templatesToolStrip";
             // 
-            // unitsComboBox
+            // gridButton
             // 
-            this.unitsComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.unitsComboBox.Name = "unitsComboBox";
-            resources.ApplyResources(this.unitsComboBox, "unitsComboBox");
-            this.unitsComboBox.SelectedIndexChanged += new System.EventHandler(this.unitsComboBox_SelectedIndexChanged);
+            this.gridButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.gridButton.Image = global::Canguro.Properties.Resources.grid;
+            resources.ApplyResources(this.gridButton, "gridButton");
+            this.gridButton.Name = "gridButton";
+            this.gridButton.Click += new System.EventHandler(this.gridButton_Click);
+            // 
+            // domeButton
+            // 
+            this.domeButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.domeButton.Image = global::Canguro.Properties.Resources.dome;
+            resources.ApplyResources(this.domeButton, "domeButton");
+            this.domeButton.Name = "domeButton";
+            this.domeButton.Click += new System.EventHandler(this.domeButton_Click);
+            // 
+            // cylinderButton
+            // 
+            this.cylinderButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.cylinderButton.Image = global::Canguro.Properties.Resources.cylinder;
+            resources.ApplyResources(this.cylinderButton, "cylinderButton");
+            this.cylinderButton.Name = "cylinderButton";
+            this.cylinderButton.Click += new System.EventHandler(this.cylinderButton_Click);
+            // 
+            // viewToolStrip
+            // 
+            resources.ApplyResources(this.viewToolStrip, "viewToolStrip");
+            this.viewToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.selectButton,
+            this.zoomButton,
+            this.panButton,
+            this.rotateButton,
+            this.predefinedxy,
+            this.predefinedxz,
+            this.predefinedyz,
+            this.predefinedxyzButton,
+            this.zoomInButton,
+            this.zoomOutButton,
+            this.zoomPreviousButton,
+            this.viewAllButton,
+            this.viewShadedButton,
+            this.colorsSplitButton,
+            this.showTextDropDownButton,
+            this.showLoadsButton});
+            this.viewToolStrip.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
+            this.viewToolStrip.Name = "viewToolStrip";
+            // 
+            // selectButton
+            // 
+            this.selectButton.Checked = true;
+            this.selectButton.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.selectButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.selectButton, "selectButton");
+            this.selectButton.Name = "selectButton";
+            this.selectButton.Click += new System.EventHandler(this.selectButton_Click);
+            // 
+            // zoomButton
+            // 
+            this.zoomButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.zoomButton.Image = global::Canguro.Properties.Resources.zoom;
+            resources.ApplyResources(this.zoomButton, "zoomButton");
+            this.zoomButton.Name = "zoomButton";
+            this.zoomButton.Click += new System.EventHandler(this.zoomButton_Click);
+            // 
+            // panButton
+            // 
+            this.panButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.panButton, "panButton");
+            this.panButton.Name = "panButton";
+            this.panButton.Click += new System.EventHandler(this.panButton_Click);
+            // 
+            // rotateButton
+            // 
+            this.rotateButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.rotateButton.Image = global::Canguro.Properties.Resources.rotate;
+            resources.ApplyResources(this.rotateButton, "rotateButton");
+            this.rotateButton.Name = "rotateButton";
+            this.rotateButton.Click += new System.EventHandler(this.rotateButton_Click);
+            // 
+            // predefinedxy
+            // 
+            this.predefinedxy.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.predefinedxy.Image = global::Canguro.Properties.Resources.predefinedxy;
+            resources.ApplyResources(this.predefinedxy, "predefinedxy");
+            this.predefinedxy.Name = "predefinedxy";
+            this.predefinedxy.Click += new System.EventHandler(this.predefinedxy_Click);
+            // 
+            // predefinedxz
+            // 
+            this.predefinedxz.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.predefinedxz.Image = global::Canguro.Properties.Resources.predefinedxz;
+            resources.ApplyResources(this.predefinedxz, "predefinedxz");
+            this.predefinedxz.Name = "predefinedxz";
+            this.predefinedxz.Click += new System.EventHandler(this.predefinedxz_Click);
+            // 
+            // predefinedyz
+            // 
+            this.predefinedyz.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.predefinedyz.Image = global::Canguro.Properties.Resources.predefinedyz;
+            resources.ApplyResources(this.predefinedyz, "predefinedyz");
+            this.predefinedyz.Name = "predefinedyz";
+            this.predefinedyz.Click += new System.EventHandler(this.predefinedyz_Click);
+            // 
+            // predefinedxyzButton
+            // 
+            this.predefinedxyzButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.predefinedxyzButton.Image = global::Canguro.Properties.Resources.predefinedXyz;
+            resources.ApplyResources(this.predefinedxyzButton, "predefinedxyzButton");
+            this.predefinedxyzButton.Name = "predefinedxyzButton";
+            this.predefinedxyzButton.Click += new System.EventHandler(this.predefinedxyzButton_Click);
+            // 
+            // zoomInButton
+            // 
+            this.zoomInButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.zoomInButton.Image = global::Canguro.Properties.Resources.zoommin;
+            resources.ApplyResources(this.zoomInButton, "zoomInButton");
+            this.zoomInButton.Name = "zoomInButton";
+            this.zoomInButton.Click += new System.EventHandler(this.zoomInButton_Click);
+            // 
+            // zoomOutButton
+            // 
+            this.zoomOutButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.zoomOutButton.Image = global::Canguro.Properties.Resources.zoomout;
+            resources.ApplyResources(this.zoomOutButton, "zoomOutButton");
+            this.zoomOutButton.Name = "zoomOutButton";
+            this.zoomOutButton.Click += new System.EventHandler(this.zoomOutButton_Click);
+            // 
+            // zoomPreviousButton
+            // 
+            this.zoomPreviousButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.zoomPreviousButton.Image = global::Canguro.Properties.Resources.zoompreviews;
+            resources.ApplyResources(this.zoomPreviousButton, "zoomPreviousButton");
+            this.zoomPreviousButton.Name = "zoomPreviousButton";
+            this.zoomPreviousButton.Click += new System.EventHandler(this.zoomPreviousButton_Click);
+            // 
+            // viewAllButton
+            // 
+            this.viewAllButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.viewAllButton.Image = global::Canguro.Properties.Resources.zoomall;
+            resources.ApplyResources(this.viewAllButton, "viewAllButton");
+            this.viewAllButton.Name = "viewAllButton";
+            this.viewAllButton.Click += new System.EventHandler(this.viewAllButton_Click);
+            // 
+            // viewShadedButton
+            // 
+            this.viewShadedButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.viewShadedButton, "viewShadedButton");
+            this.viewShadedButton.Name = "viewShadedButton";
+            this.viewShadedButton.Click += new System.EventHandler(this.viewShadedButton_Click);
+            // 
+            // colorsSplitButton
+            // 
+            this.colorsSplitButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.colorsSplitButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.colorMaterialsToolStripMenuItem2,
+            this.colorSectionsToolStripMenuItem2,
+            this.colorLayersToolStripMenuItem2,
+            this.colorLoadsToolStripMenuItem2,
+            this.colorConstraintsToolStripMenuItem2});
+            this.colorsSplitButton.Image = global::Canguro.Properties.Resources.colors;
+            resources.ApplyResources(this.colorsSplitButton, "colorsSplitButton");
+            this.colorsSplitButton.Name = "colorsSplitButton";
+            // 
+            // colorMaterialsToolStripMenuItem2
+            // 
+            this.colorMaterialsToolStripMenuItem2.Name = "colorMaterialsToolStripMenuItem2";
+            resources.ApplyResources(this.colorMaterialsToolStripMenuItem2, "colorMaterialsToolStripMenuItem2");
+            this.colorMaterialsToolStripMenuItem2.Click += new System.EventHandler(this.colorMaterialsToolStripMenuItem2_Click);
+            // 
+            // colorSectionsToolStripMenuItem2
+            // 
+            this.colorSectionsToolStripMenuItem2.Name = "colorSectionsToolStripMenuItem2";
+            resources.ApplyResources(this.colorSectionsToolStripMenuItem2, "colorSectionsToolStripMenuItem2");
+            this.colorSectionsToolStripMenuItem2.Click += new System.EventHandler(this.colorSectionsToolStripMenuItem2_Click);
+            // 
+            // colorLayersToolStripMenuItem2
+            // 
+            this.colorLayersToolStripMenuItem2.Name = "colorLayersToolStripMenuItem2";
+            resources.ApplyResources(this.colorLayersToolStripMenuItem2, "colorLayersToolStripMenuItem2");
+            this.colorLayersToolStripMenuItem2.Click += new System.EventHandler(this.colorLayersToolStripMenuItem2_Click);
+            // 
+            // colorLoadsToolStripMenuItem2
+            // 
+            this.colorLoadsToolStripMenuItem2.Name = "colorLoadsToolStripMenuItem2";
+            resources.ApplyResources(this.colorLoadsToolStripMenuItem2, "colorLoadsToolStripMenuItem2");
+            this.colorLoadsToolStripMenuItem2.Click += new System.EventHandler(this.colorLoadsToolStripMenuItem2_Click);
+            // 
+            // colorConstraintsToolStripMenuItem2
+            // 
+            this.colorConstraintsToolStripMenuItem2.Name = "colorConstraintsToolStripMenuItem2";
+            resources.ApplyResources(this.colorConstraintsToolStripMenuItem2, "colorConstraintsToolStripMenuItem2");
+            this.colorConstraintsToolStripMenuItem2.Click += new System.EventHandler(this.colorConstraintsToolStripMenuItem_Click);
+            // 
+            // showTextDropDownButton
+            // 
+            this.showTextDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.showTextDropDownButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.noneToolStripMenuItem,
+            this.showJointIDToolStripMenuItem2,
+            this.hideJointsToolStripMenuItem,
+            this.jointCoordinatesToolStripMenuItem,
+            this.showDOFToolStripMenuItem,
+            this.showLineIDToolStripMenuItem2,
+            this.showLineLengthToolStripMenuItem2,
+            this.showLocalAxesToolStripMenuItem2,
+            this.showSectionsToolStripMenuItem2,
+            this.releasesToolStripMenuItem,
+            this.showAxesToolStripMenuItem2,
+            this.showFloorToolStripMenuItem2,
+            this.loadSizeToolStripMenuItem2});
+            this.showTextDropDownButton.Image = global::Canguro.Properties.Resources.Showtexts;
+            resources.ApplyResources(this.showTextDropDownButton, "showTextDropDownButton");
+            this.showTextDropDownButton.Name = "showTextDropDownButton";
+            // 
+            // noneToolStripMenuItem
+            // 
+            this.noneToolStripMenuItem.Name = "noneToolStripMenuItem";
+            resources.ApplyResources(this.noneToolStripMenuItem, "noneToolStripMenuItem");
+            this.noneToolStripMenuItem.Click += new System.EventHandler(this.noneToolStripMenuItem_Click);
+            // 
+            // showJointIDToolStripMenuItem2
+            // 
+            this.showJointIDToolStripMenuItem2.Name = "showJointIDToolStripMenuItem2";
+            resources.ApplyResources(this.showJointIDToolStripMenuItem2, "showJointIDToolStripMenuItem2");
+            this.showJointIDToolStripMenuItem2.Click += new System.EventHandler(this.jointIDToolStripMenuItem_Click);
+            // 
+            // hideJointsToolStripMenuItem
+            // 
+            this.hideJointsToolStripMenuItem.Name = "hideJointsToolStripMenuItem";
+            resources.ApplyResources(this.hideJointsToolStripMenuItem, "hideJointsToolStripMenuItem");
+            this.hideJointsToolStripMenuItem.Click += new System.EventHandler(this.hideJointsToolStripMenuItem_Click);
+            // 
+            // jointCoordinatesToolStripMenuItem
+            // 
+            this.jointCoordinatesToolStripMenuItem.Name = "jointCoordinatesToolStripMenuItem";
+            resources.ApplyResources(this.jointCoordinatesToolStripMenuItem, "jointCoordinatesToolStripMenuItem");
+            this.jointCoordinatesToolStripMenuItem.Click += new System.EventHandler(this.jointCoordinatesToolStripMenuItem_Click);
+            // 
+            // showDOFToolStripMenuItem
+            // 
+            this.showDOFToolStripMenuItem.Name = "showDOFToolStripMenuItem";
+            resources.ApplyResources(this.showDOFToolStripMenuItem, "showDOFToolStripMenuItem");
+            this.showDOFToolStripMenuItem.Click += new System.EventHandler(this.showDOFToolStripMenuItem_Click);
+            // 
+            // showLineIDToolStripMenuItem2
+            // 
+            this.showLineIDToolStripMenuItem2.Name = "showLineIDToolStripMenuItem2";
+            resources.ApplyResources(this.showLineIDToolStripMenuItem2, "showLineIDToolStripMenuItem2");
+            this.showLineIDToolStripMenuItem2.Click += new System.EventHandler(this.lineIDToolStripMenuItem_Click);
+            // 
+            // showLineLengthToolStripMenuItem2
+            // 
+            this.showLineLengthToolStripMenuItem2.Name = "showLineLengthToolStripMenuItem2";
+            resources.ApplyResources(this.showLineLengthToolStripMenuItem2, "showLineLengthToolStripMenuItem2");
+            this.showLineLengthToolStripMenuItem2.Click += new System.EventHandler(this.lineLengthToolStripMenuItem_Click);
+            // 
+            // showLocalAxesToolStripMenuItem2
+            // 
+            this.showLocalAxesToolStripMenuItem2.Name = "showLocalAxesToolStripMenuItem2";
+            resources.ApplyResources(this.showLocalAxesToolStripMenuItem2, "showLocalAxesToolStripMenuItem2");
+            this.showLocalAxesToolStripMenuItem2.Click += new System.EventHandler(this.showLocalAxesToolStripMenuItem_Click);
+            // 
+            // showSectionsToolStripMenuItem2
+            // 
+            this.showSectionsToolStripMenuItem2.Name = "showSectionsToolStripMenuItem2";
+            resources.ApplyResources(this.showSectionsToolStripMenuItem2, "showSectionsToolStripMenuItem2");
+            this.showSectionsToolStripMenuItem2.Click += new System.EventHandler(this.showSectionsToolStripMenuItem_Click);
+            // 
+            // releasesToolStripMenuItem
+            // 
+            this.releasesToolStripMenuItem.Name = "releasesToolStripMenuItem";
+            resources.ApplyResources(this.releasesToolStripMenuItem, "releasesToolStripMenuItem");
+            this.releasesToolStripMenuItem.Click += new System.EventHandler(this.releasesToolStripMenuItem_Click);
+            // 
+            // showAxesToolStripMenuItem2
+            // 
+            this.showAxesToolStripMenuItem2.Name = "showAxesToolStripMenuItem2";
+            resources.ApplyResources(this.showAxesToolStripMenuItem2, "showAxesToolStripMenuItem2");
+            this.showAxesToolStripMenuItem2.Click += new System.EventHandler(this.viewAxesToolStripMenuItem_Click);
+            // 
+            // showFloorToolStripMenuItem2
+            // 
+            this.showFloorToolStripMenuItem2.Name = "showFloorToolStripMenuItem2";
+            resources.ApplyResources(this.showFloorToolStripMenuItem2, "showFloorToolStripMenuItem2");
+            this.showFloorToolStripMenuItem2.Click += new System.EventHandler(this.viewFloorToolStripMenuItem_Click);
+            // 
+            // loadSizeToolStripMenuItem2
+            // 
+            this.loadSizeToolStripMenuItem2.Name = "loadSizeToolStripMenuItem2";
+            resources.ApplyResources(this.loadSizeToolStripMenuItem2, "loadSizeToolStripMenuItem2");
+            this.loadSizeToolStripMenuItem2.Click += new System.EventHandler(this.loadSizesToolStripMenuItem_Click);
+            // 
+            // showLoadsButton
+            // 
+            this.showLoadsButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.showLoadsButton.Image = global::Canguro.Properties.Resources.show_loads;
+            resources.ApplyResources(this.showLoadsButton, "showLoadsButton");
+            this.showLoadsButton.Name = "showLoadsButton";
+            this.showLoadsButton.Click += new System.EventHandler(this.showLoadsButton_Click);
+            // 
+            // resultsToolStrip
+            // 
+            resources.ApplyResources(this.resultsToolStrip, "resultsToolStrip");
+            this.resultsToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.analyzeButton,
+            this.resultsCasesCombo,
+            this.toolStripSeparator1,
+            this.showDeformedButton,
+            this.animateButton,
+            this.showStressesButton,
+            this.showDesignButton,
+            this.diagramsDropDownButton,
+            this.reportButton,
+            this.showJointReactionsButton,
+            this.showJointReactionsTextsButton});
+            this.resultsToolStrip.Name = "resultsToolStrip";
+            // 
+            // analyzeButton
+            // 
+            this.analyzeButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.analyzeButton.Image = global::Canguro.Properties.Resources.analize;
+            resources.ApplyResources(this.analyzeButton, "analyzeButton");
+            this.analyzeButton.Name = "analyzeButton";
+            this.analyzeButton.Click += new System.EventHandler(this.analizarToolStripMenuItem_Click);
+            // 
+            // resultsCasesCombo
+            // 
+            this.resultsCasesCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.resultsCasesCombo.DropDownWidth = 200;
+            this.resultsCasesCombo.Name = "resultsCasesCombo";
+            resources.ApplyResources(this.resultsCasesCombo, "resultsCasesCombo");
+            this.resultsCasesCombo.SelectedIndexChanged += new System.EventHandler(this.resultsCasesCombo_SelectedIndexChanged);
+            this.resultsCasesCombo.Click += new System.EventHandler(this.resultsCasesCombo_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            // 
+            // showDeformedButton
+            // 
+            this.showDeformedButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.showDeformedButton.Image = global::Canguro.Properties.Resources.deformed;
+            resources.ApplyResources(this.showDeformedButton, "showDeformedButton");
+            this.showDeformedButton.Name = "showDeformedButton";
+            this.showDeformedButton.Click += new System.EventHandler(this.showDeformedButton_Click);
+            // 
+            // animateButton
+            // 
+            this.animateButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.animateButton.Image = global::Canguro.Properties.Resources.animation;
+            resources.ApplyResources(this.animateButton, "animateButton");
+            this.animateButton.Name = "animateButton";
+            this.animateButton.Click += new System.EventHandler(this.animateButton_Click);
+            // 
+            // showStressesButton
+            // 
+            this.showStressesButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.showStressesButton.Image = global::Canguro.Properties.Resources.showstresses;
+            resources.ApplyResources(this.showStressesButton, "showStressesButton");
+            this.showStressesButton.Name = "showStressesButton";
+            this.showStressesButton.Click += new System.EventHandler(this.showStressesButton_Click);
+            // 
+            // showDesignButton
+            // 
+            this.showDesignButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.showDesignButton.Image = global::Canguro.Properties.Resources.Design;
+            resources.ApplyResources(this.showDesignButton, "showDesignButton");
+            this.showDesignButton.Name = "showDesignButton";
+            this.showDesignButton.Click += new System.EventHandler(this.showDesignButton_Click);
+            // 
+            // diagramsDropDownButton
+            // 
+            this.diagramsDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.diagramsDropDownButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.noDiagramsToolStripMenuItem2,
+            this.axialDiagramToolStripMenuItem2,
+            this.s2DiagramToolStripMenuItem2,
+            this.s3DiagramToolStripMenuItem2,
+            this.torsionDiagramToolStripMenuItem2,
+            this.m2DiagramToolStripMenuItem2,
+            this.m3DiagramToolStripMenuItem2});
+            this.diagramsDropDownButton.Image = global::Canguro.Properties.Resources.alldiagrams;
+            resources.ApplyResources(this.diagramsDropDownButton, "diagramsDropDownButton");
+            this.diagramsDropDownButton.Name = "diagramsDropDownButton";
+            // 
+            // noDiagramsToolStripMenuItem2
+            // 
+            this.noDiagramsToolStripMenuItem2.Image = global::Canguro.Properties.Resources.hidediagrams;
+            this.noDiagramsToolStripMenuItem2.Name = "noDiagramsToolStripMenuItem2";
+            resources.ApplyResources(this.noDiagramsToolStripMenuItem2, "noDiagramsToolStripMenuItem2");
+            this.noDiagramsToolStripMenuItem2.Click += new System.EventHandler(this.noneToolStripMenuItem1_Click);
+            // 
+            // axialDiagramToolStripMenuItem2
+            // 
+            this.axialDiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.showaxial;
+            this.axialDiagramToolStripMenuItem2.Name = "axialDiagramToolStripMenuItem2";
+            resources.ApplyResources(this.axialDiagramToolStripMenuItem2, "axialDiagramToolStripMenuItem2");
+            this.axialDiagramToolStripMenuItem2.Click += new System.EventHandler(this.axialToolStripMenuItem_Click);
+            // 
+            // s2DiagramToolStripMenuItem2
+            // 
+            this.s2DiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.show_S1;
+            this.s2DiagramToolStripMenuItem2.Name = "s2DiagramToolStripMenuItem2";
+            resources.ApplyResources(this.s2DiagramToolStripMenuItem2, "s2DiagramToolStripMenuItem2");
+            this.s2DiagramToolStripMenuItem2.Click += new System.EventHandler(this.s2ToolStripMenuItem_Click);
+            // 
+            // s3DiagramToolStripMenuItem2
+            // 
+            this.s3DiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.show_S2;
+            this.s3DiagramToolStripMenuItem2.Name = "s3DiagramToolStripMenuItem2";
+            resources.ApplyResources(this.s3DiagramToolStripMenuItem2, "s3DiagramToolStripMenuItem2");
+            this.s3DiagramToolStripMenuItem2.Click += new System.EventHandler(this.s3ToolStripMenuItem_Click);
+            // 
+            // torsionDiagramToolStripMenuItem2
+            // 
+            this.torsionDiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.show_torcion;
+            this.torsionDiagramToolStripMenuItem2.Name = "torsionDiagramToolStripMenuItem2";
+            resources.ApplyResources(this.torsionDiagramToolStripMenuItem2, "torsionDiagramToolStripMenuItem2");
+            this.torsionDiagramToolStripMenuItem2.Click += new System.EventHandler(this.torsionToolStripMenuItem_Click);
+            // 
+            // m2DiagramToolStripMenuItem2
+            // 
+            this.m2DiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.show_M1;
+            this.m2DiagramToolStripMenuItem2.Name = "m2DiagramToolStripMenuItem2";
+            resources.ApplyResources(this.m2DiagramToolStripMenuItem2, "m2DiagramToolStripMenuItem2");
+            this.m2DiagramToolStripMenuItem2.Click += new System.EventHandler(this.m2ToolStripMenuItem_Click);
+            // 
+            // m3DiagramToolStripMenuItem2
+            // 
+            this.m3DiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.show_M2;
+            this.m3DiagramToolStripMenuItem2.Name = "m3DiagramToolStripMenuItem2";
+            resources.ApplyResources(this.m3DiagramToolStripMenuItem2, "m3DiagramToolStripMenuItem2");
+            this.m3DiagramToolStripMenuItem2.Click += new System.EventHandler(this.m3ToolStripMenuItem_Click);
+            // 
+            // reportButton
+            // 
+            this.reportButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.reportButton.Image = global::Canguro.Properties.Resources.NewReportHS;
+            resources.ApplyResources(this.reportButton, "reportButton");
+            this.reportButton.Name = "reportButton";
+            this.reportButton.Click += new System.EventHandler(this.reportButton_Click);
+            // 
+            // showJointReactionsButton
+            // 
+            this.showJointReactionsButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.showJointReactionsButton.Image = global::Canguro.Properties.Resources.jointreactions;
+            resources.ApplyResources(this.showJointReactionsButton, "showJointReactionsButton");
+            this.showJointReactionsButton.Name = "showJointReactionsButton";
+            this.showJointReactionsButton.Click += new System.EventHandler(this.showJointReactionsButton_Click);
+            // 
+            // showJointReactionsTextsButton
+            // 
+            this.showJointReactionsTextsButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.showJointReactionsTextsButton.Image = global::Canguro.Properties.Resources.jointReactionsTexts;
+            resources.ApplyResources(this.showJointReactionsTextsButton, "showJointReactionsTextsButton");
+            this.showJointReactionsTextsButton.Name = "showJointReactionsTextsButton";
+            this.showJointReactionsTextsButton.Click += new System.EventHandler(this.showJointReactionsTextsButton_Click);
             // 
             // layersToolStrip
             // 
@@ -1974,6 +2439,13 @@ namespace Canguro
             resources.ApplyResources(this.selectLineToolStripMenuItem, "selectLineToolStripMenuItem");
             this.selectLineToolStripMenuItem.Click += new System.EventHandler(this.selectLineButton_Click);
             // 
+            // selectConnectedToolStripMenuItem
+            // 
+            this.selectConnectedToolStripMenuItem.Image = global::Canguro.Properties.Resources.selectconnected;
+            this.selectConnectedToolStripMenuItem.Name = "selectConnectedToolStripMenuItem";
+            resources.ApplyResources(this.selectConnectedToolStripMenuItem, "selectConnectedToolStripMenuItem");
+            this.selectConnectedToolStripMenuItem.Click += new System.EventHandler(this.selectConnectedButton_Click);
+            // 
             // toolStripSeparator28
             // 
             this.toolStripSeparator28.Name = "toolStripSeparator28";
@@ -2202,6 +2674,14 @@ namespace Canguro
             this.selectLineButton.Name = "selectLineButton";
             this.selectLineButton.Click += new System.EventHandler(this.selectLineButton_Click);
             // 
+            // selectConnectedButton
+            // 
+            this.selectConnectedButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.selectConnectedButton.Image = global::Canguro.Properties.Resources.selectconnected;
+            resources.ApplyResources(this.selectConnectedButton, "selectConnectedButton");
+            this.selectConnectedButton.Name = "selectConnectedButton";
+            this.selectConnectedButton.Click += new System.EventHandler(this.selectConnectedButton_Click);
+            // 
             // toolStripSeparator26
             // 
             this.toolStripSeparator26.Name = "toolStripSeparator26";
@@ -2235,625 +2715,153 @@ namespace Canguro
             this.distanceButton.Name = "distanceButton";
             this.distanceButton.Click += new System.EventHandler(this.distanceButton_Click);
             // 
-            // viewToolStrip
-            // 
-            resources.ApplyResources(this.viewToolStrip, "viewToolStrip");
-            this.viewToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.selectButton,
-            this.zoomButton,
-            this.panButton,
-            this.rotateButton,
-            this.predefinedxy,
-            this.predefinedxz,
-            this.predefinedyz,
-            this.predefinedxyzButton,
-            this.zoomInButton,
-            this.zoomOutButton,
-            this.zoomPreviousButton,
-            this.viewAllButton,
-            this.viewShadedButton,
-            this.colorsSplitButton,
-            this.showTextDropDownButton,
-            this.showLoadsButton});
-            this.viewToolStrip.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.viewToolStrip.Name = "viewToolStrip";
-            // 
-            // selectButton
-            // 
-            this.selectButton.Checked = true;
-            this.selectButton.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.selectButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.selectButton, "selectButton");
-            this.selectButton.Name = "selectButton";
-            this.selectButton.Click += new System.EventHandler(this.selectButton_Click);
-            // 
-            // zoomButton
-            // 
-            this.zoomButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoomButton.Image = global::Canguro.Properties.Resources.zoom;
-            resources.ApplyResources(this.zoomButton, "zoomButton");
-            this.zoomButton.Name = "zoomButton";
-            this.zoomButton.Click += new System.EventHandler(this.zoomButton_Click);
-            // 
-            // panButton
-            // 
-            this.panButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.panButton, "panButton");
-            this.panButton.Name = "panButton";
-            this.panButton.Click += new System.EventHandler(this.panButton_Click);
-            // 
-            // rotateButton
-            // 
-            this.rotateButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.rotateButton.Image = global::Canguro.Properties.Resources.rotate;
-            resources.ApplyResources(this.rotateButton, "rotateButton");
-            this.rotateButton.Name = "rotateButton";
-            this.rotateButton.Click += new System.EventHandler(this.rotateButton_Click);
-            // 
-            // predefinedxy
-            // 
-            this.predefinedxy.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.predefinedxy.Image = global::Canguro.Properties.Resources.predefinedxy;
-            resources.ApplyResources(this.predefinedxy, "predefinedxy");
-            this.predefinedxy.Name = "predefinedxy";
-            this.predefinedxy.Click += new System.EventHandler(this.predefinedxy_Click);
-            // 
-            // predefinedxz
-            // 
-            this.predefinedxz.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.predefinedxz.Image = global::Canguro.Properties.Resources.predefinedxz;
-            resources.ApplyResources(this.predefinedxz, "predefinedxz");
-            this.predefinedxz.Name = "predefinedxz";
-            this.predefinedxz.Click += new System.EventHandler(this.predefinedxz_Click);
-            // 
-            // predefinedyz
-            // 
-            this.predefinedyz.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.predefinedyz.Image = global::Canguro.Properties.Resources.predefinedyz;
-            resources.ApplyResources(this.predefinedyz, "predefinedyz");
-            this.predefinedyz.Name = "predefinedyz";
-            this.predefinedyz.Click += new System.EventHandler(this.predefinedyz_Click);
-            // 
-            // predefinedxyzButton
-            // 
-            this.predefinedxyzButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.predefinedxyzButton.Image = global::Canguro.Properties.Resources.predefinedXyz;
-            resources.ApplyResources(this.predefinedxyzButton, "predefinedxyzButton");
-            this.predefinedxyzButton.Name = "predefinedxyzButton";
-            this.predefinedxyzButton.Click += new System.EventHandler(this.predefinedxyzButton_Click);
-            // 
-            // zoomInButton
-            // 
-            this.zoomInButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoomInButton.Image = global::Canguro.Properties.Resources.zoommin;
-            resources.ApplyResources(this.zoomInButton, "zoomInButton");
-            this.zoomInButton.Name = "zoomInButton";
-            this.zoomInButton.Click += new System.EventHandler(this.zoomInButton_Click);
-            // 
-            // zoomOutButton
-            // 
-            this.zoomOutButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoomOutButton.Image = global::Canguro.Properties.Resources.zoomout;
-            resources.ApplyResources(this.zoomOutButton, "zoomOutButton");
-            this.zoomOutButton.Name = "zoomOutButton";
-            this.zoomOutButton.Click += new System.EventHandler(this.zoomOutButton_Click);
-            // 
-            // zoomPreviousButton
+            // fileEditToolStrip
+            // 
+            resources.ApplyResources(this.fileEditToolStrip, "fileEditToolStrip");
+            this.fileEditToolStrip.GripMargin = new System.Windows.Forms.Padding(0, 2, 2, 2);
+            this.fileEditToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newButton,
+            this.openButton,
+            this.saveButton,
+            this.printButton,
+            this.printPreviewButton,
+            this.toolStripSeparator3,
+            this.cutButton,
+            this.copyButton,
+            this.pasteButton,
+            this.copyPasteButton,
+            this.deleteButton,
+            this.editButton,
+            this.toolStripSeparator4,
+            this.undoButton,
+            this.redoButton,
+            this.toolStripSeparator18,
+            this.unitsComboBox});
+            this.fileEditToolStrip.Name = "fileEditToolStrip";
+            // 
+            // newButton
+            // 
+            this.newButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.newButton, "newButton");
+            this.newButton.Name = "newButton";
+            this.newButton.Click += new System.EventHandler(this.newButton_Click);
+            // 
+            // openButton
             // 
-            this.zoomPreviousButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoomPreviousButton.Image = global::Canguro.Properties.Resources.zoompreviews;
-            resources.ApplyResources(this.zoomPreviousButton, "zoomPreviousButton");
-            this.zoomPreviousButton.Name = "zoomPreviousButton";
-            this.zoomPreviousButton.Click += new System.EventHandler(this.zoomPreviousButton_Click);
+            this.openButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.openButton, "openButton");
+            this.openButton.Name = "openButton";
+            this.openButton.Click += new System.EventHandler(this.openButton_Click);
             // 
-            // viewAllButton
+            // saveButton
             // 
-            this.viewAllButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.viewAllButton.Image = global::Canguro.Properties.Resources.zoomall;
-            resources.ApplyResources(this.viewAllButton, "viewAllButton");
-            this.viewAllButton.Name = "viewAllButton";
-            this.viewAllButton.Click += new System.EventHandler(this.viewAllButton_Click);
+            this.saveButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.saveButton, "saveButton");
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
+            // 
+            // printButton
+            // 
+            this.printButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.printButton.Image = global::Canguro.Properties.Resources.PrintHS;
+            resources.ApplyResources(this.printButton, "printButton");
+            this.printButton.Name = "printButton";
+            this.printButton.Click += new System.EventHandler(this.printButton_Click);
+            // 
+            // printPreviewButton
+            // 
+            this.printPreviewButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.printPreviewButton.Image = global::Canguro.Properties.Resources.PrintPreviewHS;
+            resources.ApplyResources(this.printPreviewButton, "printPreviewButton");
+            this.printPreviewButton.Name = "printPreviewButton";
+            this.printPreviewButton.Click += new System.EventHandler(this.printPreviewButton_Click);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
+            // 
+            // cutButton
+            // 
+            this.cutButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.cutButton, "cutButton");
+            this.cutButton.Name = "cutButton";
+            this.cutButton.Click += new System.EventHandler(this.cutButton_Click);
+            // 
+            // copyButton
+            // 
+            this.copyButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.copyButton, "copyButton");
+            this.copyButton.Name = "copyButton";
+            this.copyButton.Click += new System.EventHandler(this.copyButton_Click);
+            // 
+            // pasteButton
+            // 
+            this.pasteButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.pasteButton, "pasteButton");
+            this.pasteButton.Name = "pasteButton";
+            this.pasteButton.Click += new System.EventHandler(this.pasteButton_Click);
+            // 
+            // copyPasteButton
+            // 
+            this.copyPasteButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.copyPasteButton.Image = global::Canguro.Properties.Resources.copypaste;
+            resources.ApplyResources(this.copyPasteButton, "copyPasteButton");
+            this.copyPasteButton.Name = "copyPasteButton";
+            this.copyPasteButton.Click += new System.EventHandler(this.copyPasteButton_Click);
+            // 
+            // deleteButton
+            // 
+            this.deleteButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.deleteButton.Image = global::Canguro.Properties.Resources.delete;
+            resources.ApplyResources(this.deleteButton, "deleteButton");
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
-            // viewShadedButton
+            // editButton
             // 
-            this.viewShadedButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.viewShadedButton, "viewShadedButton");
-            this.viewShadedButton.Name = "viewShadedButton";
-            this.viewShadedButton.Click += new System.EventHandler(this.viewShadedButton_Click);
+            this.editButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.editButton.Image = global::Canguro.Properties.Resources.edit;
+            resources.ApplyResources(this.editButton, "editButton");
+            this.editButton.Name = "editButton";
+            this.editButton.Click += new System.EventHandler(this.editButton_Click);
             // 
-            // colorsSplitButton
+            // toolStripSeparator4
             // 
-            this.colorsSplitButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.colorsSplitButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.colorMaterialsToolStripMenuItem2,
-            this.colorSectionsToolStripMenuItem2,
-            this.colorLayersToolStripMenuItem2,
-            this.colorLoadsToolStripMenuItem2,
-            this.colorConstraintsToolStripMenuItem2});
-            this.colorsSplitButton.Image = global::Canguro.Properties.Resources.colors;
-            resources.ApplyResources(this.colorsSplitButton, "colorsSplitButton");
-            this.colorsSplitButton.Name = "colorsSplitButton";
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             // 
-            // colorMaterialsToolStripMenuItem2
+            // undoButton
             // 
-            this.colorMaterialsToolStripMenuItem2.Name = "colorMaterialsToolStripMenuItem2";
-            resources.ApplyResources(this.colorMaterialsToolStripMenuItem2, "colorMaterialsToolStripMenuItem2");
-            this.colorMaterialsToolStripMenuItem2.Click += new System.EventHandler(this.colorMaterialsToolStripMenuItem2_Click);
+            this.undoButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.undoButton, "undoButton");
+            this.undoButton.Name = "undoButton";
+            this.undoButton.Click += new System.EventHandler(this.undoButton_Click);
             // 
-            // colorSectionsToolStripMenuItem2
+            // redoButton
             // 
-            this.colorSectionsToolStripMenuItem2.Name = "colorSectionsToolStripMenuItem2";
-            resources.ApplyResources(this.colorSectionsToolStripMenuItem2, "colorSectionsToolStripMenuItem2");
-            this.colorSectionsToolStripMenuItem2.Click += new System.EventHandler(this.colorSectionsToolStripMenuItem2_Click);
+            this.redoButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.redoButton, "redoButton");
+            this.redoButton.Name = "redoButton";
+            this.redoButton.Click += new System.EventHandler(this.redoButton_Click);
             // 
-            // colorLayersToolStripMenuItem2
+            // toolStripSeparator18
             // 
-            this.colorLayersToolStripMenuItem2.Name = "colorLayersToolStripMenuItem2";
-            resources.ApplyResources(this.colorLayersToolStripMenuItem2, "colorLayersToolStripMenuItem2");
-            this.colorLayersToolStripMenuItem2.Click += new System.EventHandler(this.colorLayersToolStripMenuItem2_Click);
+            this.toolStripSeparator18.Name = "toolStripSeparator18";
+            resources.ApplyResources(this.toolStripSeparator18, "toolStripSeparator18");
             // 
-            // colorLoadsToolStripMenuItem2
+            // unitsComboBox
             // 
-            this.colorLoadsToolStripMenuItem2.Name = "colorLoadsToolStripMenuItem2";
-            resources.ApplyResources(this.colorLoadsToolStripMenuItem2, "colorLoadsToolStripMenuItem2");
-            this.colorLoadsToolStripMenuItem2.Click += new System.EventHandler(this.colorLoadsToolStripMenuItem2_Click);
-            // 
-            // colorConstraintsToolStripMenuItem2
-            // 
-            this.colorConstraintsToolStripMenuItem2.Name = "colorConstraintsToolStripMenuItem2";
-            resources.ApplyResources(this.colorConstraintsToolStripMenuItem2, "colorConstraintsToolStripMenuItem2");
-            this.colorConstraintsToolStripMenuItem2.Click += new System.EventHandler(this.colorConstraintsToolStripMenuItem_Click);
-            // 
-            // showTextDropDownButton
-            // 
-            this.showTextDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.showTextDropDownButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.noneToolStripMenuItem,
-            this.showJointIDToolStripMenuItem2,
-            this.hideJointsToolStripMenuItem,
-            this.jointCoordinatesToolStripMenuItem,
-            this.showDOFToolStripMenuItem,
-            this.showLineIDToolStripMenuItem2,
-            this.showLineLengthToolStripMenuItem2,
-            this.showLocalAxesToolStripMenuItem2,
-            this.showSectionsToolStripMenuItem2,
-            this.releasesToolStripMenuItem,
-            this.showAxesToolStripMenuItem2,
-            this.showFloorToolStripMenuItem2,
-            this.loadSizeToolStripMenuItem2});
-            this.showTextDropDownButton.Image = global::Canguro.Properties.Resources.Showtexts;
-            resources.ApplyResources(this.showTextDropDownButton, "showTextDropDownButton");
-            this.showTextDropDownButton.Name = "showTextDropDownButton";
-            // 
-            // noneToolStripMenuItem
-            // 
-            this.noneToolStripMenuItem.Name = "noneToolStripMenuItem";
-            resources.ApplyResources(this.noneToolStripMenuItem, "noneToolStripMenuItem");
-            this.noneToolStripMenuItem.Click += new System.EventHandler(this.noneToolStripMenuItem_Click);
-            // 
-            // showJointIDToolStripMenuItem2
-            // 
-            this.showJointIDToolStripMenuItem2.Name = "showJointIDToolStripMenuItem2";
-            resources.ApplyResources(this.showJointIDToolStripMenuItem2, "showJointIDToolStripMenuItem2");
-            this.showJointIDToolStripMenuItem2.Click += new System.EventHandler(this.jointIDToolStripMenuItem_Click);
-            // 
-            // hideJointsToolStripMenuItem
-            // 
-            this.hideJointsToolStripMenuItem.Name = "hideJointsToolStripMenuItem";
-            resources.ApplyResources(this.hideJointsToolStripMenuItem, "hideJointsToolStripMenuItem");
-            this.hideJointsToolStripMenuItem.Click += new System.EventHandler(this.hideJointsToolStripMenuItem_Click);
-            // 
-            // jointCoordinatesToolStripMenuItem
-            // 
-            this.jointCoordinatesToolStripMenuItem.Name = "jointCoordinatesToolStripMenuItem";
-            resources.ApplyResources(this.jointCoordinatesToolStripMenuItem, "jointCoordinatesToolStripMenuItem");
-            this.jointCoordinatesToolStripMenuItem.Click += new System.EventHandler(this.jointCoordinatesToolStripMenuItem_Click);
-            // 
-            // showDOFToolStripMenuItem
-            // 
-            this.showDOFToolStripMenuItem.Name = "showDOFToolStripMenuItem";
-            resources.ApplyResources(this.showDOFToolStripMenuItem, "showDOFToolStripMenuItem");
-            this.showDOFToolStripMenuItem.Click += new System.EventHandler(this.showDOFToolStripMenuItem_Click);
-            // 
-            // showLineIDToolStripMenuItem2
-            // 
-            this.showLineIDToolStripMenuItem2.Name = "showLineIDToolStripMenuItem2";
-            resources.ApplyResources(this.showLineIDToolStripMenuItem2, "showLineIDToolStripMenuItem2");
-            this.showLineIDToolStripMenuItem2.Click += new System.EventHandler(this.lineIDToolStripMenuItem_Click);
-            // 
-            // showLineLengthToolStripMenuItem2
-            // 
-            this.showLineLengthToolStripMenuItem2.Name = "showLineLengthToolStripMenuItem2";
-            resources.ApplyResources(this.showLineLengthToolStripMenuItem2, "showLineLengthToolStripMenuItem2");
-            this.showLineLengthToolStripMenuItem2.Click += new System.EventHandler(this.lineLengthToolStripMenuItem_Click);
-            // 
-            // showLocalAxesToolStripMenuItem2
-            // 
-            this.showLocalAxesToolStripMenuItem2.Name = "showLocalAxesToolStripMenuItem2";
-            resources.ApplyResources(this.showLocalAxesToolStripMenuItem2, "showLocalAxesToolStripMenuItem2");
-            this.showLocalAxesToolStripMenuItem2.Click += new System.EventHandler(this.showLocalAxesToolStripMenuItem_Click);
-            // 
-            // showSectionsToolStripMenuItem2
-            // 
-            this.showSectionsToolStripMenuItem2.Name = "showSectionsToolStripMenuItem2";
-            resources.ApplyResources(this.showSectionsToolStripMenuItem2, "showSectionsToolStripMenuItem2");
-            this.showSectionsToolStripMenuItem2.Click += new System.EventHandler(this.showSectionsToolStripMenuItem_Click);
-            // 
-            // releasesToolStripMenuItem
-            // 
-            this.releasesToolStripMenuItem.Name = "releasesToolStripMenuItem";
-            resources.ApplyResources(this.releasesToolStripMenuItem, "releasesToolStripMenuItem");
-            this.releasesToolStripMenuItem.Click += new System.EventHandler(this.releasesToolStripMenuItem_Click);
-            // 
-            // showAxesToolStripMenuItem2
-            // 
-            this.showAxesToolStripMenuItem2.Name = "showAxesToolStripMenuItem2";
-            resources.ApplyResources(this.showAxesToolStripMenuItem2, "showAxesToolStripMenuItem2");
-            this.showAxesToolStripMenuItem2.Click += new System.EventHandler(this.viewAxesToolStripMenuItem_Click);
-            // 
-            // showFloorToolStripMenuItem2
-            // 
-            this.showFloorToolStripMenuItem2.Name = "showFloorToolStripMenuItem2";
-            resources.ApplyResources(this.showFloorToolStripMenuItem2, "showFloorToolStripMenuItem2");
-            this.showFloorToolStripMenuItem2.Click += new System.EventHandler(this.viewFloorToolStripMenuItem_Click);
-            // 
-            // loadSizeToolStripMenuItem2
-            // 
-            this.loadSizeToolStripMenuItem2.Name = "loadSizeToolStripMenuItem2";
-            resources.ApplyResources(this.loadSizeToolStripMenuItem2, "loadSizeToolStripMenuItem2");
-            this.loadSizeToolStripMenuItem2.Click += new System.EventHandler(this.loadSizesToolStripMenuItem_Click);
-            // 
-            // showLoadsButton
-            // 
-            this.showLoadsButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.showLoadsButton.Image = global::Canguro.Properties.Resources.show_loads;
-            resources.ApplyResources(this.showLoadsButton, "showLoadsButton");
-            this.showLoadsButton.Name = "showLoadsButton";
-            this.showLoadsButton.Click += new System.EventHandler(this.showLoadsButton_Click);
-            // 
-            // resultsToolStrip
-            // 
-            resources.ApplyResources(this.resultsToolStrip, "resultsToolStrip");
-            this.resultsToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.analyzeButton,
-            this.resultsCasesCombo,
-            this.toolStripSeparator1,
-            this.showDeformedButton,
-            this.animateButton,
-            this.showStressesButton,
-            this.showDesignButton,
-            this.diagramsDropDownButton,
-            this.reportButton,
-            this.showJointReactionsButton,
-            this.showJointReactionsTextsButton});
-            this.resultsToolStrip.Name = "resultsToolStrip";
-            // 
-            // analyzeButton
-            // 
-            this.analyzeButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.analyzeButton.Image = global::Canguro.Properties.Resources.analize;
-            resources.ApplyResources(this.analyzeButton, "analyzeButton");
-            this.analyzeButton.Name = "analyzeButton";
-            this.analyzeButton.Click += new System.EventHandler(this.analizarToolStripMenuItem_Click);
-            // 
-            // resultsCasesCombo
-            // 
-            this.resultsCasesCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.resultsCasesCombo.DropDownWidth = 200;
-            this.resultsCasesCombo.Name = "resultsCasesCombo";
-            resources.ApplyResources(this.resultsCasesCombo, "resultsCasesCombo");
-            this.resultsCasesCombo.SelectedIndexChanged += new System.EventHandler(this.resultsCasesCombo_SelectedIndexChanged);
-            this.resultsCasesCombo.Click += new System.EventHandler(this.resultsCasesCombo_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
-            // 
-            // showDeformedButton
-            // 
-            this.showDeformedButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.showDeformedButton.Image = global::Canguro.Properties.Resources.deformed;
-            resources.ApplyResources(this.showDeformedButton, "showDeformedButton");
-            this.showDeformedButton.Name = "showDeformedButton";
-            this.showDeformedButton.Click += new System.EventHandler(this.showDeformedButton_Click);
-            // 
-            // animateButton
-            // 
-            this.animateButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.animateButton.Image = global::Canguro.Properties.Resources.animation;
-            resources.ApplyResources(this.animateButton, "animateButton");
-            this.animateButton.Name = "animateButton";
-            this.animateButton.Click += new System.EventHandler(this.animateButton_Click);
-            // 
-            // showStressesButton
-            // 
-            this.showStressesButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.showStressesButton.Image = global::Canguro.Properties.Resources.showstresses;
-            resources.ApplyResources(this.showStressesButton, "showStressesButton");
-            this.showStressesButton.Name = "showStressesButton";
-            this.showStressesButton.Click += new System.EventHandler(this.showStressesButton_Click);
-            // 
-            // showDesignButton
-            // 
-            this.showDesignButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.showDesignButton.Image = global::Canguro.Properties.Resources.Design;
-            resources.ApplyResources(this.showDesignButton, "showDesignButton");
-            this.showDesignButton.Name = "showDesignButton";
-            this.showDesignButton.Click += new System.EventHandler(this.showDesignButton_Click);
-            // 
-            // diagramsDropDownButton
-            // 
-            this.diagramsDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.diagramsDropDownButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.noDiagramsToolStripMenuItem2,
-            this.axialDiagramToolStripMenuItem2,
-            this.s2DiagramToolStripMenuItem2,
-            this.s3DiagramToolStripMenuItem2,
-            this.torsionDiagramToolStripMenuItem2,
-            this.m2DiagramToolStripMenuItem2,
-            this.m3DiagramToolStripMenuItem2});
-            this.diagramsDropDownButton.Image = global::Canguro.Properties.Resources.alldiagrams;
-            resources.ApplyResources(this.diagramsDropDownButton, "diagramsDropDownButton");
-            this.diagramsDropDownButton.Name = "diagramsDropDownButton";
-            // 
-            // noDiagramsToolStripMenuItem2
-            // 
-            this.noDiagramsToolStripMenuItem2.Image = global::Canguro.Properties.Resources.hidediagrams;
-            this.noDiagramsToolStripMenuItem2.Name = "noDiagramsToolStripMenuItem2";
-            resources.ApplyResources(this.noDiagramsToolStripMenuItem2, "noDiagramsToolStripMenuItem2");
-            this.noDiagramsToolStripMenuItem2.Click += new System.EventHandler(this.noneToolStripMenuItem1_Click);
-            // 
-            // axialDiagramToolStripMenuItem2
-            // 
-            this.axialDiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.showaxial;
-            this.axialDiagramToolStripMenuItem2.Name = "axialDiagramToolStripMenuItem2";
-            resources.ApplyResources(this.axialDiagramToolStripMenuItem2, "axialDiagramToolStripMenuItem2");
-            this.axialDiagramToolStripMenuItem2.Click += new System.EventHandler(this.axialToolStripMenuItem_Click);
-            // 
-            // s2DiagramToolStripMenuItem2
-            // 
-            this.s2DiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.show_S1;
-            this.s2DiagramToolStripMenuItem2.Name = "s2DiagramToolStripMenuItem2";
-            resources.ApplyResources(this.s2DiagramToolStripMenuItem2, "s2DiagramToolStripMenuItem2");
-            this.s2DiagramToolStripMenuItem2.Click += new System.EventHandler(this.s2ToolStripMenuItem_Click);
-            // 
-            // s3DiagramToolStripMenuItem2
-            // 
-            this.s3DiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.show_S2;
-            this.s3DiagramToolStripMenuItem2.Name = "s3DiagramToolStripMenuItem2";
-            resources.ApplyResources(this.s3DiagramToolStripMenuItem2, "s3DiagramToolStripMenuItem2");
-            this.s3DiagramToolStripMenuItem2.Click += new System.EventHandler(this.s3ToolStripMenuItem_Click);
-            // 
-            // torsionDiagramToolStripMenuItem2
-            // 
-            this.torsionDiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.show_torcion;
-            this.torsionDiagramToolStripMenuItem2.Name = "torsionDiagramToolStripMenuItem2";
-            resources.ApplyResources(this.torsionDiagramToolStripMenuItem2, "torsionDiagramToolStripMenuItem2");
-            this.torsionDiagramToolStripMenuItem2.Click += new System.EventHandler(this.torsionToolStripMenuItem_Click);
-            // 
-            // m2DiagramToolStripMenuItem2
-            // 
-            this.m2DiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.show_M1;
-            this.m2DiagramToolStripMenuItem2.Name = "m2DiagramToolStripMenuItem2";
-            resources.ApplyResources(this.m2DiagramToolStripMenuItem2, "m2DiagramToolStripMenuItem2");
-            this.m2DiagramToolStripMenuItem2.Click += new System.EventHandler(this.m2ToolStripMenuItem_Click);
-            // 
-            // m3DiagramToolStripMenuItem2
-            // 
-            this.m3DiagramToolStripMenuItem2.Image = global::Canguro.Properties.Resources.show_M2;
-            this.m3DiagramToolStripMenuItem2.Name = "m3DiagramToolStripMenuItem2";
-            resources.ApplyResources(this.m3DiagramToolStripMenuItem2, "m3DiagramToolStripMenuItem2");
-            this.m3DiagramToolStripMenuItem2.Click += new System.EventHandler(this.m3ToolStripMenuItem_Click);
-            // 
-            // reportButton
-            // 
-            this.reportButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.reportButton.Image = global::Canguro.Properties.Resources.NewReportHS;
-            resources.ApplyResources(this.reportButton, "reportButton");
-            this.reportButton.Name = "reportButton";
-            this.reportButton.Click += new System.EventHandler(this.reportButton_Click);
-            // 
-            // showJointReactionsButton
-            // 
-            this.showJointReactionsButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.showJointReactionsButton.Image = global::Canguro.Properties.Resources.jointreactions;
-            resources.ApplyResources(this.showJointReactionsButton, "showJointReactionsButton");
-            this.showJointReactionsButton.Name = "showJointReactionsButton";
-            this.showJointReactionsButton.Click += new System.EventHandler(this.showJointReactionsButton_Click);
-            // 
-            // showJointReactionsTextsButton
-            // 
-            this.showJointReactionsTextsButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.showJointReactionsTextsButton.Image = global::Canguro.Properties.Resources.jointReactionsTexts;
-            resources.ApplyResources(this.showJointReactionsTextsButton, "showJointReactionsTextsButton");
-            this.showJointReactionsTextsButton.Name = "showJointReactionsTextsButton";
-            this.showJointReactionsTextsButton.Click += new System.EventHandler(this.showJointReactionsTextsButton_Click);
-            // 
-            // templatesToolStrip
-            // 
-            resources.ApplyResources(this.templatesToolStrip, "templatesToolStrip");
-            this.templatesToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gridButton,
-            this.domeButton,
-            this.cylinderButton});
-            this.templatesToolStrip.Name = "templatesToolStrip";
-            // 
-            // gridButton
-            // 
-            this.gridButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.gridButton.Image = global::Canguro.Properties.Resources.grid;
-            resources.ApplyResources(this.gridButton, "gridButton");
-            this.gridButton.Name = "gridButton";
-            this.gridButton.Click += new System.EventHandler(this.gridButton_Click);
-            // 
-            // domeButton
-            // 
-            this.domeButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.domeButton.Image = global::Canguro.Properties.Resources.dome;
-            resources.ApplyResources(this.domeButton, "domeButton");
-            this.domeButton.Name = "domeButton";
-            this.domeButton.Click += new System.EventHandler(this.domeButton_Click);
-            // 
-            // cylinderButton
-            // 
-            this.cylinderButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.cylinderButton.Image = global::Canguro.Properties.Resources.cylinder;
-            resources.ApplyResources(this.cylinderButton, "cylinderButton");
-            this.cylinderButton.Name = "cylinderButton";
-            this.cylinderButton.Click += new System.EventHandler(this.cylinderButton_Click);
-            // 
-            // loadToolStrip
-            // 
-            resources.ApplyResources(this.loadToolStrip, "loadToolStrip");
-            this.loadToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.analysisCaseButton,
-            this.loadCaseButton,
-            this.editLoadCaseButton,
-            this.deleteLoadCaseButton,
-            this.loadCasesComboBox,
-            this.loadComboButton,
-            this.toolStripSeparator15,
-            this.forceLoadButton,
-            this.groundDisplacementButton,
-            this.concentratedLoadButton,
-            this.distributedLoadButton,
-            this.uniformLineLoadButton,
-            this.triangleLineLoadButton,
-            this.temperatureLineLoadButton,
-            this.temperatureGradientLineLoadButton});
-            this.loadToolStrip.Name = "loadToolStrip";
-            // 
-            // analysisCaseButton
-            // 
-            this.analysisCaseButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.analysisCaseButton.Image = global::Canguro.Properties.Resources.analisiscase;
-            this.analysisCaseButton.Name = "analysisCaseButton";
-            resources.ApplyResources(this.analysisCaseButton, "analysisCaseButton");
-            this.analysisCaseButton.Click += new System.EventHandler(this.analysisCaseButton_Click);
-            // 
-            // loadCaseButton
-            // 
-            this.loadCaseButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.loadCaseButton.Image = global::Canguro.Properties.Resources.loadcase;
-            this.loadCaseButton.Name = "loadCaseButton";
-            resources.ApplyResources(this.loadCaseButton, "loadCaseButton");
-            this.loadCaseButton.Click += new System.EventHandler(this.loadCaseButton_Click);
-            // 
-            // editLoadCaseButton
-            // 
-            this.editLoadCaseButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.editLoadCaseButton.Image = global::Canguro.Properties.Resources.editloadcase;
-            resources.ApplyResources(this.editLoadCaseButton, "editLoadCaseButton");
-            this.editLoadCaseButton.Name = "editLoadCaseButton";
-            this.editLoadCaseButton.Click += new System.EventHandler(this.editLoadCaseButton_Click);
-            // 
-            // deleteLoadCaseButton
-            // 
-            this.deleteLoadCaseButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.deleteLoadCaseButton.Image = global::Canguro.Properties.Resources.deleteloadcase;
-            resources.ApplyResources(this.deleteLoadCaseButton, "deleteLoadCaseButton");
-            this.deleteLoadCaseButton.Name = "deleteLoadCaseButton";
-            this.deleteLoadCaseButton.Click += new System.EventHandler(this.deleteLoadCaseButton_Click);
-            // 
-            // loadCasesComboBox
-            // 
-            this.loadCasesComboBox.AutoToolTip = true;
-            this.loadCasesComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.loadCasesComboBox.DropDownWidth = 200;
-            this.loadCasesComboBox.Name = "loadCasesComboBox";
-            resources.ApplyResources(this.loadCasesComboBox, "loadCasesComboBox");
-            this.loadCasesComboBox.SelectedIndexChanged += new System.EventHandler(this.loadCasesComboBox_SelectedIndexChanged);
-            // 
-            // loadComboButton
-            // 
-            this.loadComboButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.loadComboButton.Image = global::Canguro.Properties.Resources.loadcombination;
-            this.loadComboButton.Name = "loadComboButton";
-            resources.ApplyResources(this.loadComboButton, "loadComboButton");
-            this.loadComboButton.Click += new System.EventHandler(this.loadComboButton_Click);
-            // 
-            // toolStripSeparator15
-            // 
-            this.toolStripSeparator15.Name = "toolStripSeparator15";
-            resources.ApplyResources(this.toolStripSeparator15, "toolStripSeparator15");
-            // 
-            // forceLoadButton
-            // 
-            this.forceLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.forceLoadButton.Image = global::Canguro.Properties.Resources.forceload;
-            resources.ApplyResources(this.forceLoadButton, "forceLoadButton");
-            this.forceLoadButton.Name = "forceLoadButton";
-            this.forceLoadButton.Click += new System.EventHandler(this.forceLoadButton_Click);
-            // 
-            // groundDisplacementButton
-            // 
-            this.groundDisplacementButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.groundDisplacementButton.Image = global::Canguro.Properties.Resources.grounddisplacementload;
-            resources.ApplyResources(this.groundDisplacementButton, "groundDisplacementButton");
-            this.groundDisplacementButton.Name = "groundDisplacementButton";
-            this.groundDisplacementButton.Click += new System.EventHandler(this.groundDisplacementButton_Click);
-            // 
-            // concentratedLoadButton
-            // 
-            this.concentratedLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.concentratedLoadButton, "concentratedLoadButton");
-            this.concentratedLoadButton.Name = "concentratedLoadButton";
-            this.concentratedLoadButton.Click += new System.EventHandler(this.concentratedLoadButton_Click);
-            // 
-            // distributedLoadButton
-            // 
-            this.distributedLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.distributedLoadButton.Image = global::Canguro.Properties.Resources.distributedexpandload;
-            resources.ApplyResources(this.distributedLoadButton, "distributedLoadButton");
-            this.distributedLoadButton.Name = "distributedLoadButton";
-            this.distributedLoadButton.Click += new System.EventHandler(this.distributedLoadButton_Click);
-            // 
-            // uniformLineLoadButton
-            // 
-            this.uniformLineLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.uniformLineLoadButton.Image = global::Canguro.Properties.Resources.uniformLineLoad;
-            resources.ApplyResources(this.uniformLineLoadButton, "uniformLineLoadButton");
-            this.uniformLineLoadButton.Name = "uniformLineLoadButton";
-            this.uniformLineLoadButton.Click += new System.EventHandler(this.uniformLineLoadButton_Click);
-            // 
-            // triangleLineLoadButton
-            // 
-            this.triangleLineLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.triangleLineLoadButton.Image = global::Canguro.Properties.Resources.triangleLineLoad;
-            resources.ApplyResources(this.triangleLineLoadButton, "triangleLineLoadButton");
-            this.triangleLineLoadButton.Name = "triangleLineLoadButton";
-            this.triangleLineLoadButton.Click += new System.EventHandler(this.triangleLineLoadButton_Click);
-            // 
-            // temperatureLineLoadButton
-            // 
-            this.temperatureLineLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.temperatureLineLoadButton.Image = global::Canguro.Properties.Resources.temperatureLineLoad;
-            resources.ApplyResources(this.temperatureLineLoadButton, "temperatureLineLoadButton");
-            this.temperatureLineLoadButton.Name = "temperatureLineLoadButton";
-            this.temperatureLineLoadButton.Click += new System.EventHandler(this.temperatureLineLoadButton_Click);
-            // 
-            // temperatureGradientLineLoadButton
-            // 
-            this.temperatureGradientLineLoadButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.temperatureGradientLineLoadButton.Image = global::Canguro.Properties.Resources.temperatureGradientLineLoad;
-            resources.ApplyResources(this.temperatureGradientLineLoadButton, "temperatureGradientLineLoadButton");
-            this.temperatureGradientLineLoadButton.Name = "temperatureGradientLineLoadButton";
-            this.temperatureGradientLineLoadButton.Click += new System.EventHandler(this.temperatureGradientLineLoadButton_Click);
+            this.unitsComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.unitsComboBox.Name = "unitsComboBox";
+            resources.ApplyResources(this.unitsComboBox, "unitsComboBox");
+            this.unitsComboBox.SelectedIndexChanged += new System.EventHandler(this.unitsComboBox_SelectedIndexChanged);
             // 
             // toolStripSeparator31
             // 
             this.toolStripSeparator31.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripSeparator31.Name = "toolStripSeparator31";
             resources.ApplyResources(this.toolStripSeparator31, "toolStripSeparator31");
-            // 
-            // selectConnectedButton
-            // 
-            this.selectConnectedButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.selectConnectedButton.Image = global::Canguro.Properties.Resources.selectconnected;
-            resources.ApplyResources(this.selectConnectedButton, "selectConnectedButton");
-            this.selectConnectedButton.Name = "selectConnectedButton";
-            this.selectConnectedButton.Click += new System.EventHandler(this.selectConnectedButton_Click);
             // 
             // jointGridView
             // 
@@ -2871,14 +2879,7 @@ namespace Canguro
             // 
             resources.ApplyResources(this.smallPanel, "smallPanel");
             this.smallPanel.Name = "smallPanel";
-            this.smallPanel.TrackingText = "";
-            // 
-            // selectConnectedToolStripMenuItem
-            // 
-            this.selectConnectedToolStripMenuItem.Image = global::Canguro.Properties.Resources.selectconnected;
-            this.selectConnectedToolStripMenuItem.Name = "selectConnectedToolStripMenuItem";
-            resources.ApplyResources(this.selectConnectedToolStripMenuItem, "selectConnectedToolStripMenuItem");
-            this.selectConnectedToolStripMenuItem.Click += new System.EventHandler(this.selectConnectedButton_Click);
+            this.smallPanel.TrackingText = global::Canguro.Properties.Resources.CanguroPreferencesSmallPanelForeColorDescription;
             // 
             // MainFrm
             // 
@@ -2889,19 +2890,19 @@ namespace Canguro
             this.KeyPreview = true;
             this.MainMenuStrip = this.menu;
             this.Name = "MainFrm";
+            this.AutoSizeChanged += new System.EventHandler(this.MainFrm_AutoSizeChanged);
+            this.MaximizedBoundsChanged += new System.EventHandler(this.MainFrm_MaximizedBoundsChanged);
+            this.MaximumSizeChanged += new System.EventHandler(this.MainFrm_MaximumSizeChanged);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFrm_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainFrm_FormClosed);
             this.Load += new System.EventHandler(this.MainFrm_Load);
             this.ResizeBegin += new System.EventHandler(this.MainFrm_ResizeBegin);
-            this.MaximizedBoundsChanged += new System.EventHandler(this.MainFrm_MaximizedBoundsChanged);
-            this.AutoSizeChanged += new System.EventHandler(this.MainFrm_AutoSizeChanged);
+            this.ResizeEnd += new System.EventHandler(this.MainFrm_ResizeEnd);
             this.SizeChanged += new System.EventHandler(this.MainFrm_SizeChanged);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.MainFrm_DragDrop);
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainFrm_FormClosed);
-            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MainFrm_KeyPress);
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFrm_FormClosing);
-            this.Resize += new System.EventHandler(this.MainFrm_Resize);
-            this.ResizeEnd += new System.EventHandler(this.MainFrm_ResizeEnd);
             this.DragOver += new System.Windows.Forms.DragEventHandler(this.MainFrm_DragOver);
-            this.MaximumSizeChanged += new System.EventHandler(this.MainFrm_MaximumSizeChanged);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MainFrm_KeyPress);
+            this.Resize += new System.EventHandler(this.MainFrm_Resize);
             this.toolStripContainer1.BottomToolStripPanel.ResumeLayout(false);
             this.toolStripContainer1.BottomToolStripPanel.PerformLayout();
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);
@@ -2914,6 +2915,7 @@ namespace Canguro
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.gridSplit.Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridSplit)).EndInit();
             this.gridSplit.ResumeLayout(false);
             this.gridTabs.ResumeLayout(false);
             this.tabJoints.ResumeLayout(false);
@@ -2926,22 +2928,22 @@ namespace Canguro
             this.linesToolStrip.PerformLayout();
             this.modelToolStrip.ResumeLayout(false);
             this.modelToolStrip.PerformLayout();
-            this.fileEditToolStrip.ResumeLayout(false);
-            this.fileEditToolStrip.PerformLayout();
+            this.loadToolStrip.ResumeLayout(false);
+            this.loadToolStrip.PerformLayout();
+            this.templatesToolStrip.ResumeLayout(false);
+            this.templatesToolStrip.PerformLayout();
+            this.viewToolStrip.ResumeLayout(false);
+            this.viewToolStrip.PerformLayout();
+            this.resultsToolStrip.ResumeLayout(false);
+            this.resultsToolStrip.PerformLayout();
             this.layersToolStrip.ResumeLayout(false);
             this.layersToolStrip.PerformLayout();
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
             this.selectionToolStrip.ResumeLayout(false);
             this.selectionToolStrip.PerformLayout();
-            this.viewToolStrip.ResumeLayout(false);
-            this.viewToolStrip.PerformLayout();
-            this.resultsToolStrip.ResumeLayout(false);
-            this.resultsToolStrip.PerformLayout();
-            this.templatesToolStrip.ResumeLayout(false);
-            this.templatesToolStrip.PerformLayout();
-            this.loadToolStrip.ResumeLayout(false);
-            this.loadToolStrip.PerformLayout();
+            this.fileEditToolStrip.ResumeLayout(false);
+            this.fileEditToolStrip.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.jointGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineGridView)).EndInit();
             this.ResumeLayout(false);

@@ -88,8 +88,6 @@ namespace Canguro.Controller
             }
             try
             {
-                CanguroServer.Analysis ws = new CanguroServer.Analysis();
-                displayName = ws.Authenticate(user, password);
               //displayName = ws.Authenticate(user, password, hostName, LocalIP);
                 return !string.IsNullOrEmpty(displayName);
             }

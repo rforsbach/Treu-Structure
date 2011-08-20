@@ -74,87 +74,27 @@ namespace Canguro.Commands.Model
                     {
                         System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.WaitCursor;
 
-                        CanguroServer.Analysis ws = new CanguroServer.Analysis();
-                        //(new ExportMDBCmd()).Run(services);
                         string modelPath = System.IO.Path.GetTempFileName();
                         System.Diagnostics.Debug.WriteLine(modelPath);
                         FixPDelta(services.Model.AbstractCases);
-                        // Change a xml file insted  mdb file
-                        //(new CreateXMLCmd()).Export(services.Model, modelPath);
-                        //new ExportMDBCmd().Export(services.Model, modelPath);
+
                         Stream stream = File.Create(modelPath);
                         new Canguro.Model.Serializer.Serializer(services.Model).Serialize(stream, false);
                         stream.Close();
 
-                        byte[] file = AnalysisUtils.GetCompressedModel(modelPath /*"tmp"*/);
-                        //byte[] file = File.ReadAllBytes("tmp.mdb");                                             
-
-                        string analysisOptions = "";
-                        if (!(services.Model.SteelDesignOptions is Canguro.Model.Design.NoDesign))
-                            analysisOptions += "S";
-                        if (!(services.Model.ConcreteDesignOptions is Canguro.Model.Design.NoDesign))
-                            analysisOptions += "C";
-                        if (!(services.Model.ColdFormedDesignOptions is Canguro.Model.Design.NoDesign))
-                            analysisOptions += "O";
-                        if (!(services.Model.AluminumDesignOptions is Canguro.Model.Design.NoDesign))
-                            analysisOptions += "A";
-
-                        int analysisID = 0;
-                        int numJoints = 0;
-                        foreach (Canguro.Model.Joint j in services.Model.JointList)
-                            if (j != null)
-                                numJoints++;
-
-                        float modelSize = numJoints * (1f + analysisOptions.Length * 0.25f);
-                        string modelDescription = "ModelName=" + Path.GetFileNameWithoutExtension(services.Model.CurrentPath) + "|Joints=" + numJoints + "|Design=" + (!string.IsNullOrEmpty(analysisOptions));
-                        string userNameURL = System.Web.HttpUtility.UrlEncode(services.UserCredentials.UserName);
-                        string passwordURL = System.Web.HttpUtility.UrlEncode(services.UserCredentials.Password);
-                        string description = System.Web.HttpUtility.UrlEncode(services.UserCredentials.Description);
-                        string serial = System.Web.HttpUtility.UrlEncode(services.UserCredentials.Serial);
-                        string host = System.Web.HttpUtility.UrlEncode(System.Windows.Forms.SystemInformation.ComputerName);
-
-                        CanguroServer.Quotation quotation = ws.Quote(userNameURL, passwordURL, host, serial, modelDescription);
-//                      CanguroServer.Quotation quotation = ws.Quote(userNameURL, passwordURL, modelDescription, description, serial);
-
                         System.Windows.Forms.Cursor.Current = cursor;
 
-                        if (quotation.Cost > 0)
-                        {
-                            if (!quotation.CanAfford)
-                            {
-                                System.Windows.Forms.MessageBox.Show(Culture.Get("strCannotAffordService").Replace("*cost*", quotation.Cost.ToString()), Culture.Get("ActionNotPossibleTitle"), System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Asterisk);
-                                return;
-                                //Commands.Forms.AddCredit addCredit = new Canguro.Commands.Forms.AddCredit();
-                                //services.ShowDialog(addCredit);
-                                //return;
-                            }
+                        System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.WaitCursor;
 
-                            System.Windows.Forms.DialogResult acceptCharge = System.Windows.Forms.MessageBox.Show(Culture.Get("strAskToAcceptCharge") + " " + quotation.Cost + " " + Culture.Get("strMoney"), Culture.Get("strAskToAcceptChargeTitle"), System.Windows.Forms.MessageBoxButtons.OKCancel, System.Windows.Forms.MessageBoxIcon.Question);
-                            if (acceptCharge == System.Windows.Forms.DialogResult.Cancel)
-                                return;
-                        }
-                        while (analysisID == 0)
-                        {
-                            System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.WaitCursor;
-
-                            analysisID = ws.Analyze(userNameURL, passwordURL, host, serial, file, analysisOptions, modelSize, quotation);
-//                          analysisID = ws.Analyze(userNameURL, passwordURL, file, analysisOptions, modelSize, quotation, description, serial);
+                        // TODO: ANALYZE STRUCTURE!!!
+                        //analysisID = ws.Analyze(userNameURL, passwordURL, host, serial, file, analysisOptions, modelSize, quotation);
                             
-                            System.Windows.Forms.Cursor.Current = cursor;
+                        System.Windows.Forms.Cursor.Current = cursor;
 
-                            if (analysisID == 0)
-                            {
-                                Forms.LoginDialog ld = new Canguro.Commands.Forms.LoginDialog(services);
-                                if (services.ShowDialog(ld) == System.Windows.Forms.DialogResult.Cancel)
-                                    return; // Authentication failed
-                            }
-                        }
+                        services.Model.Results = new Canguro.Model.Results.Results(0);
 
-                        services.Model.Results = new Canguro.Model.Results.Results(analysisID);
-
-                        // Pass control to GetResults
-                        gettingResults = true;
-                        (new GetResultsCmd()).Run(services);
+                        // TODO: GET RESULTS
+                        services.ReportProgress(5);
                     }
                     else // Can't analyze
                     {
@@ -164,19 +104,12 @@ namespace Canguro.Commands.Model
                         System.Windows.Forms.MessageBox.Show(message, Culture.Get("error"), System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                     }
                 }
-                catch (System.Net.WebException)
-                {
-                    System.Windows.Forms.MessageBox.Show(Culture.Get("ErrorInWebService"), Culture.Get("error"), System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
-                }
                 catch (Exception)
                 {
                     System.Windows.Forms.MessageBox.Show(Culture.Get("ErrorAnalyzing"), Culture.Get("error"), System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                 }
             }
-            //else if (result == System.Windows.Forms.DialogResult.Cancel)
-            //    throw new Canguro.Controller.CancelCommandException();
         }
-
 
         public override bool AllowCancel()
         {

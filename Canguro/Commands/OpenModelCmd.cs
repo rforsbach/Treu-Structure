@@ -43,10 +43,6 @@ namespace Canguro.Commands.Model
                 if (path.Length > 0)
                 {
                     services.Model.Load(path);
-
-                    // Pass control to GetResults
-                    if (services.Model.Results.AnalysisID != 0 && !services.Model.Results.Finished)
-                        (new GetResultsCmd()).Run(services);
                 }
             }
             catch

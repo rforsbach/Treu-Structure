@@ -1,0 +1,2523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolStripContainer1.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="statusStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 17</value>
+  </data>
+  <data name="progress1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="progress1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="report2Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="report2Label.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progress2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="progress2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 22</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridSplit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridSplit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gridTabs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridTabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gridTabs.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gridTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 445</value>
+  </data>
+  <data name="gridTabs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridSplit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 445</value>
+  </data>
+  <data name="gridSplit.SplitterDistance" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="gridSplit.SplitterIncrement" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gridSplit.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="toolStripContainer1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 445</value>
+  </data>
+  <data name="toolStripContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="toolStripContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="modelToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="modelToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="modelToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="modelToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 442</value>
+  </data>
+  <data name="modelToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="toolStripContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 566</value>
+  </data>
+  <data name="toolStripContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="loadToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>396, 74</value>
+  </data>
+  <data name="loadToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loadToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 74</value>
+  </data>
+  <data name="loadToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 25</value>
+  </data>
+  <data name="loadToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="templatesToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>644, 24</value>
+  </data>
+  <data name="templatesToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="templatesToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>667, 24</value>
+  </data>
+  <data name="templatesToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 25</value>
+  </data>
+  <data name="templatesToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="viewToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>3, 49</value>
+  </data>
+  <data name="viewToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="viewToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 49</value>
+  </data>
+  <data name="viewToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 25</value>
+  </data>
+  <data name="viewToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="resultsToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>84, 25</value>
+  </data>
+  <data name="resultsToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resultsToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 74</value>
+  </data>
+  <data name="resultsToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 25</value>
+  </data>
+  <data name="resultsToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="layersToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>3, 99</value>
+  </data>
+  <data name="layersToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="layersToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 49</value>
+  </data>
+  <data name="layersToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 25</value>
+  </data>
+  <data name="layersToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="menu.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>0, 75</value>
+  </data>
+  <data name="menu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="editMenuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="verToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="insertarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="capasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+A</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="invertSelectionToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+I</value>
+  </data>
+  <data name="invertSelectionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="unselectToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+D</value>
+  </data>
+  <data name="unselectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="selectLineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="selectConnectedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="toolStripSeparator28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 6</value>
+  </data>
+  <data name="distanceToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+D</value>
+  </data>
+  <data name="distanceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="selectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="analysisToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="ayudaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="menu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 24</value>
+  </data>
+  <data name="menu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="selectionToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>459, 24</value>
+  </data>
+  <data name="selectionToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="selectionToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 24</value>
+  </data>
+  <data name="selectionToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 25</value>
+  </data>
+  <data name="selectionToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="fileEditToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="fileEditToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="fileEditToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="fileEditToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 25</value>
+  </data>
+  <data name="fileEditToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="jointsToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabJoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabJoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 344</value>
+  </data>
+  <data name="tabJoints.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="jointsToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="jointsToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 25</value>
+  </data>
+  <data name="jointsToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="jointFillDownButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="jointFillDownButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="selectSimilarJointButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="selectSimilarJointButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="selectSimilarJointButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="restraintAllButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="restraintAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="restraintTransButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="restraintTransButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="restraintZButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="restraintZButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="restraintFreeButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="restraintFreeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="linesToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabFrames.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabFrames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 419</value>
+  </data>
+  <data name="tabFrames.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="linesToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="linesToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 25</value>
+  </data>
+  <data name="linesToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lineFillDownButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="lineFillDownButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="selectSimilarLineButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="selectSimilarLineButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="axialReleaseButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="axialReleaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="momentReleaseButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="momentReleaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="noReleaseButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="noReleaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="jointButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lineStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="lineStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lineButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lineButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="arcButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="arcButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="toolStripSeparator14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 6</value>
+  </data>
+  <data name="sectionsButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="sectionsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="materialsButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="materialsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="toolStripSeparator23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 6</value>
+  </data>
+  <data name="moveButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="moveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="mirrorButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="mirrorButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="scaleButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="scaleButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="arrayButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="arrayButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="polararrayButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="polararrayButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="modelrotateButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="modelrotateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="toolStripSeparator25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 6</value>
+  </data>
+  <data name="splitButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="splitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="intersectButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="intersectButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="joinButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="joinButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="flipLineButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="flipLineButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="constraintsButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="constraintsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="diaphragmsButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="diaphragmsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 20</value>
+  </data>
+  <data name="newButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="newButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="openButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="openButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="saveButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="saveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="printButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="printButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="printPreviewButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="printPreviewButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="cutButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="cutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="copyButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="copyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="pasteButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="pasteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="copyPasteButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="copyPasteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="deleteButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="deleteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="editButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="editButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="editButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="undoButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="undoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="redoButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="redoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="unitsComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="layerButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="layerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="editlayerButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="editlayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="deletelayerButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="deletelayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="layersComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="hideLayerButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="hideLayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="showLayerButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="showLayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="moveToLayerButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="moveToLayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="activateLayerButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="activateLayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="selectLayerButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="selectLayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="newModelToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="newModelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="openModelToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="openModelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 6</value>
+  </data>
+  <data name="saveToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="screenshotToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 6</value>
+  </data>
+  <data name="importDXFToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="exportDXFToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="exportS2kToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 6</value>
+  </data>
+  <data name="printToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+P</value>
+  </data>
+  <data name="printToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="printPreviewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="toolStripSeparator29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="undoToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Z</value>
+  </data>
+  <data name="undoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="redoToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Y</value>
+  </data>
+  <data name="redoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 6</value>
+  </data>
+  <data name="cutToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+X</value>
+  </data>
+  <data name="cutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="copyToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="copyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="pasteToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+V</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="copyPasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 6</value>
+  </data>
+  <data name="moveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="editToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mirrorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="scaleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="arrayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="polarArrayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="rotateModelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="flipLineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="splitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="joinToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+U</value>
+  </data>
+  <data name="joinToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="intersectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 6</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="zoomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="zoomInToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Oemplus</value>
+  </data>
+  <data name="zoomInToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="zoomOutToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+OemMinus</value>
+  </data>
+  <data name="zoomOutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="interactiveZoomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="zoomAllToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+0</value>
+  </data>
+  <data name="zoomAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="panToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="rotateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="zoomPreviousToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Left</value>
+  </data>
+  <data name="zoomPreviousToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 6</value>
+  </data>
+  <data name="predefinedXYToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+1</value>
+  </data>
+  <data name="predefinedXYToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="predefinedXZToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+2</value>
+  </data>
+  <data name="predefinedXZToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="predefinedYZToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+3</value>
+  </data>
+  <data name="predefinedYZToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="predefinedXYZToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+4</value>
+  </data>
+  <data name="predefinedXYZToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 6</value>
+  </data>
+  <data name="hideToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+H</value>
+  </data>
+  <data name="hideToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="showAllToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+J</value>
+  </data>
+  <data name="showAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="viewShadedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="viewOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="noneToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="showJointIDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="hideJointsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="showJointCoordinatesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="showDOFToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="showLineIDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="showLineLenghtToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="showLocalAxesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="showSectionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="releasesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="showAxesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="showFloorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="loadSizesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="viewLoadsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="colorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="colorMaterialsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="colorSectionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="colorLayersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="colorLoadsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="colorConstraintsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="jointToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="linesToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+F</value>
+  </data>
+  <data name="linesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="lineStripToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+F</value>
+  </data>
+  <data name="lineStripToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="arcToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 6</value>
+  </data>
+  <data name="materialsToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+M</value>
+  </data>
+  <data name="materialsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="sectionsToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+K</value>
+  </data>
+  <data name="sectionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="toolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 6</value>
+  </data>
+  <data name="forceLoadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="groundDisplacementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="lineLoadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="concentratedLoadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="uniformLineLoadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="triangularLineLoadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="distributedLoadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripSeparator30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 6</value>
+  </data>
+  <data name="temperatureLineLoadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="temperatureGradientLineLoadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 6</value>
+  </data>
+  <data name="loadCaseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="analysisCaseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="analysisCaseToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="loadComboToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+B</value>
+  </data>
+  <data name="loadComboToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 6</value>
+  </data>
+  <data name="constraintsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="diaphragmsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="toolStripSeparator32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 6</value>
+  </data>
+  <data name="gridToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="domeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="cylinderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="addLayerToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+L</value>
+  </data>
+  <data name="addLayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="editLayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="deleteLayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="selectLayerToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+A</value>
+  </data>
+  <data name="selectLayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 6</value>
+  </data>
+  <data name="hideLayerToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+H</value>
+  </data>
+  <data name="hideLayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="showLayerToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+J</value>
+  </data>
+  <data name="showLayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="moveToLayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="activateLayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="analyzeToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F5</value>
+  </data>
+  <data name="analyzeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="toolStripSeparator20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 6</value>
+  </data>
+  <data name="showDeformedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="animatedToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+A</value>
+  </data>
+  <data name="animatedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="showDiagramToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="noDiagramsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="axialDiagramToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="s2DiagramToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="s3DiagramToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="torsionDiagramToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="m2DiagramToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="m3DiagramToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="showStressesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="designToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="reportsToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+R</value>
+  </data>
+  <data name="reportsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="jointReactionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="jointReactionTextsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="userManualToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F1</value>
+  </data>
+  <data name="userManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
+  <data name="tutorialsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
+  <data name="selectAllButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="selectAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="invertSelectionButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="invertSelectionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="unselectButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="unselectButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="selectLineButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="selectLineButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="hideButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="hideButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="showAllButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="showAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="distanceButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="distanceButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="selectButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="selectButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="zoomButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="zoomButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="panButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="panButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="rotateButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="rotateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="predefinedxy.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="predefinedxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="predefinedxz.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="predefinedxz.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="predefinedyz.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="predefinedyz.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="predefinedxyzButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="predefinedxyzButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="zoomInButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="zoomInButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="zoomOutButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="zoomOutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="zoomPreviousButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="zoomPreviousButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="viewAllButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="viewAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="viewShadedButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="viewShadedButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="colorsSplitButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="colorsSplitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 22</value>
+  </data>
+  <data name="colorMaterialsToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="colorSectionsToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="colorLayersToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="colorLoadsToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="colorConstraintsToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="showTextDropDownButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="showTextDropDownButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 22</value>
+  </data>
+  <data name="noneToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="showJointIDToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="hideJointsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="jointCoordinatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="showDOFToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="showLineIDToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="showLineLengthToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="showLocalAxesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="showSectionsToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="releasesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="showAxesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="showFloorToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="loadSizeToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="showLoadsButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="showLoadsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="analyzeButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="analyzeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="resultsCasesCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="showDeformedButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="showDeformedButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="animateButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="animateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="showStressesButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="showStressesButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="showDesignButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="showDesignButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="diagramsDropDownButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="diagramsDropDownButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 22</value>
+  </data>
+  <data name="noDiagramsToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="axialDiagramToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="s2DiagramToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="s3DiagramToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="torsionDiagramToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="m2DiagramToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="m3DiagramToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="reportButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="reportButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="showJointReactionsButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="showJointReactionsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="showJointReactionsTextsButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="showJointReactionsTextsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="gridButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="gridButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="domeButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="domeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="cylinderButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="cylinderButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="analysisCaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="analysisCaseButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="loadCaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="editLoadCaseButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="editLoadCaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="deleteLoadCaseButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="deleteLoadCaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="loadCasesComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 25</value>
+  </data>
+  <data name="loadComboButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="forceLoadButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="forceLoadButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="groundDisplacementButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="groundDisplacementButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="concentratedLoadButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="concentratedLoadButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="distributedLoadButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="distributedLoadButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="uniformLineLoadButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="uniformLineLoadButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="triangleLineLoadButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="triangleLineLoadButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 20</value>
+  </data>
+  <data name="temperatureLineLoadButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="temperatureLineLoadButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 20</value>
+  </data>
+  <data name="temperatureGradientLineLoadButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="temperatureGradientLineLoadButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 20</value>
+  </data>
+  <data name="toolStripSeparator31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="selectConnectedButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="selectConnectedButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="jointGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="jointGridView.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="jointGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="jointGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 319</value>
+  </data>
+  <data name="jointGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lineGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lineGridView.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lineGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="lineGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 394</value>
+  </data>
+  <data name="lineGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="smallPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="smallPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 0</value>
+  </data>
+  <data name="smallPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>792, 566</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>250, 150</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Acerca de Treu Structure</value>
+  </data>
+  <data name="activateLayerButton.Text" xml:space="preserve">
+    <value>Activar capa</value>
+  </data>
+  <data name="activateLayerToolStripMenuItem.Text" xml:space="preserve">
+    <value>A&amp;ctivar</value>
+  </data>
+  <data name="addLayerToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Agregar</value>
+  </data>
+  <data name="analysisCaseButton.Text" xml:space="preserve">
+    <value>Agregar análisis</value>
+  </data>
+  <data name="analysisCaseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Caso de Anál&amp;isis</value>
+  </data>
+  <data name="analysisToolStripMenuItem.Text" xml:space="preserve">
+    <value>A&amp;nálisis</value>
+  </data>
+  <data name="analyzeButton.Text" xml:space="preserve">
+    <value>Analizar</value>
+  </data>
+  <data name="analyzeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anali&amp;zar...</value>
+  </data>
+  <data name="animateButton.Text" xml:space="preserve">
+    <value>Animación</value>
+  </data>
+  <data name="animatedToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Animación</value>
+  </data>
+  <data name="arcButton.Text" xml:space="preserve">
+    <value>Arco</value>
+  </data>
+  <data name="arcToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Arco</value>
+  </data>
+  <data name="arrayButton.Text" xml:space="preserve">
+    <value>Arreglo</value>
+  </data>
+  <data name="arrayToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Arreglo</value>
+  </data>
+  <data name="axialDiagramToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Axial</value>
+  </data>
+  <data name="axialDiagramToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Axial</value>
+  </data>
+  <data name="axialReleaseButton.Text" xml:space="preserve">
+    <value>Articulación Axial</value>
+  </data>
+  <data name="ayudaToolStripMenuItem.Text" xml:space="preserve">
+    <value>A&amp;yuda</value>
+  </data>
+  <data name="capasToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Capas</value>
+  </data>
+  <data name="colorConstraintsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Diafragmas</value>
+  </data>
+  <data name="colorConstraintsToolStripMenuItem2.Text" xml:space="preserve">
+    <value>&amp;Diafragmas</value>
+  </data>
+  <data name="colorLayersToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Capas</value>
+  </data>
+  <data name="colorLayersToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Capas</value>
+  </data>
+  <data name="colorLoadsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Asignaciones</value>
+  </data>
+  <data name="colorLoadsToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Asignaciones</value>
+  </data>
+  <data name="colorMaterialsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Materiales</value>
+  </data>
+  <data name="colorMaterialsToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Materiales</value>
+  </data>
+  <data name="colorSectionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Secciones</value>
+  </data>
+  <data name="colorSectionsToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Secciones</value>
+  </data>
+  <data name="colorsSplitButton.Text" xml:space="preserve">
+    <value>Mostrar con Colores</value>
+  </data>
+  <data name="colorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Co&amp;lores</value>
+  </data>
+  <data name="concentratedLoadButton.Text" xml:space="preserve">
+    <value>Carga concentrada</value>
+  </data>
+  <data name="concentratedLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Carga &amp;Concentrada</value>
+  </data>
+  <data name="constraintsButton.Text" xml:space="preserve">
+    <value>Diafragmas Rígidos</value>
+  </data>
+  <data name="constraintsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Diafragmas Rígidos</value>
+  </data>
+  <data name="copyButton.Text" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="copyPasteButton.Text" xml:space="preserve">
+    <value>Copiar en...</value>
+  </data>
+  <data name="copyPasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copiar &amp;Sobre</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Copiar</value>
+  </data>
+  <data name="cutButton.Text" xml:space="preserve">
+    <value>Cortar</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cor&amp;tar</value>
+  </data>
+  <data name="cylinderButton.Text" xml:space="preserve">
+    <value>Cilindro</value>
+  </data>
+  <data name="cylinderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cilin&amp;dro</value>
+  </data>
+  <data name="deleteButton.Text" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="deletelayerButton.Text" xml:space="preserve">
+    <value>Borrar capa</value>
+  </data>
+  <data name="deleteLayerToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Borrar</value>
+  </data>
+  <data name="deleteLoadCaseButton.Text" xml:space="preserve">
+    <value>Borrar caso de carga</value>
+  </data>
+  <data name="deleteToolStripMenuItem.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Borrar</value>
+  </data>
+  <data name="designToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Diseño</value>
+  </data>
+  <data name="diagramsDropDownButton.Text" xml:space="preserve">
+    <value>Diagramas</value>
+  </data>
+  <data name="diaphragmsButton.Text" xml:space="preserve">
+    <value>Diafragmas Automáticos</value>
+  </data>
+  <data name="diaphragmsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Diafragmas Automáticos</value>
+  </data>
+  <data name="distanceButton.Text" xml:space="preserve">
+    <value>Distancia</value>
+  </data>
+  <data name="distanceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dis&amp;tancia</value>
+  </data>
+  <data name="distributedLoadButton.Text" xml:space="preserve">
+    <value>Carga distribuida</value>
+  </data>
+  <data name="distributedLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Carga &amp;Distribuida</value>
+  </data>
+  <data name="domeButton.Text" xml:space="preserve">
+    <value>Domo</value>
+  </data>
+  <data name="domeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Domo</value>
+  </data>
+  <data name="editButton.Text" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="editlayerButton.Text" xml:space="preserve">
+    <value>Editar capa</value>
+  </data>
+  <data name="editLayerToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Editar</value>
+  </data>
+  <data name="editLoadCaseButton.Text" xml:space="preserve">
+    <value>Editar caso de carga</value>
+  </data>
+  <data name="editMenuToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Edición</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Editar</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Salir</value>
+  </data>
+  <data name="exportDXFToolStripMenuItem.Text" xml:space="preserve">
+    <value>E&amp;xportar DXF...</value>
+  </data>
+  <data name="exportS2kToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exportar S&amp;2K...</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Archivo</value>
+  </data>
+  <data name="flipLineButton.Text" xml:space="preserve">
+    <value>Invertir Extremos</value>
+  </data>
+  <data name="flipLineToolStripMenuItem.Text" xml:space="preserve">
+    <value>I&amp;nvertir Extremos</value>
+  </data>
+  <data name="forceLoadButton.Text" xml:space="preserve">
+    <value>Fuerza en nodos</value>
+  </data>
+  <data name="forceLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Car&amp;ga en Nodo</value>
+  </data>
+  <data name="gridButton.Text" xml:space="preserve">
+    <value>Malla reticular</value>
+  </data>
+  <data name="gridToolStripMenuItem.Text" xml:space="preserve">
+    <value>Malla reticular</value>
+  </data>
+  <data name="groundDisplacementButton.Text" xml:space="preserve">
+    <value>Desplazamiento prescrito</value>
+  </data>
+  <data name="groundDisplacementToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Desplazamiento</value>
+  </data>
+  <data name="hideButton.Text" xml:space="preserve">
+    <value>Ocultar objetos no seleccionado</value>
+  </data>
+  <data name="hideJointsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mostrar Nodos</value>
+  </data>
+  <data name="hideJointsToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Mostrar &amp;Nodos</value>
+  </data>
+  <data name="hideLayerButton.Text" xml:space="preserve">
+    <value>Ocultar capa</value>
+  </data>
+  <data name="hideLayerToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Esconder</value>
+  </data>
+  <data name="hideToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Esconder no seleccionado</value>
+  </data>
+  <data name="importDXFToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Importar DXF...</value>
+  </data>
+  <data name="insertarToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Modelo</value>
+  </data>
+  <data name="interactiveZoomToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Interactivo</value>
+  </data>
+  <data name="intersectButton.Text" xml:space="preserve">
+    <value>Intersecar</value>
+  </data>
+  <data name="intersectToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Intersecar</value>
+  </data>
+  <data name="invertSelectionButton.Text" xml:space="preserve">
+    <value>Invertir selección</value>
+  </data>
+  <data name="invertSelectionToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Invertir Selección</value>
+  </data>
+  <data name="joinButton.Text" xml:space="preserve">
+    <value>Unir</value>
+  </data>
+  <data name="jointButton.Text" xml:space="preserve">
+    <value>Agregar nodo</value>
+  </data>
+  <data name="jointCoordinatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Coordenadas de nodos</value>
+  </data>
+  <data name="jointFillDownButton.Text" xml:space="preserve">
+    <value>Copiar a todos</value>
+  </data>
+  <data name="joinToolStripMenuItem.Text" xml:space="preserve">
+    <value>U&amp;nir</value>
+  </data>
+  <data name="jointReactionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reacciones de &amp;Nodos</value>
+  </data>
+  <data name="jointReactionTextsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Valores de Reacciones</value>
+  </data>
+  <data name="jointsToolStrip.Text" xml:space="preserve">
+    <value>Joints</value>
+  </data>
+  <data name="jointToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Nodos</value>
+  </data>
+  <data name="layerButton.Text" xml:space="preserve">
+    <value>Agregar capa</value>
+  </data>
+  <data name="lineButton.Text" xml:space="preserve">
+    <value>Agregar barras</value>
+  </data>
+  <data name="lineFillDownButton.Text" xml:space="preserve">
+    <value>Copiar a todos</value>
+  </data>
+  <data name="lineLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ca&amp;rga en Barras</value>
+  </data>
+  <data name="linesToolStrip.Text" xml:space="preserve">
+    <value>toolStrip2</value>
+  </data>
+  <data name="linesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Barras</value>
+  </data>
+  <data name="lineStripButton.Text" xml:space="preserve">
+    <value>Agregar linea de barras</value>
+  </data>
+  <data name="lineStripToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Línea de Barras</value>
+  </data>
+  <data name="loadCaseButton.Text" xml:space="preserve">
+    <value>Agregar caso de carga</value>
+  </data>
+  <data name="loadCaseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cas&amp;o de Carga</value>
+  </data>
+  <data name="loadComboButton.Text" xml:space="preserve">
+    <value>Agregar combinación</value>
+  </data>
+  <data name="loadComboToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Combinación</value>
+  </data>
+  <data name="loadSizesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Magnitud de Cargas</value>
+  </data>
+  <data name="loadSizeToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Magnitud de cargas</value>
+  </data>
+  <data name="m2DiagramToolStripMenuItem.Text" xml:space="preserve">
+    <value>M&amp;2</value>
+  </data>
+  <data name="m2DiagramToolStripMenuItem2.Text" xml:space="preserve">
+    <value>M2</value>
+  </data>
+  <data name="m3DiagramToolStripMenuItem.Text" xml:space="preserve">
+    <value>M&amp;3</value>
+  </data>
+  <data name="m3DiagramToolStripMenuItem2.Text" xml:space="preserve">
+    <value>M3</value>
+  </data>
+  <data name="materialsButton.Text" xml:space="preserve">
+    <value>Materiales</value>
+  </data>
+  <data name="materialsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Materiales...</value>
+  </data>
+  <data name="mirrorButton.Text" xml:space="preserve">
+    <value>Reflejar</value>
+  </data>
+  <data name="mirrorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Espe&amp;jo</value>
+  </data>
+  <data name="modelrotateButton.Text" xml:space="preserve">
+    <value>Girar objetos</value>
+  </data>
+  <data name="momentReleaseButton.Text" xml:space="preserve">
+    <value>Articulación de Momentos</value>
+  </data>
+  <data name="moveButton.Text" xml:space="preserve">
+    <value>Mover</value>
+  </data>
+  <data name="moveToLayerButton.Text" xml:space="preserve">
+    <value>Mover a capa</value>
+  </data>
+  <data name="moveToLayerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mo&amp;ver Elementos</value>
+  </data>
+  <data name="moveToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Mover</value>
+  </data>
+  <data name="newButton.Text" xml:space="preserve">
+    <value>Nuevo modelo</value>
+  </data>
+  <data name="newModelToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Nuevo</value>
+  </data>
+  <data name="noDiagramsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Ninguno</value>
+  </data>
+  <data name="noDiagramsToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="noneToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="noneToolStripMenuItem3.Text" xml:space="preserve">
+    <value>&amp;Ninguno</value>
+  </data>
+  <data name="noReleaseButton.Text" xml:space="preserve">
+    <value>Sin Articulación</value>
+  </data>
+  <data name="openButton.Text" xml:space="preserve">
+    <value>Abrir modelo</value>
+  </data>
+  <data name="openModelToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Abrir</value>
+  </data>
+  <data name="panButton.Text" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="panToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Mover</value>
+  </data>
+  <data name="pasteButton.Text" xml:space="preserve">
+    <value>Pegar</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Pegar</value>
+  </data>
+  <data name="polararrayButton.Text" xml:space="preserve">
+    <value>Arreglo circular</value>
+  </data>
+  <data name="polarArrayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Arregl&amp;o Circular</value>
+  </data>
+  <data name="predefinedxy.Text" xml:space="preserve">
+    <value>Vista superior</value>
+  </data>
+  <data name="predefinedXYToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vista &amp;Superior (XY)</value>
+  </data>
+  <data name="predefinedxyzButton.Text" xml:space="preserve">
+    <value>Vista 3D</value>
+  </data>
+  <data name="predefinedXYZToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vista &amp;3D</value>
+  </data>
+  <data name="predefinedxz.Text" xml:space="preserve">
+    <value>Vista frontal</value>
+  </data>
+  <data name="predefinedXZToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vista &amp;Frontal (XZ)</value>
+  </data>
+  <data name="predefinedyz.Text" xml:space="preserve">
+    <value>Vista lateral</value>
+  </data>
+  <data name="predefinedYZToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vista &amp;Lateral (YZ)</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Preferencias</value>
+  </data>
+  <data name="printButton.Text" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="printPreviewButton.Text" xml:space="preserve">
+    <value>Vista Previa</value>
+  </data>
+  <data name="printPreviewToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Vista Previa...</value>
+  </data>
+  <data name="printToolStripMenuItem.Text" xml:space="preserve">
+    <value>Im&amp;primir...</value>
+  </data>
+  <data name="redoButton.Text" xml:space="preserve">
+    <value>Rehacer</value>
+  </data>
+  <data name="redoToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Rehacer</value>
+  </data>
+  <data name="releasesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Articulaciones</value>
+  </data>
+  <data name="releasesToolStripMenuItem2.Text" xml:space="preserve">
+    <value>&amp;Articulaciones</value>
+  </data>
+  <data name="report2Label.Text" xml:space="preserve">
+    <value>Report2</value>
+  </data>
+  <data name="reportButton.Text" xml:space="preserve">
+    <value>Reportes</value>
+  </data>
+  <data name="reportsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Reportes</value>
+  </data>
+  <data name="restraintAllButton.Text" xml:space="preserve">
+    <value>Restringir todo</value>
+  </data>
+  <data name="restraintFreeButton.Text" xml:space="preserve">
+    <value>Sin restricciones</value>
+  </data>
+  <data name="restraintTransButton.Text" xml:space="preserve">
+    <value>Restringir traslación</value>
+  </data>
+  <data name="restraintZButton.Text" xml:space="preserve">
+    <value>Restringir Z</value>
+  </data>
+  <data name="resultsCasesCombo.ToolTipText" xml:space="preserve">
+    <value>Casos</value>
+  </data>
+  <data name="rotateButton.Text" xml:space="preserve">
+    <value>Rotar</value>
+  </data>
+  <data name="rotateModelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Girar objetos</value>
+  </data>
+  <data name="rotateToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Rotar</value>
+  </data>
+  <data name="s2DiagramToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;S2</value>
+  </data>
+  <data name="s2DiagramToolStripMenuItem2.Text" xml:space="preserve">
+    <value>S2</value>
+  </data>
+  <data name="s3DiagramToolStripMenuItem.Text" xml:space="preserve">
+    <value>S3</value>
+  </data>
+  <data name="s3DiagramToolStripMenuItem2.Text" xml:space="preserve">
+    <value>S3</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Guardar &amp;Como...</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>Guardar modelo</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Guardar</value>
+  </data>
+  <data name="scaleButton.Text" xml:space="preserve">
+    <value>Escalar</value>
+  </data>
+  <data name="scaleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Esca&amp;la</value>
+  </data>
+  <data name="screenshotToolStripMenuItem.Text" xml:space="preserve">
+    <value>Guardar I&amp;magen...</value>
+  </data>
+  <data name="sectionsButton.Text" xml:space="preserve">
+    <value>Secciones</value>
+  </data>
+  <data name="sectionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Secciones...</value>
+  </data>
+  <data name="selectAllButton.Text" xml:space="preserve">
+    <value>Seleccionar todo</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Seleccionar &amp;Todo</value>
+  </data>
+  <data name="selectButton.Text" xml:space="preserve">
+    <value>Selección</value>
+  </data>
+  <data name="selectConnectedButton.Text" xml:space="preserve">
+    <value>Seleccionar elementos conectados</value>
+  </data>
+  <data name="selectConnectedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Seleccionar Elementos &amp;Conectados</value>
+  </data>
+  <data name="selectLayerButton.Text" xml:space="preserve">
+    <value>Seleccionar capa</value>
+  </data>
+  <data name="selectLayerToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Seleccionar</value>
+  </data>
+  <data name="selectLineButton.Text" xml:space="preserve">
+    <value>Seleccionar Línea</value>
+  </data>
+  <data name="selectLineToolStripMenuItem.Text" xml:space="preserve">
+    <value>Seleccionar &amp;Línea</value>
+  </data>
+  <data name="selectSimilarJointButton.Text" xml:space="preserve">
+    <value>Seleccionar Similar</value>
+  </data>
+  <data name="selectSimilarLineButton.Text" xml:space="preserve">
+    <value>Seleccionar Similares</value>
+  </data>
+  <data name="selectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Se&amp;lección</value>
+  </data>
+  <data name="showAllButton.Text" xml:space="preserve">
+    <value>Mostrar todo</value>
+  </data>
+  <data name="showAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>M&amp;ostrar Todo</value>
+  </data>
+  <data name="showAxesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ejes &amp;Globales</value>
+  </data>
+  <data name="showAxesToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Ejes globales</value>
+  </data>
+  <data name="showDeformedButton.Text" xml:space="preserve">
+    <value>Deformaciones</value>
+  </data>
+  <data name="showDeformedToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Deformaciones</value>
+  </data>
+  <data name="showDesignButton.Text" xml:space="preserve">
+    <value>Ver diseño</value>
+  </data>
+  <data name="showDiagramToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Ver Diagrama</value>
+  </data>
+  <data name="showDOFToolStripMenuItem.Text" xml:space="preserve">
+    <value>Restricciones en nodos</value>
+  </data>
+  <data name="showDOFToolStripMenuItem2.Text" xml:space="preserve">
+    <value>&amp;Restricciones en Nodos</value>
+  </data>
+  <data name="showFloorToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Piso</value>
+  </data>
+  <data name="showFloorToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Piso</value>
+  </data>
+  <data name="showJointCoordinatesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Coordenadas de Nodos</value>
+  </data>
+  <data name="showJointIDToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;ID Nodos</value>
+  </data>
+  <data name="showJointIDToolStripMenuItem2.Text" xml:space="preserve">
+    <value>ID Nodos</value>
+  </data>
+  <data name="showJointReactionsButton.Text" xml:space="preserve">
+    <value>Reacciones en Nodos</value>
+  </data>
+  <data name="showJointReactionsTextsButton.Text" xml:space="preserve">
+    <value>Valores de Reacciones</value>
+  </data>
+  <data name="showLayerButton.Text" xml:space="preserve">
+    <value>Mostrar capa</value>
+  </data>
+  <data name="showLayerToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Mostrar</value>
+  </data>
+  <data name="showLineIDToolStripMenuItem.Text" xml:space="preserve">
+    <value>ID &amp;Elementos</value>
+  </data>
+  <data name="showLineIDToolStripMenuItem2.Text" xml:space="preserve">
+    <value>ID Elementos</value>
+  </data>
+  <data name="showLineLenghtToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Longitud de Elementos</value>
+  </data>
+  <data name="showLineLengthToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Longitud de elementos</value>
+  </data>
+  <data name="showLoadsButton.Text" xml:space="preserve">
+    <value>Mostrar cargas</value>
+  </data>
+  <data name="showLocalAxesToolStripMenuItem.Text" xml:space="preserve">
+    <value>E&amp;jes Locales</value>
+  </data>
+  <data name="showLocalAxesToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Ejes Locales</value>
+  </data>
+  <data name="showSectionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Secciones</value>
+  </data>
+  <data name="showSectionsToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Secciones</value>
+  </data>
+  <data name="showStressesButton.Text" xml:space="preserve">
+    <value>Esfuerzos</value>
+  </data>
+  <data name="showStressesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ver &amp;Esfuerzos</value>
+  </data>
+  <data name="showTextDropDownButton.Text" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="splitButton.Text" xml:space="preserve">
+    <value>Dividir barras</value>
+  </data>
+  <data name="splitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Dividir</value>
+  </data>
+  <data name="statusLabel.Text" xml:space="preserve">
+    <value>Listo</value>
+  </data>
+  <data name="tabFrames.Text" xml:space="preserve">
+    <value>Barras</value>
+  </data>
+  <data name="tabJoints.Text" xml:space="preserve">
+    <value>Nodos</value>
+  </data>
+  <data name="temperatureGradientLineLoadButton.Text" xml:space="preserve">
+    <value>Gradiente de temperatura</value>
+  </data>
+  <data name="temperatureGradientLineLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Gradiente de Temperatura</value>
+  </data>
+  <data name="temperatureLineLoadButton.Text" xml:space="preserve">
+    <value>Carga de temperatura</value>
+  </data>
+  <data name="temperatureLineLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Carga de T&amp;emperatura</value>
+  </data>
+  <data name="toolStripContainer1.Text" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="torsionDiagramToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Torsión</value>
+  </data>
+  <data name="torsionDiagramToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Torsión</value>
+  </data>
+  <data name="triangleLineLoadButton.Text" xml:space="preserve">
+    <value>Carga Triangular</value>
+  </data>
+  <data name="triangularLineLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Carga &amp;Triangular</value>
+  </data>
+  <data name="tutorialsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Tutoriales...</value>
+  </data>
+  <data name="undoButton.Text" xml:space="preserve">
+    <value>Deshacer</value>
+  </data>
+  <data name="undoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Des&amp;hacer</value>
+  </data>
+  <data name="uniformLineLoadButton.Text" xml:space="preserve">
+    <value>Carga uniforme distribuida</value>
+  </data>
+  <data name="uniformLineLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Carga &amp;Uniforme Distribuida</value>
+  </data>
+  <data name="unselectButton.Text" xml:space="preserve">
+    <value>Deseleccionar</value>
+  </data>
+  <data name="unselectToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Deseleccionar</value>
+  </data>
+  <data name="userManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Manual</value>
+  </data>
+  <data name="verToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Ver</value>
+  </data>
+  <data name="viewAllButton.Text" xml:space="preserve">
+    <value>Ver todo</value>
+  </data>
+  <data name="viewLoadsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Car&amp;gas</value>
+  </data>
+  <data name="viewOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Opciones</value>
+  </data>
+  <data name="viewShadedButton.Text" xml:space="preserve">
+    <value>Sombreado</value>
+  </data>
+  <data name="viewShadedToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Sombreado</value>
+  </data>
+  <data name="zoomAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ver &amp;Todo</value>
+  </data>
+  <data name="zoomButton.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="zoomInButton.Text" xml:space="preserve">
+    <value>Acercar</value>
+  </data>
+  <data name="zoomInToolStripMenuItem.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl++</value>
+  </data>
+  <data name="zoomInToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Acercar</value>
+  </data>
+  <data name="zoomOutButton.Text" xml:space="preserve">
+    <value>Alejar</value>
+  </data>
+  <data name="zoomOutToolStripMenuItem.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+-</value>
+  </data>
+  <data name="zoomOutToolStripMenuItem.Text" xml:space="preserve">
+    <value>A&amp;lejar</value>
+  </data>
+  <data name="zoomPreviousButton.Text" xml:space="preserve">
+    <value>Vista anterior</value>
+  </data>
+  <data name="zoomPreviousToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vista A&amp;nterior</value>
+  </data>
+  <data name="zoomToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Acercamiento</value>
+  </data>
+</root>

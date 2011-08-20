@@ -26,7 +26,6 @@ namespace Canguro.Model.Serializer
             if (results != null && results.AnalysisID > 0 && results.Finished)
             {
                 writeResultCases(xml);
-                writeResultProgress(xml);
                 writeJointDisplacements(xml);
                 writeJointReactions(xml);
                 writeJointVelocities(xml);
@@ -62,36 +61,6 @@ namespace Canguro.Model.Serializer
             xml.WriteAttributeString("ID", rCase.Id.ToString());
             xml.WriteAttributeString("FullPath", rCase.FullPath);
             xml.WriteAttributeString("IsLoaded", rCase.IsLoaded.ToString());
-            xml.WriteEndElement();
-        }
-
-        private void writeResultProgress(XmlWriter xml)
-        {
-            DownloadProgress progress = results.Downloaded;
-            System.Text.Encoding coder = System.Text.ASCIIEncoding.Default;
-            xml.WriteStartElement("T-Result_Progress");
-            xml.WriteAttributeString("TotalProgress", progress.TotalProgress.ToString());
-            xml.WriteAttributeString("Started", progress.Started.ToString());
-            xml.WriteAttributeString("Key", coder.GetString(progress.DecryptionKey));
-            xml.WriteAttributeString("Vector", coder.GetString(progress.DecryptionVector));
-            xml.WriteAttributeString("DesignCase", progress.Design.CaseName);
-            xml.WriteAttributeString("DesignFile", progress.Design.FileName);
-            xml.WriteAttributeString("DesignFinished", progress.Design.Finished.ToString());
-            xml.WriteAttributeString("DesignPercentage", progress.Design.Percentage.ToString());
-            xml.WriteAttributeString("Model", progress.Model);
-            xml.WriteAttributeString("SumCase", progress.Summary.CaseName);
-            xml.WriteAttributeString("SumFile", progress.Summary.FileName);
-            xml.WriteAttributeString("SumFinished", progress.Summary.Finished.ToString());
-            xml.WriteAttributeString("SumPercentage", progress.Summary.Percentage.ToString());
-            foreach (DownloadProps item in progress.Items)
-            {
-                xml.WriteStartElement("Item");
-                xml.WriteAttributeString("Case", item.CaseName);
-                xml.WriteAttributeString("File", item.FileName);
-                xml.WriteAttributeString("Finished", item.Finished.ToString());
-                xml.WriteAttributeString("Percentage", item.Percentage.ToString());
-                xml.WriteEndElement();
-            }
             xml.WriteEndElement();
         }
 

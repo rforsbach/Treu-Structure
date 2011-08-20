@@ -183,7 +183,6 @@ namespace Canguro.Controller
 
             commands.Add("testcmd", Commands.Model.TestCmd.Instance); // (N)
 
-            commands.Add("getresults", new Commands.Model.GetResultsCmd());
             commands.Add("report", new Commands.Model.MakeReportCmd());
             commands.Add("materials", new Commands.Model.MaterialsCmd());
             commands.Add("sections", new Commands.Model.SectionsCmd());

@@ -13,7 +13,6 @@ namespace Canguro.Model.Results
         /// Analysis ID that relates to Results calculated in server
         /// </summary>
         private int analysisID;
-        private DownloadProgress downloadProgress;
         private ResultsCase activeCase = null;
         private ResultsCasesList resultsCases;
         private bool finished = false;
@@ -73,7 +72,6 @@ namespace Canguro.Model.Results
         public Results(int analysisID)
         {            
             this.analysisID = analysisID;
-            downloadProgress = new DownloadProgress();
             resultsCases = new ResultsCasesList();
         }
 
@@ -332,24 +330,6 @@ namespace Canguro.Model.Results
                 if (activeCase == null) return;
 
                 paintScaleFactorElementForces[activeCase.Id] = value;
-            }
-        }
-
-        public DownloadProgress Downloaded
-        {
-            get 
-            {
-                lock (this)
-                {
-                    return downloadProgress;
-                }
-            }
-            set
-            {
-                lock (this)
-                {
-                    downloadProgress = value;
-                }
             }
         }
 

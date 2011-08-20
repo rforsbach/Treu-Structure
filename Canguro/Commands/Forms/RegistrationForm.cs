@@ -68,17 +68,12 @@ namespace Canguro.Commands.Forms
         {
             try
             {
-                CanguroServer.Analysis ws = new CanguroServer.Analysis();
-
                 string res = "";
-                if (registerUserCheckBox.Checked)
-                    res = ws.RegisterUser(EmailTextBox.Text, passwordTextBox.Text, nameTextBox.Text, lastNameTextBox.Text);
 
                 if (string.IsNullOrEmpty(res))
                 {
                     if (registerSerialCheckBox.Checked)
                     {
-                        res = ws.AddSellFromSerial(EmailTextBox.Text, keyTextBox.Text);
                         if (!string.IsNullOrEmpty(res))
                         {
                             errorLabel.Text = Culture.Get(res);

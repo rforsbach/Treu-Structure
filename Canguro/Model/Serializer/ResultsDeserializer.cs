@@ -34,7 +34,6 @@ namespace Canguro.Model.Serializer
                 if (results != null && results.AnalysisID > 0)
                 {
                     readResultCases(xml.SelectSingleNode("T-Result_Cases"));
-                    readResultProgress(xml.SelectSingleNode("T-Result_Progress"));
                     results.Init();
                     readJointDisplacements(xml.SelectSingleNode("Joint_Displacements"));
                     readJointReactions(xml.SelectSingleNode("Joint_Reactions"));
@@ -77,43 +76,6 @@ namespace Canguro.Model.Serializer
                         rc.IsLoaded = bool.Parse(Deserializer.readAttribute(child, "IsLoaded", "True"));
                         results.ResultsCases.Add(rc);
                     }
-        }
-
-        private void readResultProgress(XmlNode xml)
-        {
-            System.Text.Encoding coder = System.Text.ASCIIEncoding.Default;
-            if (xml != null && "T-Result_Progress".Equals(xml.Name))
-            {
-                uint totalFin = uint.Parse(Deserializer.readAttribute(xml, "TotalProgress", "0"));
-                bool started = bool.Parse(Deserializer.readAttribute(xml, "Started", true.ToString()));
-                DownloadProgress progress = new DownloadProgress(totalFin, started);
-                progress.DecryptionKey = coder.GetBytes(Deserializer.readAttribute(xml, "Key"));
-                progress.DecryptionVector = coder.GetBytes(Deserializer.readAttribute(xml, "Vector"));
-                progress.Design = new DownloadProps();
-                progress.Design.CaseName = Deserializer.readAttribute(xml, "DesignCase");
-                progress.Design.FileName = Deserializer.readAttribute(xml, "DesignFile");
-                progress.Design.Finished = bool.Parse(Deserializer.readAttribute(xml, "DesignFinished"));
-                progress.Design.Percentage = uint.Parse(Deserializer.readAttribute(xml, "DesignPercentage"));
-                progress.Model = Deserializer.readAttribute(xml, "Model");
-                progress.Summary = new DownloadProps();
-                progress.Summary.CaseName = Deserializer.readAttribute(xml, "SumCase");
-                progress.Summary.FileName = Deserializer.readAttribute(xml, "SumFile");
-                progress.Summary.Finished = bool.Parse(Deserializer.readAttribute(xml, "SumFinished"));
-                progress.Summary.Percentage = uint.Parse(Deserializer.readAttribute(xml, "SumPercentage"));
-                foreach (XmlNode child in xml.ChildNodes)
-                {
-                    if (child != null && "Item".Equals(child.Name))
-                    {
-                        DownloadProps item = new DownloadProps();
-                        item.CaseName = Deserializer.readAttribute(child, "Case");
-                        item.FileName = Deserializer.readAttribute(child, "File");
-                        item.Finished = bool.Parse(Deserializer.readAttribute(child, "Finished"));
-                        item.Percentage = uint.Parse(Deserializer.readAttribute(child, "Percentage"));
-                        progress.Items.AddLast(item);
-                    }
-                }
-                results.Downloaded = progress;
-            }
         }
 
         private void readJointDisplacements(XmlNode xml)
