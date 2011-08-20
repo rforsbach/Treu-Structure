@@ -114,6 +114,7 @@
     <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.VisualC" />
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
@@ -315,12 +316,6 @@
     </Compile>
     <Compile Include="Commands\Forms\LoadCombinationsDialog.Designer.cs">
       <DependentUpon>LoadCombinationsDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Commands\Forms\LoginDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Commands\Forms\LoginDialog.Designer.cs">
-      <DependentUpon>LoginDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="Commands\Forms\MaterialsGUI.cs">
       <SubType>Form</SubType>
@@ -961,14 +956,6 @@
     <EmbeddedResource Include="Commands\Forms\LoadCombinationsDialog.resx">
       <SubType>Designer</SubType>
       <DependentUpon>LoadCombinationsDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Commands\Forms\LoginDialog.en.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>LoginDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Commands\Forms\LoginDialog.resx">
-      <DependentUpon>LoginDialog.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Commands\Forms\MaterialsGUI.en.resx">
       <SubType>Designer</SubType>

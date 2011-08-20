@@ -767,11 +767,6 @@ namespace Canguro.Controller
             }
         }
 
-        internal Credentials UserCredentials
-        {
-            get { return controller.UserCredentials; }
-        }
-
         #region IDisposable Members
 
         public void Dispose()

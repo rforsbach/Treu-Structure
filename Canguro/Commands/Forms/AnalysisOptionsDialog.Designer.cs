@@ -35,7 +35,6 @@ namespace Canguro.Commands.Model
             this.mainTabPage = new System.Windows.Forms.TabPage();
             this.pDeltaCheckBox = new System.Windows.Forms.CheckBox();
             this.applyButton = new System.Windows.Forms.Button();
-            this.accountLinkLabel = new System.Windows.Forms.LinkLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dampingFactorUpDown = new System.Windows.Forms.NumericUpDown();
             this.dampingFactorLabel = new System.Windows.Forms.Label();
@@ -46,7 +45,6 @@ namespace Canguro.Commands.Model
             this.responseSpectrumCheckBox = new System.Windows.Forms.CheckBox();
             this.modesNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.modalAnalysisCheckBox = new System.Windows.Forms.CheckBox();
-            this.accountLabel = new System.Windows.Forms.Label();
             this.analysisCasesGroupBox = new System.Windows.Forms.GroupBox();
             this.deselectAllAnalysisCasesButton = new System.Windows.Forms.Button();
             this.analysisCasesCheckedListBox = new System.Windows.Forms.CheckedListBox();
@@ -77,6 +75,7 @@ namespace Canguro.Commands.Model
             this.allCombosListBox = new System.Windows.Forms.ListBox();
             this.designCombosLabel = new System.Windows.Forms.Label();
             this.designNameLabel = new System.Windows.Forms.Label();
+            this.cachedGeneralReport1 = new Canguro.RuntimeData.CachedGeneralReport();
             this.wizardControl.SuspendLayout();
             this.mainTabPage.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -116,9 +115,7 @@ namespace Canguro.Commands.Model
             this.mainTabPage.Controls.Add(this.pDeltaCheckBox);
             this.mainTabPage.Controls.Add(this.applyButton);
             this.mainTabPage.Controls.Add(this.cancelButton);
-            this.mainTabPage.Controls.Add(this.accountLinkLabel);
             this.mainTabPage.Controls.Add(this.groupBox1);
-            this.mainTabPage.Controls.Add(this.accountLabel);
             this.mainTabPage.Controls.Add(this.analysisCasesGroupBox);
             this.mainTabPage.Controls.Add(this.designGroupBox);
             this.mainTabPage.Controls.Add(this.AnalyzeButton);
@@ -140,13 +137,6 @@ namespace Canguro.Commands.Model
             this.applyButton.Name = "applyButton";
             this.applyButton.UseVisualStyleBackColor = true;
             this.applyButton.Click += new System.EventHandler(this.applyButton_Click);
-            // 
-            // accountLinkLabel
-            // 
-            resources.ApplyResources(this.accountLinkLabel, "accountLinkLabel");
-            this.accountLinkLabel.Name = "accountLinkLabel";
-            this.accountLinkLabel.TabStop = true;
-            this.accountLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.accountLinkLabel_LinkClicked);
             // 
             // groupBox1
             // 
@@ -266,11 +256,6 @@ namespace Canguro.Commands.Model
             this.modalAnalysisCheckBox.Name = "modalAnalysisCheckBox";
             this.modalAnalysisCheckBox.UseVisualStyleBackColor = true;
             this.modalAnalysisCheckBox.CheckedChanged += new System.EventHandler(this.modalAnalysisCheckBox_CheckedChanged);
-            // 
-            // accountLabel
-            // 
-            resources.ApplyResources(this.accountLabel, "accountLabel");
-            this.accountLabel.Name = "accountLabel";
             // 
             // analysisCasesGroupBox
             // 
@@ -557,8 +542,6 @@ namespace Canguro.Commands.Model
         private System.Windows.Forms.LinkLabel editConcreteDesignLinkLabel;
         private System.Windows.Forms.Label concreteDesignLabel;
         private System.Windows.Forms.Label SteelDesignLabel;
-        private System.Windows.Forms.Label accountLabel;
-        private System.Windows.Forms.LinkLabel accountLinkLabel;
         private Canguro.Commands.Forms.WizardControl wizardControl;
         private System.Windows.Forms.TabPage mainTabPage;
         private System.Windows.Forms.TabPage designCombosTabPage;
@@ -585,5 +568,6 @@ namespace Canguro.Commands.Model
         private System.Windows.Forms.CheckBox pDeltaCheckBox;
         private System.Windows.Forms.NumericUpDown dampingFactorUpDown;
         private System.Windows.Forms.Label dampingFactorLabel;
+        private RuntimeData.CachedGeneralReport cachedGeneralReport1;
     }
 }

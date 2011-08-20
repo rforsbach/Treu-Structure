@@ -26,7 +26,6 @@ namespace Canguro.Controller
         private Commands.ModelCommand modelCmd;
         internal readonly Commands.View.Selection SelectionCommand;
         internal readonly TrackingController TrackingController;
-        private Credentials userCredentials;
         private ItemTextBuilder itemTextBuilder;
 
         private Controller() 
@@ -41,7 +40,6 @@ namespace Canguro.Controller
             modelCmd = null;
             lastViewCmd = null;
             viewCmd = SelectionCommand;
-            userCredentials = new Credentials();
             executeQueue = new Queue<string>();
             Idle += new EventHandler(flushExecuteQueue);
         }
@@ -209,11 +207,6 @@ namespace Canguro.Controller
             {
                 return modelCmd;
             }
-        }
-
-        internal Credentials UserCredentials
-        {
-            get { return userCredentials; }
         }
 
         #region Idle Handling + ExecuteAsync and Animation controlling

@@ -150,10 +150,6 @@ namespace Canguro.Commands.Model
                 }
                 steelDesignComboBox.Enabled = steelActive;
                 concreteDesignComboBox.Enabled = concreteActive;
-
-                if (!string.IsNullOrEmpty(services.UserCredentials.DisplayName))
-                    accountLabel.Text = services.UserCredentials.DisplayName;
-
             }
             finally
             {
@@ -382,13 +378,7 @@ namespace Canguro.Commands.Model
         {
             if (currentDesignOptions == null) // All options are set
             {
-                if (string.IsNullOrEmpty(services.UserCredentials.DisplayName))
-                {
-                    Canguro.Commands.Forms.LoginDialog dlg = new Canguro.Commands.Forms.LoginDialog(services);
-                    DialogResult = dlg.ShowDialog(this);
-                }
-                else
-                    DialogResult = DialogResult.OK;
+                DialogResult = DialogResult.OK;
             }
             else
             {
@@ -396,17 +386,6 @@ namespace Canguro.Commands.Model
                 updateDesignCombosPage();
                 DialogResult = DialogResult.None;
             }
-        }
-        
-
-        private void accountLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            new Canguro.Commands.Forms.LoginDialog(services).ShowDialog(this);
-
-            if (!string.IsNullOrEmpty(services.UserCredentials.DisplayName))
-                accountLabel.Text = services.UserCredentials.DisplayName;
-            else
-                accountLabel.Text = Culture.Get("pleaseAuthenticate");
         }
 
         private void AnalysisOptionsDialog_Load(object sender, EventArgs e)

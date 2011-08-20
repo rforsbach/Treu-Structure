@@ -112,23 +112,23 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="AnalyzeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="AnalyzeButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>159, 366</value>
   </data>
   <data name="AnalyzeButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 23</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="AnalyzeButton.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
@@ -139,13 +139,13 @@
     <value>AnalyzeButton</value>
   </data>
   <data name="&gt;&gt;AnalyzeButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;AnalyzeButton.Parent" xml:space="preserve">
     <value>mainTabPage</value>
   </data>
   <data name="&gt;&gt;AnalyzeButton.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>6</value>
   </data>
   <data name="cancelButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -166,7 +166,7 @@
     <value>cancelButton</value>
   </data>
   <data name="&gt;&gt;cancelButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cancelButton.Parent" xml:space="preserve">
     <value>mainTabPage</value>
@@ -196,7 +196,7 @@
     <value>pDeltaCheckBox</value>
   </data>
   <data name="&gt;&gt;pDeltaCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pDeltaCheckBox.Parent" xml:space="preserve">
     <value>mainTabPage</value>
@@ -223,43 +223,13 @@
     <value>applyButton</value>
   </data>
   <data name="&gt;&gt;applyButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;applyButton.Parent" xml:space="preserve">
     <value>mainTabPage</value>
   </data>
   <data name="&gt;&gt;applyButton.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="accountLinkLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="accountLinkLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="accountLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 374</value>
-  </data>
-  <data name="accountLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 13</value>
-  </data>
-  <data name="accountLinkLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="accountLinkLabel.Text" xml:space="preserve">
-    <value>Cuenta</value>
-  </data>
-  <data name="&gt;&gt;accountLinkLabel.Name" xml:space="preserve">
-    <value>accountLinkLabel</value>
-  </data>
-  <data name="&gt;&gt;accountLinkLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;accountLinkLabel.Parent" xml:space="preserve">
-    <value>mainTabPage</value>
-  </data>
-  <data name="&gt;&gt;accountLinkLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="dampingFactorUpDown.Location" type="System.Drawing.Point, System.Drawing">
     <value>234, 86</value>
@@ -274,7 +244,7 @@
     <value>dampingFactorUpDown</value>
   </data>
   <data name="&gt;&gt;dampingFactorUpDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dampingFactorUpDown.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -304,7 +274,7 @@
     <value>dampingFactorLabel</value>
   </data>
   <data name="&gt;&gt;dampingFactorLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dampingFactorLabel.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -334,7 +304,7 @@
     <value>viewSpectrumLink</value>
   </data>
   <data name="&gt;&gt;viewSpectrumLink.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;viewSpectrumLink.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -355,7 +325,7 @@
     <value>responseSpectrumFactorUpDown</value>
   </data>
   <data name="&gt;&gt;responseSpectrumFactorUpDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;responseSpectrumFactorUpDown.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -385,7 +355,7 @@
     <value>spectrumFactorLabel</value>
   </data>
   <data name="&gt;&gt;spectrumFactorLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;spectrumFactorLabel.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -406,7 +376,7 @@
     <value>responseSpectrumFunctionsComboBox</value>
   </data>
   <data name="&gt;&gt;responseSpectrumFunctionsComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;responseSpectrumFunctionsComboBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -436,7 +406,7 @@
     <value>responseSpectrumCheckBox</value>
   </data>
   <data name="&gt;&gt;responseSpectrumCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;responseSpectrumCheckBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -457,7 +427,7 @@
     <value>modesNumericUpDown</value>
   </data>
   <data name="&gt;&gt;modesNumericUpDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;modesNumericUpDown.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -487,7 +457,7 @@
     <value>modalAnalysisCheckBox</value>
   </data>
   <data name="&gt;&gt;modalAnalysisCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;modalAnalysisCheckBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -511,43 +481,13 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>mainTabPage</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="accountLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="accountLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="accountLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 361</value>
-  </data>
-  <data name="accountLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 13</value>
-  </data>
-  <data name="accountLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="accountLabel.Text" xml:space="preserve">
-    <value>Favor de autenticar su</value>
-  </data>
-  <data name="&gt;&gt;accountLabel.Name" xml:space="preserve">
-    <value>accountLabel</value>
-  </data>
-  <data name="&gt;&gt;accountLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;accountLabel.Parent" xml:space="preserve">
-    <value>mainTabPage</value>
-  </data>
-  <data name="&gt;&gt;accountLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>3</value>
   </data>
   <data name="deselectAllAnalysisCasesButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -568,7 +508,7 @@
     <value>deselectAllAnalysisCasesButton</value>
   </data>
   <data name="&gt;&gt;deselectAllAnalysisCasesButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;deselectAllAnalysisCasesButton.Parent" xml:space="preserve">
     <value>analysisCasesGroupBox</value>
@@ -589,7 +529,7 @@
     <value>analysisCasesCheckedListBox</value>
   </data>
   <data name="&gt;&gt;analysisCasesCheckedListBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;analysisCasesCheckedListBox.Parent" xml:space="preserve">
     <value>analysisCasesGroupBox</value>
@@ -616,7 +556,7 @@
     <value>selectAllAnalysisCasesButton</value>
   </data>
   <data name="&gt;&gt;selectAllAnalysisCasesButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;selectAllAnalysisCasesButton.Parent" xml:space="preserve">
     <value>analysisCasesGroupBox</value>
@@ -643,7 +583,7 @@
     <value>addAnalysisCaseButton</value>
   </data>
   <data name="&gt;&gt;addAnalysisCaseButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;addAnalysisCaseButton.Parent" xml:space="preserve">
     <value>analysisCasesGroupBox</value>
@@ -673,7 +613,7 @@
     <value>editAnalysisCaseButton</value>
   </data>
   <data name="&gt;&gt;editAnalysisCaseButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;editAnalysisCaseButton.Parent" xml:space="preserve">
     <value>analysisCasesGroupBox</value>
@@ -697,13 +637,13 @@
     <value>analysisCasesGroupBox</value>
   </data>
   <data name="&gt;&gt;analysisCasesGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;analysisCasesGroupBox.Parent" xml:space="preserve">
     <value>mainTabPage</value>
   </data>
   <data name="&gt;&gt;analysisCasesGroupBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="concreteCombosLinkLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -727,7 +667,7 @@
     <value>concreteCombosLinkLabel</value>
   </data>
   <data name="&gt;&gt;concreteCombosLinkLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;concreteCombosLinkLabel.Parent" xml:space="preserve">
     <value>designGroupBox</value>
@@ -757,7 +697,7 @@
     <value>steelCombosLinkLabel</value>
   </data>
   <data name="&gt;&gt;steelCombosLinkLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;steelCombosLinkLabel.Parent" xml:space="preserve">
     <value>designGroupBox</value>
@@ -787,7 +727,7 @@
     <value>concreteDesignLabel</value>
   </data>
   <data name="&gt;&gt;concreteDesignLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;concreteDesignLabel.Parent" xml:space="preserve">
     <value>designGroupBox</value>
@@ -817,7 +757,7 @@
     <value>SteelDesignLabel</value>
   </data>
   <data name="&gt;&gt;SteelDesignLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SteelDesignLabel.Parent" xml:space="preserve">
     <value>designGroupBox</value>
@@ -847,7 +787,7 @@
     <value>editConcreteDesignLinkLabel</value>
   </data>
   <data name="&gt;&gt;editConcreteDesignLinkLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;editConcreteDesignLinkLabel.Parent" xml:space="preserve">
     <value>designGroupBox</value>
@@ -877,7 +817,7 @@
     <value>editSteelDesignLinkLabel</value>
   </data>
   <data name="&gt;&gt;editSteelDesignLinkLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;editSteelDesignLinkLabel.Parent" xml:space="preserve">
     <value>designGroupBox</value>
@@ -898,7 +838,7 @@
     <value>concreteDesignComboBox</value>
   </data>
   <data name="&gt;&gt;concreteDesignComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;concreteDesignComboBox.Parent" xml:space="preserve">
     <value>designGroupBox</value>
@@ -919,7 +859,7 @@
     <value>steelDesignComboBox</value>
   </data>
   <data name="&gt;&gt;steelDesignComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;steelDesignComboBox.Parent" xml:space="preserve">
     <value>designGroupBox</value>
@@ -943,13 +883,13 @@
     <value>designGroupBox</value>
   </data>
   <data name="&gt;&gt;designGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;designGroupBox.Parent" xml:space="preserve">
     <value>mainTabPage</value>
   </data>
   <data name="&gt;&gt;designGroupBox.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>5</value>
   </data>
   <data name="mainTabPage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 23</value>
@@ -958,7 +898,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="mainTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 375</value>
+    <value>370, 371</value>
   </data>
   <data name="mainTabPage.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -970,7 +910,7 @@
     <value>mainTabPage</value>
   </data>
   <data name="&gt;&gt;mainTabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mainTabPage.Parent" xml:space="preserve">
     <value>wizardControl</value>
@@ -997,7 +937,7 @@
     <value>applyButton2</value>
   </data>
   <data name="&gt;&gt;applyButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;applyButton2.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1024,7 +964,7 @@
     <value>cancelButton2</value>
   </data>
   <data name="&gt;&gt;cancelButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cancelButton2.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1051,7 +991,7 @@
     <value>analyzeButton2</value>
   </data>
   <data name="&gt;&gt;analyzeButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;analyzeButton2.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1081,7 +1021,7 @@
     <value>addDefaultsLinkLabel</value>
   </data>
   <data name="&gt;&gt;addDefaultsLinkLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;addDefaultsLinkLabel.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1111,7 +1051,7 @@
     <value>editComboLinkLabel</value>
   </data>
   <data name="&gt;&gt;editComboLinkLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;editComboLinkLabel.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1141,7 +1081,7 @@
     <value>addComboLinkLabel</value>
   </data>
   <data name="&gt;&gt;addComboLinkLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;addComboLinkLabel.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1168,7 +1108,7 @@
     <value>removeAllCombosButton</value>
   </data>
   <data name="&gt;&gt;removeAllCombosButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;removeAllCombosButton.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1195,7 +1135,7 @@
     <value>removeComboButton</value>
   </data>
   <data name="&gt;&gt;removeComboButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;removeComboButton.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1222,7 +1162,7 @@
     <value>addComboButton</value>
   </data>
   <data name="&gt;&gt;addComboButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;addComboButton.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1249,7 +1189,7 @@
     <value>addAllCombosButton</value>
   </data>
   <data name="&gt;&gt;addAllCombosButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;addAllCombosButton.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1270,7 +1210,7 @@
     <value>selectedCombosListBox</value>
   </data>
   <data name="&gt;&gt;selectedCombosListBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;selectedCombosListBox.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1291,7 +1231,7 @@
     <value>allCombosListBox</value>
   </data>
   <data name="&gt;&gt;allCombosListBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;allCombosListBox.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1321,7 +1261,7 @@
     <value>designCombosLabel</value>
   </data>
   <data name="&gt;&gt;designCombosLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;designCombosLabel.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1351,7 +1291,7 @@
     <value>designNameLabel</value>
   </data>
   <data name="&gt;&gt;designNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;designNameLabel.Parent" xml:space="preserve">
     <value>designCombosTabPage</value>
@@ -1366,7 +1306,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="designCombosTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 375</value>
+    <value>370, 371</value>
   </data>
   <data name="designCombosTabPage.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1378,7 +1318,7 @@
     <value>designCombosTabPage</value>
   </data>
   <data name="&gt;&gt;designCombosTabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;designCombosTabPage.Parent" xml:space="preserve">
     <value>wizardControl</value>
@@ -1393,7 +1333,7 @@
     <value>0, 0</value>
   </data>
   <data name="wizardControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 402</value>
+    <value>378, 398</value>
   </data>
   <data name="wizardControl.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -1402,7 +1342,7 @@
     <value>wizardControl</value>
   </data>
   <data name="&gt;&gt;wizardControl.Type" xml:space="preserve">
-    <value>Canguro.Commands.Forms.WizardControl, TreuStructure, Version=8.5.13.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Canguro.Commands.Forms.WizardControl, TreuStructure, Version=8.9.26.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;wizardControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1410,17 +1350,20 @@
   <data name="&gt;&gt;wizardControl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="cachedGeneralReport1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>386, 402</value>
+    <value>378, 398</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1859,10 +1802,16 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Análisis</value>
   </data>
+  <data name="&gt;&gt;cachedGeneralReport1.Name" xml:space="preserve">
+    <value>cachedGeneralReport1</value>
+  </data>
+  <data name="&gt;&gt;cachedGeneralReport1.Type" xml:space="preserve">
+    <value>Canguro.RuntimeData.CachedGeneralReport, RuntimeData.GeneralReport.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>AnalysisOptionsDialog</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
