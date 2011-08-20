@@ -25,7 +25,7 @@ namespace Canguro.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("es-MX")]
+        [global::System.Configuration.DefaultSettingValueAttribute("en")]
         public string Culture {
             get {
                 return ((string)(this["Culture"]));

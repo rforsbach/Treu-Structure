@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Culture" Type="System.String" Scope="User">
-      <Value Profile="(Default)">es-MX</Value>
+      <Value Profile="(Default)">en</Value>
     </Setting>
     <Setting Name="BackColor" Type="System.Drawing.Color" Scope="User">
       <Value Profile="(Default)">Black</Value>

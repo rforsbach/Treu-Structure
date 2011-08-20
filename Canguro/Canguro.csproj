@@ -841,10 +841,14 @@
     <Compile Include="Model\Loads\PorePressureAreaLoad.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainFrm.es.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainFrm.resx">
       <SubType>Designer</SubType>
       <DependentUpon>MainFrm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.es.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -1097,10 +1101,6 @@
     <EmbeddedResource Include="Controller\Grid\StraightFrameControl.resx">
       <SubType>Designer</SubType>
       <DependentUpon>StraightFrameControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainFrm.en.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>MainFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controller\PropertyGrid\FrameSectionFrm.resx">
       <SubType>Designer</SubType>
