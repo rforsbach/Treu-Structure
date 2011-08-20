@@ -226,6 +226,7 @@
     <Compile Include="Controller\Tracking\RectangleHelper.cs" />
     <Compile Include="Model\AreaSprings.cs" />
     <Compile Include="Model\IModel.cs" />
+    <Compile Include="Model\Results\AnalysisManifest.cs" />
     <Compile Include="Model\Sections\AreaSection.cs" />
     <Compile Include="Model\Sections\AsolidSection.cs" />
     <Compile Include="Model\Sections\PlaneSection.cs" />
@@ -909,11 +910,6 @@
     <Compile Include="Commands\ZoomPrevious.cs" />
     <Compile Include="Commands\ZoomWindow.cs" />
     <Compile Include="Controller\WaitingFor.cs" />
-    <Compile Include="Web References\CanguroServer\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Commands\Zoom.cur" />
@@ -1394,7 +1390,6 @@
     </Content>
     <None Include="RuntimeData\section\T.xsec">
     </None>
-    <None Include="Web References\CanguroServer\Analysis.disco" />
     <None Include="Resources\DistributedLoad.png" />
     <None Include="Resources\ConcentratedLoad.png" />
     <None Include="Resources\DisplacementLoad.png" />
@@ -1402,33 +1397,6 @@
     <Content Include="RuntimeData\default.mat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Web References\CanguroServer\Analysis.wsdl" />
-    <None Include="Web References\CanguroServer\AnalysisResult.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </None>
-    <None Include="Web References\CanguroServer\Quotation.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </None>
-    <None Include="Web References\CanguroServer\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <WebReferences Include="Web References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WebReferenceUrl Include="https://www.treusoft.com/CanguroServerR2.1/Analysis.asmx">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\CanguroServer\</RelPath>
-      <UpdateFromURL>https://www.treusoft.com/CanguroServerR2.1/Analysis.asmx</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>Canguro_CanguroServer_Analysis</CachedSettingsPropName>
-    </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />

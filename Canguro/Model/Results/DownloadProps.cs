@@ -12,7 +12,7 @@ namespace Canguro.Model.Results
         private string caseName;
 
         public DownloadProps() { }
-        public DownloadProps(CanguroServer.ManifestItem item)
+        public DownloadProps(ManifestItem item)
         {
             LoadManifestItem(item);
         }
@@ -46,7 +46,7 @@ namespace Canguro.Model.Results
             }
         }
 
-        public void LoadManifestItem(CanguroServer.ManifestItem item)
+        public void LoadManifestItem(ManifestItem item)
         {
             fileName = item.FilePath;
             caseName = ResultsPath.Format(Utility.AnalysisUtils.DecodeStream(item.Description));

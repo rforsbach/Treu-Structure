@@ -124,7 +124,7 @@ namespace Canguro.Model.Results
             }
         }
 
-        public void Start(CanguroServer.AnalysisManifest manifest)
+        public void Start(AnalysisManifest manifest)
         {
             started = false;
             lock (locked)
@@ -142,7 +142,7 @@ namespace Canguro.Model.Results
                 // Load manifest
                 summary.LoadManifestItem(manifest.Summary);
                 design.LoadManifestItem(manifest.Design);
-                foreach (CanguroServer.ManifestItem item in manifest.Items)
+                foreach (ManifestItem item in manifest.Items)
                     items.AddLast(new DownloadProps(item));
 
                 decryptionKey = manifest.DecryptionKey;
